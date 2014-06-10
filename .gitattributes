@@ -18,6 +18,6 @@
 /autogen.sh -text
 /configure.ac -text
 /deu-nld.prob -text
-deuv/freedict-deu-nld-0.1.dic -text svneol=unset#unset
-/modeus.xml -text
+dev/freedict-deu-nld-0.1.dic -text svneol=unset#unset
+/modes.xml -text
 /nld-deu.prob -text
