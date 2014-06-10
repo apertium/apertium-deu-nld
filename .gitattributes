@@ -16,7 +16,8 @@
 /apertium-deu-nld.nld-deu.t3x -text
 /autogen.sh -text
 /configure.ac -text
-/deu-nld.prob -text
 dev/freedict-deu-nld-0.1.dic -text svneol=unset#unset
 /modes.xml -text
 /nld-deu.prob -text
+texts/cuento.deu.txt -text
+texts/cuento.nld.txt -text
