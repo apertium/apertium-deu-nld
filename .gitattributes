@@ -9,12 +9,10 @@
 /apertium-deu-nld.deu-nld.t1x -text
 /apertium-deu-nld.deu-nld.t2x -text
 /apertium-deu-nld.deu-nld.t3x -text
-/apertium-deu-nld.deu.dix -text
 /apertium-deu-nld.deu.tsx -text
 /apertium-deu-nld.nld-deu.t1x -text
 /apertium-deu-nld.nld-deu.t2x -text
 /apertium-deu-nld.nld-deu.t3x -text
-/apertium-deu-nld.nld.dix -text
 /autogen.sh -text
 /configure.ac -text
 /deu-nld.prob -text
