@@ -5,19 +5,19 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-de-nl.de-nl.dix -text
-/apertium-de-nl.de-nl.t1x -text
-/apertium-de-nl.de-nl.t2x -text
-/apertium-de-nl.de-nl.t3x -text
-/apertium-de-nl.de.dix -text
-/apertium-de-nl.de.tsx -text
-/apertium-de-nl.nl-de.t1x -text
-/apertium-de-nl.nl-de.t2x -text
-/apertium-de-nl.nl-de.t3x -text
-/apertium-de-nl.nl.dix -text
+/apertium-deu-nld.deu-nld.dix -text
+/apertium-deu-nld.deu-nld.t1x -text
+/apertium-deu-nld.deu-nld.t2x -text
+/apertium-deu-nld.deu-nld.t3x -text
+/apertium-deu-nld.deu.dix -text
+/apertium-deu-nld.deu.tsx -text
+/apertium-deu-nld.nld-deu.t1x -text
+/apertium-deu-nld.nld-deu.t2x -text
+/apertium-deu-nld.nld-deu.t3x -text
+/apertium-deu-nld.nld.dix -text
 /autogen.sh -text
 /configure.ac -text
-/de-nl.prob -text
-dev/freedict-deu-nld-0.1.dic -text svneol=unset#unset
-/modes.xml -text
-/nl-de.prob -text
+/deu-nld.prob -text
+deuv/freedict-deu-nld-0.1.dic -text svneol=unset#unset
+/modeus.xml -text
+/nld-deu.prob -text
