@@ -209,6 +209,40 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="nld-deu-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nld-deu.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="nld-deu.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nld-deu.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-deu-nld.nld-deu.t1x"/>
+        <file name="nld-deu.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-deu-nld.nld-deu.t2x"/>
+        <file name="nld-deu.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-deu-nld.nld-deu.t3x"/>
+        <file name="nld-deu.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="nld-deu.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
     
   <!-- German → Dutch -->
 
