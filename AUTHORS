@@ -8,3 +8,15 @@ Initial Dutch monolingual data was taken from the apertium-fr-nl package:
 
 Youssef Oualmakran <youssefsan . gmail @ com>
 Troy Spier <tspier2@gmail.com> 
+
+
+Bilingual dictionary and translation rule creation:
+
+Benedikt Freisen <b.freisen@gmx.net>
+
+Large parts of the bilingual data have been automatically extracted or
+otherwise derived from wiktionary:
+
+nl.wiktionary.org (scripted extraction from xml-dump, manual corrections)
+de.wiktionary.org (manually)
+en.wiktionary.org (manually, when direct translations were not available)

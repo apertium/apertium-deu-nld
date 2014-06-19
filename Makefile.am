@@ -134,7 +134,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_deu_nlddir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_deu_nlddir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_deu_nlddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX3).t3x $(DESTDIR)$(apertium_deu_nlddir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_deu_nlddir)
 
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes

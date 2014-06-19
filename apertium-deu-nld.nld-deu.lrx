@@ -1,0 +1,5 @@
+<rules>
+  <rule>
+    <match lemma="huis" tags="n.*"><select lemma="Haus" tags="n.*"/></match>
+  </rule>
+</rules>
