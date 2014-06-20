@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
   <section-def-cats>
-    <def-cat n="preadv">
+    <def-cat n="c_preadv">
       <cat-item tags="preadv"/>
       <cat-item tags="preadv.*"/>
     </def-cat>
-    <def-cat n="adv">
+    <def-cat n="c_adv">
       <cat-item tags="adv"/>
       <cat-item tags="adv.*"/>
     </def-cat>
-    <def-cat n="num">
+    <def-cat n="c_num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="adj">
+    <def-cat n="c_adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
     </def-cat>
-    <def-cat n="nom">
+    <def-cat n="c_nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
-    <def-cat n="sent">
+    <def-cat n="c_sent">
       <cat-item tags="sent"/>
     </def-cat>
-    <def-cat n="det">
+    <def-cat n="c_det">
       <cat-item tags="det.ind.*"/>
       <cat-item tags="det.def.*"/>
       <cat-item tags="det.dem.*"/>
       <cat-item tags="det.*"/>
     </def-cat>
-    <def-cat n="prpers">
+    <def-cat n="c_prpers">
       <cat-item tags="prn.subj.*"/>
       <cat-item tags="prn.obj.*"/> 
       <cat-item lemma="prpers" tags="prn.*"/>
       <cat-item lemma="Prpers" tags="prn.*"/>
     </def-cat>
-    <def-cat n="prn">
+    <def-cat n="c_prn">
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.tn"/>
     </def-cat>
-    <def-cat n="verbnm"><!--verb no modal -->
+    <def-cat n="c_verbnm"><!--verb no modal -->
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/> 
     </def-cat>
-    <def-cat n="verbm">
+    <def-cat n="c_verbm">
       <cat-item tags="vaux"/>
       <cat-item tags="vaux.*"/>
     </def-cat>
-    <def-cat n="cnjadv">
+    <def-cat n="c_cnjadv">
       <cat-item tags="cnjadv"/>
     </def-cat>
-    <def-cat n="cnjsub">
+    <def-cat n="c_cnjsub">
       <cat-item tags="cnjsub"/>
     </def-cat>
-    <def-cat n="cnjcoo">
+    <def-cat n="c_cnjcoo">
       <cat-item tags="cnjcoo"/>
       <cat-item tags="cnjcoo.*"/>
     </def-cat>
-    <def-cat n="prep"> <!-- preposition -->
+    <def-cat n="c_prep"> <!-- preposition -->
       <cat-item tags="pr"/>
     </def-cat>
-    <def-cat n="end_punct">
+    <def-cat n="c_end_punct">
        <cat-item tags="sent"/>
        <cat-item tags="cm"/>
        <cat-item tags="rpar"/>
     </def-cat>
-    <def-cat n="prefix">
+    <def-cat n="c_prefix">
        <cat-item tags="pref"/>
        <cat-item tags="pref.*"/>
     </def-cat>
-    <def-cat n="attachable_prefix">
+    <def-cat n="c_attachable_prefix">
        <cat-item tags="pr.atp"/>
     </def-cat>
-    <def-cat n="hyphen">
+    <def-cat n="c_hyphen">
        <cat-item tags="guio"/>
     </def-cat>
-    <def-cat n="genitive">
+    <def-cat n="c_genitive">
        <cat-item tags="gen"/>
     </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
-    <def-attr n="nbr">                  <!-- Number -->
+    <def-attr n="a_nbr">                  <!-- Number -->
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
     </def-attr>
-    <def-attr n="gen">                  <!-- Gender -->
+    <def-attr n="a_gen">                  <!-- Gender -->
       <attr-item tags="f"/>
       <attr-item tags="m"/>
       <attr-item tags="mf"/>
@@ -130,7 +130,7 @@
     <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
-    <def-attr n="tipus_prn">
+    <def-attr n="a_tipus_prn">
       <attr-item tags="prn.subj"/>
       <attr-item tags="prn.obj"/>
       <attr-item tags="prn.itg"/>
@@ -138,7 +138,7 @@
       <attr-item tags="prn.pos"/>
       <attr-item tags="prn"/>
     </def-attr>
-    <def-attr n="pers">                 <!-- Person -->
+    <def-attr n="a_pers">                 <!-- Person -->
        <attr-item tags="p1"/>
        <attr-item tags="p2"/>
        <attr-item tags="p3"/>
@@ -155,7 +155,7 @@
       <attr-item tags="pr"/>
       <attr-item tags="adv"/>
     </def-attr>
-    <def-attr n="temps">
+    <def-attr n="a_temps">
        <attr-item tags="pii"/>
        <attr-item tags="pis"/>
        <attr-item tags="pri"/>
@@ -163,8 +163,16 @@
        <attr-item tags="pres"/>
        <attr-item tags="inf"/>
      </def-attr>
-    <def-attr n="stress">
+    <def-attr n="a_stress">
       <attr-item tags="uns"/>
+    </def-attr>
+    <def-attr n="a_temps_pers_nbr">
+      <attr-item tags="pri.p1.pl"/>
+      <attr-item tags="pii.p1.pl"/>
+      <attr-item tags="pri.p2.pl"/>
+      <attr-item tags="pii.p2.pl"/>
+      <attr-item tags="pri.p3.pl"/>
+      <attr-item tags="pii.p3.pl"/>
     </def-attr>
   </section-def-attrs>
 
@@ -174,7 +182,7 @@
   </section-def-vars>
 
   <section-def-macros>
-    <def-macro n="set_foo" npar="1"
+<!--    <def-macro n="set_foo" npar="1"
                c="arg.1: nom
                   Set foo to bar.">
       <choose>
@@ -191,11 +199,110 @@
           </let>
         </when>
       </choose>
+    </def-macro>-->
+
+    <def-macro n="adjust_verb_tags" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <or>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pri.p1.pl"/>  </equal>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pri.p2.pl"/>  </equal>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pri.p3.pl"/>  </equal>
+	    </or>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="a_temps_pers_nbr"/>
+	    <lit-tag v="pres.pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <or>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p1.pl"/>  </equal>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p2.pl"/>  </equal>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p3.pl"/>  </equal>
+	    </or>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="a_temps_pers_nbr"/>
+	    <lit-tag v="past.pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="sl" part="a_temps"/>
+	      <lit-tag v="pri"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="a_temps"/>
+	    <lit-tag v="pres"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="sl" part="a_temps"/>
+	      <lit-tag v="pii"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="a_temps"/>
+	    <lit-tag v="past"/>
+	  </let>
+	</when>
+      </choose>
     </def-macro>
+
   </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: NOM">      
+   
+    <rule comment="adjust tags of non-modal non-auxilliary verb">
+      <pattern>
+	<pattern-item n="c_verbnm"/>
+      </pattern>
+      <action>
+	<call-macro n="adjust_verb_tags">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="verb" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="adjust tags of modal or auxilliary verb">
+      <pattern>
+	<pattern-item n="c_verbm"/>
+      </pattern>
+      <action>
+	<call-macro n="adjust_verb_tags">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="verb" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+<!--    <rule comment="REGLA: NOM">      
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -217,6 +324,6 @@
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule>-->
   </section-rules>
 </transfer>

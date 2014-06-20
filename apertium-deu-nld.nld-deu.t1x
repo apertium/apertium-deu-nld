@@ -193,8 +193,8 @@
       <attr-item tags="uns"/>
     </def-attr>
     <def-attr n="a_temps_pers_nbr">
-      <attr-item tags="pri.pl"/>
-      <attr-item tags="pii.pl"/>
+      <attr-item tags="pres.pl"/>
+      <attr-item tags="past.pl"/>
       <attr-item tags="pri.p3.pl"/>
       <attr-item tags="pii.p3.pl"/>
     </def-attr>
@@ -477,7 +477,6 @@
 	    </tags>
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
-	      <lit-tag v="nom"/>
 	    </lu>
 	  </chunk>
 	</out>
