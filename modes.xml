@@ -7,6 +7,9 @@
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
       </program>
@@ -48,6 +51,9 @@
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
       </program>
@@ -58,6 +64,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
@@ -70,6 +79,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
@@ -85,6 +97,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
@@ -103,6 +118,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
@@ -125,6 +143,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
@@ -151,6 +172,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
@@ -181,6 +205,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>
@@ -214,6 +241,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="nld-deu.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nld-deu.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-deu.prob"/>

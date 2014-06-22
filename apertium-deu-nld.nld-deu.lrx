@@ -2,4 +2,12 @@
   <rule>
     <match lemma="huis" tags="n.*"><select lemma="Haus" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match lemma="betrekking" tags="n.*"><select lemma="Beziehung" tags="n.*"/></match>
+    <match lemma="met" tags="pr"/>
+  </rule>
+  <rule>
+    <match lemma="betrekking" tags="n.*"><select lemma="Bezug" tags="n.*"/></match>
+    <match lemma="tot" tags="pr"/>
+  </rule>
 </rules>
