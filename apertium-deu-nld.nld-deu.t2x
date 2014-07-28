@@ -54,90 +54,60 @@
       <let>  <var n="v_case"/>  <clip pos="1" part="a_case"/>  </let>
       <let>  <var n="v_det_type"/>  <clip pos="1" part="a_det_type"/>  </let>
       <choose>
-	<when>
+	<when>  <!-- special cases without inflection tag -->
 	  <test>
-	    <equal>  <var n="v_nbr"/>  <lit-tag v="pl"/>  </equal>
+	    <or>
+	      <and>
+		<equal>  <var n="v_gen"/>  <lit-tag v="f"/>  </equal>
+		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
+		<equal>  <var n="v_case"/>  <lit-tag v="nom"/>  </equal>
+	      </and>
+	      <and>
+		<equal>  <var n="v_gen"/>  <lit-tag v="m"/>  </equal>
+		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
+		<equal>  <var n="v_case"/>  <lit-tag v="acc"/>  </equal>
+	      </and>
+	      <and>
+		<equal>  <var n="v_gen"/>  <lit-tag v="f"/>  </equal>
+		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
+		<equal>  <var n="v_case"/>  <lit-tag v="acc"/>  </equal>
+	      </and>
+	      <and>
+		<equal>  <var n="v_gen"/>  <lit-tag v="m"/>  </equal>
+		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
+		<equal>  <var n="v_case"/>  <lit-tag v="gen"/>  </equal>
+	      </and>
+	      <and>
+		<equal>  <var n="v_gen"/>  <lit-tag v="nt"/>  </equal>
+		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
+		<equal>  <var n="v_case"/>  <lit-tag v="gen"/>  </equal>
+	      </and>
+	      <and>
+		<equal>  <var n="v_gen"/>  <lit-tag v="mf"/>  </equal>
+		<equal>  <var n="v_nbr"/>  <lit-tag v="pl"/>  </equal>
+		<equal>  <var n="v_case"/>  <lit-tag v="dat"/>  </equal>
+	      </and>
+	    </or>
 	  </test>
-	  <choose><!--pl-->
-	    <when>
-	      <test>
-		<or>
-		  <equal>  <var n="v_case"/>  <lit-tag v="nom"/>  </equal>
-		  <equal>  <var n="v_case"/>  <lit-tag v="gen"/>  </equal>
-		</or>
-	      </test>
-	      <choose>
-		<when>
-		  <test>
-		    <equal>  <var n="v_det_type"/>  <lit-tag v="def"/>  </equal>
-		  </test>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
-		</when>
-		<otherwise>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="st"/>  </let>
-		</otherwise>
-	      </choose>
-	    </when>
-	    <otherwise><!--dat,acc-->
-	      <let>  <var n="v_adj_infl"/>  <lit v=""/>  </let>
-	    </otherwise>
-	  </choose>
+	  <let>  <var n="v_adj_infl"/>  <lit v=""/>  </let>
 	</when>
-	<otherwise><!--sg-->
+
+	<otherwise>
 	  <choose>
 	    <when>
 	      <test>
-		<or>
-		  <equal>  <var n="v_case"/>  <lit-tag v="dat"/>  </equal>
-		  <and>
-		    <equal>  <var n="v_case"/>  <lit-tag v="gen"/>  </equal>
-		    <equal>  <var n="v_gen"/>  <lit-tag v="f"/>  </equal>
-		  </and>
-		</or>
+		<equal>  <var n="v_det_type"/>  <lit-tag v="def"/>  </equal>
 	      </test>
-	      <choose>
-		<when>
-		  <test>
-		    <equal>  <var n="v_det_type"/>  <lit v=""/>  </equal>
-		  </test>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="st"/>  </let>
-		</when>
-		<otherwise>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
-		</otherwise>
-	      </choose>
+	      <let>  <var n="v_adj_infl"/>  <lit-tag v="sw"/>  </let>
 	    </when>
 	    <when>
 	      <test>
-		<or>
-		  <and>
-		    <equal>  <var n="v_case"/>  <lit-tag v="nom"/>  </equal>
-		    <or>
-		      <equal>  <var n="v_gen"/>  <lit-tag v="m"/>  </equal>
-		      <equal>  <var n="v_gen"/>  <lit-tag v="nt"/>  </equal>
-		    </or>
-		  </and>
-		  <and>
-		    <equal>  <var n="v_case"/>  <lit-tag v="acc"/>  </equal>
-		    <equal>  <var n="v_gen"/>  <lit-tag v="nt"/>  </equal>
-		  </and>
-		</or>
+		<equal>  <var n="v_det_type"/>  <lit-tag v="ind"/>  </equal>
 	      </test>
-	      <!--mix,mix,sw-->
-	      <choose>
-		<when>
-		  <test>
-		    <equal>  <var n="v_det_type"/>  <lit-tag v="def"/>  </equal>
-		  </test>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="sw"/>  </let>
-		</when>
-		<otherwise>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
-		</otherwise>
-	      </choose>
+	      <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
 	    </when>
 	    <otherwise>
-	      <let>  <var n="v_adj_infl"/>  <lit v=""/>  </let>
+	      <let>  <var n="v_adj_infl"/>  <lit-tag v="st"/>  </let>
 	    </otherwise>
 	  </choose>
 	</otherwise>

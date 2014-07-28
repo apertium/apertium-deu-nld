@@ -14,9 +14,16 @@ Bilingual dictionary and translation rule creation:
 
 Benedikt Freisen <b.freisen@gmx.net>
 
-Large parts of the bilingual data have been automatically extracted or
-otherwise derived from wiktionary:
+Large parts of the bilingual data have been derived from wiktionary:
 
-nl.wiktionary.org (scripted extraction from xml-dump, manual corrections)
-de.wiktionary.org (manually)
-en.wiktionary.org (manually, when direct translations were not available)
+nl.wiktionary.org
+  * mostly scripted extraction (from xml-dump) where german translations 
+    were available, manual corrections
+  * new translations according to the dutch monolingual descriptions 
+    where german translations were not available
+
+de.wiktionary.org
+  * manual extraction
+
+en.wiktionary.org
+  * manual extraction
