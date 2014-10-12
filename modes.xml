@@ -281,6 +281,9 @@
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
       </program>
@@ -317,6 +320,9 @@
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
       </program>
@@ -327,6 +333,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
@@ -339,6 +348,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
@@ -356,6 +368,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
@@ -377,6 +392,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
@@ -402,6 +420,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
@@ -430,6 +451,9 @@
     <pipeline>
       <program name="lt-proc -e">
         <file name="deu-nld.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="deu-nld.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
         <file name="deu-nld.prob"/>
