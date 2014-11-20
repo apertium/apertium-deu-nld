@@ -10,4 +10,8 @@
     <match lemma="betrekking" tags="n.*"><select lemma="Bezug" tags="n.*"/></match>
     <match lemma="tot" tags="pr"/>
   </rule>
+  <rule>
+    <match lemma="bij" tags="pr"/>
+    <match lemma="gebruik" tags="n.*"><select lemma="Gebrauch" tags="n.*"/></match>
+  </rule>
 </rules>
