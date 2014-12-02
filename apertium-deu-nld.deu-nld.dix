@@ -284,7 +284,7 @@
     <e><p><l>bezüglich<s n="pr"/></l><r>qua<s n="pr"/></r></p></e>
     <e r="LR"><p><l>binnen<s n="pr"/></l><r>binnen<s n="pr"/></r></p></e>
     <e><p><l>bis<b/>auf<s n="pr"/></l><r>op<b/>na<s n="pr"/></r></p></e>	<!-- op ... na -->
-    <e><p><l>bis<s n="pr"/></l><r>tot<s n="pr"/></r></p></e>
+    <e><p><l>bis<s n="pr"/><s n="acc"/></l><r>tot<s n="pr"/></r></p></e>
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
     <e><p><l>dank<s n="pr"/></l><r>dankzij<s n="pr"/></r></p></e>
     <e><p><l>durch<s n="pr"/><s n="acc"/></l><r>door<s n="pr"/></r></p></e>
@@ -2987,6 +2987,7 @@
     <e><p><l>Bumerang<s n="n"/><s n="m"/></l><r>boemerang<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bund<s n="n"/><s n="m"/></l><r>fret<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bund<s n="n"/><s n="nt"/></l><r>bos<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Bur<s n="n"/><s n="m"/></l><r>Boer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Burka<s n="n"/><s n="f"/></l><r>boerka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Bursche<s n="n"/><s n="m"/></l><r>gozer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bus<s n="n"/><s n="m"/></l><r>autobus<s n="n"/><s n="m"/></r></p></e>
