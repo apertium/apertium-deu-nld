@@ -1,3 +1,7 @@
+###############################################################################
+## Makefile for German--Dutch
+###############################################################################
+
 VERSION=0.1.0
 LANG1=deu
 LANG2=nld
@@ -14,6 +18,13 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
      $(PREFIX1).prob $(PREFIX2).prob
+
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
+
+###############################################################################
+## Transducers, disambiguation rules, transfer
+###############################################################################
 
 $(PREFIX1).automorf.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).dix $(AP_SRC1)/apertium-$(LANG1).$(LANG1).acx
 	apertium-validate-acx $(AP_SRC1)/apertium-$(LANG1).$(LANG1).acx
@@ -93,15 +104,8 @@ $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 	cp $< $@
 
 ###############################################################################
-## Translation modes
+## Distribution
 ###############################################################################
-
-# All modes are created by this one goal
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
 
 EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(PREFIX1).lrx \
@@ -111,30 +115,40 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
 	   modes.xml
 
-apertium_deu_nld_DATA=$(TARGETS_COMMON) modes.xml
+###############################################################################
+## Installation
+###############################################################################
 
-apertium_modesdir=$(prefix)/share/apertium/modes/
-apertium_deu_nlddir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_deu_nlddir=$(prefix)/share/apertium/$(BASENAME)/
+
+apertium_deu_nld_DATA=$(TARGETS_COMMON) \
+	$(BASENAME).$(PREFIX1).t1x \
+	$(BASENAME).$(PREFIX1).t2x \
+	$(BASENAME).$(PREFIX1).t3x \
+	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x \
+	$(BASENAME).$(PREFIX2).t3x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
-
-install-data-local:
-	mv modes modes.bak
-	$(prefix)/bin/apertium-gen-modes modes.xml $(BASENAME)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
-	modes=`xmllint --xpath '//mode[@install="yes"]/@name' modes.xml | sed 's/ *name="\([^"]*\)"/\1.mode /g'`; \
-		$(INSTALL_DATA) $$modes $(DESTDIR)$(apertium_modesdir); \
-		rm $$modes
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_deu_nlddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_deu_nlddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_deu_nlddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_deu_nlddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_deu_nlddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_deu_nlddir)
+install-data-local: install-modes
 
 
-CLEANFILES = -rf $(TARGETS_COMMON) modes
+###############################################################################
+## Cleanup
+###############################################################################
+
+CLEANFILES = $(TARGETS_COMMON)
+clean-local: 
+	-rm -rf .deps modes
+
+###############################################################################
+## Test
+###############################################################################
+
+test: all
+	echo "Dit markt is heel goed" | apertium -d . nld-deu | tee .test-mt
+	@echo "Dieser Markt ist sehr gut" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt
