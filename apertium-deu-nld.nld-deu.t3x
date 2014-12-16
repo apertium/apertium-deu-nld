@@ -2,8 +2,8 @@
 <postchunk>
   
   <section-def-cats>
-    <def-cat n="nom">
-      <cat-item name="nom"/>
+    <def-cat n="sent">
+      <cat-item name="sent"/>
     </def-cat>
   </section-def-cats>
   
@@ -28,7 +28,7 @@
 
     <rule comment="CHUNK:">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="sent"/>
       </pattern>
       <action>
         <out>
