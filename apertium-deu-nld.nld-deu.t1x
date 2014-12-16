@@ -242,6 +242,9 @@
     <def-attr n="a_rel">
       <attr-item tags="rel"/>
     </def-attr>
+    <def-attr n="a_lower">
+      <attr-item tags="lower"/>
+    </def-attr>
   </section-def-attrs>
 
 
@@ -416,8 +419,15 @@
     <def-macro n="lower_case" npar="1">
       <modify-case>
         <clip pos="1" side="tl" part="lem"/>
-        <clip pos="1" side="tl" part="lem"/><!--do nothing for now; change to sl later-->
+        <clip pos="1" side="sl" part="lem"/>
       </modify-case>
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="whole"/>
+	  <lit-tag v="lower"/>
+	</concat>
+      </let>
     </def-macro>
 
     <def-macro n="transfer_determiner" npar="1">
@@ -458,6 +468,7 @@
 	  <clip pos="1" side="sl" part="a_nbr" link-to="5"/>
 	  <clip pos="1" side="sl" part="lem" link-to="6"/>
 	  <clip pos="1" side="tl" part="a_cmp"/>
+	  <clip pos="1" side="tl" part="a_lower"/>
 	</concat>
       </let>
     </def-macro>
@@ -500,9 +511,7 @@
 	      <tag><lit-tag v="PR"/></tag>
 	      <tag><clip pos="1" side="tl" part="a_case"/></tag>
 	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
 	</out>
       </action>
@@ -518,9 +527,119 @@
 	    <tags>
 	      <tag><lit-tag v="CNJCOO"/></tag>
 	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="encapsule cnjsub">
+      <pattern>
+	<pattern-item n="c_cnjsub"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="cnjsub" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="CNJSUB"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="encapsule cnjadv">
+      <pattern>
+	<pattern-item n="c_cnjadv"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="cnjadv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="CNJADV"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="encapsule preadv">
+      <pattern>
+	<pattern-item n="c_preadv"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="preadv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="PREADV"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="encapsule adv">
+      <pattern>
+	<pattern-item n="c_adv"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="ADV"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="encapsule adj">
+      <pattern>
+	<pattern-item n="c_adj"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="adj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="ADJ"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="encapsule end_punct">
+      <pattern>
+	<pattern-item n="c_end_punct"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="endpunct" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="ENDPUNCT"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="encapsule num">
+      <pattern>
+	<pattern-item n="c_num"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="num" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="NUM"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
 	</out>
       </action>
@@ -537,9 +656,7 @@
 	    <tags>
 	      <tag><lit-tag v="SV"/></tag>
 	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
 	</out>
       </action>
@@ -556,9 +673,7 @@
 	    <tags>
 	      <tag><lit-tag v="SV"/></tag>
 	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
 	</out>
       </action>
@@ -574,9 +689,7 @@
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
 	</out>
       </action>
@@ -592,9 +705,7 @@
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
 	</out>
       </action>
@@ -692,7 +803,7 @@
       </pattern>
       <action>
 	<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-	<call-macro n="lower_case">  <with-param pos="2"/>  </call-macro>
+	<call-macro n="lower_case">  <with-param pos="3"/>  </call-macro>
 	<call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
 	<call-macro n="set__v_adj_infl"/>
 	<call-macro n="transfer_any_attr">  <with-param pos="1"/>  </call-macro>
@@ -886,6 +997,7 @@
 	<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
 	<call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
 	<call-macro n="set__v_adj_infl"/>
+	<call-macro n="lower_case">  <with-param pos="4"/>  </call-macro>
 	<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
 	<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
 	<call-macro n="transfer_noun">  <with-param pos="4"/>  </call-macro>
@@ -963,6 +1075,7 @@
 	<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
 	<call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
 	<call-macro n="set__v_adj_infl"/>
+	<call-macro n="lower_case">  <with-param pos="5"/>  </call-macro>
 	<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
 	<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
 	<call-macro n="transfer_any_attr">  <with-param pos="3"/>  </call-macro>
