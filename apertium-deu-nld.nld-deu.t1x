@@ -661,6 +661,7 @@
 	  <chunk name="verb" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 	    </tags>
 	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
@@ -678,6 +679,7 @@
 	  <chunk name="verb" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 	    </tags>
 	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
