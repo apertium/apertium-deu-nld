@@ -288,10 +288,15 @@
         <file name="deu-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="deu-nld.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="deu-nld.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-deu-nld.deu-nld.t1x"/>
         <file name="deu-nld.t1x.bin"/>
-        <file name="deu-nld.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-deu-nld.deu-nld.t2x"/>
@@ -356,10 +361,15 @@
         <file name="deu-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="deu-nld.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="deu-nld.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-deu-nld.deu-nld.t1x"/>
         <file name="deu-nld.t1x.bin"/>
-        <file name="deu-nld.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -376,10 +386,15 @@
         <file name="deu-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="deu-nld.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="deu-nld.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-deu-nld.deu-nld.t1x"/>
         <file name="deu-nld.t1x.bin"/>
-        <file name="deu-nld.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-deu-nld.deu-nld.t2x"/>
@@ -400,12 +415,17 @@
         <file name="deu-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-deu-nld.deu-nld.t1x"/>
-        <file name="deu-nld.t1x.bin"/>
+      <program name="lt-proc -b">
         <file name="deu-nld.autobil.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="lrx-proc -m">
+        <file name="deu-nld.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-deu-nld.deu-nld.t1x"/>
+        <file name="deu-nld.t1x.bin"/>
+      </program>
+     <program name="apertium-interchunk">
         <file name="apertium-deu-nld.deu-nld.t2x"/>
         <file name="deu-nld.t2x.bin"/>
       </program>
@@ -428,10 +448,15 @@
         <file name="deu-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="deu-nld.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="deu-nld.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-deu-nld.deu-nld.t1x"/>
         <file name="deu-nld.t1x.bin"/>
-        <file name="deu-nld.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-deu-nld.deu-nld.t2x"/>
@@ -459,10 +484,15 @@
         <file name="deu-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="deu-nld.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="deu-nld.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-deu-nld.deu-nld.t1x"/>
         <file name="deu-nld.t1x.bin"/>
-        <file name="deu-nld.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-deu-nld.deu-nld.t2x"/>

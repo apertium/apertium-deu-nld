@@ -2,4 +2,11 @@
   <rule>
     <match lemma="Haus" tags="n.*"><select lemma="huis" tags="n.*"/></match>
   </rule>
+  <rule>
+    <or>
+      <match tags="sent"></match>
+      <match tags="cm"></match>
+    </or>
+    <match lemma="aber" tags="adv"><select lemma="maar" tags="adv"/></match>
+  </rule>
 </rules>

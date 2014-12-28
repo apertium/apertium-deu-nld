@@ -33,6 +33,8 @@
       
       <cat-item tags="adv"/>
       <cat-item tags="adv.*"/>
+      <cat-item tags="preadv"/>
+      <cat-item tags="preadv.*"/>
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
@@ -61,6 +63,10 @@
     <def-cat n="c_prn">
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.tn"/>
+    </def-cat>
+    <def-cat n="c_dem">
+      <cat-item tags="prn.dem.*"/>
+      <cat-item tags="prn.dem"/>
     </def-cat>
     <def-cat n="c_verbnm"><!--verb no modal -->
       <cat-item tags="vblex.*"/>
@@ -702,6 +708,22 @@
       <action>
 	<out>
 	  <chunk name="prntn" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="assemble noun phrase">
+      <pattern>
+	<pattern-item n="c_dem"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="prndem" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>

@@ -5,6 +5,10 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SN_gen">
+      <cat-item tags="SN.gen"/>
+      <cat-item tags="SN.gen.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -20,7 +24,20 @@
   </section-def-vars>
   <section-rules>
 
-    <rule comment="REGLA: SN">
+    <rule comment="">
+      <pattern>
+	<pattern-item n="SN_gen"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>  <lit v="pr&lt;PR>{^van&lt;pr>$}"/>  </chunk>
+	  <b/>
+	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
+	</out>
+      </action>
+    </rule>
+
+<!--    <rule comment="REGLA: SN">
       <pattern>
 	<pattern-item n="SN"/>
       </pattern>
@@ -31,7 +48,7 @@
 	  </chunk>
 	</out>
       </action>
-    </rule>
+    </rule>-->
 
 </section-rules>
 </interchunk>
