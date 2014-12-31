@@ -18,6 +18,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/freedict-deu-nld-0.1.dic -text svneol=unset#unset
+dev/nld-eng-deu.gf.adjec -text
 dev/nld-eng-deu.gf.nouns -text
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
