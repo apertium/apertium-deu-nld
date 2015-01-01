@@ -155,14 +155,23 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
-      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
+      <attr-item tags="np.al"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
+      <attr-item tags="adj.comp"/>
+      <attr-item tags="adj.sup"/>
       <attr-item tags="adj.sint"/>
       <attr-item tags="adj.sint.comp"/>
       <attr-item tags="adj.sint.sup"/>
+    </def-attr>
+    <def-attr n="a_adj_use">
+      <attr-item tags="attr"/>
+      <attr-item tags="pred"/>
+      <attr-item tags="part"/>
     </def-attr>
     <def-attr n="a_comp">
       <attr-item tags="pst"/>
@@ -239,8 +248,10 @@
     <def-attr n="a_temps_pers_nbr">
       <attr-item tags="pres.pl"/>
       <attr-item tags="past.pl"/>
+      <attr-item tags="prs.pl"/>
       <attr-item tags="pri.p3.pl"/>
       <attr-item tags="pii.p3.pl"/>
+      <attr-item tags="prs.p3.pl"/>
     </def-attr>
     <def-attr n="a_cmp">
       <attr-item tags="cmp"/>
@@ -250,6 +261,10 @@
     </def-attr>
     <def-attr n="a_lower">
       <attr-item tags="lower"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+      <attr-item tags="prn.dem"/>
     </def-attr>
   </section-def-attrs>
 
@@ -302,6 +317,12 @@
 	</when>
 	<when>
 	  <test>
+	    <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.pl"/>  </equal>
+	  </test>
+	  <let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.p3.pl"/>  </let>
+	</when>
+	<when>
+	  <test>
 	    <equal>  <clip pos="1" side="sl" part="a_temps"/>  <lit-tag v="pres"/>  </equal>
 	  </test>
 	  <let>  <clip pos="1" side="tl" part="a_temps"/>  <lit-tag v="pri"/>  </let>
@@ -329,6 +350,16 @@
 	  <let>  <var n="v_det_gen"/>  <lit-tag v="mfn"/>  </let>
 	  <let>  <var n="v_adj_gen"/>  <lit-tag v="mf"/>  </let>
 	</when>
+	<otherwise>
+	  <choose>
+	    <when>
+	      <test>
+		<equal>  <var n="v_det_gen"/>  <lit-tag v="mf"/>  </equal>
+	      </test>
+	      <let>  <var n="v_det_gen"/>  <lit-tag v="m"/>  </let>
+	    </when>
+	  </choose>
+	</otherwise>
       </choose>
     </def-macro>
 
@@ -479,6 +510,32 @@
       </let>
     </def-macro>
 
+    <def-macro n="transfer_pronoun" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_prn"/>
+	  <clip pos="1" side="sl" part="a_gen" link-to="2"/>
+	  <clip pos="1" side="sl" part="a_nbr" link-to="5"/>
+	  <clip pos="1" side="sl" part="lem" link-to="6"/>
+	  <clip pos="1" side="tl" part="a_cmp"/>
+	  <clip pos="1" side="tl" part="a_lower"/>
+	</concat>
+      </let>
+    </def-macro>
+
+    <def-macro n="transfer_adjective" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_adj"/>
+	  <clip pos="1" side="tl" part="a_adj_use"/>
+	</concat>
+      </let>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -608,6 +665,7 @@
 	<pattern-item n="c_adj"/>
       </pattern>
       <action>
+	<call-macro n="transfer_adjective">  <with-param pos="1"/>  </call-macro>
 	<out>
 	  <chunk name="adj" case="caseFirstWord">
 	    <tags>
@@ -724,10 +782,19 @@
 	<pattern-item n="c_dem"/>
       </pattern>
       <action>
+	<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+	<call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
+	<call-macro n="transfer_pronoun">  <with-param pos="1"/>  </call-macro>
 	<out>
 	  <chunk name="prndem" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
+	      <tag><var n="v_gen"/></tag><!-- gender -->
+	      <tag><var n="v_det_gen"/></tag>
+	      <tag><var n="v_adj_gen"/></tag>
+	      <tag><var n="v_nbr"/></tag><!-- number -->
+	      <tag><var n="v_case"/></tag><!-- case -->
+	      <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
 	    </tags>
 	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>

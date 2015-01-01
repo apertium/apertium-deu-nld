@@ -1,7 +1,7 @@
 TMPDIR=/tmp/
 DIR=$1
-SRCNLD=`cat ../../config.status | grep AP_SRC2 | cut -f2 -d'=' | tr -d '"'`
-SRCDEU=`cat ../../config.status | grep AP_SRC1 | cut -f2 -d'=' | tr -d '"'`
+SRCNLD=../../`cat ../../config.status | grep AP_SRC2 | cut -f2 -d'=' | tr -d '"'`
+SRCDEU=../../`cat ../../config.status | grep AP_SRC1 | cut -f2 -d'=' | tr -d '"'`
 
 if [[ $DIR == "deu-nld" ]]; then
 lt-expand $SRCDEU/apertium-deu.deu.dix | grep -v '<prn><enc>' | grep -v '<cmp>'| grep -v 'NON_ANALYSIS'| grep -v 'REGEX' | grep -e ':<:' -e '\w:\w' | sed 's/:<:/%/g' | sed 's/:/%/g' | cut -f2 -d'%' |  sed 's/^/^/g' | sed 's/$/$ ^.<sent>$/g' | tee $TMPDIR/tmp_testvoc1.txt |\

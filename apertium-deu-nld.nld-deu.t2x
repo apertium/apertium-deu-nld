@@ -53,6 +53,8 @@
       
       <!-- as place holder -->
       <attr-item tags="mf.mf.mf"/>
+      <attr-item tags="mfn.mfn.mf"/>
+      <attr-item tags="mf.m.mf"/>
     </def-attr>
     <def-attr n="a_det_gen">
       <attr-item tags="f"/>
@@ -204,7 +206,7 @@
 	  <test>
 	    <and>
 	      <equal>  <clip pos="1" part="lem"/>  <lit v="det"/>  </equal>
-	      <equal>  <clip pos="1" part="a_gen_triple"/>  <lit-tag v="mf.mf.mf"/>  </equal>
+	      <equal>  <clip pos="1" part="a_gen_triple"/>  <lit-tag v="mf.m.mf"/>  </equal>
 	    </and>
 	  </test>
 	  <let>  <clip pos="1" part="a_gen_triple"/>  <var n="v_most_recent_gen_triple"/>  </let>
@@ -304,6 +306,7 @@
       </pattern>
       <action>
 	<call-macro n="make_SN_1st_obj_of_SV">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
+	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
 	<call-macro n="set_most_recent_gen_triple">  <with-param pos="3"/>  </call-macro>
 	<out>
 	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
@@ -329,6 +332,8 @@
       <action>
 	<call-macro n="make_SN_1st_obj_of_SV">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
 	<call-macro n="adjust_SN_using_PR">  <with-param pos="4"/>  <with-param pos="5"/>  </call-macro>
+	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
+	<call-macro n="set_most_recent_gen_triple">  <with-param pos="3"/>  </call-macro>
 	<call-macro n="set_most_recent_gen_triple">  <with-param pos="5"/>  </call-macro>
 	<out>
 	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
@@ -390,6 +395,7 @@
       </pattern>
       <action>
 	<call-macro n="adjust_SN_using_PR">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
+	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
 	<call-macro n="set_most_recent_gen_triple">  <with-param pos="4"/>  </call-macro>
 	<out>
 	  <chunk>  <clip pos="1" part="whole"/>  </chunk>

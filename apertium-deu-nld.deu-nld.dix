@@ -79,7 +79,13 @@
     <sdef n="pri"     c="Present indicative"/>
     <sdef n="np"      c="Proper noun"/>
 
+    <sdef n="ant"     c="Antroponym"/>
+    <sdef n="cog"     c="Cognomen"/>
+    <sdef n="al"      c="Altres"/>
+    <sdef n="top"     c="Toponym"/>
+
     <sdef n="tn"      c="Tonico"/>
+    <sdef n="ij"      c="Interjection"/>
   </sdefs>
   
   <pardefs>
@@ -124,6 +130,9 @@
 
     <e r="RL"><p><l></l><r>s<s n="gen"/></r></p></e>
     <e><p><l>Bio<s n="atp"/></l><r>bio<s n="atp"/></r></p></e>
+    
+    <!-- Interjections -->
+    <e><p><l>hallo<s n="ij"/></l><r>hallo<s n="ij"/></r></p></e>
 
     <!-- Determiners -->
     <e><p><l>ein<s n="det"/></l><r>een<s n="det"/></r></p></e>
@@ -315,7 +324,7 @@
     <e><p><l>je<s n="pr"/></l><r>per<s n="pr"/></r></p><par n="pro__pr"/></e>
     <e><p><l>kontra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
     <e><p><l>links<s n="pr"/></l><r>links<b/>van<s n="pr"/></r></p></e>
-    <e><p><l>längs<s n="pr"/></l><r>langs<s n="pr"/></r></p></e>
+    <e><p><l>längs<s n="pr"/><s n="gen"/></l><r>langs<s n="pr"/></r></p></e>
     <e><p><l>minus<s n="pr"/></l><r>minus<s n="pr"/></r></p></e>
     <e><p><l>mit<s n="pr"/><s n="dat"/></l><r>met<s n="pr"/></r></p></e>
     <e><p><l>mitsamt<s n="pr"/></l><r>met<b/>inbegrip<b/>van<s n="pr"/></r></p></e>
@@ -392,50 +401,50 @@
     <e><p><l>als<s n="cnjadv"/></l><r>toen<s n="cnjadv"/></r></p></e>
     <e><p><l>bevor<s n="cnjsub"/></l><r>voor<s n="cnjsub"/></r></p></e>
     <e><p><l>bevor<s n="cnjsub"/></l><r>voordat<s n="cnjsub"/></r></p></e>
-    <e><p><l>bis<s n="cnjsub"/></l><r>tot<s n="cnjsub"/></r></p></e>
+    <e><p><l>bis<s n="cnjsub"/></l><r>tot<s n="cnjadv"/></r></p></e>
     <e><p><l>bis<s n="cnjsub"/></l><r>totdat<s n="cnjsub"/></r></p></e>
     <e><p><l>da<s n="cnjsub"/></l><r>aangezien<s n="cnjsub"/></r></p></e>
     <e><p><l>da<s n="cnjsub"/></l><r>daar<s n="cnjsub"/></r></p></e>
-    <e><p><l>damit<s n="cnjsub"/></l><r>opdat<s n="cnjsub"/></r></p></e>
+    <e><p><l>damit<s n="cnjsub"/></l><r>opdat<s n="cnjadv"/></r></p></e>
     <e><p><l>dass<s n="cnjsub"/></l><r>dat<s n="cnjsub"/></r></p></e>
     <e><p><l>demzufolge<s n="cnjsub"/></l><r>dientengevolge<s n="cnjsub"/></r></p></e>
-    <e><p><l>denn<s n="cnjsub"/></l><r>want<s n="cnjsub"/></r></p></e>
+    <e><p><l>denn<s n="cnjsub"/></l><r>want<s n="cnjadv"/></r></p></e>
     <e><p><l>dennoch<s n="cnjsub"/></l><r>nochtans<s n="cnjsub"/></r></p></e>
     <e><p><l>ehe<s n="cnjsub"/></l><r>eer<s n="cnjsub"/></r></p></e>
     <e><p><l>ehe<s n="cnjsub"/></l><r>eerdat<s n="cnjsub"/></r></p></e>
     <e><p><l>falls<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
     <e><p><l>falls<s n="cnjsub"/></l><r>ingeval<s n="cnjsub"/></r></p></e>
     <e><p><l>hingegen<s n="cnjsub"/></l><r>daarentgegen<s n="cnjsub"/></r></p></e>
-    <e><p><l>indem<s n="cnjsub"/></l><r>doordat<s n="cnjsub"/></r></p></e>
+    <e><p><l>indem<s n="cnjsub"/></l><r>doordat<s n="cnjadv"/></r></p></e>
     <e><p><l>je<b/>nachdem,<b/>wie<s n="cnjsub"/></l><r>naargelang<s n="cnjsub"/></r></p></e>
     <e><p><l>jedoch<s n="cnjsub"/></l><r>echter<s n="cnjsub"/></r></p></e>
-    <e><p><l>nachdem<s n="cnjsub"/></l><r>nadat<s n="cnjsub"/></r></p></e>
+    <e><p><l>nachdem<s n="cnjsub"/></l><r>nadat<s n="cnjadv"/></r></p></e>
     <e><p><l>noch<s n="cnjsub"/></l><r>noch<s n="cnjsub"/></r></p></e>	<!-- weder, noch -->
     <e><p><l>nun<s n="cnjsub"/></l><r>nu<s n="cnjadv"/></r></p></e>
     <e><p><l>ob<s n="cnjsub"/></l><r>of<s n="cnjsub"/></r></p></e>
-    <e><p><l>obgleich<s n="cnjsub"/></l><r>alhoewel<s n="cnjsub"/></r></p></e>
+    <e><p><l>obgleich<s n="cnjsub"/></l><r>alhoewel<s n="cnjadv"/></r></p></e>
     <e><p><l>obwohl<s n="cnjsub"/></l><r>hoewel<s n="cnjsub"/></r></p></e>
     <e><p><l>oder<b/>auch<s n="cnjsub"/></l><r>dan<b/>wel<s n="cnjsub"/></r></p></e>
     <e><p><l>oder<b/>auch<s n="cnjsub"/></l><r>oftewel<s n="cnjsub"/></r></p></e>
-    <e><p><l>seit<s n="cnjsub"/></l><r>sinds<s n="cnjsub"/></r></p></e>
-    <e><p><l>seitdem<s n="cnjsub"/></l><r>sinds<s n="cnjsub"/></r></p></e>
-    <e><p><l>sobald<s n="cnjsub"/></l><r>zodra<s n="cnjsub"/></r></p></e>
-    <e><p><l>sodass<s n="cnjsub"/></l><r>zodat<s n="cnjsub"/></r></p></e>
+    <e><p><l>seit<s n="cnjsub"/></l><r>sinds<s n="cnjadv"/></r></p></e>
+    <e><p><l>seitdem<s n="cnjsub"/></l><r>sinds<s n="cnjadv"/></r></p></e>
+    <e><p><l>sobald<s n="cnjsub"/></l><r>zodra<s n="cnjadv"/></r></p></e>
+    <e><p><l>sodass<s n="cnjsub"/></l><r>zodat<s n="cnjadv"/></r></p></e>
     <e><p><l>sofern<s n="cnjsub"/></l><r>mits<s n="cnjsub"/></r></p></e>
-    <e><p><l>solange<s n="cnjsub"/></l><r>zolang<s n="cnjsub"/></r></p></e>
+    <e><p><l>solange<s n="cnjsub"/></l><r>zolang<s n="cnjadv"/></r></p></e>
     <e><p><l>sonst<s n="cnjsub"/></l><r>anders<s n="cnjsub"/></r></p></e>
     <e><p><l>sowie<s n="cnjsub"/></l><r>alsmede<s n="cnjsub"/></r></p></e>
     <e><p><l>um<s n="cnjsub"/></l><r>om<s n="cnjsub"/></r></p></e>	<!-- um ... zu (om ... te) -->
     <e><p><l>weder<s n="cnjsub"/></l><r>noch<s n="cnjsub"/></r></p></e>	<!-- weder, noch -->
     <e><p><l>weil<s n="cnjsub"/></l><r>omdat<s n="cnjsub"/></r></p></e>
-    <e><p><l>wenn<s n="cnjsub"/></l><r>indien<s n="cnjsub"/></r></p></e>	<!-- falls, wenn -->
+    <e><p><l>wenn<s n="cnjsub"/></l><r>indien<s n="cnjadv"/></r></p></e>	<!-- falls, wenn -->
     <e><p><l>wenn<s n="cnjsub"/></l><r>wanneer<s n="cnjadv"/></r></p></e>
     <e><p><l>wenngleich<s n="cnjsub"/></l><r>ofschoon<s n="cnjsub"/></r></p></e>
     <e><p><l>wie<s n="cnjsub"/></l><r>hoe<s n="cnjsub"/></r></p></e>
     <e><p><l>wie<s n="cnjsub"/></l><r>zoals<s n="cnjsub"/></r></p></e>
     <e><p><l>wo<s n="cnjsub"/></l><r>waar<s n="cnjsub"/></r></p></e>
     <e><p><l>womit<s n="cnjadv"/></l><r>waarmee<s n="cnjadv"/></r></p></e>
-    <e><p><l>während<s n="cnjsub"/></l><r>terwijl<s n="cnjsub"/></r></p></e>
+    <e><p><l>während<s n="cnjsub"/></l><r>terwijl<s n="cnjadv"/></r></p></e>
     
     <!-- SECTION: Numerals -->
 
@@ -517,6 +526,14 @@
     
     <!-- SECTION: Adverbs -->
     
+    <!--<e><p><l><s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
+    <e><p><l><s n="preadv"/></l><r>veel<s n="preadv"/></r></p></e>
+    <e><p><l><s n="preadv"/></l><r>dan<s n="preadv"/></r></p></e>
+    <e><p><l><s n="preadv"/></l><r>meer<s n="preadv"/></r></p></e>
+    <e><p><l><s n="preadv"/></l><r>meest<s n="preadv"/></r></p></e>
+    <e><p><l><s n="preadv"/></l><r>zo<s n="preadv"/></r></p></e>
+    <e><p><l><s n="preadv"/></l><r>tamelijk<s n="preadv"/></r></p></e>-->
+
     <e><p><l>aus diesem Grund<s n="adv"/></l><r>om deze reden<s n="adv"/></r></p></e>
     <e><p><l>unter anderem<s n="adv"/></l><r>onder meer<s n="adv"/></r></p></e>
     <e><p><l>zu Stande<s n="adv"/></l><r>tot stand<s n="adv"/></r></p></e>
@@ -901,6 +918,117 @@
     <e><p><l>übermorgen<s n="adv"/></l><r>overmorgen<s n="adv"/></r></p></e>
     <e><p><l>übrigens<s n="adv"/></l><r>trouwens<s n="adv"/></r></p></e>
 
+    <!-- auto-generated from adj entries -->
+    <e><p><l>abscheulich<s n="adv"/></l><r>abominabel<s n="adv"/></r></p></e>
+    <e><p><l>absolut<s n="adv"/></l><r>absoluut<s n="adv"/></r></p></e>
+    <e><p><l>aktiv<s n="adv"/></l><r>actief<s n="adv"/></r></p></e>
+    <e><p><l>bedacht<s n="adv"/></l><r>bedachtzaam<s n="adv"/></r></p></e>
+    <e><p><l>gehörig<s n="adv"/></l><r>behoorlijk<s n="adv"/></r></p></e>
+    <e><p><l>höflich<s n="adv"/></l><r>beleefd<s n="adv"/></r></p></e>
+    <e><p><l>bestimmt<s n="adv"/></l><r>bepaald<s n="adv"/></r></p></e>
+    <e><p><l>bereit<s n="adv"/></l><r>bereid<s n="adv"/></r></p></e>
+    <e><p><l>reuevoll<s n="adv"/></l><r>berouwvol<s n="adv"/></r></p></e>
+    <e><p><l>besonder<s n="adv"/></l><r>bijzonder<s n="adv"/></r></p></e>
+    <e><p><l>offensichtlich<s n="adv"/></l><r>blijkbaar<s n="adv"/></r></p></e>
+    <e><p><l>bösartig<s n="adv"/></l><r>boosaardig<s n="adv"/></r></p></e>
+    <e><p><l>außergewöhnlich<s n="adv"/></l><r>buitengewoon<s n="adv"/></r></p></e>
+    <e><p><l>geil<s n="adv"/></l><r>cool<s n="adv"/></r></p></e>
+    <e><p><l>kulturell<s n="adv"/></l><r>cultureel<s n="adv"/></r></p></e>
+    <e><p><l>tatsächlich<s n="adv"/></l><r>daadwerkelijk<s n="adv"/></r></p></e>
+    <e><p><l>dicht<s n="adv"/></l><r>dicht<s n="adv"/></r></p></e>
+    <e><p><l>dick<s n="adv"/></l><r>dik<s n="adv"/></r></p></e>
+    <e><p><l>tot<s n="adv"/></l><r>dood<s n="adv"/></r></p></e>
+    <e><p><l>doppelt<s n="adv"/></l><r>dubbel<s n="adv"/></r></p></e>
+    <e><p><l>deutlich<s n="adv"/></l><r>duidelijk<s n="adv"/></r></p></e>
+    <e><p><l>begeistert<s n="adv"/></l><r>enthousiast<s n="adv"/></r></p></e>
+    <e><p><l>eklusiv<s n="adv"/></l><r>exclusief<s n="adv"/></r></p></e>
+    <e><p><l>heftig<s n="adv"/></l><r>fel<s n="adv"/></r></p></e>
+    <e><p><l>formell<s n="adv"/></l><r>formeel<s n="adv"/></r></p></e>
+    <e><p><l>geistig<s n="adv"/></l><r>geestelijk<s n="adv"/></r></p></e>
+    <e><p><l>glücklich<s n="adv"/></l><r>gelukkig<s n="adv"/></r></p></e>
+    <e><p><l>genetisch<s n="adv"/></l><r>genetisch<s n="adv"/></r></p></e>
+    <e><p><l>geographisch<s n="adv"/></l><r>geografisch<s n="adv"/></r></p></e>
+    <e><p><l>begierig<s n="adv"/></l><r>gretig<s n="adv"/></r></p></e>
+    <e><p><l>generös<s n="adv"/></l><r>gul<s n="adv"/></r></p></e>
+    <e><p><l>hart<s n="adv"/></l><r>hard<s n="adv"/></r></p></e>
+    <e><p><l>heimlich<s n="adv"/></l><r>heimelijk<s n="adv"/></r></p></e>
+    <e><p><l>hevig<s n="adv"/></l><r>hevig<s n="adv"/></r></p></e>
+    <e><p><l>jährlich<s n="adv"/></l><r>jaarlijks<s n="adv"/></r></p></e>
+    <e><p><l>richtig<s n="adv"/></l><r>juist<s n="adv"/></r></p></e>
+    <e><p><l>evident<s n="adv"/></l><r>klaarblijkelijk<s n="adv"/></r></p></e>
+    <e><p><l>klein<s n="adv"/></l><r>klein<s n="adv"/></r></p></e>
+    <e><p><l>hübsch<s n="adv"/></l><r>knap<s n="adv"/></r></p></e>
+    <e><p><l>kräftig<s n="adv"/></l><r>krachtig<s n="adv"/></r></p></e>
+    <e><p><l>kritisch<s n="adv"/></l><r>kritiek<s n="adv"/></r></p></e>
+    <e><p><l>niedrig<s n="adv"/></l><r>laag<s n="adv"/></r></p></e>
+    <e><p><l>groß<s n="adv"/></l><r>lang<s n="adv"/></r></p></e>
+    <e><p><l>hässlich<s n="adv"/></l><r>lelijk<s n="adv"/></r></p></e>
+    <e><p><l>körperlich<s n="adv"/></l><r>lichamelijk<s n="adv"/></r></p></e>
+    <e><p><l>hell<s n="adv"/></l><r>licht<s n="adv"/></r></p></e>
+    <e><p><l>links<s n="adv"/></l><r>links<s n="adv"/></r></p></e>
+    <e><p><l>mächtig<s n="adv"/></l><r>machtig<s n="adv"/></r></p></e>
+    <e><p><l>blöd<s n="adv"/></l><r>maf<s n="adv"/></r></p></e>
+    <e><p><l>sanft<s n="adv"/></l><r>mals<s n="adv"/></r></p></e>
+    <e><p><l>maximal<s n="adv"/></l><r>maximaal<s n="adv"/></r></p></e>
+    <e><p><l>militärisch<s n="adv"/></l><r>militair<s n="adv"/></r></p></e>
+    <e><p><l>mühelos<s n="adv"/></l><r>moeiteloos<s n="adv"/></r></p></e>
+    <e><p><l>schädlich<s n="adv"/></l><r>nadelig<s n="adv"/></r></p></e>
+    <e><p><l>neugierig<s n="adv"/></l><r>nieuwsgierig<s n="adv"/></r></p></e>
+    <e><p><l>normal<s n="adv"/></l><r>normaal<s n="adv"/></r></p></e>
+    <e><p><l>nüchtern<s n="adv"/></l><r>nuchter<s n="adv"/></r></p></e>
+    <e><p><l>unabhängig<s n="adv"/></l><r>onafhankelijk<s n="adv"/></r></p></e>
+    <e><p><l>unleugbar<s n="adv"/></l><r>onmiskenbaar<s n="adv"/></r></p></e>
+    <e><p><l>öffentlich<s n="adv"/></l><r>openlijk<s n="adv"/></r></p></e>
+    <e><p><l>bemerkenswert<s n="adv"/></l><r>opmerkelijk<s n="adv"/></r></p></e>
+    <e><p><l>organisch<s n="adv"/></l><r>organisch<s n="adv"/></r></p></e>
+    <e><p><l>altmodisch<s n="adv"/></l><r>ouderwets<s n="adv"/></r></p></e>
+    <e><p><l>perfekt<s n="adv"/></l><r>perfect<s n="adv"/></r></p></e>
+    <e><p><l>periodisch<s n="adv"/></l><r>periodiek<s n="adv"/></r></p></e>
+    <e><p><l>schmerzend<s n="adv"/></l><r>pijnlijk<s n="adv"/></r></p></e>
+    <e><p><l>plötzlich<s n="adv"/></l><r>plotseling<s n="adv"/></r></p></e>
+    <e><p><l>politisch<s n="adv"/></l><r>politiek<s n="adv"/></r></p></e>
+    <e><p><l>präzis<s n="adv"/></l><r>precies<s n="adv"/></r></p></e>
+    <e><p><l>prinzipiell<s n="adv"/></l><r>principieel<s n="adv"/></r></p></e>
+    <e><p><l>katastrophal<s n="adv"/></l><r>rampzalig<s n="adv"/></r></p></e>
+    <e><p><l>adäquat<s n="adv"/></l><r>redelijk<s n="adv"/></r></p></e>
+    <e><p><l>relativ<s n="adv"/></l><r>relatief<s n="adv"/></r></p></e>
+    <e><p><l>geräumig<s n="adv"/></l><r>ruim<s n="adv"/></r></p></e>
+    <e><p><l>ruhig<s n="adv"/></l><r>rustig<s n="adv"/></r></p></e>
+    <e><p><l>knapp<s n="adv"/></l><r>schaars<s n="adv"/></r></p></e>
+    <e><p><l>scheinbar<s n="adv"/></l><r>schijnbaar<s n="adv"/></r></p></e>
+    <e><p><l>anzüglich<s n="adv"/></l><r>schuin<s n="adv"/></r></p></e>
+    <e><p><l>seriös<s n="adv"/></l><r>serieus<s n="adv"/></r></p></e>
+    <e><p><l>schlampig<s n="adv"/></l><r>slordig<s n="adv"/></r></p></e>
+    <e><p><l>rasch<s n="adv"/></l><r>snel<s n="adv"/></r></p></e>
+    <e><p><l>sozial<s n="adv"/></l><r>sociaal<s n="adv"/></r></p></e>
+    <e><p><l>speziell<s n="adv"/></l><r>speciaal<s n="adv"/></r></p></e>
+    <e><p><l>spektakulär<s n="adv"/></l><r>spectaculair<s n="adv"/></r></p></e>
+    <e><p><l>symbolisch<s n="adv"/></l><r>symbolisch<s n="adv"/></r></p></e>
+    <e><p><l>zufrieden<s n="adv"/></l><r>tevreden<s n="adv"/></r></p></e>
+    <e><p><l>außergewöhnlich<s n="adv"/></l><r>uitzonderlijk<s n="adv"/></r></p></e>
+    <e><p><l>einmalig<s n="adv"/></l><r>uniek<s n="adv"/></r></p></e>
+    <e><p><l>sicher<s n="adv"/></l><r>veilig<s n="adv"/></r></p></e>
+    <e><p><l>schrecklich<s n="adv"/></l><r>verschrikkelijk<s n="adv"/></r></p></e>
+    <e><p><l>dick<s n="adv"/></l><r>vet<s n="adv"/></r></p></e>
+    <e><p><l>flach<s n="adv"/></l><r>vlak<s n="adv"/></r></p></e>
+    <e><p><l>komplett<s n="adv"/></l><r>volledig<s n="adv"/></r></p></e>
+    <e><p><l>vorläufig<s n="adv"/></l><r>voorlopig<s n="adv"/></r></p></e>
+    <e><p><l>furchtbar<s n="adv"/></l><r>vreselijk<s n="adv"/></r></p></e>
+    <e><p><l>freundlich<s n="adv"/></l><r>vriendelijk<s n="adv"/></r></p></e>
+    <e><p><l>frei<s n="adv"/></l><r>vrij<s n="adv"/></r></p></e>
+    <e><p><l>früh<s n="adv"/></l><r>vroeg<s n="adv"/></r></p></e>
+    <e><p><l>wachsam<s n="adv"/></l><r>waakzaam<s n="adv"/></r></p></e>
+    <e><p><l>wackelig<s n="adv"/></l><r>wankel<s n="adv"/></r></p></e>
+    <e><p><l>wochentlich<s n="adv"/></l><r>wekelijks<s n="adv"/></r></p></e>
+    <e><p><l>wohlwollend<s n="adv"/></l><r>welwillend<s n="adv"/></r></p></e>
+    <e><p><l>wirklich<s n="adv"/></l><r>werkelijk<s n="adv"/></r></p></e>
+    <e><p><l>gesetzlich<s n="adv"/></l><r>wettelijk<s n="adv"/></r></p></e>
+    <e><p><l>weise<s n="adv"/></l><r>wijs<s n="adv"/></r></p></e>
+    <e><p><l>krank<s n="adv"/></l><r>ziek<s n="adv"/></r></p></e>
+    <e><p><l>südlich<s n="adv"/></l><r>zuidelijk<s n="adv"/></r></p></e>
+    <e><p><l>sauber<s n="adv"/></l><r>zuiver<s n="adv"/></r></p></e>
+    <e><p><l>schwarz<s n="adv"/></l><r>zwart<s n="adv"/></r></p></e>
+    
     <!-- SECTION: Adjectives -->
     
     <e><p><l>ander<s n="adj"/></l><r>ander<s n="adj"/></r></p></e>
@@ -1383,6 +1511,7 @@
     <e><p><l>neugierig<s n="adj"/></l><r>nieuwsgierig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>neutral<s n="adj"/></l><r>neutraal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>niederländisch<s n="adj"/></l><r>Nederlands<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>niederländischsprachig<s n="adj"/></l><r>Nederlandstalig<s n="adj"/></r></p></e>
     <e><p><l>niedrig<s n="adj"/></l><r>laag<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>normal<s n="adj"/></l><r>normaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>norwegisch<s n="adj"/></l><r>Noors<s n="adj"/><s n="sint"/></r></p></e>
@@ -1698,6 +1827,306 @@
     <e><p><l>überflüssig<s n="adj"/></l><r>overtollig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>überreif<s n="adj"/></l><r>beurs<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>üblich<s n="adj"/></l><r>gebruikelijk<s n="adj"/><s n="sint"/></r></p></e>
+
+    <!-- first batch of adjectives from nld-eng-deu.gf.adjec -->
+    
+    <e><p><l>anfänglich<s n="adj"/></l><r>aanvankelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>administrativ<s n="adj"/></l><r>administratief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>aerodynamisch<s n="adj"/></l><r>aerodynamisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>akustisch<s n="adj"/></l><r>akoestisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>alternativ<s n="adj"/></l><r>alternatief<s n="adj"/></r></p></e>
+    <e><p><l>amtlich<s n="adj"/></l><r>ambtelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>anthropologisch<s n="adj"/></l><r>antropologisch<s n="adj"/></r></p></e>
+    <e><p><l>anthropomorph<s n="adj"/></l><r>antropomorfisch<s n="adj"/></r></p></e>
+    <e><p><l>aquatisch<s n="adj"/></l><r>aquatisch<s n="adj"/></r></p></e>
+    <e><p><l>arglos<s n="adj"/></l><r>argeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>künstlich<s n="adj"/></l><r>artificieel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>banal<s n="adj"/></l><r>banaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>bankrott<s n="adj"/></l><r>bankroet<s n="adj"/></r></p></e>
+    <e><p><l>behutsam<s n="adj"/></l><r>behoedzaam<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>belesen<s n="adj"/></l><r>belezen<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>behindert<s n="adj"/></l><r>beperkt<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>bestehend<s n="adj"/></l><r>bestaand<s n="adj"/></r></p></e>
+    <e><p><l>beweglich<s n="adj"/></l><r>beweegbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>biochemisch<s n="adj"/></l><r>biochemisch<s n="adj"/></r></p></e>
+    <e><p><l>böse<s n="adj"/></l><r>boos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>überdurchschnittlich<s n="adj"/></l><r>bovengemiddeld<s n="adj"/></r></p></e>
+    <e><p><l>außerirdisch<s n="adj"/></l><r>buitenaards<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>außerehelich<s n="adj"/></l><r>buitenechtelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>äußerst<s n="adj"/></l><r>buitenst<s n="adj"/></r></p></e>
+    <e><p><l>charismatisch<s n="adj"/></l><r>charismatisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>chronologisch<s n="adj"/></l><r>chronologisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>kommunistisch<s n="adj"/></l><r>communistisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>zynisch<s n="adj"/></l><r>cynisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>obdachlos<s n="adj"/></l><r>dakloos<s n="adj"/></r></p></e>
+    <e><p><l>teilbar<s n="adj"/></l><r>deelbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>demagogisch<s n="adj"/></l><r>demagogisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>denkbar<s n="adj"/></l><r>denkbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>dilettantisch<s n="adj"/></l><r>dilettantisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>totgeboren<s n="adj"/></l><r>doodgeboren<s n="adj"/></r></p></e>
+    <e><p><l>durstig<s n="adj"/></l><r>dorstig<s n="adj"/></r></p></e>
+    <e><p><l>dramatisch<s n="adj"/></l><r>dramatisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>dreist<s n="adj"/></l><r>driest<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>dringend<s n="adj"/></l><r>dringend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>trinkbar<s n="adj"/></l><r>drinkbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>druckbar<s n="adj"/></l><r>drukbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>schwindelig<s n="adj"/></l><r>duizelig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>dynamisch<s n="adj"/></l><r>dynamisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ökologisch<s n="adj"/></l><r>ecologisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>einsam<s n="adj"/></l><r>eenzaam<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>eidetisch<s n="adj"/></l><r>eidetisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>zeitgenössisch<s n="adj"/></l><r>eigentijds<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>endlos<s n="adj"/></l><r>eindeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>endlich<s n="adj"/></l><r>eindig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>elektromagnetisch<s n="adj"/></l><r>elektromagnetisch<s n="adj"/></r></p></e>
+    <e><p><l>elektronisch<s n="adj"/></l><r>elektronisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>embryonal<s n="adj"/></l><r>embryonaal<s n="adj"/></r></p></e>
+    <e><p><l>emphatisch<s n="adj"/></l><r>emfatisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>epidemisch<s n="adj"/></l><r>epidemisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>erblich<s n="adj"/></l><r>erfelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>erotisch<s n="adj"/></l><r>erotisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>essenziell<s n="adj"/></l><r>essentieel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>etymologisch<s n="adj"/></l><r>etymologisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>evolutionär<s n="adj"/></l><r>evolutionair<s n="adj"/></r></p></e>
+    <e><p><l>explizit<s n="adj"/></l><r>expliciet<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>fantastisch<s n="adj"/></l><r>fantastisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>pharmakologisch<s n="adj"/></l><r>farmacologisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>festlich<s n="adj"/></l><r>feestelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>feministisch<s n="adj"/></l><r>feministisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>philosophisch<s n="adj"/></l><r>filosofisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>finanziell<s n="adj"/></l><r>financieel<s n="adj"/></r></p></e>
+    <e><p><l>phonetisch<s n="adj"/></l><r>fonetisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>falsch<s n="adj"/></l><r>fout<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>frivol<s n="adj"/></l><r>frivool<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>futuristisch<s n="adj"/></l><r>futuristisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>physisch<s n="adj"/></l><r>fysiek<s n="adj"/></r></p></e>
+    <e><p><l>interessiert<s n="adj"/></l><r>geïnteresseerd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gemütlich<s n="adj"/></l><r>gemakkelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gnadenlos<s n="adj"/></l><r>genadeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gnädig<s n="adj"/></l><r>genadig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>genitivisch<s n="adj"/></l><r>genitief<s n="adj"/></r></p></e>
+    <e><p><l>geologisch<s n="adj"/></l><r>geologisch<s n="adj"/></r></p></e>
+    <e><p><l>gerichtlich<s n="adj"/></l><r>gerechtelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>renommiert<s n="adj"/></l><r>gerenommeerd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>reserviert<s n="adj"/></l><r>gereserveerd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>talentiert<s n="adj"/></l><r>getalenteerd<s n="adj"/></r></p></e>
+    <e><p><l>gefangen<s n="adj"/></l><r>gevangen<s n="adj"/></r></p></e>
+    <e><p><l>gigantisch<s n="adj"/></l><r>gigantisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>global<s n="adj"/></l><r>globaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>grafisch<s n="adj"/></l><r>grafisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>grünlich<s n="adj"/></l><r>groenachtig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>immergrün<s n="adj"/></l><r>groenblijvend<s n="adj"/></r></p></e>
+    <e><p><l>gründlich<s n="adj"/></l><r>grondig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>harmonisch<s n="adj"/></l><r>harmonisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>heilsam<s n="adj"/></l><r>heilzaam<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>höllisch<s n="adj"/></l><r>hels<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>himmlisch<s n="adj"/></l><r>hemels<s n="adj"/></r></p></e>
+    <e><p><l>heterogen<s n="adj"/></l><r>heterogeen<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>heterosexuell<s n="adj"/></l><r>heteroseksueel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>heuristisch<s n="adj"/></l><r>heuristisch<s n="adj"/></r></p></e>
+    <e><p><l>hexagonal<s n="adj"/></l><r>hexagonaal<s n="adj"/></r></p></e>
+    <e><p><l>historisch<s n="adj"/></l><r>historisch<s n="adj"/></r></p></e>
+    <e><p><l>höflich<s n="adj"/></l><r>hoffelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>hoffnungsvoll<s n="adj"/></l><r>hoopvol<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>hörbar<s n="adj"/></l><r>hoorbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>hoffnungslos<s n="adj"/></l><r>hopeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>horizontal<s n="adj"/></l><r>horizontaal<s n="adj"/></r></p></e>
+    <e><p><l>hilflos<s n="adj"/></l><r>hulpeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>hydrostatisch<s n="adj"/></l><r>hydrostatisch<s n="adj"/></r></p></e>
+    <e><p><l>ideal<s n="adj"/></l><r>ideaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>idiotisch<s n="adj"/></l><r>idioot<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>eitel<s n="adj"/></l><r>ijdel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>eifrig<s n="adj"/></l><r>ijverig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>immens<s n="adj"/></l><r>immens<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>implizit<s n="adj"/></l><r>impliciet<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>innig<s n="adj"/></l><r>innig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>international<s n="adj"/></l><r>internationaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>intrinsisch<s n="adj"/></l><r>intrinsiek<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ironisch<s n="adj"/></l><r>ironisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>jambisch<s n="adj"/></l><r>jambisch<s n="adj"/></r></p></e>
+    <e><p><l>journalistisch<s n="adj"/></l><r>journalistiek<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>kapitalistisch<s n="adj"/></l><r>kapitalistisch<s n="adj"/></r></p></e>
+    <e><p><l>kaiserlich<s n="adj"/></l><r>keizerlijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>kennzeichnend<s n="adj"/></l><r>kenmerkend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ketzerisch<s n="adj"/></l><r>ketters<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>kinetisch<s n="adj"/></l><r>kinetisch<s n="adj"/></r></p></e>
+    <e><p><l>farblos<s n="adj"/></l><r>kleurloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>keusch<s n="adj"/></l><r>kuis<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>lesbar<s n="adj"/></l><r>leesbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>legendär<s n="adj"/></l><r>legendarisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>lesbisch<s n="adj"/></l><r>lesbisch<s n="adj"/></r></p></e>
+    <e><p><l>lobenswert<s n="adj"/></l><r>lofwaardig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>luxuriös<s n="adj"/></l><r>luxueus<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>machtlos<s n="adj"/></l><r>machteloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>magnetisch<s n="adj"/></l><r>magnetisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>manuell<s n="adj"/></l><r>manueel<s n="adj"/></r></p></e>
+    <e><p><l>massiv<s n="adj"/></l><r>massief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>materiell<s n="adj"/></l><r>materieel<s n="adj"/></r></p></e>
+    <e><p><l>messbar<s n="adj"/></l><r>meetbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>mental<s n="adj"/></l><r>mentaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>metaphorisch<s n="adj"/></l><r>metaforisch<s n="adj"/></r></p></e>
+    <e><p><l>mikroskopisch<s n="adj"/></l><r>microscopisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>mild<s n="adj"/></l><r>mild<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>minimalistisch<s n="adj"/></l><r>minimalistisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>mütterlich<s n="adj"/></l><r>moederlijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>mühsam<s n="adj"/></l><r>moeizaam<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>möglich<s n="adj"/></l><r>mogelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>monotheistisch<s n="adj"/></l><r>monotheïstisch<s n="adj"/></r></p></e>
+    <e><p><l>multikulturell<s n="adj"/></l><r>multicultureel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>musikalisch<s n="adj"/></l><r>muzikaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>nachlässig<s n="adj"/></l><r>nalatig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>nasal<s n="adj"/></l><r>nasaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>neurotisch<s n="adj"/></l><r>neurotisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>neidisch<s n="adj"/></l><r>nijdig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>nominativisch<s n="adj"/></l><r>nominatief<s n="adj"/></r></p></e>
+    <e><p><l>nördlich<s n="adj"/></l><r>noordelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>augenblicklich<s n="adj"/></l><r>ogenblikkelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>umstritten<s n="adj"/></l><r>omstreden<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>umfassend<s n="adj"/></l><r>omvattend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unberührt<s n="adj"/></l><r>onaangeroerd<s n="adj"/></r></p></e>
+    <e><p><l>unabsichtlich<s n="adj"/></l><r>onbedoeld<s n="adj"/></r></p></e>
+    <e><p><l>unbeabsichtigt<s n="adj"/></l><r>onbedoeld<s n="adj"/></r></p></e>
+    <e><p><l>unbewohnt<s n="adj"/></l><r>onbewoond<s n="adj"/></r></p></e>
+    <e><p><l>unterdrückt<s n="adj"/></l><r>onderdrukt<s n="adj"/></r></p></e>
+    <e><p><l>ungeschrieben<s n="adj"/></l><r>ongeschreven<s n="adj"/></r></p></e>
+    <e><p><l>ungestört<s n="adj"/></l><r>ongestoord<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unhaltbar<s n="adj"/></l><r>onhoudbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unleserlich<s n="adj"/></l><r>onleesbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unmittelbar<s n="adj"/></l><r>onmiddellijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unumkehrbar<s n="adj"/></l><r>onomkeerbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unentbehrlich<s n="adj"/></l><r>onontbeerlijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unauffällig<s n="adj"/></l><r>onopvallend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unüberbrückbar<s n="adj"/></l><r>onoverbrugbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unpraktisch<s n="adj"/></l><r>onpraktisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>untröstlich<s n="adj"/></l><r>ontroostbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unausstehlich<s n="adj"/></l><r>onuitstaanbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unauslöschlich<s n="adj"/></l><r>onuitwisbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unveränderlich<s n="adj"/></l><r>onveranderlijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unvereinbar<s n="adj"/></l><r>onverenigbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unvergleichlich<s n="adj"/></l><r>onvergelijkbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unvermeidlich<s n="adj"/></l><r>onvermijdelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unermüdlich<s n="adj"/></l><r>onvermoeibaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unermüdlich<s n="adj"/></l><r>onvermoeid<s n="adj"/></r></p></e>
+    <e><p><l>unübersetzbar<s n="adj"/></l><r>onvertaalbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unvollendet<s n="adj"/></l><r>onvoltooid<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unvorhersagbar<s n="adj"/></l><r>onvoorspelbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>bedingungslos<s n="adj"/></l><r>onvoorwaardelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>streitlustig<s n="adj"/></l><r>oorlogszuchtig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ursprünglich<s n="adj"/></l><r>oorspronkelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>östlich<s n="adj"/></l><r>oostelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>orientalisch<s n="adj"/></l><r>oosters<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>aufgeregt<s n="adj"/></l><r>opgewonden<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>optimistisch<s n="adj"/></l><r>optimistisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>optisch<s n="adj"/></l><r>optisch<s n="adj"/></r></p></e>
+    <e><p><l>auffällig<s n="adj"/></l><r>opvallend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>aufbrausend<s n="adj"/></l><r>opvliegend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>orbital<s n="adj"/></l><r>orbitaal<s n="adj"/></r></p></e>
+    <e><p><l>orthodox<s n="adj"/></l><r>orthodox<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>oval<s n="adj"/></l><r>ovaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>überfüllt<s n="adj"/></l><r>overvol<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>überwältigend<s n="adj"/></l><r>overweldigend<s n="adj"/></r></p></e>
+    <e><p><l>pantheistisch<s n="adj"/></l><r>pantheïstisch<s n="adj"/></r></p></e>
+    <e><p><l>passiv<s n="adj"/></l><r>passief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>passivisch<s n="adj"/></l><r>passief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>päpstlich<s n="adj"/></l><r>pauselijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>päderastisch<s n="adj"/></l><r>pederastisch<s n="adj"/></r></p></e>
+    <e><p><l>persönlich<s n="adj"/></l><r>persoonlijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>pikant<s n="adj"/></l><r>pikant<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>örtlich<s n="adj"/></l><r>plaatselijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>angenehm<s n="adj"/></l><r>plezierig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>polygam<s n="adj"/></l><r>polygaam<s n="adj"/></r></p></e>
+    <e><p><l>populär<s n="adj"/></l><r>populair<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>posthum<s n="adj"/></l><r>posthuum<s n="adj"/></r></p></e>
+    <e><p><l>postum<s n="adj"/></l><r>postuum<s n="adj"/></r></p></e>
+    <e><p><l>potentiell<s n="adj"/></l><r>potentieel<s n="adj"/></r></p></e>
+    <e><p><l>potenziell<s n="adj"/></l><r>potentieel<s n="adj"/></r></p></e>
+    <e><p><l>pragmatisch<s n="adj"/></l><r>pragmatisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>praktisch<s n="adj"/></l><r>praktisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>prestigeträchtig<s n="adj"/></l><r>prestigieus<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>primitiv<s n="adj"/></l><r>primitief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>proaktiv<s n="adj"/></l><r>proactief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>psychiatrisch<s n="adj"/></l><r>psychiatrisch<s n="adj"/></r></p></e>
+    <e><p><l>radioaktiv<s n="adj"/></l><r>radioactief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rational<s n="adj"/></l><r>rationeel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>realistisch<s n="adj"/></l><r>realistisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rektal<s n="adj"/></l><r>rectaal<s n="adj"/></r></p></e>
+    <e><p><l>relevant<s n="adj"/></l><r>relevant<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>repräsentativ<s n="adj"/></l><r>representatief<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>respektvoll<s n="adj"/></l><r>respectvol<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rhetorisch<s n="adj"/></l><r>retorisch<s n="adj"/></r></p></e>
+    <e><p><l>rhythmisch<s n="adj"/></l><r>ritmisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rostfrei<s n="adj"/></l><r>roestvrij<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>räumlich<s n="adj"/></l><r>ruimtelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rastlos<s n="adj"/></l><r>rusteloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sarkastisch<s n="adj"/></l><r>sarcastisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>satirisch<s n="adj"/></l><r>satirisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>skandalös<s n="adj"/></l><r>scandaleus<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>schief<s n="adj"/></l><r>scheef<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>heiser<s n="adj"/></l><r>schor<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sexuell<s n="adj"/></l><r>seksueel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>semantisch<s n="adj"/></l><r>semantisch<s n="adj"/></r></p></e>
+    <e><p><l>schlaff<s n="adj"/></l><r>slap<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>langsam<s n="adj"/></l><r>sloom<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>schlau<s n="adj"/></l><r>sluw<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>geschmacklos<s n="adj"/></l><r>smakeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sozialistisch<s n="adj"/></l><r>socialistisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>soziolinguistisch<s n="adj"/></l><r>sociolinguïstisch<s n="adj"/></r></p></e>
+    <e><p><l>spontan<s n="adj"/></l><r>spontaan<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sporadisch<s n="adj"/></l><r>sporadisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sprachlos<s n="adj"/></l><r>sprakeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>steinern<s n="adj"/></l><r>stenen<s n="adj"/></r></p></e>
+    <e><p><l>stürmisch<s n="adj"/></l><r>stormachtig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>strafbar<s n="adj"/></l><r>strafbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gespannt<s n="adj"/></l><r>strak<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>strategisch<s n="adj"/></l><r>strategisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>subatomar<s n="adj"/></l><r>subatomair<s n="adj"/></r></p></e>
+    <e><p><l>subtropisch<s n="adj"/></l><r>subtropisch<s n="adj"/></r></p></e>
+    <e><p><l>surrealistisch<s n="adj"/></l><r>surrealistisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>zahm<s n="adj"/></l><r>tam<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>greifbar<s n="adj"/></l><r>tastbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>technisch<s n="adj"/></l><r>technisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>zählbar<s n="adj"/></l><r>telbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>theologisch<s n="adj"/></l><r>theologisch<s n="adj"/></r></p></e>
+    <e><p><l>erträglich<s n="adj"/></l><r>tolerabel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>tolerant<s n="adj"/></l><r>tolerant<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>tragisch<s n="adj"/></l><r>tragisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>tropisch<s n="adj"/></l><r>tropisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>zwischenzeitlich<s n="adj"/></l><r>tussentijds<s n="adj"/></r></p></e>
+    <e><p><l>zweijährig<s n="adj"/></l><r>tweejaarlijks<s n="adj"/></r></p></e>
+    <e><p><l>utopisch<s n="adj"/></l><r>utopisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>väterlich<s n="adj"/></l><r>vaderlijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>falsch<s n="adj"/></l><r>vals<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>variabel<s n="adj"/></l><r>variabel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vielfältig<s n="adj"/></l><r>veelvuldig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verirrt<s n="adj"/></l><r>verdwaald<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vergleichbar<s n="adj"/></l><r>vergelijkbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verfügbar<s n="adj"/></l><r>verkrijgbaar<s n="adj"/></r></p></e>
+    <e><p><l>verschwenderisch<s n="adj"/></l><r>verkwistend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verschiedene<s n="adj"/></l><r>verscheiden<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>übersetzbar<s n="adj"/></l><r>vertaalbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verdaulich<s n="adj"/></l><r>verteerbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vernachlässigbar<s n="adj"/></l><r>verwaarloosbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verwirrend<s n="adj"/></l><r>verwarrend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verdreht<s n="adj"/></l><r>verwrongen<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vollkommen<s n="adj"/></l><r>volslagen<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vorherig<s n="adj"/></l><r>vorig<s n="adj"/></r></p></e>
+    <e><p><l>friedfertig<s n="adj"/></l><r>vreedzaam<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>freudlos<s n="adj"/></l><r>vreugdeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>freigebig<s n="adj"/></l><r>vrijgevig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>fromm<s n="adj"/></l><r>vroom<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>fruchtbar<s n="adj"/></l><r>vruchtbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vulkanisch<s n="adj"/></l><r>vulkanisch<s n="adj"/></r></p></e>
+    <e><p><l>feurig<s n="adj"/></l><r>vurig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>wertlos<s n="adj"/></l><r>waardeloos<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>erwünscht<s n="adj"/></l><r>wenselijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>weltweit<s n="adj"/></l><r>wereldwijd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>westlich<s n="adj"/></l><r>westelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>weitverbreitet<s n="adj"/></l><r>wijdverspreid<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gewinnbringend<s n="adj"/></l><r>winstgevend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sandig<s n="adj"/></l><r>zanderig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>besoffen<s n="adj"/></l><r>zat<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>betrunken<s n="adj"/></l><r>zat<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sündig<s n="adj"/></l><r>zondig<s n="adj"/><s n="sint"/></r></p></e>
     
     <!-- SECTION: Nouns -->
     
@@ -2667,6 +3096,7 @@
     <e><p><l>Beigeschmack<s n="n"/><s n="m"/></l><r>bijsmaak<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beigeschmack<s n="n"/><s n="m"/></l><r>zweem<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beilage<s n="n"/><s n="f"/></l><r>toegift<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Beimischung<s n="n"/><s n="f"/></l><r>bijmenging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Bein<s n="n"/><s n="nt"/></l><r>been<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Beipackzettel<s n="n"/><s n="m"/></l><r>bijsluiter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beisetzung<s n="n"/><s n="f"/></l><r>begrafenis<s n="n"/><s n="f"/></r></p></e>
@@ -2739,6 +3169,7 @@
     <e><p><l>Besucher<s n="n"/><s n="m"/></l><r>bezoeker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Betonung<s n="n"/><s n="f"/></l><r>accentuatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Betrag<s n="n"/><s n="m"/></l><r>bedrag<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Betrieb<s n="n"/><s n="m"/></l><r>bedrijf<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Betrieb<s n="n"/><s n="m"/></l><r>exploitatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Betrieb<s n="n"/><s n="m"/></l><r>landbouwbedrijf<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Betriebssystem<s n="n"/><s n="nt"/></l><r>besturingssysteem<s n="n"/><s n="nt"/></r></p></e>
@@ -3576,6 +4007,7 @@
     <e><p><l>Erdteil<s n="n"/><s n="m"/></l><r>werelddeel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Erdung<s n="n"/><s n="f"/></l><r>aarding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Erdwolf<s n="n"/><s n="m"/></l><r>aardwolf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Erdöl<s n="n"/><s n="nt"/></l><r>aardolie<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Erdölprodukt<s n="n"/><s n="nt"/></l><r>aardolieproduct<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Erdölpumpenbock<s n="n"/><s n="m"/></l><r>jaknikker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Ereignis<s n="n"/><s n="nt"/></l><r>gebeurtenis<s n="n"/><s n="f"/></r></p></e>
@@ -5181,6 +5613,7 @@
     <e><p><l>Klarinetbläser<s n="n"/><s n="m"/></l><r>klarinettist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Klarinettist<s n="n"/><s n="m"/></l><r>klarinettist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Klasse<s n="n"/><s n="f"/></l><r>klas<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Klasse<s n="n"/><s n="f"/></l><r>klasse<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Klassensprecher<s n="n"/><s n="m"/></l><r>klassenvertegenwoordiger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Klassensprecherin<s n="n"/><s n="f"/></l><r>klassenvertegenwoordigster<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Klausel<s n="n"/><s n="f"/></l><r>clausule<s n="n"/><s n="f"/></r></p></e>
@@ -5286,7 +5719,7 @@
     <e><p><l>Kolloid<s n="n"/><s n="nt"/></l><r>colloïde<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Kollumkarzinom<s n="n"/><s n="nt"/></l><r>baarmoederhalskanker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Kolonisation<s n="n"/><s n="f"/></l><r>kolonisatie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Kolonist<s n="n"/><s n="m"/></l><r>kolonist<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Kolonist<s n="n"/><s n="m"/></l><r>kolonist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Koloß<s n="n"/><s n="m"/></l><r>kolos<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Koma<s n="n"/><s n="nt"/></l><r>coma<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Kombinationszange<s n="n"/><s n="f"/></l><r>combinatietang<s n="n"/><s n="mf"/></r></p></e>
@@ -5354,7 +5787,7 @@
     <e><p><l>Kontakt<s n="n"/><s n="m"/></l><r>contact<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Kontakt<s n="n"/><s n="m"/></l><r>relatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Kontaktlinse<s n="n"/><s n="f"/></l><r>contactlens<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>Kontinent<s n="n"/><s n="m"/></l><r>vasteland<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Kontinent<s n="n"/><s n="m"/></l><r>continent<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Kontinentalplatte<s n="n"/><s n="f"/></l><r>aardschol<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Kontrabass<s n="n"/><s n="m"/></l><r>contrabas<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Kontrakt<s n="n"/><s n="m"/></l><r>contract<s n="n"/><s n="nt"/></r></p></e>
@@ -6067,6 +6500,7 @@
     <e><p><l>Ministrant<s n="n"/><s n="m"/></l><r>misdienaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Minuszeichen<s n="n"/><s n="nt"/></l><r>minteken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Minute<s n="n"/><s n="f"/></l><r>minuut<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Mischform<s n="n"/><s n="f"/></l><r>mengvorm<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Mischmachine<s n="n"/><s n="f"/></l><r>cementmolen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Mischsprache<s n="n"/><s n="f"/></l><r>mengtaal<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Mispel<s n="n"/><s n="f"/></l><r>mispel<s n="n"/><s n="mf"/></r></p></e>
@@ -7118,6 +7552,7 @@
     <e><p><l>Rotfeder<s n="n"/><s n="m"/></l><r>ruisvoorn<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Rothirsch<s n="n"/><s n="m"/></l><r>edelhert<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Rottweiler<s n="n"/><s n="m"/></l><r>rottweiler<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Route<s n="n"/><s n="f"/></l><r>route<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Route<s n="n"/><s n="f"/></l><r>traject<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Rubidium<s n="n"/><s n="nt"/></l><r>rubidium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Rubin<s n="n"/><s n="m"/></l><r>robijn<s n="n"/><s n="m"/></r></p></e>
@@ -7614,6 +8049,7 @@
     <e><p><l>Segeltuch<s n="n"/><s n="nt"/></l><r>zeildoek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Segge<s n="n"/><s n="f"/></l><r>zegge<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Segler<s n="n"/><s n="m"/></l><r>zweefvliegtuig<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Segregation<s n="n"/><s n="f"/></l><r>segregatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Sehenswürdigkeit<s n="n"/><s n="f"/></l><r>bezienswaardigheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Sehne<s n="n"/><s n="f"/></l><r>pees<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Sehnenscheidenentzündung<s n="n"/><s n="f"/></l><r>peesontsteking<s n="n"/><s n="f"/></r></p></e>
@@ -9452,11 +9888,11 @@
     <e><p><l>Anatolien<s n="np"/></l><r>Anatolië<s n="np"/></r></p></e>
     <e><p><l>Andorra<s n="np"/></l><r>Andorra<s n="np"/></r></p></e>
     <e><p><l>Angola<s n="np"/></l><r>Angola<s n="np"/></r></p></e>
-    <e><p><l>Antarktis<s n="np"/></l><r>Antarctica<s n="np"/></r></p></e>
+    <e><p><l>Antarktis<s n="np"/><s n="top"/><s n="f"/></l><r>Antarctica<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Antigua<b/>und<b/>Barbuda<s n="np"/></l><r>Antigua<b/>en<b/>Barbuda<s n="np"/></r></p></e>
     <e><p><l>Arabien<s n="np"/></l><r>Arabië<s n="np"/></r></p></e>
     <e><p><l>Argentinien<s n="np"/></l><r>Argentinië<s n="np"/></r></p></e>
-    <e><p><l>Arktis<s n="np"/></l><r>Arktika<s n="np"/></r></p></e>
+    <e><p><l>Arktis<s n="np"/><s n="top"/><s n="f"/></l><r>Arktika<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Armenien<s n="np"/></l><r>Armenië<s n="np"/></r></p></e>
   <e><p><l>Atlantischer<b/>Ozean<s n="np"/></l><r>Atlantische<b/>Oceaan<s n="np"/></r></p></e>
     <e><p><l>Australasien<s n="np"/></l><r>Australazië<s n="np"/></r></p></e>
@@ -9466,9 +9902,9 @@
   <e><p><l>Baffinbaai<s n="np"/></l><r>Baffinbaai<s n="np"/></r></p></e>
     <e><p><l>Bahrein<s n="np"/></l><r>Bahrein<s n="np"/></r></p></e>
     <e><p><l>Balkan<s n="np"/></l><r>Balkan<s n="np"/></r></p></e>
-    <e><p><l>Barentssee<s n="np"/></l><r>Barentszzee<s n="np"/></r></p></e>
-    <e><p><l>Beaufortsee<s n="np"/></l><r>Beaufortzee<s n="np"/></r></p></e>
-    <e><p><l>Beringstraße<s n="np"/></l><r>Beringstraat<s n="np"/></r></p></e>
+    <e><p><l>Barentssee<s n="np"/><s n="top"/><s n="f"/></l><r>Barentszzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
+    <e><p><l>Beaufortsee<s n="np"/><s n="top"/><s n="f"/></l><r>Beaufortzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
+    <e><p><l>Beringstraße<s n="np"/><s n="top"/><s n="f"/></l><r>Beringstraat<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Berlin<s n="np"/></l><r>Berlijn<s n="np"/></r></p></e>
     <e><p><l>Bloemfontein<s n="np"/></l><r>Bloemfontein<s n="np"/></r></p></e>
     <e><p><l>Bordeaux<s n="np"/></l><r>Bordeaux<s n="np"/></r></p></e>
@@ -9516,7 +9952,7 @@
     <e><p><l>Gauteng<s n="np"/></l><r>Gauteng<s n="np"/></r></p></e>
     <e><p><l>Genesis<s n="np"/></l><r>Genesis<s n="np"/></r></p></e>
     <e><p><l>Ghana<s n="np"/></l><r>Ghana<s n="np"/></r></p></e>
-    <e><p><l>Golf<b/>von<b/>Mexiko<s n="np"/></l><r>Golf<b/>van<b/>Mexico<s n="np"/></r></p></e>
+  <e><p><l>Golf<b/>von<b/>Mexiko<s n="np"/></l><r>Golf<b/>van<b/>Mexico<s n="np"/></r></p></e>
     <e><p><l>Griechenland<s n="np"/></l><r>Griekenland<s n="np"/></r></p></e>
     <e><p><l>Grönland<s n="np"/></l><r>Groenland<s n="np"/></r></p></e>
     <e><p><l>Großbritannien<s n="np"/></l><r>Groot-Brittannië<s n="np"/></r></p></e>
@@ -9547,7 +9983,7 @@
     <e><p><l>Johannesburg<s n="np"/></l><r>Johannesburg<s n="np"/></r></p></e>
     <e><p><l>Jordanien<s n="np"/></l><r>Jordanië<s n="np"/></r></p></e>
     <e><p><l>Kap<b/>der<b/>Guten<b/>Hoffnung<s n="np"/></l><r>Kaap<b/>de<b/>Goede<b/>Hoop<s n="np"/></r></p></e>
-    <e><p><l>Kapkolonie<s n="np"/></l><r>Kaapkolonie<s n="np"/></r></p></e>
+    <e><p><l>Kapkolonie<s n="np"/><s n="top"/><s n="f"/></l><r>Kaapkolonie<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Kapstadt<s n="np"/></l><r>Kaapstad<s n="np"/></r></p></e>
     <e><p><l>Kap<b/>Verde<s n="np"/></l><r>Kaapverdië<s n="np"/></r></p></e>
     <e><p><l>Kamerun<s n="np"/></l><r>Kameroen<s n="np"/></r></p></e>
@@ -9598,7 +10034,7 @@
     <e><p><l>Nordamerika<s n="np"/></l><r>Noord-Amerika<s n="np"/></r></p></e>
   <e><p><l>Arktischer<b/>Ozean<s n="np"/></l><r>Noordelijke<b/>Ijszee<s n="np"/></r></p></e>
     <e><p><l>Nordirland<s n="np"/></l><r>Noord-Ierland<s n="np"/></r></p></e>
-    <e><p><l>Nordsee<s n="np"/></l><r>Noordzee<s n="np"/></r></p></e>
+    <e><p><l>Nordsee<s n="np"/><s n="top"/><s n="f"/></l><r>Noordzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
   <e><p><l>Europäisches<b/>Nordmeer<s n="np"/></l><r>Noorse<b/>Zee<s n="np"/></r></p></e>
     <e><p><l>Norwegen<s n="np"/></l><r>Noorwegen<s n="np"/></r></p></e>
     <e><p><l>Normandie<s n="np"/></l><r>Normandië<s n="np"/></r></p></e>
@@ -9607,9 +10043,9 @@
     <e><p><l>Uralgebirge<s n="np"/></l><r>Oeralgebergte<s n="np"/></r></p></e>
     <e><p><l>Usbekistan<s n="np"/></l><r>Oezbekistan<s n="np"/></r></p></e>
     <e><p><l>Österreich<s n="np"/></l><r>Oostenrijk<s n="np"/></r></p></e>
-  <e><p><l>Ostsibirische<b/>See<s n="np"/></l><r>Oost-Siberische<b/>Zee<s n="np"/></r></p></e>
+  <e><p><l>Ostsibirische<b/>See<s n="np"/><s n="top"/><s n="f"/></l><r>Oost-Siberische<b/>Zee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Osttimor<s n="np"/></l><r>Oost-Timor<s n="np"/></r></p></e>
-    <e><p><l>Ostsee<s n="np"/></l><r>Oostzee<s n="np"/></r></p></e>
+    <e><p><l>Ostsee<s n="np"/><s n="top"/><s n="f"/></l><r>Oostzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Oslo<s n="np"/></l><r>Oslo<s n="np"/></r></p></e>
     <e><p><l>Oxford<s n="np"/></l><r>Oxford<s n="np"/></r></p></e>
     <e><p><l>Peking<s n="np"/></l><r>Peking<s n="np"/></r></p></e>
@@ -9687,7 +10123,7 @@
     <e><p><l>Südamerika<s n="np"/></l><r>Zuid-Amerika<s n="np"/></r></p></e>
   <e><p><l>Schwarzes<b/>Meer<s n="np"/></l><r>Zwarte<b/>Zee<s n="np"/></r></p></e>
     <e><p><l>Schweden<s n="np"/></l><r>Zweden<s n="np"/></r></p></e>
-  <e><p><l>Schweiz<s n="np"/></l><r>Zwitserland<s n="np"/></r></p></e>
+    <e><p><l>Schweiz<s n="np"/><s n="top"/><s n="f"/></l><r>Zwitserland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 
 
 
@@ -12264,6 +12700,7 @@
     <e><p><l>überreden<s n="vblex"/></l><r>bepraten<s n="vblex"/></r></p></e>
     <e><p><l>überreden<s n="vblex"/></l><r>overhalen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>überrumpeln<s n="vblex"/></l><r>verrassen<s n="vblex"/></r></p></e>
+    <e><p><l>überschatten<s n="vblex"/></l><r>overschaduwen<s n="vblex"/></r></p></e>
     <e><p><l>überschreiben<s n="vblex"/></l><r>overschrijven<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>überschreiten<s n="vblex"/></l><r>overschrijden<s n="vblex"/></r></p></e>
     <e><p><l>überschwemmen<s n="vblex"/></l><r>overstromen<s n="vblex"/><s n="sep"/></r></p></e>
