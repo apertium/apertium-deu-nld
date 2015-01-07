@@ -195,13 +195,13 @@
       <attr-item tags="adv"/>
     </def-attr>
     <def-attr n="a_temps">
-       <attr-item tags="pii"/>
-       <attr-item tags="pis"/>
-       <attr-item tags="pri"/>
-       <attr-item tags="past"/>
-       <attr-item tags="pres"/>
-       <attr-item tags="inf"/>
-     </def-attr>
+      <attr-item tags="pii"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="inf"/>
+    </def-attr>
     <def-attr n="a_stress">
       <attr-item tags="uns"/>
     </def-attr>
@@ -356,6 +356,30 @@
       <let>  <clip pos="1" side="sl" part="a_lower"/>  <lit v=""/>  </let>
     </def-macro>
 
+    <def-macro n="transfer_adjective" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_adj"/>
+	</concat>
+      </let>
+      <choose>
+	<when>
+	  <test>
+	    <equal>  <clip pos="1" side="tl" part="a_gen"/>  <lit v=""/>  </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="whole"/>
+	      <lit-tag v="attr"/>
+	    </concat>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -387,6 +411,23 @@
 	  <chunk name="verb" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SV"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="encapsule adj">
+      <pattern>
+	<pattern-item n="c_adj"/>
+      </pattern>
+      <action>
+	<call-macro n="transfer_adjective">  <with-param pos="1"/>  </call-macro>
+	<out>
+	  <chunk name="adj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="ADJ"/></tag>
 	    </tags>
 	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
 	  </chunk>
