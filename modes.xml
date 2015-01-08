@@ -324,6 +324,9 @@
       <program name="lt-proc $1">
         <file name="deu-nld.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="deu-nld.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
 
