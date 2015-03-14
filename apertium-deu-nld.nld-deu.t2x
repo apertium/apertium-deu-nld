@@ -32,6 +32,7 @@
       <attr-item tags="ind"/>
       <attr-item tags="def"/>
       <attr-item tags="dem"/>
+      <attr-item tags="qnt"/>
       <attr-item tags="nodet"/>
     </def-attr>
     <def-attr n="a_gen">                  <!-- Gender -->

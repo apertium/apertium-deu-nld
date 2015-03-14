@@ -1,0 +1,36 @@
+Een priemgetal is een natuurlijk getal groter dan 1 dat slechts deelbaar is door 1 en door zichzelf. 
+Het kleinste priemgetal is dus 2, want het heeft alleen 1 en 2 als delers. 
+Het volgende is 3, met alleen de delers 1 en 3. 
+Het getal 4 is geen priemgetal, het heeft behalve 1 en 4 ook 2 als deler. 
+Een getal dat groter dan 1 is en geen priemgetal, heet een samengesteld getal. 
+Priemgetallen vormen een belangrijk onderwerp in het deelgebied van de wiskunde, dat getaltheorie genoemd wordt.
+
+Door de afspraak dat het getal 1 geen priemgetal is, kan onder andere de hoofdstelling van de rekenkunde eenvoudiger geformuleerd worden.
+
+De eerste 30 priemgetallen zijn 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109 en 113.
+
+Priemgetallen werden reeds door de oude Grieken bestudeerd. 
+Er zijn oneindig veel priemgetallen. 
+Het bewijs hiervoor wordt gegeven door de stelling van Euclides. 
+De oudste methode om priemgetallen te vinden is de zeef van Eratosthenes, die in de animatie hieronder wordt geïllustreerd.
+
+Een bepaald type priemgetallen wordt gevormd door de mersennepriemgetallen. 
+Van een mersennegetal, dat wil zeggen een getal van de vorm 2^n-1, kan betrekkelijk gemakkelijk vastgesteld worden of het een priemgetal is of niet.
+
+Er is geen formule bekend die alle priemgetallen, maar geen samengestelde getallen oplevert. 
+De verdeling van priemgetallen, dat wil zeggen, het statistische gedrag van grote aantallen priemgetallen, kan echter wel worden gemodelleerd. 
+Het eerste resultaat in die richting was de priemgetalstelling, 
+ die stelt dat de kans dat een gegeven, willekeurig gekozen getal n een priemgetal is, omgekeerd evenredig is met het aantal cijfers, of de logaritme van n. 
+Deze stelling is aan het einde van de 19e eeuw bewezen. 
+De onbewezen Riemann-hypothese, die van 1859 dateert, impliceert een verfijnde verklaring hiervan met betrekking tot de verdeling van de priemgetallen.
+
+Ondanks intensieve studie staan veel fundamentele vragen met betrekking tot priemgetallen nog steeds open. 
+Zo zijn bijvoorbeeld het vermoeden van Goldbach, dat beweert dat elk even getal groter dan twee de som is van twee priemgetallen, 
+ en het vermoeden van de priemtweelingen, dat zegt dat er oneindig veel priemgetaltweelingen (paren van priemgetallen, waarvan het verschil gelijk is aan twee) moeten bestaan, 
+ al meer dan een eeuw onopgelost, ondanks de ogenschijnlijke eenvoud van deze uitspraken.
+
+Priemgetallen worden toegepast in verschillende delen van de informatietechnologie, onder andere bij het beveiligen van digitale informatie, door middel van cryptografie. 
+Met behulp van de priemgetaltest wordt bepaald dat een getal een priemgetal is. 
+In de asymmetrische cryptografie wordt bijvoorbeeld gebruikgemaakt van de moeilijkheid om grote getallen in hun priemfactoren te ontbinden. 
+De zoektocht naar extreem grote priemgetallen, vaak met behulp van distributed computing, heeft de studie van de priemgetallen gestimuleerd. 
+Begin 2013 bestond het grootst bekende priemgetal uit 17.425.170 cijfers.

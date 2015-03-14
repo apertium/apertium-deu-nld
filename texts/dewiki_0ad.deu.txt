@@ -1,0 +1,21 @@
+Spielprinzip
+0 A.D. handelt von der wirtschaftlichen Entwicklung und Kriegsführung. 
+Das Spiel folgt dabei den gängigen Echtzeit-Strategie-Prinzipien wie dem Aufbau einer Basis, 
+ dem Sammeln von Rohstoffen, der Schulung einer Armee und der Erforschung von Technologien. 
+Das Spiel beinhaltet spezifisch für jede Zivilisation unterschiedliche Land- und Marineeinheiten, Gebäude sowie Technologien. 
+Dabei wurde vor allem auf historische Korrektheit Wert gelegt, weswegen auch keine genretypischen magischen Einheiten existieren. 
+Zudem verfügt jede Zivilisation über ein „Wunder“ – ein teures, großes, nur einmalig errichtbares Gebäude.
+
+Einheiten
+Das Spiel stellt dem Spieler eine Reihe von verschiedenen Einheiten zur Verfügung, die alle individuell oder in Gruppen gesteuert werden können. 
+Zu Beginn einer Partie stehen hauptsächlich Bürgerinnen zur Verfügung, die für die Rohstoffgewinnung und den Bau einfacherer Gebäude eingesetzt werden können. 
+Die Bürgerinnen sind praktisch nutzlos im Kampf, können aber am effektivsten Nahrung gewinnen und die männliche Bevölkerung zum schnelleren Arbeiten motivieren. 
+Die einfacheren Soldaten (im Spiel auch „Stadtsoldaten“ genannt) können für dieselben Aufgaben wie die Bürgerinnen eingesetzt werden, 
+ aber zusätzlich noch komplexere Gebäude wie Kasernen und Schmieden errichten und etwas effektiver Metall und Stein abbauen. 
+Militärisch über den Stadtsoldaten stehen die vollwertigen Soldaten wie Kavallerie und Infanterie, 
+ die sehr effektiv im Kampf sind, jedoch keine zivilen Aufgaben übernehmen können. 
+Einen Sonderstatus nehmen dabei die Heiler ein, die nur eine geringe Kampfstärke besitzen, aber nahe verwundete Einheiten heilen können. 
+Spezielle Soldaten stellen die „Champions“ dar, die zwar viel stärker sind, dafür aber eine lange und teure Ausbildung erfordern. 
+Zudem ist es dem Spieler gestattet, einmalig in einer Partie einen einzelnen Helden auszubilden. 
+Dieser hat allen anderen Einheiten überlegene militärische Stärke und gewährt den umliegenden Einheiten bestimmte Boni. 
+Die Helden sind angelehnt an historisch real existierende Personen, meist Feldherren oder Herrscher.

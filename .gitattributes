@@ -29,7 +29,11 @@ dev/testvoc/testvoc.sh -text
 /nld-deu.prob -text
 texts/cuento.deu.txt -text
 texts/cuento.nld.txt -text
+texts/dewiki_0ad.deu.txt -text
 texts/nlwiki_anno1503.nld.txt -text
+texts/nlwiki_atoomijsbreker.nld.txt -text
 texts/nlwiki_biodiesel.nld.txt -text
+texts/nlwiki_chanoeka.nld.txt -text
 texts/nlwiki_memorial_day.nld.txt -text
+texts/nlwiki_priemgetal.nld.txt -text
 texts/nlwiki_zuid-africa.nld.txt -text
