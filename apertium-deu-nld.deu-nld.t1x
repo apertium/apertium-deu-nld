@@ -67,11 +67,41 @@
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/> 
     </def-cat>
+    <def-cat n="c_verbnmng"><!--verb no modal, no gerund -->
+      <cat-item tags="vblex.inf.*"/>
+      <cat-item tags="vblex.pprs.*"/>
+      <cat-item tags="vblex.inf.*"/>
+      <cat-item tags="vblex.pri.*"/>
+      <cat-item tags="vblex.prs.*"/>
+      <cat-item tags="vblex.pii.*"/>
+      <cat-item tags="vblex.pis.*"/>
+      <cat-item tags="vblex.imp.*"/>
+      <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vblex.sep.inf.*"/>
+      <cat-item tags="vblex.sep.pprs.*"/>
+      <cat-item tags="vblex.sep.inf.*"/>
+      <cat-item tags="vblex.sep.pri.*"/>
+      <cat-item tags="vblex.sep.prs.*"/>
+      <cat-item tags="vblex.sep.pii.*"/>
+      <cat-item tags="vblex.sep.pis.*"/>
+      <cat-item tags="vblex.sep.imp.*"/>
+      <cat-item tags="vblex.sep.pres.*"/>
+      <cat-item tags="vblex.sep.past.*"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver.*"/> 
+    </def-cat>
     <def-cat n="c_verbm">
       <cat-item tags="vaux"/>
       <cat-item tags="vaux.*"/>
       <cat-item tags="vbmod"/>
       <cat-item tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="c_gerund">
+      <cat-item tags="vblex.ger"/>
+      <cat-item tags="vblex.ger.*"/>
+      <cat-item tags="vblex.sep.ger"/>
+      <cat-item tags="vblex.sep.ger.*"/>
     </def-cat>
     <def-cat n="c_cnjadv">
       <cat-item tags="cnjadv"/>
@@ -218,6 +248,7 @@
       <attr-item tags="past"/>
       <attr-item tags="pres"/>
       <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
     </def-attr>
     <def-attr n="a_stress">
       <attr-item tags="uns"/>
@@ -306,6 +337,12 @@
       <let>  <var n="v_nbr"/>  <clip pos="1" side="tl" part="a_nbr"/>  </let>
     </def-macro>
 
+    <def-macro n="derive_vars_from_gerund" npar="1">
+      <let>  <var n="v_case"/>  <clip pos="1" side="tl" part="a_case"/>  </let>
+      <let>  <var n="v_gen"/>  <lit-tag v="nt"/>  </let>
+      <let>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </let>
+    </def-macro>
+
     <def-macro n="transfer_determiner" npar="1">
       <choose>
 	<when>
@@ -378,6 +415,17 @@
       </let>
     </def-macro>
 
+    <def-macro n="transfer_gerund" npar="1">
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_verb"/>
+	  <clip pos="1" side="tl" part="a_temps"/>
+	</concat>
+      </let>
+    </def-macro>
+
     <def-macro n="upper_case" npar="1">
       <modify-case>
 	<clip pos="1" side="sl" part="lem"/>
@@ -432,7 +480,7 @@
    
     <rule comment="adjust tags of non-modal non-auxilliary verb">
       <pattern>
-	<pattern-item n="c_verbnm"/>
+	<pattern-item n="c_verbnmng"/>
       </pattern>
       <action>
 	<call-macro n="adjust_verb_tags">  <with-param pos="1"/>  </call-macro>
@@ -488,6 +536,27 @@
       <action>
 	<call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
 	<call-macro n="transfer_noun">  <with-param pos="1"/>  </call-macro>
+	<out>
+	  <chunk name="nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><var n="v_case"/></tag>
+	      <tag><var n="v_gen"/></tag>
+	      <tag><var n="v_nbr"/></tag>
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="assemble noun phrase (gerund)">
+      <pattern>
+	<pattern-item n="c_gerund"/>
+      </pattern>
+      <action>
+	<call-macro n="derive_vars_from_gerund">  <with-param pos="1"/>  </call-macro>
+	<call-macro n="transfer_gerund">  <with-param pos="1"/>  </call-macro>
 	<out>
 	  <chunk name="nom" case="caseFirstWord">
 	    <tags>
