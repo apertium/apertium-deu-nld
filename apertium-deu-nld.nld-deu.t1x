@@ -74,6 +74,25 @@
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/> 
     </def-cat>
+    <def-cat n="c_verbnmng"><!--verb no modal, no gerund -->
+      <cat-item tags="vblex.inf.*"/>
+      <cat-item tags="vblex.pprs.*"/>
+      <cat-item tags="vblex.inf.*"/>
+      <cat-item tags="vblex.pri.*"/>
+      <cat-item tags="vblex.prs.*"/>
+      <cat-item tags="vblex.pii.*"/>
+      <cat-item tags="vblex.pis.*"/>
+      <cat-item tags="vblex.imp.*"/>
+      <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vblex.sep.inf.*"/>
+      <cat-item tags="vblex.sep.pprs.*"/>
+      <cat-item tags="vblex.sep.imp.*"/>
+      <cat-item tags="vblex.sep.fm.*"/>
+      <cat-item tags="vblex.sep.fs.*"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver.*"/> 
+    </def-cat>
     <def-cat n="c_verbm">
       <cat-item tags="vaux"/>
       <cat-item tags="vaux.*"/>
@@ -810,7 +829,7 @@
     
     <rule comment="adjust tags of non-modal non-auxilliary verb">
       <pattern>
-	<pattern-item n="c_verbnm"/>
+	<pattern-item n="c_verbnmng"/>
       </pattern>
       <action>
 	<call-macro n="adjust_verb_tags">  <with-param pos="1"/>  </call-macro>

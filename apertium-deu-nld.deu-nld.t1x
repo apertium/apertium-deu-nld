@@ -80,14 +80,9 @@
       <cat-item tags="vblex.past.*"/>
       <cat-item tags="vblex.sep.inf.*"/>
       <cat-item tags="vblex.sep.pprs.*"/>
-      <cat-item tags="vblex.sep.inf.*"/>
-      <cat-item tags="vblex.sep.pri.*"/>
-      <cat-item tags="vblex.sep.prs.*"/>
-      <cat-item tags="vblex.sep.pii.*"/>
-      <cat-item tags="vblex.sep.pis.*"/>
       <cat-item tags="vblex.sep.imp.*"/>
-      <cat-item tags="vblex.sep.pres.*"/>
-      <cat-item tags="vblex.sep.past.*"/>
+      <cat-item tags="vblex.sep.fm.*"/>
+      <cat-item tags="vblex.sep.fs.*"/>
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/> 
     </def-cat>
