@@ -12,7 +12,7 @@ lt-expand $SRCDEU/apertium-deu.deu.dix | grep -v '<prn><enc>' | grep -v '<cmp>'|
         apertium-interchunk ../../apertium-deu-nld.deu-nld.t2x  ../../deu-nld.t2x.bin | tee $TMPDIR/tmp_testvoc4.txt |\
         apertium-postchunk ../../apertium-deu-nld.deu-nld.t3x  ../../deu-nld.t3x.bin | tee $TMPDIR/tmp_testvoc5.txt |\
         lt-proc -d ../../deu-nld.autogen.bin  | sed 's/ \.//g' > $TMPDIR/tmp_testvoc6.txt
-	lt-proc -d ../../deu-nld.autogen.bin $TMPDIR/tmp_testvoc1.txt | sed 's/ \.//g'  > $TMPDIR/tmp_testvoc0.txt
+	lt-proc -d ../../nld-deu.autogen.bin $TMPDIR/tmp_testvoc1.txt | sed 's/ \.//g'  > $TMPDIR/tmp_testvoc0.txt
 paste -d _ $TMPDIR/tmp_testvoc0.txt $TMPDIR/tmp_testvoc1.txt $TMPDIR/tmp_testvoc2.txt $TMPDIR/tmp_testvoc5.txt $TMPDIR/tmp_testvoc6.txt | sed 's/\^.<sent>\$//g' | sed 's/_/ ------>  /g' > /tmp/deu-nld.testvoc
 
 elif [[ $DIR == "nld-deu" ]]; then
