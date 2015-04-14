@@ -199,6 +199,7 @@
       <attr-item tags="det.def"/>
       <attr-item tags="det.dem"/>
       <attr-item tags="det.pos"/>
+      <attr-item tags="det.qnt"/>
       <attr-item tags="det"/>
     </def-attr>
     <def-attr n="a_preadv">
@@ -360,15 +361,32 @@
 	  </choose>
 	</otherwise>
       </choose>
-      <let>
-	<clip pos="1" side="tl" part="whole"/>
-	<concat>
-	  <clip pos="1" side="tl" part="lem"/>
-	  <clip pos="1" side="tl" part="a_det"/>
-	  <clip pos="1" side="tl" part="a_gen"/>
-	  <clip pos="1" side="tl" part="a_nbr"/>
-	</concat>
-      </let>
+      <choose>
+	<when>
+	  <test>
+	    <equal>  <clip pos="1" side="tl" part="a_det"/>  <lit-tag v="det.qnt"/>  </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="a_nbr"/>
+	    </concat>
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <clip pos="1" side="tl" part="whole"/>
+	    <concat>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="a_gen"/>
+	      <clip pos="1" side="tl" part="a_nbr"/>
+	    </concat>
+	  </let>
+	</otherwise>
+      </choose>
     </def-macro>
 
     <def-macro n="transfer_any_attr" npar="1">
