@@ -225,10 +225,13 @@
     <def-attr n="a_temps_pers_nbr">
       <attr-item tags="pri.p1.pl"/>
       <attr-item tags="pii.p1.pl"/>
+      <attr-item tags="prs.p1.pl"/>
       <attr-item tags="pri.p2.pl"/>
       <attr-item tags="pii.p2.pl"/>
+      <attr-item tags="prs.p2.pl"/>
       <attr-item tags="pri.p3.pl"/>
       <attr-item tags="pii.p3.pl"/>
+      <attr-item tags="prs.p3.pl"/>
     </def-attr>
     <def-attr n="a_adj_infl">
       <attr-item tags="st"/>
@@ -268,6 +271,16 @@
 	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p1.pl"/>  </equal>
 	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p2.pl"/>  </equal>
 	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p3.pl"/>  </equal>
+	    </or>
+	  </test>
+	  <let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="past.pl"/>  </let>
+	</when>
+	<when>
+	  <test>
+	    <or>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.p1.pl"/>  </equal>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.p2.pl"/>  </equal>
+	      <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.p3.pl"/>  </equal>
 	    </or>
 	  </test>
 	  <let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="past.pl"/>  </let>
