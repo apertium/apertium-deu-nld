@@ -75,6 +75,7 @@
       <cat-item tags="vbhaver.*"/> 
     </def-cat>
     <def-cat n="c_verbnmng"><!--verb no modal, no gerund -->
+      <cat-item tags="vblex.inf"/>
       <cat-item tags="vblex.inf.*"/>
       <cat-item tags="vblex.pprs.*"/>
       <cat-item tags="vblex.inf.*"/>
@@ -85,6 +86,7 @@
       <cat-item tags="vblex.imp.*"/>
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vblex.sep.inf"/>
       <cat-item tags="vblex.sep.inf.*"/>
       <cat-item tags="vblex.sep.pprs.*"/>
       <cat-item tags="vblex.sep.imp.*"/>
