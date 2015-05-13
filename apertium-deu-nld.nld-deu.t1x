@@ -209,8 +209,9 @@
     </def-attr>
     <def-attr n="a_infl_attr">
       <attr-item tags="adj"/>
-      <attr-item tags="adj.comp"/>
-      <attr-item tags="adj.sup"/>
+      <attr-item tags="adj.sint"/>
+      <attr-item tags="adj.sint.comp"/>
+      <attr-item tags="adj.sint.sup"/>
       <attr-item tags="adj.ord"/>
     </def-attr>
     <def-attr n="a_noninfl_attr">
@@ -1387,6 +1388,48 @@
 	<call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
 	<out>
 	  <chunk name="det_adj_adj_adj_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><var n="v_gen"/></tag><!-- gender -->
+	      <tag><var n="v_det_gen"/></tag>
+	      <tag><var n="v_adj_gen"/></tag>
+	      <tag><var n="v_nbr"/></tag><!-- number -->
+	      <tag><var n="v_case"/></tag><!-- case -->
+	      <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
+	      <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
+	    </tags>
+	    <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+	    <b pos="1"/>
+	    <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+	    <b pos="2"/>
+	    <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+	    <b pos="3"/>
+	    <lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
+	    <b pos="4"/>
+	    <lu>  <clip pos="5" side="tl" part="whole"/>  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+    
+    <rule comment="assemble noun phrase">
+      <pattern>
+	<pattern-item n="c_det"/>
+	<pattern-item n="c_any_attr"/>
+	<pattern-item n="c_cnjcoo"/>
+	<pattern-item n="c_any_attr"/>
+	<pattern-item n="c_nom"/>
+      </pattern>
+      <action>
+	<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+	<call-macro n="derive_vars_from_nom">  <with-param pos="5"/>  </call-macro>
+	<call-macro n="set__v_adj_infl"/>
+	<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+	<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+	<call-macro n="transfer_any_attr">  <with-param pos="4"/>  </call-macro>
+	<call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
+	<out>
+	  <chunk name="det_adj_cnjcoo_adj_nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><var n="v_gen"/></tag><!-- gender -->
