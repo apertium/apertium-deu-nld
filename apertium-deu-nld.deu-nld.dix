@@ -149,7 +149,7 @@
     <e><p><l>verschiedene<s n="det"/><s n="ind"/></l><r>verschillende<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>andere<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>solche<s n="det"/><s n="ind"/></l><r>zulke<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>jede<s n="det"/><s n="ind"/></l><r>elke<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>jede<s n="det"/><s n="ind"/></l><r>elk<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>alle<s n="det"/><s n="ind"/></l><r>allemaal<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>beide<s n="det"/><s n="ind"/></l><r>beide<s n="det"/><s n="ind"/></r></p></e>
     
@@ -1199,6 +1199,7 @@
     <e><p><l>dichterisch<s n="adj"/></l><r>poëtisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>dick<s n="adj"/><s n="sint"/></l><r>dik<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>dick<s n="adj"/><s n="sint"/></l><r>vet<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>direkt<s n="adj"/><s n="sint"/></l><r>direct<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>direkt<s n="adj"/><s n="sint"/></l><r>rechtstreeks<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>diskret<s n="adj"/><s n="sint"/></l><r>discreet<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>divers<s n="adj"/></l><r>divers<s n="adj"/><s n="sint"/></r></p></e>
@@ -3298,6 +3299,7 @@
     <e><p><l>Blei<s n="n"/><s n="nt"/></l><r>lood<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Bleistift<s n="n"/><s n="m"/></l><r>potlood<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Blickfang<s n="n"/><s n="m"/></l><r>blikvanger<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Blickwinkel<s n="n"/><s n="m"/></l><r>oogpunt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Blinddarmentzündung<s n="n"/><s n="f"/></l><r>blindedarmontsteking<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Blindheit<s n="n"/><s n="f"/></l><r>blindheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Blitz<s n="n"/><s n="m"/></l><r>bliksem<s n="n"/><s n="m"/></r></p></e>
@@ -3954,6 +3956,7 @@
     <e><p><l>Emu<s n="n"/><s n="m"/></l><r>emoe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Emulsion<s n="n"/><s n="f"/></l><r>emulsie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Ende<s n="n"/><s n="nt"/></l><r>eind<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Ende<s n="n"/><s n="nt"/></l><r>einde<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Endivie<s n="n"/><s n="f"/></l><r>andijvie<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Endokrinologe<s n="n"/><s n="m"/></l><r>endocrinoloog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Endokrinologie<s n="n"/><s n="f"/></l><r>endocrinologie<s n="n"/><s n="f"/></r></p></e>
@@ -4161,6 +4164,7 @@
     <e><p><l>Falke<s n="n"/><s n="m"/></l><r>valk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Falkner<s n="n"/><s n="m"/></l><r>valkenier<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Falknerei<s n="n"/><s n="f"/></l><r>valkerij<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Fall<s n="n"/><s n="m"/></l><r>geval<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Fall<s n="n"/><s n="m"/></l><r>naamval<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Fallrohr<s n="n"/><s n="nt"/></l><r>regenpijp<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Falltür<s n="n"/><s n="f"/></l><r>valluik<s n="n"/><s n="nt"/></r></p></e>
@@ -5652,6 +5656,7 @@
     <e><p><l>Klick<s n="n"/><s n="m"/></l><r>klik<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Klicklaut<s n="n"/><s n="m"/></l><r>klik<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Klient<s n="n"/><s n="m"/></l><r>klant<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Klima<s n="n"/><s n="nt"/></l><r>klimaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Klimaanlage<s n="n"/><s n="f"/></l><r>airconditioner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Klimatisierung<s n="n"/><s n="f"/></l><r>airconditioning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Klimatologie<s n="n"/><s n="f"/></l><r>klimatologie<s n="n"/><s n="f"/></r></p></e>
@@ -10589,6 +10594,7 @@
     <e><p><l>Süßigkeit<s n="n"/><s n="f"/></l><r>snoepje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Symphonie<s n="n"/><s n="f"/></l><r>symfonie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Syntax<s n="n"/><s n="f"/></l><r>syntaxis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Szenario<s n="n"/><s n="nt"/></l><r>scenario<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Tapferkeit<s n="n"/><s n="f"/></l><r>dapperheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Taufe<s n="n"/><s n="f"/></l><r>doop<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Tautologie<s n="n"/><s n="f"/></l><r>tautologie<s n="n"/><s n="f"/></r></p></e>
