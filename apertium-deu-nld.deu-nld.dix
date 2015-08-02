@@ -680,6 +680,7 @@
     <e><p><l>erst<s n="adv"/></l><r>pas<s n="adv"/></r></p></e>
     <e><p><l>etwa<s n="adv"/></l><r>rond<s n="adv"/></r></p></e>
     <e><p><l>etwas<s n="adv"/></l><r>ietwat<s n="adv"/></r></p></e>
+    <e><p><l>extrem<s n="adv"/></l><r>extreem<s n="adv"/></r></p></e>
     <e><p><l>fast<s n="adv"/></l><r>bijkans<s n="adv"/></r></p></e>
     <e><p><l>fast<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
     <e><p><l>fast<s n="adv"/></l><r>haast<s n="adv"/></r></p></e>
@@ -866,6 +867,7 @@
     <e><p><l>trotzdem<s n="adv"/></l><r>toch<s n="adv"/></r></p></e>
     <e><p><l>tüchtig<s n="adv"/></l><r>flink<s n="adv"/></r></p></e>
     <e><p><l>umgedreht<s n="adv"/></l><r>ondersteboven<s n="adv"/></r></p></e>
+    <e><p><l>umgekehrt<s n="adv"/></l><r>omgekeerd<s n="adv"/></r></p></e>
     <e><p><l>unbeschreiblich<s n="adv"/></l><r>onbeschrijfelijk<s n="adv"/></r></p></e>
     <e><p><l>ungefähr<s n="adv"/></l><r>ongeveer<s n="adv"/></r></p></e>
     <e><p><l>unlängst<s n="adv"/></l><r>onlangs<s n="adv"/></r></p></e>
@@ -1399,6 +1401,7 @@
     <e><p><l>initiell<s n="adj"/></l><r>initieel<s n="adj"/></r></p></e>
     <e><p><l>inkohärent<s n="adj"/></l><r>onsamenhangend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>intakt<s n="adj"/><s n="sint"/></l><r>gaaf<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>intensiv<s n="adj"/><s n="sint"/></l><r>intensief<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>interessant<s n="adj"/><s n="sint"/></l><r>interessant<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>irden<s n="adj"/></l><r>aarden<s n="adj"/></r></p></e>
     <e><p><l>japanisch<s n="adj"/><s n="sint"/></l><r>Japans<s n="adj"/><s n="sint"/></r></p></e>
@@ -1682,6 +1685,7 @@
     <e><p><l>stabil<s n="adj"/><s n="sint"/></l><r>stabiel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>stammend<s n="adj"/></l><r>afkomstig<s n="adj"/></r></p></e>
     <e><p><l>stark<s n="adj"/><s n="sint"/></l><r>sterk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>statistisch<s n="adj"/></l><r>statistisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>stattlich<s n="adj"/><s n="sint"/></l><r>flink<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>steif<s n="adj"/><s n="sint"/></l><r>stug<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>steil<s n="adj"/><s n="sint"/></l><r>steil<s n="adj"/><s n="sint"/></r></p></e>
@@ -2648,6 +2652,7 @@
     <e><p><l>Anatom<s n="n"/><s n="m"/></l><r>anatoom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Anatomie<s n="n"/><s n="f"/></l><r>anatomie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Anatomie<s n="n"/><s n="f"/></l><r>ontleedkunde<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Animation<s n="n"/><s n="f"/></l><r>animatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Anbau<s n="n"/><s n="m"/></l><r>aanbouwsel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Anbetung<s n="n"/><s n="f"/></l><r>aanbidding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Anbieter<s n="n"/><s n="m"/></l><r>aanbieder<s n="n"/><s n="m"/></r></p></e>
@@ -4868,6 +4873,7 @@
     <e><p><l>Greis<s n="n"/><s n="m"/></l><r>grijsaard<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Grenadine<s n="n"/><s n="f"/></l><r>granaatappel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Grenze<s n="n"/><s n="f"/></l><r>grens<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Grieche<s n="n"/><s n="m"/></l><r>Griek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Griechisch<s n="n"/><s n="nt"/></l><r>Grieks<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Grieß<s n="n"/><s n="m"/></l><r>griesmeel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Grille<s n="n"/><s n="f"/></l><r>krekel<s n="n"/><s n="m"/></r></p></e>
@@ -6120,6 +6126,7 @@
     <e><p><l>Lavendel<s n="n"/><s n="m"/></l><r>lavendel<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Lawine<s n="n"/><s n="f"/></l><r>lawine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Leben<s n="n"/><s n="nt"/></l><r>leven<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Lebensform<s n="n"/><s n="f"/></l><r>levensvorm<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Lebensfreude<s n="n"/><s n="f"/></l><r>levenslust<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Lebenslust<s n="n"/><s n="f"/></l><r>levenslust<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Lebensmittel<s n="n"/><s n="nt"/></l><r>voedsel<s n="n"/><s n="nt"/></r></p></e>
@@ -8348,6 +8355,7 @@
     <e><p><l>Stachelbeere<s n="n"/><s n="f"/></l><r>kruisbes<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Stachelschwein<s n="n"/><s n="nt"/></l><r>stekelvarken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Stadion<s n="n"/><s n="nt"/></l><r>stadion<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Stadium<s n="n"/><s n="nt"/></l><r>stadium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Stadt<s n="n"/><s n="f"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Stadtmauer<s n="n"/><s n="f"/></l><r>stadsmuur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Stadtmitte<s n="n"/><s n="f"/></l><r>binnenstad<s n="n"/><s n="f"/></r></p></e>
@@ -10668,6 +10676,7 @@
     <e><p><l>Versuchung<s n="n"/><s n="f"/></l><r>verzoeking<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Verteidiger<s n="n"/><s n="m"/></l><r>verdediger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Verteiler<s n="n"/><s n="m"/></l><r>verspreider<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Verteilung<s n="n"/><s n="f"/></l><r>verdeling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Vervollständigung<s n="n"/><s n="f"/></l><r>voltooiing<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Verwandtschaft<s n="n"/><s n="f"/></l><r>verwantschap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Verzögerung<s n="n"/><s n="f"/></l><r>vertraging<s n="n"/><s n="f"/></r></p></e>
