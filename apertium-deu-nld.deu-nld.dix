@@ -212,6 +212,7 @@
     <e><p><l>dieser<s n="prn"/><s n="dem"/></l><r>deze<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>man<s n="prn"/><s n="ind"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>men<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>sich<s n="prn"/><s n="ref"/></l><r>zich<s n="prn"/><s n="ref"/></r></p></e>
+    <e><p><l>etwas<s n="prn"/></l><r>iets<s n="prn"/></r></p></e>
     
     <!-- nl:  <e><p><l>ik</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> -->
     <!-- de:  <e><p><l>ich</l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e> -->
@@ -631,14 +632,19 @@
     <e><p><l>da<s n="adv"/></l><r>daar<s n="adv"/></r></p></e>
     <e><p><l>da<s n="adv"/></l><r>er<s n="adv"/></r></p></e>
     <e><p><l>dadurch<s n="preadv"/></l><r>daardoor<s n="adv"/></r></p></e>
+    <e><p><l>dafür<s n="preadv"/></l><r>ervoor<s n="adv"/></r></p></e>
     <e><p><l>dagegen<s n="adv"/></l><r>tegenaan<s n="adv"/></r></p></e>
     <e><p><l>damals<s n="adv"/></l><r>destijds<s n="adv"/></r></p></e>
     <e><p><l>damals<s n="adv"/></l><r>toen<s n="adv"/></r></p></e>
     <e><p><l>damit<s n="preadv"/></l><r>daarmee<s n="adv"/></r></p></e>
+    <e><p><l>danach<s n="preadv"/></l><r>daarna<s n="adv"/></r></p></e>
     <e><p><l>danach<s n="adv"/></l><r>nadien<s n="adv"/></r></p></e>
     <e><p><l>dann<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
     <e><p><l>dann<s n="adv"/></l><r>toen<s n="adv"/></r></p></e>
+    <e><p><l>davon<s n="preadv"/></l><r>daarvan<s n="adv"/></r></p></e>
+    <e><p><l>davon<s n="preadv"/></l><r>ervan<s n="adv"/></r></p></e>
     <e><p><l>davonfahren<s n="adv"/></l><r>vandoor<s n="adv"/></r></p></e>
+    <e><p><l>dazu<s n="preadv"/></l><r>ertoe<s n="adv"/></r></p></e>
     <e><p><l>dazumal<s n="adv"/></l><r>destijds<s n="adv"/></r></p></e>
     <e><p><l>demnächst<s n="adv"/></l><r>binnenkort<s n="adv"/></r></p></e>
     <e><p><l>demnächst<s n="adv"/></l><r>straks<s n="adv"/></r></p></e>
@@ -662,6 +668,7 @@
     <e><p><l>durchschnittlich<s n="adv"/></l><r>gemiddeld<s n="adv"/></r></p></e>
     <e><p><l>eben<s n="adv"/></l><r>zo-even<s n="adv"/></r></p></e>
     <e><p><l>ebenfalls<b/>nicht<s n="adv"/></l><r>evenmin<s n="adv"/></r></p></e>
+    <e><p><l>ebenfalls<s n="adv"/></l><r>eveneens<s n="adv"/></r></p></e>
     <e><p><l>ebenso<b/>wenig<s n="adv"/></l><r>evenmin<s n="adv"/></r></p></e>
     <e><p><l>ebenso<s n="adv"/></l><r>evenzo<s n="adv"/></r></p></e>
     <e><p><l>effektiv<s n="adv"/></l><r>effectief<s n="adv"/></r></p></e>
@@ -712,6 +719,7 @@
     <e><p><l>gleich<s n="adv"/></l><r>terstond<s n="adv"/></r></p></e>
     <e><p><l>glücklicherweise<s n="adv"/></l><r>gelukkigerwijs<s n="adv"/></r></p></e>
     <e><p><l>großartig<s n="adv"/></l><r>groot<s n="adv"/></r></p></e>
+    <e><p><l>größtenteils<s n="adv"/></l><r>grotendeels<s n="adv"/></r></p></e>
     <e><p><l>gut<s n="adv"/></l><r>goed<s n="adv"/></r></p></e>
     <e><p><l>hartnäckig<s n="adv"/></l><r>mordicus<s n="adv"/></r></p></e>
     <e><p><l>hauptsächlich<s n="adv"/></l><r>hoofdzakelijk<s n="adv"/></r></p></e>
@@ -727,6 +735,9 @@
     <e><p><l>hier<s n="adv"/></l><r>alhier<s n="adv"/></r></p></e>
     <e><p><l>hier<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
     <e><p><l>hierauf<s n="adv"/></l><r>hierop<s n="adv"/></r></p></e>
+    <e><p><l>hierbei<s n="preadv"/></l><r>hierbij<s n="adv"/></r></p></e>
+    <e><p><l>hierdurch<s n="preadv"/></l><r>hierdoor<s n="adv"/></r></p></e>
+    <e><p><l>hiervon<s n="preadv"/></l><r>hiervan<s n="adv"/></r></p></e>
     <e><p><l>hin<s n="adv"/></l><r>naartoe<s n="adv"/></r></p></e>
     <e><p><l>hinab<s n="adv"/></l><r>omlaag<s n="adv"/></r></p></e>
     <e><p><l>hindurch<s n="adv"/></l><r>doorheen<s n="adv"/></r></p></e>
@@ -804,6 +815,7 @@
     <e><p><l>nirgendwo<s n="adv"/></l><r>nergens<s n="adv"/></r></p></e>
     <e><p><l>noch<s n="adv"/></l><r>nog<s n="adv"/></r></p></e>
     <e><p><l>nochmal<s n="adv"/></l><r>nogmaals<s n="adv"/></r></p></e>
+    <e><p><l>noordwaarts<s n="adv"/></l><r>nordwärts<s n="adv"/></r></p></e>
     <e><p><l>normalerweise<s n="adv"/></l><r>normaliter<s n="adv"/></r></p></e>
     <e><p><l>notwendig<s n="adv"/></l><r>noodzakelijk<s n="adv"/></r></p></e>
     <e><p><l>nun<s n="adv"/></l><r>nu<s n="adv"/></r></p></e>
@@ -900,6 +912,7 @@
     <e><p><l>wasserfest<s n="adv"/></l><r>watervast<s n="adv"/></r></p></e>
     <e><p><l>weit<s n="adv"/></l><r>ver<s n="adv"/></r></p></e>
     <e><p><l>weitaus<s n="adv"/></l><r>verreweg<s n="adv"/></r></p></e>
+    <e><p><l>weiter<s n="adv"/></l><r>verder<s n="adv"/></r></p></e>
     <e><p><l>wenden<s n="adv"/></l><r>overstag<s n="adv"/></r></p></e>
     <e><p><l>wenig<s n="adv"/></l><r>weinig<s n="adv"/></r></p></e>
     <e><p><l>widernatürlich<s n="adv"/></l><r>tegennatuurlijk<s n="adv"/></r></p></e>
@@ -910,6 +923,7 @@
     <e><p><l>wieso<s n="adv"/></l><r>waarom<s n="adv"/></r></p></e>
     <e><p><l>wirklich<s n="adv"/></l><r>heus<s n="adv"/></r></p></e>
     <e><p><l>wo<s n="adv"/></l><r>waar<s n="adv"/></r></p></e>
+    <e><p><l>wodurch<s n="adv"/></l><r>waardoor<s n="adv"/></r></p></e>
     <e><p><l>wohl<s n="adv"/></l><r>wel<s n="adv"/></r></p></e>
     <e><p><l>womit<s n="adv"/></l><r>waarmee<s n="adv"/></r></p></e>
     <e><p><l>worunter<s n="adv"/></l><r>waaronder<s n="adv"/></r></p></e>
@@ -1366,6 +1380,7 @@
     <e><p><l>gut<s n="adj"/><s n="sint"/></l><r>dik<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gut<s n="adj"/><s n="sint"/></l><r>goed<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gültig<s n="adj"/><s n="sint"/></l><r>geldig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>halb<s n="adj"/></l><r>half<s n="adj"/></r></p></e>
     <e><p><l>hart<s n="adj"/><s n="sint"/></l><r>hard<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hart<s n="adj"/><s n="sint"/></l><r>stug<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>heftig<s n="adj"/><s n="sint"/></l><r>fel<s n="adj"/><s n="sint"/></r></p></e>
@@ -1667,6 +1682,7 @@
     <e><p><l>sicher<s n="adj"/><s n="sint"/></l><r>veilig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sicher<s n="adj"/><s n="sint"/></l><r>zeker<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sichtbar<s n="adj"/><s n="sint"/></l><r>zichtbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>siderisch<s n="adj"/></l><r>siderisch<s n="adj"/></r></p></e>
     <e><p><l>sinnlos<s n="adj"/><s n="sint"/></l><r>zinloos<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sinnvoll<s n="adj"/><s n="sint"/></l><r>zinnig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>skeptisch<s n="adj"/><s n="sint"/></l><r>sceptisch<s n="adj"/><s n="sint"/></r></p></e>
@@ -1830,6 +1846,7 @@
     <e><p><l>zerstreut<s n="adj"/><s n="sint"/></l><r>vergeetachtig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>zierlich<s n="adj"/><s n="sint"/></l><r>fraai<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>zufrieden<s n="adj"/><s n="sint"/></l><r>tevreden<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>zugehörig<s n="adj"/></l><r>bijbehorend<s n="adj"/></r></p></e>
     <e><p><l>zusammenhanglos<s n="adj"/></l><r>onsamenhangend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>zuverlässig<s n="adj"/><s n="sint"/></l><r>degelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>zweckentsprechend<s n="adj"/></l><r>doelmatig<s n="adj"/><s n="sint"/></r></p></e>
@@ -2417,6 +2434,7 @@
     <e r="LR"><p><l>Zahnfachentzündung<s n="n"/><s n="f"/></l><r>alveolitis<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>Zwergschimpanse<s n="n"/><s n="m"/></l><r>bonobo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>Äthan<s n="n"/><s n="nt"/></l><r>ethaan<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>Ankunft<s n="n"/><s n="f"/></l><r>komst<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>Fahrrad<s n="n"/><s n="nt"/></l><r>rijwiel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Aal<s n="n"/><s n="m"/></l><r>aal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Aal<s n="n"/><s n="m"/></l><r>paling<s n="n"/><s n="m"/></r></p></e>
@@ -2756,6 +2774,7 @@
     <e><p><l>Anzeichen<s n="n"/><s n="nt"/></l><r>teken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Anzeige<s n="n"/><s n="f"/></l><r>advertentie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Anzeige<s n="n"/><s n="f"/></l><r>proces-verbaal<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Anziehungskraft<s n="n"/><s n="f"/></l><r>aantrekkingskracht<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Anzug<s n="n"/><s n="m"/></l><r>pak<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Anämie<s n="n"/><s n="f"/></l><r>anemie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Anästhesist<s n="n"/><s n="m"/></l><r>anesthesioloog<s n="n"/><s n="m"/></r></p></e>
@@ -3158,6 +3177,7 @@
     <e><p><l>Berghänfling<s n="n"/><s n="m"/></l><r>frater<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bergmann<s n="n"/><s n="m"/></l><r>kompel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bergmann<s n="n"/><s n="m"/></l><r>mijnwerker<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Bergkette<s n="n"/><s n="f"/></l><r>bergketen<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Bergschuh<s n="n"/><s n="m"/></l><r>wandelschoen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bergtrikot<s n="n"/><s n="nt"/></l><r>bolletjestrui<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Bergziege<s n="n"/><s n="f"/></l><r>berggeit<s n="n"/><s n="f"/></r></p></e>
@@ -3917,6 +3937,7 @@
     <e><p><l>Eisprung<s n="n"/><s n="m"/></l><r>ovulatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Eisregen<s n="n"/><s n="m"/></l><r>ijzel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Eisvogel<s n="n"/><s n="m"/></l><r>ijsvogel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Eiszeit<s n="n"/><s n="f"/></l><r>ijstijd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Eitelkeit<s n="n"/><s n="f"/></l><r>ijdelheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Eiter<s n="n"/><s n="m"/></l><r>etter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Ekel<s n="n"/><s n="m"/></l><r>afschuw<s n="n"/><s n="m"/></r></p></e>
@@ -4016,6 +4037,7 @@
     <e><p><l>Erdbeerefladen<s n="n"/><s n="m"/></l><r>aardbeienvlaai<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Erde<s n="n"/><s n="f"/></l><r>aarde<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Erderwärmung<s n="n"/><s n="f"/></l><r>opwarming<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Erdoberfläche<s n="n"/><s n="f"/></l><r>aardoppervlak<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Erdferkel<s n="n"/><s n="nt"/></l><r>aardvarken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Erdgas<s n="n"/><s n="nt"/></l><r>aardgas<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Erdgasförderung<s n="n"/><s n="f"/></l><r>aardgaswinning<s n="n"/><s n="f"/></r></p></e>
@@ -4026,6 +4048,7 @@
     <e><p><l>Erdkunde<s n="n"/><s n="f"/></l><r>aardrijkskunde<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Erdleitung<s n="n"/><s n="f"/></l><r>aardleiding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Erdmaus<s n="n"/><s n="f"/></l><r>aardmuis<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Erdmantel<s n="n"/><s n="m"/></l><r>aardmantel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Erdnuss<s n="n"/><s n="f"/></l><r>pinda<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Erdnussbutter<s n="n"/><s n="f"/></l><r>pindakaas<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Erdnussöl<s n="n"/><s n="nt"/></l><r>arachideolie<s n="n"/><s n="mf"/></r></p></e>
@@ -6273,6 +6296,7 @@
     <e><p><l>Lyra<s n="n"/><s n="f"/></l><r>lier<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Lächeln<s n="n"/><s n="nt"/></l><r>glimlach<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Lähmung<s n="n"/><s n="f"/></l><r>verlamming<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Länge<s n="n"/><s n="f"/></l><r>lengte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Lärm<s n="n"/><s n="m"/></l><r>herrie<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Lärm<s n="n"/><s n="m"/></l><r>lawaai<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Lärmbelästigung<s n="n"/><s n="f"/></l><r>geluidshinder<s n="n"/><s n="m"/></r></p></e>
@@ -7580,6 +7604,7 @@
     <e><p><l>Rost<s n="n"/><s n="m"/></l><r>roest<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Rost<s n="n"/><s n="m"/></l><r>roest<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Rot<s n="n"/><s n="nt"/></l><r>rood<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Rotation<s n="n"/><s n="f"/></l><r>rotatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Rotbarsch<s n="n"/><s n="m"/></l><r>roodbaars<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Rotfeder<s n="n"/><s n="m"/></l><r>ruisvoorn<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Rothirsch<s n="n"/><s n="m"/></l><r>edelhert<s n="n"/><s n="nt"/></r></p></e>
@@ -8166,6 +8191,7 @@
     <e><p><l>Sikahirsch<s n="n"/><s n="m"/></l><r>sikahert<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Silbe<s n="n"/><s n="f"/></l><r>lettergreep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Silber<s n="n"/><s n="nt"/></l><r>zilver<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Silikat<s n="n"/><s n="nt"/></l><r>silicaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Silizium<s n="n"/><s n="nt"/></l><r>silicium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Singdrossel<s n="n"/><s n="f"/></l><r>zanglijster<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Sinn<s n="n"/><s n="m"/></l><r>bedoeling<s n="n"/><s n="f"/></r></p></e>
@@ -9219,6 +9245,7 @@
     <e><p><l>Vorhang<s n="n"/><s n="m"/></l><r>gordijn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Vorhang<s n="n"/><s n="m"/></l><r>scherm<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Vorhangschiene<s n="n"/><s n="f"/></l><r>gordijnrail<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Vorhersage<s n="n"/><s n="f"/></l><r>voorspelling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Vorkehrung<s n="n"/><s n="f"/></l><r>faciliteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Vorname<s n="n"/><s n="m"/></l><r>voornaam<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Vorrat<s n="n"/><s n="m"/></l><r>voorraad<s n="n"/><s n="m"/></r></p></e>
