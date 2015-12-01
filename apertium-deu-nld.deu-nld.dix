@@ -213,6 +213,18 @@
     <e><p><l>man<s n="prn"/><s n="ind"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>men<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>sich<s n="prn"/><s n="ref"/></l><r>zich<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>etwas<s n="prn"/></l><r>iets<s n="prn"/></r></p></e>
+    <e><p><l>alles<s n="prn"/></l><r>alles<s n="prn"/></r></p></e>
+    <e><p><l>nichts<s n="prn"/></l><r>niets<s n="prn"/></r></p></e>
+    <e><p><l>einander<s n="prn"/></l><r>mekaar<s n="prn"/></r></p></e>
+    <e><p><l>alle<s n="prn"/></l><r>allemaal<s n="prn"/></r></p></e>
+    <e><p><l>alles<s n="prn"/></l><r>allemaal<s n="prn"/></r></p></e>
+    <e><p><l>jemand<s n="prn"/></l><r>iemand<s n="prn"/></r></p></e>
+    <e><p><l>niemand<s n="prn"/></l><r>niemand<s n="prn"/></r></p></e>
+    <e><p><l>jedermann<s n="prn"/></l><r>iedereen<s n="prn"/></r></p></e>
+    <e><p><l>allerlei<s n="prn"/></l><r>allerlei<s n="prn"/></r></p></e>
+    <e><p><l>derselbe<s n="prn"/></l><r>dezelfde<s n="prn"/></r></p></e>
+    <e><p><l>selbst<s n="prn"/></l><r>zelf<s n="prn"/></r></p></e>
+    <e><p><l>sich<b/>selbst<s n="prn"/></l><r>zichzelf<s n="prn"/></r></p></e>
     
     <!-- nl:  <e><p><l>ik</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> -->
     <!-- de:  <e><p><l>ich</l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e> -->
@@ -410,7 +422,7 @@
     <e r="RL"><p><l>um<b/>zu<s n="cnjsub"/></l><r>teneinde<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>weil<s n="cnjsub"/></l><r>wijl<s n="cnjsub"/></r></p></e>
     <e><p><l>alldieweil<s n="cnjsub"/></l><r>dewijl<s n="cnjsub"/></r></p></e>
-    <e><p><l>allerdings<s n="cnjsub"/></l><r>echter<s n="cnjsub"/></r></p></e>
+    <e><p><l>allerdings<s n="cnjadv"/></l><r>echter<s n="cnjcoo"/></r></p></e>
     <e><p><l>als<b/>ob<s n="cnjadv"/></l><r>alsof<s n="cnjadv"/></r></p></e>
     <e><p><l>als<s n="cnjadv"/></l><r>dan<s n="cnjadv"/></r></p></e>
     <e><p><l>als<s n="cnjadv"/></l><r>toen<s n="cnjadv"/></r></p></e>
@@ -432,8 +444,9 @@
     <e><p><l>hingegen<s n="cnjsub"/></l><r>daarentgegen<s n="cnjsub"/></r></p></e>
     <e><p><l>indem<s n="cnjsub"/></l><r>doordat<s n="cnjadv"/></r></p></e>
     <e><p><l>je<b/>nachdem,<b/>wie<s n="cnjsub"/></l><r>naargelang<s n="cnjsub"/></r></p></e>
-    <e><p><l>jedoch<s n="cnjsub"/></l><r>echter<s n="cnjsub"/></r></p></e>
+    <e><p><l>jedoch<s n="cnjadv"/></l><r>echter<s n="cnjcoo"/></r></p></e>
     <e><p><l>nachdem<s n="cnjsub"/></l><r>nadat<s n="cnjadv"/></r></p></e>
+    <e><p><l>nichtsdestoweniger<s n="cnjadv"/></l><r>niettemin<s n="cnjcoo"/></r></p></e>
     <e><p><l>noch<s n="cnjsub"/></l><r>noch<s n="cnjsub"/></r></p></e>	<!-- weder, noch -->
     <e><p><l>nun<s n="cnjsub"/></l><r>nu<s n="cnjadv"/></r></p></e>
     <e><p><l>ob<s n="cnjsub"/></l><r>of<s n="cnjsub"/></r></p></e>
@@ -445,10 +458,11 @@
     <e><p><l>seitdem<s n="cnjsub"/></l><r>sinds<s n="cnjadv"/></r></p></e>
     <e><p><l>sobald<s n="cnjsub"/></l><r>zodra<s n="cnjadv"/></r></p></e>
     <e><p><l>sodass<s n="cnjsub"/></l><r>zodat<s n="cnjadv"/></r></p></e>
+    <e><p><l>sodass<s n="cnjsub"/></l><r>zodat<s n="cnjsub"/></r></p></e>
     <e><p><l>sofern<s n="cnjsub"/></l><r>mits<s n="cnjsub"/></r></p></e>
     <e><p><l>solange<s n="cnjsub"/></l><r>zolang<s n="cnjadv"/></r></p></e>
     <e><p><l>sonst<s n="cnjsub"/></l><r>anders<s n="cnjsub"/></r></p></e>
-    <e><p><l>sowie<s n="cnjsub"/></l><r>alsmede<s n="cnjsub"/></r></p></e>
+    <e><p><l>sowie<s n="cnjcoo"/></l><r>alsook<s n="cnjcoo"/></r></p></e>
     <e><p><l>um<s n="cnjsub"/></l><r>om<s n="cnjsub"/></r></p></e>	<!-- um ... zu (om ... te) -->
     <e><p><l>weder<s n="cnjsub"/></l><r>noch<s n="cnjsub"/></r></p></e>	<!-- weder, noch -->
     <e><p><l>weil<s n="cnjsub"/></l><r>omdat<s n="cnjsub"/></r></p></e>
@@ -790,6 +804,7 @@
     <e><p><l>logischerweise<s n="adv"/></l><r>logischerwijs<s n="adv"/></r></p></e>
     <e><p><l>meistens<s n="adv"/></l><r>meestal<s n="adv"/></r></p></e>
     <e><p><l>mindestens<s n="adv"/></l><r>althans<s n="adv"/></r></p></e>
+    <e><p><l>mit<s n="adv"/></l><r>mee<s n="adv"/></r></p></e>
     <e><p><l>mittlerweile<s n="adv"/></l><r>inmiddels<s n="adv"/></r></p></e>
     <e><p><l>mitunter<s n="adv"/></l><r>bijwijlen<s n="adv"/></r></p></e>
     <e><p><l>monatlich<s n="adv"/></l><r>maandelijks<s n="adv"/></r></p></e>
@@ -1210,6 +1225,7 @@
     <e><p><l>demontierbar<s n="adj"/></l><r>demonteerbaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>depressiv<s n="adj"/><s n="sint"/></l><r>depressief<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>deprimiert<s n="adj"/></l><r>somber<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>derartig<s n="adj"/></l><r>dergelijk<s n="adj"/></r></p></e>
     <e><p><l>deutlich<s n="adj"/><s n="sint"/></l><r>duidelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>deutsch<s n="adj"/><s n="sint"/></l><r>Duits<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>dicht<s n="adj"/><s n="sint"/></l><r>dicht<s n="adj"/><s n="sint"/></r></p></e>
@@ -1455,6 +1471,7 @@
     <e><p><l>konservativ<s n="adj"/><s n="sint"/></l><r>conservatief<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>konstitutionell<s n="adj"/></l><r>constitutioneel<s n="adj"/></r></p></e>
     <e><p><l>kontinuierlich<s n="adj"/><s n="sint"/></l><r>continu<s n="adj"/></r></p></e>
+    <e><p><l>kosmisch<s n="adj"/></l><r>kosmisch<s n="adj"/></r></p></e>
     <e><p><l>kostenlos<s n="adj"/></l><r>gratis<s n="adj"/></r></p></e>
     <e><p><l>krank<s n="adj"/><s n="sint"/></l><r>ziek<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>kreativ<s n="adj"/><s n="sint"/></l><r>creatief<s n="adj"/><s n="sint"/></r></p></e>
@@ -2624,6 +2641,7 @@
     <e><p><l>Altar<s n="n"/><s n="m"/></l><r>altaar<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Altenglisch<s n="n"/><s n="nt"/></l><r>Oudengels<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Alter<s n="n"/><s n="nt"/></l><r>leeftijd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Alter<s n="n"/><s n="nt"/></l><r>ouderdom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Alternative<s n="n"/><s n="f"/></l><r>alternatief<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Altgriechisch<s n="n"/><s n="nt"/></l><r>Oudgrieks<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Althochdeutsch<s n="n"/><s n="nt"/></l><r>Oudhoogduits<s n="n"/><s n="nt"/></r></p></e>
@@ -9659,6 +9677,7 @@
     <e><p><l>Zeitmaschine<s n="n"/><s n="f"/></l><r>tijdmachine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Zeitpunkt<s n="n"/><s n="m"/></l><r>tijdstip<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Zeitschrift<s n="n"/><s n="f"/></l><r>tijdschrift<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Zeitskala<s n="n"/><s n="f"/></l><r>tijdschaal<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Zeitung<s n="n"/><s n="f"/></l><r>courant<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Zeitung<s n="n"/><s n="f"/></l><r>dagblad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Zeitung<s n="n"/><s n="f"/></l><r>krant<s n="n"/><s n="m"/></r></p></e>
