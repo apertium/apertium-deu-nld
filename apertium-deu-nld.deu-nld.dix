@@ -771,7 +771,7 @@
     <e><p><l>in<b/>Zukunft<s n="adv"/></l><r>voortaan<s n="adv"/></r></p></e>
     <e><p><l>in<b/>der<b/>Absicht<s n="adv"/></l><r>voornemens<s n="adv"/></r></p></e>
     <e><p><l>inkohärent<s n="adv"/></l><r>incoherent<s n="adv"/></r></p></e>
-    <e><p><l>insbespndere<s n="adv"/></l><r>voornamelijk<s n="adv"/></r></p></e>
+    <e><p><l>insbesondere<s n="adv"/></l><r>voornamelijk<s n="adv"/></r></p></e>
     <e><p><l>interessanterweise<s n="adv"/></l><r>interessanterwijze<s n="adv"/></r></p></e>
     <e><p><l>inzwischen<s n="adv"/></l><r>inmiddels<s n="adv"/></r></p></e>
     <e><p><l>inzwischen<s n="adv"/></l><r>intussen<s n="adv"/></r></p></e>
@@ -830,7 +830,7 @@
     <e><p><l>nirgendwo<s n="adv"/></l><r>nergens<s n="adv"/></r></p></e>
     <e><p><l>noch<s n="adv"/></l><r>nog<s n="adv"/></r></p></e>
     <e><p><l>nochmal<s n="adv"/></l><r>nogmaals<s n="adv"/></r></p></e>
-    <e><p><l>noordwaarts<s n="adv"/></l><r>nordwärts<s n="adv"/></r></p></e>
+    <e><p><l>nordwärts<s n="adv"/></l><r>noordwaarts<s n="adv"/></r></p></e>
     <e><p><l>normalerweise<s n="adv"/></l><r>normaliter<s n="adv"/></r></p></e>
     <e><p><l>notwendig<s n="adv"/></l><r>noodzakelijk<s n="adv"/></r></p></e>
     <e><p><l>nun<s n="adv"/></l><r>nu<s n="adv"/></r></p></e>
@@ -1370,7 +1370,7 @@
     <e><p><l>gering<s n="adj"/><s n="sint"/></l><r>gering<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>germanisch<s n="adj"/></l><r>Germaans<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geräumig<s n="adj"/><s n="sint"/></l><r>ruim<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>geschikt<s n="adj"/></l><r>bekwaam<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>geschickt<s n="adj"/></l><r>bekwaam<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geschlossen<s n="adj"/></l><r>gesloten<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gesellschaftlich<s n="adj"/><s n="sint"/></l><r>maatschappelijk<s n="adj"/></r></p></e>
     <e><p><l>gesetzlich<s n="adj"/></l><r>wettelijk<s n="adj"/><s n="sint"/></r></p></e>
@@ -3531,7 +3531,7 @@
     <e><p><l>Böswilligkeit<s n="n"/><s n="f"/></l><r>boosheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Bücherregal<s n="n"/><s n="nt"/></l><r>boekenkast<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Büchse<s n="n"/><s n="f"/></l><r>blik<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Büchsenöffener<s n="n"/><s n="m"/></l><r>blikopener<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Büchsenöffner<s n="n"/><s n="m"/></l><r>blikopener<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bückling<s n="n"/><s n="m"/></l><r>bokking<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Büffel<s n="n"/><s n="m"/></l><r>buffel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bügeleisen<s n="n"/><s n="nt"/></l><r>strijkijzer<s n="n"/><s n="nt"/></r></p></e>
@@ -3839,7 +3839,7 @@
     <e><p><l>Durchgang<s n="n"/><s n="m"/></l><r>gangpad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Durchmesser<s n="n"/><s n="m"/></l><r>diameter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Durchschlag<s n="n"/><s n="m"/></l><r>drevel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Durchschnit<s n="n"/><s n="m"/></l><r>gemiddelde<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Durchschnitt<s n="n"/><s n="m"/></l><r>gemiddelde<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Durchschnitt<s n="n"/><s n="m"/></l><r>doorsnede<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Durchschnitt<s n="n"/><s n="m"/></l><r>doorsnee<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Dussel<s n="n"/><s n="m"/></l><r>druiloor<s n="n"/><s n="m"/></r></p></e>
@@ -4451,7 +4451,7 @@
     <e><p><l>Fracht<s n="n"/><s n="f"/></l><r>vracht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Frachter<s n="n"/><s n="m"/></l><r>vrachtboot<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Frachtschiff<s n="n"/><s n="nt"/></l><r>vrachtschip<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Frachtshiff<s n="n"/><s n="nt"/></l><r>bulkschip<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Frachtschiff<s n="n"/><s n="nt"/></l><r>bulkschip<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Frage<s n="n"/><s n="f"/></l><r>vraag<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Fragesatz<s n="n"/><s n="m"/></l><r>vraagzin<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Fraktion<s n="n"/><s n="f"/></l><r>factie<s n="n"/><s n="f"/></r></p></e>
@@ -4881,7 +4881,7 @@
     <e><p><l>Gorilla<s n="n"/><s n="m"/></l><r>gorilla<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Gossenjargon<s n="n"/><s n="m"/></l><r>straattaal<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Gott<s n="n"/><s n="m"/></l><r>god<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Gottanbeterin<s n="n"/><s n="f"/></l><r>bidsprinkhaan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Gottesanbeterin<s n="n"/><s n="f"/></l><r>bidsprinkhaan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Gottesdienst<s n="n"/><s n="m"/></l><r>kerkdienst<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Gottesleugner<s n="n"/><s n="m"/></l><r>atheïst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Gottheit<s n="n"/><s n="f"/></l><r>godheid<s n="n"/><s n="f"/></r></p></e>
@@ -5191,7 +5191,7 @@
     <e><p><l>Hobby<s n="n"/><s n="nt"/></l><r>hobby<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Hobel<s n="n"/><s n="m"/></l><r>schaaf<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Hochebene<s n="n"/><s n="f"/></l><r>hoogvlakte<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Hochgeschwindigheitszug<s n="n"/><s n="m"/></l><r>hogesnelheidstrein<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Hochgeschwindigkeitszug<s n="n"/><s n="m"/></l><r>hogesnelheidstrein<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Hochglanzmagazin<s n="n"/><s n="nt"/></l><r>glossy<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Hochmut<s n="n"/><s n="m"/></l><r>hoogmoed<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Hochschule<s n="n"/><s n="f"/></l><r>hogeschool<s n="n"/><s n="m"/></r></p></e>
@@ -5282,7 +5282,7 @@
     <e><p><l>Höhle<s n="n"/><s n="f"/></l><r>spelonk<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Höhlenbewohner<s n="n"/><s n="m"/></l><r>holbewoner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Höhlenmensch<s n="n"/><s n="m"/></l><r>holbewoner<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Hölenbär<s n="n"/><s n="m"/></l><r>holenbeer<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Höhlenbär<s n="n"/><s n="m"/></l><r>holenbeer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Hölle<s n="n"/><s n="f"/></l><r>hel<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Hörgerät<s n="n"/><s n="nt"/></l><r>hoorapparaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Hörproblem<s n="n"/><s n="nt"/></l><r>gehoorprobleem<s n="n"/><s n="nt"/></r></p></e>
@@ -6460,7 +6460,7 @@
     <e><p><l>Meeresboden<s n="n"/><s n="m"/></l><r>zeebodem<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Meeresbucht<s n="n"/><s n="f"/></l><r>baai<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Meeresgrund<s n="n"/><s n="m"/></l><r>zeebodem<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Meerespiegel<s n="n"/><s n="m"/></l><r>zeeniveau<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Meeresspiegel<s n="n"/><s n="m"/></l><r>zeeniveau<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Meerjungfrau<s n="n"/><s n="f"/></l><r>zeemeermin<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Meerkatze<s n="n"/><s n="f"/></l><r>meerkat<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Meerrettich<s n="n"/><s n="m"/></l><r>mierikswortel<s n="n"/><s n="m"/></r></p></e>
@@ -9236,7 +9236,7 @@
     <e><p><l>Vogelspinne<s n="n"/><s n="f"/></l><r>vogelspin<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Vokal<s n="n"/><s n="m"/></l><r>klinker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Volk<s n="n"/><s n="nt"/></l><r>volk<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Volkornbrot<s n="n"/><s n="nt"/></l><r>volkorenbrood<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Vollkornbrot<s n="n"/><s n="nt"/></l><r>volkorenbrood<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Volksbezeichnung<s n="n"/><s n="f"/></l><r>demoniem<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Volkssprache<s n="n"/><s n="f"/></l><r>volkstaal<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Volksvertreter<s n="n"/><s n="nt"/></l><r>Kamerlid<s n="n"/><s n="nt"/></r></p></e>
@@ -10369,7 +10369,7 @@
     <e><p><l>Manuskript<s n="n"/><s n="nt"/></l><r>manuscript<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Marihuana<s n="n"/><s n="nt"/></l><r>marihuana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Marionette<s n="n"/><s n="f"/></l><r>marionet<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>Material</l><r>materiaal<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Material<s n="n"/><s n="nt"/></l><r>materiaal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Medikament<s n="n"/><s n="nt"/></l><r>drug<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Medikation<s n="n"/><s n="f"/></l><r>medicatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Medium<s n="n"/><s n="nt"/></l><r>medium<s n="n"/><s n="nt"/></r></p></e>
@@ -10810,7 +10810,7 @@
     <e><p><l>La<b/>Louvière<s n="np"/></l><r>La<b/>Louvière<s n="np"/></r></p></e>
     <e><p><l>La<b/>Paz<s n="np"/></l><r>La<b/>Paz<s n="np"/></r></p></e>
     <e><p><l>Holland<s n="np"/></l><r>Holland<s n="np"/></r></p></e>
-  <e><p><l>Nederlanden<s n="np"/></l><r>Nederlanden<s n="np"/></r></p></e>
+    <e><p><l>Niederlande<s n="np"/></l><r>Nederlanden<s n="np"/></r></p></e>
     <e><p><l>Gent<s n="np"/></l><r>Gent<s n="np"/></r></p></e>
     <e><p><l>Amerika<s n="np"/></l><r>Amerika<s n="np"/></r></p></e>
     <e><p><l>New<b/>York<s n="np"/></l><r>New<b/>York<s n="np"/></r></p></e>
@@ -11139,7 +11139,7 @@
     <e><p><l>Linux<s n="np"/></l><r>Linux<s n="np"/></r></p></e>
     <e><p><l>Javascript<s n="np"/></l><r>Javascript<s n="np"/></r></p></e>
     <e><p><l>Hezbollah<s n="np"/></l><r>Hezbollah<s n="np"/></r></p></e>
-    <e><p><l>NAVO<s n="np"/></l><r>NAVO<s n="np"/></r></p></e>
+    <e><p><l>NATO<s n="np"/></l><r>NAVO<s n="np"/></r></p></e>
     <e><p><l>Amnesty<b/>International<s n="np"/></l><r>Amnesty<b/>International<s n="np"/></r></p></e>
 
     <e><p><l>Botha<s n="np"/></l><r>Botha<s n="np"/></r></p></e>
