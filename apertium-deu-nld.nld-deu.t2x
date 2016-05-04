@@ -101,91 +101,24 @@
 
     <def-macro n="set__v_adj_infl" npar="0">
       <choose>
-	<when>  <!-- special cases without inflection tag -->
-	  <test>
-	    <or>
-	      <and>
-		<equal>  <var n="v_gen"/>  <lit-tag v="f"/>  </equal>
-		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-		<equal>  <var n="v_case"/>  <lit-tag v="nom"/>  </equal>
-	      </and>
-	      <and>
-		<equal>  <var n="v_gen"/>  <lit-tag v="m"/>  </equal>
-		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-		<equal>  <var n="v_case"/>  <lit-tag v="acc"/>  </equal>
-	      </and>
-	      <and>
-		<equal>  <var n="v_gen"/>  <lit-tag v="f"/>  </equal>
-		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-		<equal>  <var n="v_case"/>  <lit-tag v="acc"/>  </equal>
-	      </and>
-	      <and>
-		<equal>  <var n="v_gen"/>  <lit-tag v="m"/>  </equal>
-		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-		<equal>  <var n="v_case"/>  <lit-tag v="gen"/>  </equal>
-	      </and>
-	      <and>
-		<equal>  <var n="v_gen"/>  <lit-tag v="nt"/>  </equal>
-		<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-		<equal>  <var n="v_case"/>  <lit-tag v="gen"/>  </equal>
-	      </and>
-	      <and>
-<!--		<equal>  <var n="v_gen"/>  <lit-tag v="mf"/>  </equal>-->
-		<equal>  <var n="v_nbr"/>  <lit-tag v="pl"/>  </equal>
-		<equal>  <var n="v_case"/>  <lit-tag v="dat"/>  </equal>
-	      </and>
-	    </or>
-	  </test>
-	  <let>  <var n="v_adj_infl"/>  <lit v=""/>  </let>
-	</when>
-
-	<otherwise>
-	  <choose>
-	    <when>
-	      <test>
-		<or>
-		  <and>
-		    <equal>  <var n="v_gen"/>  <lit-tag v="m"/>  </equal>
-		    <equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-		    <equal>  <var n="v_case"/>  <lit-tag v="nom"/>  </equal>
-		  </and>
-		  <and>
-		    <equal>  <var n="v_gen"/>  <lit-tag v="nt"/>  </equal>
-		    <equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-		    <or>
-		      <equal>  <var n="v_case"/>  <lit-tag v="nom"/>  </equal>
-		      <equal>  <var n="v_case"/>  <lit-tag v="acc"/>  </equal>
-		    </or>
-		  </and>
-		</or>
-	      </test>
-	      <choose>
-		<when>
-		  <test>
-		    <equal>  <var n="v_det_type"/>  <lit-tag v="def"/>  </equal>
-		  </test>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="sw"/>  </let>
-		</when>
-		<otherwise>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
-		</otherwise>
-	      </choose>
-	    </when>
-	    <otherwise>
-	      <choose>
-		<when>
-		  <test>
-		    <equal>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </equal>
-		  </test>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="st"/>  </let>
-		</when>
-		<otherwise>
-		  <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
-		</otherwise>
-	      </choose>
-	    </otherwise>
-	  </choose>
-	</otherwise>
+        <when>
+          <test>
+            <equal>  <var n="v_det_type"/>  <lit-tag v="def"/>  </equal>
+          </test>
+          <let>  <var n="v_adj_infl"/>  <lit-tag v="sw"/>  </let>
+        </when>
+        <when>
+          <test>
+            <equal>  <var n="v_det_type"/>  <lit-tag v="ind"/>  </equal>
+          </test>
+          <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
+        </when>
+        <when>
+          <test>
+            <equal>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </equal>
+          </test>
+          <let>  <var n="v_adj_infl"/>  <lit-tag v="st"/>  </let>
+        </when>
       </choose>
     </def-macro>
 
