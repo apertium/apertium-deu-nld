@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <interchunk>
+
   <section-def-cats>
     <def-cat n="SN">
       <cat-item tags="SN"/>
@@ -8,6 +9,12 @@
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
+    </def-cat>
+    <def-cat n="ADV">
+      <cat-item tags="ADV"/>
+      <cat-item tags="ADV.*"/>
+      <cat-item tags="PREADV"/>
+      <cat-item tags="PREADV.*"/>
     </def-cat>
     <def-cat n="PR">
       <cat-item tags="PR"/>
@@ -33,6 +40,18 @@
       <cat-item tags="CNJCOO"/>
       <cat-item tags="CNJCOO.*"/>
     </def-cat>
+    <def-cat n="CNJ">
+      <cat-item tags="CNJCOO"/>
+      <cat-item tags="CNJCOO.*"/>
+      <cat-item tags="CNJSUB"/>
+      <cat-item tags="CNJSUB.*"/>
+      <cat-item tags="CNJADV"/>
+      <cat-item tags="CNJADV.*"/>
+    </def-cat>
+    <def-cat n="IJ">
+      <cat-item tags="IJ"/>
+      <cat-item tags="IJ.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -54,12 +73,12 @@
       <attr-item tags="m.m.m"/>
       <attr-item tags="mf.mfn.mf"/>
       <attr-item tags="nt.nt.nt"/>
-      
+
       <attr-item tags="f.mfn.mf"/>
       <attr-item tags="m.mfn.mf"/>
       <attr-item tags="mf.mfn.mf"/>
       <attr-item tags="nt.mfn.mf"/>
-      
+
       <!-- as place holder -->
       <attr-item tags="mf.mf.mf"/>
       <attr-item tags="mfn.mfn.mf"/>
@@ -96,7 +115,7 @@
     <def-var n="v_most_recent_gen_triple"/>
     <def-var n="v_1st_obj_case"/>
   </section-def-vars>
-  
+
   <section-def-macros>
 
     <def-macro n="set__v_adj_infl" npar="0">
@@ -129,257 +148,256 @@
       <let>  <var n="v_det_type"/>  <clip pos="2" part="a_det_type"/>  </let>
       <call-macro n="set__v_adj_infl"/>
       <let>
-	<clip pos="2" part="whole"/>
-	<concat>
-	  <clip pos="2" part="lem"/>
-	  <lit-tag v="SN"/>
-	  <clip pos="2" part="a_gen_triple"/>
-	  <clip pos="2" part="a_nbr"/>
-	  <clip pos="1" part="a_case"/>
-	  <clip pos="2" part="a_det_type"/>
-	  <var n="v_adj_infl"/>
-	</concat>
+        <clip pos="2" part="whole"/>
+        <concat>
+          <clip pos="2" part="lem"/>
+          <lit-tag v="SN"/>
+          <clip pos="2" part="a_gen_triple"/>
+          <clip pos="2" part="a_nbr"/>
+          <clip pos="1" part="a_case"/>
+          <clip pos="2" part="a_det_type"/>
+          <var n="v_adj_infl"/>
+        </concat>
       </let>
     </def-macro>
 
     <def-macro n="set_most_recent_gen_triple" npar="1">
       <choose>
-	<when>
-	  <test>
-	    <and>
-	      <equal>  <clip pos="1" part="lem"/>  <lit v="det"/>  </equal>
-	      <equal>  <clip pos="1" part="a_gen_triple"/>  <lit-tag v="mf.m.mf"/>  </equal>
-	    </and>
-	  </test>
-	  <let>  <clip pos="1" part="a_gen_triple"/>  <var n="v_most_recent_gen_triple"/>  </let>
-	</when>
-	<otherwise>
-	  <let>  <var n="v_most_recent_gen_triple"/>  <clip pos="1" part="a_gen_triple"/>  </let>
-	</otherwise>
+        <when>
+          <test>
+            <and>
+              <equal>  <clip pos="1" part="lem"/>  <lit v="det"/>  </equal>
+              <equal>  <clip pos="1" part="a_gen_triple"/>  <lit-tag v="mf.m.mf"/>  </equal>
+            </and>
+          </test>
+          <let>  <clip pos="1" part="a_gen_triple"/>  <var n="v_most_recent_gen_triple"/>  </let>
+        </when>
+        <otherwise>
+          <let>  <var n="v_most_recent_gen_triple"/>  <clip pos="1" part="a_gen_triple"/>  </let>
+        </otherwise>
       </choose>
     </def-macro>
 
     <def-macro n="adjust_relative_pronoun" npar="1">
       <choose>
-	<when>
-	  <test>
-	    <equal>  <clip pos="1" part="a_gen"/>  <lit-tag v="mf"/>  </equal>
-	  </test>
-	  <choose>
-	    <when>
-	      <test>
-		<begins-with>  <var n="v_most_recent_gen_triple"/>  <lit-tag v="m"/>  </begins-with>
-	      </test>
-	      <let>  <clip pos="1" part="a_gen"/>  <lit-tag v="m"/>  </let>
-	    </when>
-	    <when>
-	      <test>
-		<begins-with>  <var n="v_most_recent_gen_triple"/>  <lit-tag v="f"/>  </begins-with>
-	      </test>
-	      <let>  <clip pos="1" part="a_gen"/>  <lit-tag v="f"/>  </let>
-	    </when>
-	  </choose>
-	</when>
+        <when>
+          <test>
+            <equal>  <clip pos="1" part="a_gen"/>  <lit-tag v="mf"/>  </equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <begins-with>  <var n="v_most_recent_gen_triple"/>  <lit-tag v="m"/>  </begins-with>
+              </test>
+              <let>  <clip pos="1" part="a_gen"/>  <lit-tag v="m"/>  </let>
+            </when>
+            <when>
+              <test>
+                <begins-with>  <var n="v_most_recent_gen_triple"/>  <lit-tag v="f"/>  </begins-with>
+              </test>
+              <let>  <clip pos="1" part="a_gen"/>  <lit-tag v="f"/>  </let>
+            </when>
+          </choose>
+        </when>
       </choose>
     </def-macro>
 
     <def-macro n="make_SN_1st_obj_of_SV" npar="2">
       <let>  <var n="v_1st_obj_case"/>  <lit-tag v="acc"/>  </let>
-      
       <let>  <var n="v_gen"/>  <clip pos="1" part="a_gen"/>  </let>
       <let>  <var n="v_nbr"/>  <clip pos="1" part="a_nbr"/>  </let>
       <let>  <var n="v_case"/>  <var n="v_1st_obj_case"/>  </let>
       <let>  <var n="v_det_type"/>  <clip pos="1" part="a_det_type"/>  </let>
       <call-macro n="set__v_adj_infl"/>
       <let>
-	<clip pos="1" part="whole"/>
-	<concat>
-	  <clip pos="1" part="lem"/>
-	  <lit-tag v="SN"/>
-	  <clip pos="1" part="a_gen_triple"/>
-	  <clip pos="1" part="a_nbr"/>
-	  <var n="v_1st_obj_case"/>
-	  <clip pos="1" part="a_det_type"/>
-	  <var n="v_adj_infl"/>
-	</concat>
+        <clip pos="1" part="whole"/>
+        <concat>
+          <clip pos="1" part="lem"/>
+          <lit-tag v="SN"/>
+          <clip pos="1" part="a_gen_triple"/>
+          <clip pos="1" part="a_nbr"/>
+          <var n="v_1st_obj_case"/>
+          <clip pos="1" part="a_det_type"/>
+          <var n="v_adj_infl"/>
+        </concat>
       </let>
     </def-macro>
 
   </section-def-macros>
 
   <section-rules>
-    
+
     <rule comment="REGLA: SN">
       <pattern>
-	<pattern-item n="SN"/>
+        <pattern-item n="SN"/>
       </pattern>
       <action>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="1"/>  </call-macro>
-	<out>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
-	  </chunk>
-	</out>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="1"/>  </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+        </out>
       </action>
     </rule>
 
-    <rule comment="adjust SN case according to preposition">
+    <rule comment="adjust SN case according to preposition (PR SN)">
       <pattern>
-	<pattern-item n="PR"/>
-	<pattern-item n="SN"/>
+        <pattern-item n="PR"/>
+        <pattern-item n="SN"/>
       </pattern>
       <action>
-	<call-macro n="adjust_SN_using_PR">  <with-param pos="1"/>  <with-param pos="2"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
-	<out>
-	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
-	  <b pos="1"/>
-	  <chunk>  <clip pos="2" part="whole"/>  </chunk>
-	</out>
+        <call-macro n="adjust_SN_using_PR">  <with-param pos="1"/>  <with-param pos="2"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
+        <out>
+          <chunk>  <clip pos="1" part="whole"/>  </chunk>
+          <b pos="1"/>
+          <chunk>  <clip pos="2" part="whole"/>  </chunk>
+        </out>
       </action>
     </rule>
 
-    <rule comment="adjust SN case according to preposition">
+    <rule comment="adjust SN case according to preposition (PR SN CNJ SN PUNCT)">
       <pattern>
-	<pattern-item n="PR"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="CNJCOO"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="ENDPUNCT"/>
+        <pattern-item n="PR"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="CNJCOO"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="ENDPUNCT"/>
       </pattern>
       <action>
-	<call-macro n="adjust_SN_using_PR">  <with-param pos="1"/>  <with-param pos="2"/>  </call-macro>
-	<call-macro n="adjust_SN_using_PR">  <with-param pos="1"/>  <with-param pos="4"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="4"/>  </call-macro>
-	<out>
-	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
-	  <b pos="1"/>
-	  <chunk>  <clip pos="2" part="whole"/>  </chunk>
-	  <b pos="2"/>
-	  <chunk>  <clip pos="3" part="whole"/>  </chunk>
-	  <b pos="3"/>
-	  <chunk>  <clip pos="4" part="whole"/>  </chunk>
-	  <b pos="4"/>
-	  <chunk>  <clip pos="5" part="whole"/>  </chunk>
-	</out>
+        <call-macro n="adjust_SN_using_PR">  <with-param pos="1"/>  <with-param pos="2"/>  </call-macro>
+        <call-macro n="adjust_SN_using_PR">  <with-param pos="1"/>  <with-param pos="4"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="4"/>  </call-macro>
+        <out>
+          <chunk>  <clip pos="1" part="whole"/>  </chunk>
+          <b pos="1"/>
+          <chunk>  <clip pos="2" part="whole"/>  </chunk>
+          <b pos="2"/>
+          <chunk>  <clip pos="3" part="whole"/>  </chunk>
+          <b pos="3"/>
+          <chunk>  <clip pos="4" part="whole"/>  </chunk>
+          <b pos="4"/>
+          <chunk>  <clip pos="5" part="whole"/>  </chunk>
+        </out>
       </action>
     </rule>
 
-    <rule comment="adjust object case">
+    <rule comment="adjust object case (SV SN SN SV)">
       <pattern>
-	<pattern-item n="SV_vbmod_fin"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="SV_vblex_inf"/>
+        <pattern-item n="SV_vbmod_fin"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV_vblex_inf"/>
       </pattern>
       <action>
-	<call-macro n="make_SN_1st_obj_of_SV">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="3"/>  </call-macro>
-	<out>
-	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
-	  <b pos="1"/>
-	  <chunk>  <clip pos="2" part="whole"/>  </chunk>
-	  <b pos="2"/>
-	  <chunk>  <clip pos="3" part="whole"/>  </chunk>
-	  <b pos="3"/>
-	  <chunk>  <clip pos="4" part="whole"/>  </chunk>
-	</out>
+        <call-macro n="make_SN_1st_obj_of_SV">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="3"/>  </call-macro>
+        <out>
+          <chunk>  <clip pos="1" part="whole"/>  </chunk>
+          <b pos="1"/>
+          <chunk>  <clip pos="2" part="whole"/>  </chunk>
+          <b pos="2"/>
+          <chunk>  <clip pos="3" part="whole"/>  </chunk>
+          <b pos="3"/>
+          <chunk>  <clip pos="4" part="whole"/>  </chunk>
+        </out>
       </action>
     </rule>
 
-    <rule comment="adjust object case">
+    <rule comment="adjust object case (SV SN SN PR SN SV)">
       <pattern>
-	<pattern-item n="SV_vbmod_fin"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="PR"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="SV_vblex_inf"/>
+        <pattern-item n="SV_vbmod_fin"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="PR"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV_vblex_inf"/>
       </pattern>
       <action>
-	<call-macro n="make_SN_1st_obj_of_SV">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
-	<call-macro n="adjust_SN_using_PR">  <with-param pos="4"/>  <with-param pos="5"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="3"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="5"/>  </call-macro>
-	<out>
-	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
-	  <b pos="1"/>
-	  <chunk>  <clip pos="2" part="whole"/>  </chunk>
-	  <b pos="2"/>
-	  <chunk>  <clip pos="3" part="whole"/>  </chunk>
-	  <b pos="3"/>
-	  <chunk>  <clip pos="4" part="whole"/>  </chunk>
-	  <b pos="4"/>
-	  <chunk>  <clip pos="5" part="whole"/>  </chunk>
-	  <b pos="5"/>
-	  <chunk>  <clip pos="6" part="whole"/>  </chunk>
-	</out>
+        <call-macro n="make_SN_1st_obj_of_SV">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
+        <call-macro n="adjust_SN_using_PR">  <with-param pos="4"/>  <with-param pos="5"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="3"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="5"/>  </call-macro>
+        <out>
+          <chunk>  <clip pos="1" part="whole"/>  </chunk>
+          <b pos="1"/>
+          <chunk>  <clip pos="2" part="whole"/>  </chunk>
+          <b pos="2"/>
+          <chunk>  <clip pos="3" part="whole"/>  </chunk>
+          <b pos="3"/>
+          <chunk>  <clip pos="4" part="whole"/>  </chunk>
+          <b pos="4"/>
+          <chunk>  <clip pos="5" part="whole"/>  </chunk>
+          <b pos="5"/>
+          <chunk>  <clip pos="6" part="whole"/>  </chunk>
+        </out>
       </action>
     </rule>
 
-    <rule comment="adjust relative pronoun">
+    <rule comment="adjust relative pronoun (REL)">
       <pattern>
-	<pattern-item n="REL"/>
+        <pattern-item n="REL"/>
       </pattern>
       <action>
-	<call-macro n="adjust_relative_pronoun">  <with-param pos="1"/>  </call-macro>
-	<out>
-	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
-	</out>
+        <call-macro n="adjust_relative_pronoun">  <with-param pos="1"/>  </call-macro>
+        <out>
+          <chunk>  <clip pos="1" part="whole"/>  </chunk>
+        </out>
       </action>
     </rule>
 
-    <rule comment="adjust word order in relative clause">
+    <rule comment="adjust word order in relative clause (REL SN SV SV)">
       <pattern>
-	<pattern-item n="REL"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="SV"/>
-	<pattern-item n="SV"/>
+        <pattern-item n="REL"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
       </pattern>
       <action>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
-	<out>
-	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
-	  <b pos="1"/>
-	  <chunk>  <clip pos="2" part="whole"/>  </chunk>
-	  <b pos="2"/>
-	  <chunk>  <clip pos="4" part="whole"/>  </chunk>
-	  <b pos="3"/>
-	  <chunk>  <clip pos="3" part="whole"/>  </chunk>
-	</out>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
+        <out>
+          <chunk>  <clip pos="1" part="whole"/>  </chunk>
+          <b pos="1"/>
+          <chunk>  <clip pos="2" part="whole"/>  </chunk>
+          <b pos="2"/>
+          <chunk>  <clip pos="4" part="whole"/>  </chunk>
+          <b pos="3"/>
+          <chunk>  <clip pos="3" part="whole"/>  </chunk>
+        </out>
       </action>
     </rule>
 
-    <rule comment="adjust word order in relative clause">
+    <rule comment="adjust word order in relative clause (REL SN PR SN SV SV)">
       <pattern>
-	<pattern-item n="REL"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="PR"/>
-	<pattern-item n="SN"/>
-	<pattern-item n="SV"/>
-	<pattern-item n="SV"/>
+        <pattern-item n="REL"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="PR"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
       </pattern>
       <action>
-	<call-macro n="adjust_SN_using_PR">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
-	<call-macro n="set_most_recent_gen_triple">  <with-param pos="4"/>  </call-macro>
-	<out>
-	  <chunk>  <clip pos="1" part="whole"/>  </chunk>
-	  <b pos="1"/>
-	  <chunk>  <clip pos="2" part="whole"/>  </chunk>
-	  <b pos="2"/>
-	  <chunk>  <clip pos="3" part="whole"/>  </chunk>
-	  <b pos="3"/>
-	  <chunk>  <clip pos="4" part="whole"/>  </chunk>
-	  <b pos="4"/>
-	  <chunk>  <clip pos="6" part="whole"/>  </chunk>
-	  <b pos="5"/>
-	  <chunk>  <clip pos="5" part="whole"/>  </chunk>
-	</out>
+        <call-macro n="adjust_SN_using_PR">  <with-param pos="3"/>  <with-param pos="4"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="2"/>  </call-macro>
+        <call-macro n="set_most_recent_gen_triple">  <with-param pos="4"/>  </call-macro>
+        <out>
+          <chunk>  <clip pos="1" part="whole"/>  </chunk>
+          <b pos="1"/>
+          <chunk>  <clip pos="2" part="whole"/>  </chunk>
+          <b pos="2"/>
+          <chunk>  <clip pos="3" part="whole"/>  </chunk>
+          <b pos="3"/>
+          <chunk>  <clip pos="4" part="whole"/>  </chunk>
+          <b pos="4"/>
+          <chunk>  <clip pos="6" part="whole"/>  </chunk>
+          <b pos="5"/>
+          <chunk>  <clip pos="5" part="whole"/>  </chunk>
+        </out>
       </action>
     </rule>
 
-</section-rules>
+  </section-rules>
 </interchunk>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <postchunk>
-  
+
   <section-def-cats>
     <def-cat n="sent">
       <cat-item name="sent"/>
     </def-cat>
   </section-def-cats>
-  
+
   <section-def-attrs>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
@@ -19,7 +19,7 @@
       <attr-item tags="np"/>
     </def-attr>
   </section-def-attrs>
-  
+
   <section-def-vars>
     <def-var n="paraula"/>
   </section-def-vars>
@@ -38,6 +38,6 @@
         </out>
       </action>
     </rule>
-    
+
   </section-rules>
 </postchunk>
