@@ -1,761 +1,761 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
 
-  <section-def-cats>
-    <def-cat n="c_preadv">
-      <cat-item tags="preadv"/>
-      <cat-item tags="preadv.*"/>
-    </def-cat>
-    <def-cat n="c_adv">
-      <cat-item tags="adv"/>
-      <cat-item tags="adv.*"/>
-    </def-cat>
-    <def-cat n="c_num">
-      <cat-item tags="num"/>
-      <cat-item tags="num.*"/>
-    </def-cat>
-    <def-cat n="c_adj">
-      <cat-item tags="adj"/>
-      <cat-item tags="adj.*"/>
-      <cat-item tags="adj.ord.*"/>
-      <cat-item tags="det.ord.*"/>
-    </def-cat>
-    <def-cat n="c_any_attr">
-      <cat-item tags="adj.attr"/>
-      <cat-item tags="adj.attr.*"/>
-      <cat-item tags="adj.sint.attr"/>
-      <cat-item tags="adj.sint.attr.*"/>
-      <cat-item tags="adj.sint.comp.attr"/>
-      <cat-item tags="adj.sint.comp.attr.*"/>
-      <cat-item tags="adj.sint.sup.attr"/>
-      <cat-item tags="adj.sint.sup.attr.*"/>
-      <cat-item tags="det.ord"/>
-      <cat-item tags="det.ord.*"/>
-      <cat-item tags="adv"/>
-      <cat-item tags="adv.*"/>
-      <cat-item tags="preadv"/>
-      <cat-item tags="preadv.*"/>
-      <cat-item tags="num"/>
-      <cat-item tags="num.*"/>
-    </def-cat>
-    <def-cat n="c_nom">
-      <cat-item tags="n.*"/>
-      <cat-item tags="np.*"/>
-    </def-cat>
-    <def-cat n="c_cmp">
-      <cat-item tags="*.cmp"/>
-    </def-cat>
-    <def-cat n="c_det">
-      <cat-item tags="det.ind.*"/>
-      <cat-item tags="det.def.*"/>
-      <cat-item tags="det.dem.*"/>
-      <cat-item tags="det.qnt.*"/>
-      <cat-item tags="det.*"/>
-    </def-cat>
-    <def-cat n="c_prpers">
-      <cat-item tags="prn.subj.*"/>
-      <cat-item tags="prn.obj.*"/> 
-      <cat-item lemma="prpers" tags="prn.*"/>
-      <cat-item lemma="Prpers" tags="prn.*"/>
-    </def-cat>
-    <def-cat n="c_prn">
-      <cat-item tags="prn.tn.*"/>
-      <cat-item tags="prn.tn"/>
-    </def-cat>
-    <def-cat n="c_dem">
-      <cat-item tags="prn.dem.*"/>
-      <cat-item tags="prn.dem"/>
-    </def-cat>
-    <def-cat n="c_verbnm"> <!--verb no modal -->
-      <cat-item tags="vblex.*"/>
-      <cat-item tags="vbser.*"/>
-      <cat-item tags="vbhaver.*"/> 
-    </def-cat>
-    <def-cat n="c_verbnmng"> <!--verb no modal, no gerund -->
-      <cat-item tags="vblex.inf"/>
-      <cat-item tags="vblex.inf.*"/>
-      <cat-item tags="vblex.pprs.*"/>
-      <cat-item tags="vblex.inf.*"/>
-      <cat-item tags="vblex.pri.*"/>
-      <cat-item tags="vblex.prs.*"/>
-      <cat-item tags="vblex.pii.*"/>
-      <cat-item tags="vblex.pis.*"/>
-      <cat-item tags="vblex.imp.*"/>
-      <cat-item tags="vblex.pres.*"/>
-      <cat-item tags="vblex.past.*"/>
-      <cat-item tags="vblex.sep.inf"/>
-      <cat-item tags="vblex.sep.inf.*"/>
-      <cat-item tags="vblex.sep.pprs.*"/>
-      <cat-item tags="vblex.sep.imp.*"/>
-      <cat-item tags="vblex.sep.fm.*"/>
-      <cat-item tags="vblex.sep.fs.*"/>
-      <cat-item tags="vbser.*"/>
-      <cat-item tags="vbhaver.*"/> 
-    </def-cat>
-    <def-cat n="c_verbm">
-      <cat-item tags="vaux"/>
-      <cat-item tags="vaux.*"/>
-      <cat-item tags="vbmod"/>
-      <cat-item tags="vbmod.*"/>
-    </def-cat>
-    <def-cat n="c_gerund">
-      <cat-item tags="vblex.ger"/>
-      <cat-item tags="vblex.ger.*"/>
-      <cat-item tags="vblex.sep.ger"/>
-      <cat-item tags="vblex.sep.ger.*"/>
-    </def-cat>
-    <def-cat n="c_cnjadv">
-      <cat-item tags="cnjadv"/>
-    </def-cat>
-    <def-cat n="c_cnjsub">
-      <cat-item tags="cnjsub"/>
-    </def-cat>
-    <def-cat n="c_cnjcoo">
-      <cat-item tags="cnjcoo"/>
-      <cat-item tags="cnjcoo.*"/>
-    </def-cat>
-    <def-cat n="c_prep"> <!-- preposition -->
-      <cat-item tags="pr"/>
-    </def-cat>
-    <def-cat n="c_end_punct">
-      <cat-item tags="sent"/>
-      <cat-item tags="cm"/>
-      <cat-item tags="rpar"/>
-    </def-cat>
-    <def-cat n="c_sent">
-      <cat-item tags="sent"/>
-    </def-cat>
-    <def-cat n="c_prefix">
-      <cat-item tags="pref"/>
-      <cat-item tags="pref.*"/>
-    </def-cat>
-    <def-cat n="c_attachable_prefix">
-      <cat-item tags="pr.atp"/>
-    </def-cat>
-    <def-cat n="c_hyphen">
-      <cat-item tags="guio"/>
-    </def-cat>
-    <def-cat n="c_genitive">
-      <cat-item tags="gen"/>
-    </def-cat>
-    <def-cat n="c_rel">
-      <cat-item tags="rel"/>
-      <cat-item tags="rel.*"/>
-    </def-cat>
-    <def-cat n="c_ij">
-      <cat-item tags="ij"/>
-      <cat-item tags="ij.*"/>
-    </def-cat>
-  </section-def-cats>
+	<section-def-cats>
+		<def-cat n="c_preadv">
+			<cat-item tags="preadv"/>
+			<cat-item tags="preadv.*"/>
+		</def-cat>
+		<def-cat n="c_adv">
+			<cat-item tags="adv"/>
+			<cat-item tags="adv.*"/>
+		</def-cat>
+		<def-cat n="c_num">
+			<cat-item tags="num"/>
+			<cat-item tags="num.*"/>
+		</def-cat>
+		<def-cat n="c_adj">
+			<cat-item tags="adj"/>
+			<cat-item tags="adj.*"/>
+			<cat-item tags="adj.ord.*"/>
+			<cat-item tags="det.ord.*"/>
+		</def-cat>
+		<def-cat n="c_any_attr">
+			<cat-item tags="adj.attr"/>
+			<cat-item tags="adj.attr.*"/>
+			<cat-item tags="adj.sint.attr"/>
+			<cat-item tags="adj.sint.attr.*"/>
+			<cat-item tags="adj.sint.comp.attr"/>
+			<cat-item tags="adj.sint.comp.attr.*"/>
+			<cat-item tags="adj.sint.sup.attr"/>
+			<cat-item tags="adj.sint.sup.attr.*"/>
+			<cat-item tags="det.ord"/>
+			<cat-item tags="det.ord.*"/>
+			<cat-item tags="adv"/>
+			<cat-item tags="adv.*"/>
+			<cat-item tags="preadv"/>
+			<cat-item tags="preadv.*"/>
+			<cat-item tags="num"/>
+			<cat-item tags="num.*"/>
+		</def-cat>
+		<def-cat n="c_nom">
+			<cat-item tags="n.*"/>
+			<cat-item tags="np.*"/>
+		</def-cat>
+		<def-cat n="c_cmp">
+			<cat-item tags="*.cmp"/>
+		</def-cat>
+		<def-cat n="c_det">
+			<cat-item tags="det.ind.*"/>
+			<cat-item tags="det.def.*"/>
+			<cat-item tags="det.dem.*"/>
+			<cat-item tags="det.qnt.*"/>
+			<cat-item tags="det.*"/>
+		</def-cat>
+		<def-cat n="c_prpers">
+			<cat-item tags="prn.subj.*"/>
+			<cat-item tags="prn.obj.*"/> 
+			<cat-item lemma="prpers" tags="prn.*"/>
+			<cat-item lemma="Prpers" tags="prn.*"/>
+		</def-cat>
+		<def-cat n="c_prn">
+			<cat-item tags="prn.tn.*"/>
+			<cat-item tags="prn.tn"/>
+		</def-cat>
+		<def-cat n="c_dem">
+			<cat-item tags="prn.dem.*"/>
+			<cat-item tags="prn.dem"/>
+		</def-cat>
+		<def-cat n="c_verbnm"> <!--verb no modal -->
+			<cat-item tags="vblex.*"/>
+			<cat-item tags="vbser.*"/>
+			<cat-item tags="vbhaver.*"/> 
+		</def-cat>
+		<def-cat n="c_verbnmng"> <!--verb no modal, no gerund -->
+			<cat-item tags="vblex.inf"/>
+			<cat-item tags="vblex.inf.*"/>
+			<cat-item tags="vblex.pprs.*"/>
+			<cat-item tags="vblex.inf.*"/>
+			<cat-item tags="vblex.pri.*"/>
+			<cat-item tags="vblex.prs.*"/>
+			<cat-item tags="vblex.pii.*"/>
+			<cat-item tags="vblex.pis.*"/>
+			<cat-item tags="vblex.imp.*"/>
+			<cat-item tags="vblex.pres.*"/>
+			<cat-item tags="vblex.past.*"/>
+			<cat-item tags="vblex.sep.inf"/>
+			<cat-item tags="vblex.sep.inf.*"/>
+			<cat-item tags="vblex.sep.pprs.*"/>
+			<cat-item tags="vblex.sep.imp.*"/>
+			<cat-item tags="vblex.sep.fm.*"/>
+			<cat-item tags="vblex.sep.fs.*"/>
+			<cat-item tags="vbser.*"/>
+			<cat-item tags="vbhaver.*"/> 
+		</def-cat>
+		<def-cat n="c_verbm">
+			<cat-item tags="vaux"/>
+			<cat-item tags="vaux.*"/>
+			<cat-item tags="vbmod"/>
+			<cat-item tags="vbmod.*"/>
+		</def-cat>
+		<def-cat n="c_gerund">
+			<cat-item tags="vblex.ger"/>
+			<cat-item tags="vblex.ger.*"/>
+			<cat-item tags="vblex.sep.ger"/>
+			<cat-item tags="vblex.sep.ger.*"/>
+		</def-cat>
+		<def-cat n="c_cnjadv">
+			<cat-item tags="cnjadv"/>
+		</def-cat>
+		<def-cat n="c_cnjsub">
+			<cat-item tags="cnjsub"/>
+		</def-cat>
+		<def-cat n="c_cnjcoo">
+			<cat-item tags="cnjcoo"/>
+			<cat-item tags="cnjcoo.*"/>
+		</def-cat>
+		<def-cat n="c_prep"> <!-- preposition -->
+			<cat-item tags="pr"/>
+		</def-cat>
+		<def-cat n="c_end_punct">
+			<cat-item tags="sent"/>
+			<cat-item tags="cm"/>
+			<cat-item tags="rpar"/>
+		</def-cat>
+		<def-cat n="c_sent">
+			<cat-item tags="sent"/>
+		</def-cat>
+		<def-cat n="c_prefix">
+			<cat-item tags="pref"/>
+			<cat-item tags="pref.*"/>
+		</def-cat>
+		<def-cat n="c_attachable_prefix">
+			<cat-item tags="pr.atp"/>
+		</def-cat>
+		<def-cat n="c_hyphen">
+			<cat-item tags="guio"/>
+		</def-cat>
+		<def-cat n="c_genitive">
+			<cat-item tags="gen"/>
+		</def-cat>
+		<def-cat n="c_rel">
+			<cat-item tags="rel"/>
+			<cat-item tags="rel.*"/>
+		</def-cat>
+		<def-cat n="c_ij">
+			<cat-item tags="ij"/>
+			<cat-item tags="ij.*"/>
+		</def-cat>
+	</section-def-cats>
 
-  <section-def-attrs>
-    <def-attr n="a_det_type">             <!-- Type of determiner -->
-      <attr-item tags="ind"/>
-      <attr-item tags="def"/>
-      <attr-item tags="dem"/>
-      <attr-item tags="pos"/>
-      <attr-item tags="qnt"/>
-      <attr-item tags="nodet"/>
-    </def-attr>
-    <def-attr n="a_nbr">                  <!-- Number -->
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
-      <attr-item tags="sp"/>
-      <attr-item tags="ND"/>
-    </def-attr>
-    <def-attr n="a_gen">                  <!-- Gender -->
-      <attr-item tags="f"/>
-      <attr-item tags="m"/>
-      <attr-item tags="mf"/>
-      <attr-item tags="nt"/>
-      <attr-item tags="mfn"/>
-    </def-attr>
-    <def-attr n="a_case">                 <!-- Case -->
-      <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
-      <attr-item tags="gen"/>
-    </def-attr>
-    <def-attr n="a_prep">              
-      <attr-item tags="pr"/>
-    </def-attr>
-    <def-attr n="a_cnj">              
-      <attr-item tags="cnjadv"/>
-      <attr-item tags="cnjcoo"/>
-      <attr-item tags="cnjsub"/>
-    </def-attr>
-    <def-attr n="a_nom">
-      <attr-item tags="n"/>
-      <attr-item tags="n.acr"/>
-      <attr-item tags="n.unc"/>
-      <attr-item tags="np.top"/>
-      <attr-item tags="np.ant"/>
-      <attr-item tags="np.cog"/>
-      <attr-item tags="np.al"/>
-    </def-attr>
-    <def-attr n="a_adj">
-      <attr-item tags="adj"/>
-      <attr-item tags="adj.comp"/>
-      <attr-item tags="adj.sup"/>
-      <attr-item tags="adj.sint"/>
-      <attr-item tags="adj.sint.comp"/>
-      <attr-item tags="adj.sint.sup"/>
-    </def-attr>
-    <def-attr n="a_adj_use">
-      <attr-item tags="attr"/>
-      <attr-item tags="pred"/>
-      <attr-item tags="part"/>
-    </def-attr>
-    <def-attr n="a_comp">
-      <attr-item tags="pst"/>
-      <attr-item tags="comp"/>
-      <attr-item tags="sup"/>
-    </def-attr>
-    <def-attr n="a_infl_attr">
-      <attr-item tags="adj"/>
-      <attr-item tags="adj.sint"/>
-      <attr-item tags="adj.sint.comp"/>
-      <attr-item tags="adj.sint.sup"/>
-      <attr-item tags="adj.ord"/>
-    </def-attr>
-    <def-attr n="a_noninfl_attr">
-      <attr-item tags="adv"/>
-      <attr-item tags="num"/>
-      <attr-item tags="num.ord"/>
-      <attr-item tags="num.sg"/>
-      <attr-item tags="num.sp"/>
-    </def-attr>
-    <def-attr n="a_det">
-      <attr-item tags="det.ind"/>
-      <attr-item tags="det.def"/>
-      <attr-item tags="det.dem"/>
-      <attr-item tags="det.pos"/>
-      <attr-item tags="det.qnt"/>
-      <attr-item tags="det"/>
-    </def-attr>
-    <def-attr n="a_preadv">
-      <attr-item tags="preadv"/>
-    </def-attr>
-    <def-attr n="a_adv">
-      <attr-item tags="adv.itg"/>
-      <attr-item tags="adv"/>
-    </def-attr>
-    <def-attr n="a_num">
-      <attr-item tags="num"/>
-    </def-attr>
-    <def-attr n="a_tipus_prn">
-      <attr-item tags="prn.subj"/>
-      <attr-item tags="prn.obj"/>
-      <attr-item tags="prn.itg"/>
-      <attr-item tags="prn.tn"/>
-      <attr-item tags="prn.pos"/>
-      <attr-item tags="prn"/>
-    </def-attr>
-    <def-attr n="a_pers">                 <!-- Person -->
-      <attr-item tags="p1"/>
-      <attr-item tags="p2"/>
-      <attr-item tags="p3"/>
-    </def-attr>
-    <def-attr n="a_verb">
-      <attr-item tags="vblex"/>
-      <attr-item tags="vbser"/>
-      <attr-item tags="vbhaver"/>
-      <attr-item tags="vbmod"/>
-      <attr-item tags="vaux"/>
-    </def-attr>
-    <def-attr n="a_atp">
-      <attr-item tags="pr.atp"/>
-      <attr-item tags="pr"/>
-      <attr-item tags="adv"/>
-    </def-attr>
-    <def-attr n="a_temps">
-      <attr-item tags="pii"/>
-      <attr-item tags="pis"/>
-      <attr-item tags="pri"/>
-      <attr-item tags="prs"/>
-      <attr-item tags="past"/>
-      <attr-item tags="pres"/>
-      <attr-item tags="inf"/>
-      <attr-item tags="ger"/>
-    </def-attr>
-    <def-attr n="a_stress">
-      <attr-item tags="uns"/>
-    </def-attr>
-    <def-attr n="a_temps_pers_nbr">
-      <attr-item tags="pres.pl"/>
-      <attr-item tags="past.pl"/>
-      <attr-item tags="prs.pl"/>
-      <attr-item tags="pri.p3.pl"/>
-      <attr-item tags="pii.p3.pl"/>
-      <attr-item tags="prs.p3.pl"/>
-    </def-attr>
-    <def-attr n="a_cmp">
-      <attr-item tags="cmp"/>
-      <attr-item tags="cmp-split"/>
-    </def-attr>
-    <def-attr n="a_rel">
-      <attr-item tags="rel"/>
-    </def-attr>
-    <def-attr n="a_lower">
-      <attr-item tags="lower"/>
-    </def-attr>
-    <def-attr n="a_prn">
-      <attr-item tags="prn"/>
-      <attr-item tags="prn.dem"/>
-    </def-attr>
-    <def-attr n="a_sent">
-      <attr-item tags="sent"/>
-    </def-attr>
-  </section-def-attrs>
+	<section-def-attrs>
+		<def-attr n="a_det_type">             <!-- Type of determiner -->
+			<attr-item tags="ind"/>
+			<attr-item tags="def"/>
+			<attr-item tags="dem"/>
+			<attr-item tags="pos"/>
+			<attr-item tags="qnt"/>
+			<attr-item tags="nodet"/>
+		</def-attr>
+		<def-attr n="a_nbr">                  <!-- Number -->
+			<attr-item tags="sg"/>
+			<attr-item tags="pl"/>
+			<attr-item tags="sp"/>
+			<attr-item tags="ND"/>
+		</def-attr>
+		<def-attr n="a_gen">                  <!-- Gender -->
+			<attr-item tags="f"/>
+			<attr-item tags="m"/>
+			<attr-item tags="mf"/>
+			<attr-item tags="nt"/>
+			<attr-item tags="mfn"/>
+		</def-attr>
+		<def-attr n="a_case">                 <!-- Case -->
+			<attr-item tags="nom"/>
+			<attr-item tags="acc"/>
+			<attr-item tags="dat"/>
+			<attr-item tags="gen"/>
+		</def-attr>
+		<def-attr n="a_prep">							
+			<attr-item tags="pr"/>
+		</def-attr>
+		<def-attr n="a_cnj">							
+			<attr-item tags="cnjadv"/>
+			<attr-item tags="cnjcoo"/>
+			<attr-item tags="cnjsub"/>
+		</def-attr>
+		<def-attr n="a_nom">
+			<attr-item tags="n"/>
+			<attr-item tags="n.acr"/>
+			<attr-item tags="n.unc"/>
+			<attr-item tags="np.top"/>
+			<attr-item tags="np.ant"/>
+			<attr-item tags="np.cog"/>
+			<attr-item tags="np.al"/>
+		</def-attr>
+		<def-attr n="a_adj">
+			<attr-item tags="adj"/>
+			<attr-item tags="adj.comp"/>
+			<attr-item tags="adj.sup"/>
+			<attr-item tags="adj.sint"/>
+			<attr-item tags="adj.sint.comp"/>
+			<attr-item tags="adj.sint.sup"/>
+		</def-attr>
+		<def-attr n="a_adj_use">
+			<attr-item tags="attr"/>
+			<attr-item tags="pred"/>
+			<attr-item tags="part"/>
+		</def-attr>
+		<def-attr n="a_comp">
+			<attr-item tags="pst"/>
+			<attr-item tags="comp"/>
+			<attr-item tags="sup"/>
+		</def-attr>
+		<def-attr n="a_infl_attr">
+			<attr-item tags="adj"/>
+			<attr-item tags="adj.sint"/>
+			<attr-item tags="adj.sint.comp"/>
+			<attr-item tags="adj.sint.sup"/>
+			<attr-item tags="adj.ord"/>
+		</def-attr>
+		<def-attr n="a_noninfl_attr">
+			<attr-item tags="adv"/>
+			<attr-item tags="num"/>
+			<attr-item tags="num.ord"/>
+			<attr-item tags="num.sg"/>
+			<attr-item tags="num.sp"/>
+		</def-attr>
+		<def-attr n="a_det">
+			<attr-item tags="det.ind"/>
+			<attr-item tags="det.def"/>
+			<attr-item tags="det.dem"/>
+			<attr-item tags="det.pos"/>
+			<attr-item tags="det.qnt"/>
+			<attr-item tags="det"/>
+		</def-attr>
+		<def-attr n="a_preadv">
+			<attr-item tags="preadv"/>
+		</def-attr>
+		<def-attr n="a_adv">
+			<attr-item tags="adv.itg"/>
+			<attr-item tags="adv"/>
+		</def-attr>
+		<def-attr n="a_num">
+			<attr-item tags="num"/>
+		</def-attr>
+		<def-attr n="a_tipus_prn">
+			<attr-item tags="prn.subj"/>
+			<attr-item tags="prn.obj"/>
+			<attr-item tags="prn.itg"/>
+			<attr-item tags="prn.tn"/>
+			<attr-item tags="prn.pos"/>
+			<attr-item tags="prn"/>
+		</def-attr>
+		<def-attr n="a_pers">                 <!-- Person -->
+			<attr-item tags="p1"/>
+			<attr-item tags="p2"/>
+			<attr-item tags="p3"/>
+		</def-attr>
+		<def-attr n="a_verb">
+			<attr-item tags="vblex"/>
+			<attr-item tags="vbser"/>
+			<attr-item tags="vbhaver"/>
+			<attr-item tags="vbmod"/>
+			<attr-item tags="vaux"/>
+		</def-attr>
+		<def-attr n="a_atp">
+			<attr-item tags="pr.atp"/>
+			<attr-item tags="pr"/>
+			<attr-item tags="adv"/>
+		</def-attr>
+		<def-attr n="a_temps">
+			<attr-item tags="pii"/>
+			<attr-item tags="pis"/>
+			<attr-item tags="pri"/>
+			<attr-item tags="prs"/>
+			<attr-item tags="past"/>
+			<attr-item tags="pres"/>
+			<attr-item tags="inf"/>
+			<attr-item tags="ger"/>
+		</def-attr>
+		<def-attr n="a_stress">
+			<attr-item tags="uns"/>
+		</def-attr>
+		<def-attr n="a_temps_pers_nbr">
+			<attr-item tags="pres.pl"/>
+			<attr-item tags="past.pl"/>
+			<attr-item tags="prs.pl"/>
+			<attr-item tags="pri.p3.pl"/>
+			<attr-item tags="pii.p3.pl"/>
+			<attr-item tags="prs.p3.pl"/>
+		</def-attr>
+		<def-attr n="a_cmp">
+			<attr-item tags="cmp"/>
+			<attr-item tags="cmp-split"/>
+		</def-attr>
+		<def-attr n="a_rel">
+			<attr-item tags="rel"/>
+		</def-attr>
+		<def-attr n="a_lower">
+			<attr-item tags="lower"/>
+		</def-attr>
+		<def-attr n="a_prn">
+			<attr-item tags="prn"/>
+			<attr-item tags="prn.dem"/>
+		</def-attr>
+		<def-attr n="a_sent">
+			<attr-item tags="sent"/>
+		</def-attr>
+	</section-def-attrs>
 
 
-  <section-def-vars>
-    <def-var n="v_gen"/>
-    <def-var n="v_nbr"/>
-    <def-var n="v_case"/>
-    <def-var n="v_det_type"/>
-    <def-var n="v_det_gen"/>
-    <def-var n="v_adj_infl"/>
-    <def-var n="v_adj_gen"/>
-    <def-var n="caseFirstWord" v="Aa"/>
-    <def-var n="caseOtherWord" v="aa"/>
-    <def-var n="EOS" v="true"/>
-  </section-def-vars>
+	<section-def-vars>
+		<def-var n="v_gen"/>
+		<def-var n="v_nbr"/>
+		<def-var n="v_case"/>
+		<def-var n="v_det_type"/>
+		<def-var n="v_det_gen"/>
+		<def-var n="v_adj_infl"/>
+		<def-var n="v_adj_gen"/>
+		<def-var n="caseFirstWord" v="Aa"/>
+		<def-var n="caseOtherWord" v="aa"/>
+		<def-var n="EOS" v="true"/>
+	</section-def-vars>
 
-  <section-def-macros>
+	<section-def-macros>
 
-    <!-- set caseFirstWord to "aa" -->
-    <!--(this macro must be called at the end of every rule (except sent)!)-->
-    <def-macro n="firstWord" npar="0">
-      <let><var n="caseFirstWord"/><lit v="aa"/></let>
-      <choose>
-        <when>
-          <test>
-            <equal>  <var n="EOS"/>  <lit v="true"/>  </equal>
-          </test>
-        </when>
-      </choose>
-      <let>  <var n="EOS"/>  <lit v="false"/>  </let>
-    </def-macro>
+		<!-- set caseFirstWord to "aa" -->
+		<!--(this macro must be called at the end of every rule! (except sent))-->
+		<def-macro n="firstWord" npar="0">
+			<let><var n="caseFirstWord"/><lit v="aa"/></let>
+			<choose>
+				<when>
+					<test>
+						<equal>  <var n="EOS"/>  <lit v="true"/>  </equal>
+					</test>
+				</when>
+			</choose>
+			<let>  <var n="EOS"/>  <lit v="false"/>  </let>
+		</def-macro>
 
-    <def-macro n="adjust_verb_tags" npar="1">
-      <choose>
-        <when>
-          <test>
-            <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pres.pl"/>  </equal>
-          </test>
-          <let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="pri.p3.pl"/>  </let>
-        </when>
-        <when>
-          <test>
-            <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="past.pl"/>  </equal>
-          </test>
-          <let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p3.pl"/>  </let>
-        </when>
-        <when>
-          <test>
-            <equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.pl"/>  </equal>
-          </test>
-          <let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.p3.pl"/>  </let>
-        </when>
-        <when>
-          <test>
-            <equal>  <clip pos="1" side="sl" part="a_temps"/>  <lit-tag v="pres"/>  </equal>
-          </test>
-          <let>  <clip pos="1" side="tl" part="a_temps"/>  <lit-tag v="pri"/>  </let>
-        </when>
-        <when>
-          <test>
-            <equal>  <clip pos="1" side="sl" part="a_temps"/>  <lit-tag v="past"/>  </equal>
-          </test>
-          <let>  <clip pos="1" side="tl" part="a_temps"/>  <lit-tag v="pii"/>  </let>
-        </when>
-      </choose>
-    </def-macro>
+		<def-macro n="adjust_verb_tags" npar="1">
+			<choose>
+				<when>
+					<test>
+						<equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="pres.pl"/>  </equal>
+					</test>
+					<let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="pri.p3.pl"/>  </let>
+				</when>
+				<when>
+					<test>
+						<equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="past.pl"/>  </equal>
+					</test>
+					<let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="pii.p3.pl"/>  </let>
+				</when>
+				<when>
+					<test>
+						<equal>  <clip pos="1" side="sl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.pl"/>  </equal>
+					</test>
+					<let>  <clip pos="1" side="tl" part="a_temps_pers_nbr"/>  <lit-tag v="prs.p3.pl"/>  </let>
+				</when>
+				<when>
+					<test>
+						<equal>  <clip pos="1" side="sl" part="a_temps"/>  <lit-tag v="pres"/>  </equal>
+					</test>
+					<let>  <clip pos="1" side="tl" part="a_temps"/>  <lit-tag v="pri"/>  </let>
+				</when>
+				<when>
+					<test>
+						<equal>  <clip pos="1" side="sl" part="a_temps"/>  <lit-tag v="past"/>  </equal>
+					</test>
+					<let>  <clip pos="1" side="tl" part="a_temps"/>  <lit-tag v="pii"/>  </let>
+				</when>
+			</choose>
+		</def-macro>
 
-    <def-macro n="derive_vars_from_nom" npar="1">
-      <let>  <var n="v_gen"/>  <clip pos="1" side="tl" part="a_gen"/>  </let>
-      <let>  <var n="v_nbr"/>  <clip pos="1" side="tl" part="a_nbr"/>  </let>
-      <let>  <var n="v_case"/>  <lit-tag v="nom"/>  </let>
-      <let>  <var n="v_det_gen"/>  <var n="v_gen"/>  </let>
-      <let>  <var n="v_adj_gen"/>  <var n="v_gen"/>  </let>
-      <choose>
-        <when>
-          <test>
-            <equal>  <var n="v_nbr"/>  <lit-tag v="pl"/>  </equal>
-          </test>
-          <let>  <var n="v_det_gen"/>  <lit-tag v="mfn"/>  </let>
-          <let>  <var n="v_adj_gen"/>  <lit-tag v="mf"/>  </let>
-        </when>
-        <otherwise>
-          <choose>
-            <when>
-              <test>
-                <equal>  <var n="v_det_gen"/>  <lit-tag v="mf"/>  </equal>
-              </test>
-              <let>  <var n="v_det_gen"/>  <lit-tag v="m"/>  </let>
-            </when>
-          </choose>
-        </otherwise>
-      </choose>
-    </def-macro>
+		<def-macro n="derive_vars_from_nom" npar="1">
+			<let>  <var n="v_gen"/>  <clip pos="1" side="tl" part="a_gen"/>  </let>
+			<let>  <var n="v_nbr"/>  <clip pos="1" side="tl" part="a_nbr"/>  </let>
+			<let>  <var n="v_case"/>  <lit-tag v="nom"/>  </let>
+			<let>  <var n="v_det_gen"/>  <var n="v_gen"/>  </let>
+			<let>  <var n="v_adj_gen"/>  <var n="v_gen"/>  </let>
+			<choose>
+				<when>
+					<test>
+						<equal>  <var n="v_nbr"/>  <lit-tag v="pl"/>  </equal>
+					</test>
+					<let>  <var n="v_det_gen"/>  <lit-tag v="mfn"/>  </let>
+					<let>  <var n="v_adj_gen"/>  <lit-tag v="mf"/>  </let>
+				</when>
+				<otherwise>
+					<choose>
+						<when>
+							<test>
+								<equal>  <var n="v_det_gen"/>  <lit-tag v="mf"/>  </equal>
+							</test>
+							<let>  <var n="v_det_gen"/>  <lit-tag v="m"/>  </let>
+						</when>
+					</choose>
+				</otherwise>
+			</choose>
+		</def-macro>
 
-    <def-macro n="derive_vars_from_gerund" npar="1">
-      <let>  <var n="v_gen"/>  <lit-tag v="nt"/>  </let>
-      <let>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </let>
-      <let>  <var n="v_case"/>  <clip pos="1" side="tl" part="a_case"/>  </let>
-      <let>  <var n="v_det_gen"/>  <var n="v_gen"/>  </let>
-      <let>  <var n="v_adj_gen"/>  <var n="v_gen"/>  </let>
-      <choose>
-        <when>
-          <test>
-            <equal>  <var n="v_case"/>  <lit v=""/>  </equal>
-          </test>
-          <let>  <var n="v_case"/>  <lit-tag v="nom"/>  </let>
-        </when>
-      </choose>
-    </def-macro>
+		<def-macro n="derive_vars_from_gerund" npar="1">
+			<let>  <var n="v_gen"/>  <lit-tag v="nt"/>  </let>
+			<let>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </let>
+			<let>  <var n="v_case"/>  <clip pos="1" side="tl" part="a_case"/>  </let>
+			<let>  <var n="v_det_gen"/>  <var n="v_gen"/>  </let>
+			<let>  <var n="v_adj_gen"/>  <var n="v_gen"/>  </let>
+			<choose>
+				<when>
+					<test>
+						<equal>  <var n="v_case"/>  <lit v=""/>  </equal>
+					</test>
+					<let>  <var n="v_case"/>  <lit-tag v="nom"/>  </let>
+				</when>
+			</choose>
+		</def-macro>
 
-    <def-macro n="derive_vars_from_det" npar="1">
-      <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-      <call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
-      <choose>
-        <when>
-          <test>
-            <equal>  <var n="v_gen"/>  <lit v=""/>  </equal>
-          </test>
-          <let>  <var n="v_gen"/>  <lit-tag v="mf"/>  </let>
-          <let>  <var n="v_det_gen"/>  <lit-tag v="mfn"/>  </let>
-          <let>  <var n="v_adj_gen"/>  <lit-tag v="mf"/>  </let>
-        </when>
-      </choose>
-      <choose>
-        <when>
-          <test>
-            <or>
-              <equal>  <var n="v_nbr"/>  <lit-tag v="sp"/>  </equal>
-              <equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
-            </or>
-          </test>
-          <let>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </let>
-          <choose>
-            <when>
-              <test>
-                <equal>  <var n="v_det_gen"/>  <lit-tag v="mfn"/>  </equal>
-              </test>
-              <let>  <var n="v_gen"/>  <lit-tag v="m"/>  </let>
-              <let>  <var n="v_det_gen"/>  <lit-tag v="m"/>  </let>
-              <let>  <var n="v_adj_gen"/>  <lit-tag v="m"/>  </let>
-            </when>
-          </choose>
-        </when>
-      </choose>
-    </def-macro>
+		<def-macro n="derive_vars_from_det" npar="1">
+			<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+			<call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
+			<choose>
+				<when>
+					<test>
+						<equal>  <var n="v_gen"/>  <lit v=""/>  </equal>
+					</test>
+					<let>  <var n="v_gen"/>  <lit-tag v="mf"/>  </let>
+					<let>  <var n="v_det_gen"/>  <lit-tag v="mfn"/>  </let>
+					<let>  <var n="v_adj_gen"/>  <lit-tag v="mf"/>  </let>
+				</when>
+			</choose>
+			<choose>
+				<when>
+					<test>
+						<or>
+							<equal>  <var n="v_nbr"/>  <lit-tag v="sp"/>  </equal>
+							<equal>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </equal>
+						</or>
+					</test>
+					<let>  <var n="v_nbr"/>  <lit-tag v="sg"/>  </let>
+					<choose>
+						<when>
+							<test>
+								<equal>  <var n="v_det_gen"/>  <lit-tag v="mfn"/>  </equal>
+							</test>
+							<let>  <var n="v_gen"/>  <lit-tag v="m"/>  </let>
+							<let>  <var n="v_det_gen"/>  <lit-tag v="m"/>  </let>
+							<let>  <var n="v_adj_gen"/>  <lit-tag v="m"/>  </let>
+						</when>
+					</choose>
+				</when>
+			</choose>
+		</def-macro>
 
-    <def-macro n="set__v_adj_infl" npar="0">
-      <choose>
-        <when>
-          <test>
-            <equal>  <var n="v_det_type"/>  <lit-tag v="def"/>  </equal>
-          </test>
-          <let>  <var n="v_adj_infl"/>  <lit-tag v="sw"/>  </let>
-        </when>
-        <when>
-          <test>
-            <equal>  <var n="v_det_type"/>  <lit-tag v="ind"/>  </equal>
-          </test>
-          <let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
-        </when>
-        <when>
-          <test>
-            <equal>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </equal>
-          </test>
-          <let>  <var n="v_adj_infl"/>  <lit-tag v="st"/>  </let>
-        </when>
-      </choose>
-    </def-macro>
+		<def-macro n="set__v_adj_infl" npar="0">
+			<choose>
+				<when>
+					<test>
+						<equal>  <var n="v_det_type"/>  <lit-tag v="def"/>  </equal>
+					</test>
+					<let>  <var n="v_adj_infl"/>  <lit-tag v="sw"/>  </let>
+				</when>
+				<when>
+					<test>
+						<equal>  <var n="v_det_type"/>  <lit-tag v="ind"/>  </equal>
+					</test>
+					<let>  <var n="v_adj_infl"/>  <lit-tag v="mix"/>  </let>
+				</when>
+				<when>
+					<test>
+						<equal>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </equal>
+					</test>
+					<let>  <var n="v_adj_infl"/>  <lit-tag v="st"/>  </let>
+				</when>
+			</choose>
+		</def-macro>
 
-    <def-macro n="lower_case" npar="1">
-      <modify-case>
-        <clip pos="1" side="tl" part="lem"/>
-        <clip pos="1" side="sl" part="lem"/>
-      </modify-case>
-      <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-          <clip pos="1" side="tl" part="whole"/>
-          <lit-tag v="lower"/>
-        </concat>
-      </let>
-    </def-macro>
+		<def-macro n="lower_case" npar="1">
+			<modify-case>
+				<clip pos="1" side="tl" part="lem"/>
+				<clip pos="1" side="sl" part="lem"/>
+			</modify-case>
+			<let>
+				<clip pos="1" side="tl" part="whole"/>
+				<concat>
+					<clip pos="1" side="tl" part="whole"/>
+					<lit-tag v="lower"/>
+				</concat>
+			</let>
+		</def-macro>
 
-    <def-macro n="transfer_determiner" npar="1">
-      <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-          <clip pos="1" side="tl" part="lem"/>
-          <clip pos="1" side="tl" part="a_det"/>
-          <clip pos="1" side="sl" part="lem" link-to="3"/>
-          <clip pos="1" side="sl" part="a_nbr" link-to="5"/>
-          <clip pos="1" side="sl" part="lem" link-to="6"/>
-        </concat>
-      </let>
-    </def-macro>
+		<def-macro n="transfer_determiner" npar="1">
+			<let>
+				<clip pos="1" side="tl" part="whole"/>
+				<concat>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_det"/>
+					<clip pos="1" side="sl" part="lem" link-to="3"/>
+					<clip pos="1" side="sl" part="a_nbr" link-to="5"/>
+					<clip pos="1" side="sl" part="lem" link-to="6"/>
+				</concat>
+			</let>
+		</def-macro>
 
-    <def-macro n="transfer_any_attr" npar="1">
-      <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-          <clip pos="1" side="tl" part="lem"/>
-          <clip pos="1" side="tl" part="a_noninfl_attr"/>
-          <clip pos="1" side="tl" part="a_infl_attr"/>
-          <clip pos="1" side="sl" part="a_infl_attr" link-to="4"/>
-          <clip pos="1" side="sl" part="a_infl_attr" link-to="5"/>
-          <clip pos="1" side="sl" part="a_infl_attr" link-to="6"/><!--<var n="v_case"/>-->
-          <clip pos="1" side="sl" part="a_infl_attr" link-to="8"/><!--<var n="v_adj_infl"/>-->
-        </concat>
-      </let>
-    </def-macro>
+		<def-macro n="transfer_any_attr" npar="1">
+			<let>
+				<clip pos="1" side="tl" part="whole"/>
+				<concat>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_noninfl_attr"/>
+					<clip pos="1" side="tl" part="a_infl_attr"/>
+					<clip pos="1" side="sl" part="a_infl_attr" link-to="4"/>
+					<clip pos="1" side="sl" part="a_infl_attr" link-to="5"/>
+					<clip pos="1" side="sl" part="a_infl_attr" link-to="6"/>  <!--<var n="v_case"/>-->
+					<clip pos="1" side="sl" part="a_infl_attr" link-to="8"/>  <!--<var n="v_adj_infl"/>-->
+				</concat>
+			</let>
+		</def-macro>
 
-    <def-macro n="transfer_noun" npar="1">
-      <choose>
-        <when>
-          <test>
-            <equal>  <clip pos="1" side="tl" part="a_cmp"/>  <lit v=""/>  </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="whole"/>
-            <concat>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="sl" part="a_gen" link-to="2"/>
-              <clip pos="1" side="sl" part="a_nbr" link-to="5"/>
-              <clip pos="1" side="sl" part="lem" link-to="6"/>
-              <clip pos="1" side="tl" part="a_cmp"/>
-              <clip pos="1" side="tl" part="a_lower"/>
-            </concat>
-          </let>
-        </when>
-        <otherwise>
-          <let>
-            <clip pos="1" side="tl" part="whole"/>
-            <concat>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="sl" part="a_gen" link-to="2"/>
-              <clip pos="1" side="sl" part="a_nbr" link-to="5"/>
-              <!-- the left side of a compound does not have a case -->
-              <!--<clip pos="1" side="sl" part="lem" link-to="6"/>-->
-              <clip pos="1" side="tl" part="a_cmp"/>
-              <clip pos="1" side="tl" part="a_lower"/>
-            </concat>
-          </let>
-        </otherwise>
-      </choose>
-    </def-macro>
+		<def-macro n="transfer_noun" npar="1">
+			<choose>
+				<when>
+					<test>
+						<equal>  <clip pos="1" side="tl" part="a_cmp"/>  <lit v=""/>  </equal>
+					</test>
+					<let>
+						<clip pos="1" side="tl" part="whole"/>
+						<concat>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_nom"/>
+							<clip pos="1" side="sl" part="a_gen" link-to="2"/>
+							<clip pos="1" side="sl" part="a_nbr" link-to="5"/>
+							<clip pos="1" side="sl" part="lem" link-to="6"/>
+							<clip pos="1" side="tl" part="a_cmp"/>
+							<clip pos="1" side="tl" part="a_lower"/>
+						</concat>
+					</let>
+				</when>
+				<otherwise>
+					<let>
+						<clip pos="1" side="tl" part="whole"/>
+						<concat>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_nom"/>
+							<clip pos="1" side="sl" part="a_gen" link-to="2"/>
+							<clip pos="1" side="sl" part="a_nbr" link-to="5"/>
+							<!-- the left side of a compound does not have a case -->
+							<!--<clip pos="1" side="sl" part="lem" link-to="6"/>-->
+							<clip pos="1" side="tl" part="a_cmp"/>
+							<clip pos="1" side="tl" part="a_lower"/>
+						</concat>
+					</let>
+				</otherwise>
+			</choose>
+		</def-macro>
 
-    <def-macro n="transfer_gerund" npar="1">
-      <choose>
-        <when>
-          <test>
-            <equal>  <clip pos="1" side="sl" part="a_temps"/>  <lit-tag v="ger"/>  </equal>
-          </test>
-          <modify-case>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="Aa"/>
-          </modify-case>
-        </when>
-      </choose>
-    </def-macro>
+		<def-macro n="transfer_gerund" npar="1">
+			<choose>
+				<when>
+					<test>
+						<equal>  <clip pos="1" side="sl" part="a_temps"/>  <lit-tag v="ger"/>  </equal>
+					</test>
+					<modify-case>
+						<clip pos="1" side="tl" part="lem"/>
+						<lit v="Aa"/>
+					</modify-case>
+				</when>
+			</choose>
+		</def-macro>
 
-    <def-macro n="transfer_pronoun" npar="1">
-      <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-          <clip pos="1" side="tl" part="lem"/>
-          <clip pos="1" side="tl" part="a_prn"/>
-          <clip pos="1" side="sl" part="a_gen" link-to="2"/>
-          <clip pos="1" side="sl" part="a_nbr" link-to="5"/>
-          <clip pos="1" side="sl" part="lem" link-to="6"/>
-          <clip pos="1" side="tl" part="a_cmp"/>
-          <clip pos="1" side="tl" part="a_lower"/>
-        </concat>
-      </let>
-    </def-macro>
+		<def-macro n="transfer_pronoun" npar="1">
+			<let>
+				<clip pos="1" side="tl" part="whole"/>
+				<concat>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_prn"/>
+					<clip pos="1" side="sl" part="a_gen" link-to="2"/>
+					<clip pos="1" side="sl" part="a_nbr" link-to="5"/>
+					<clip pos="1" side="sl" part="lem" link-to="6"/>
+					<clip pos="1" side="tl" part="a_cmp"/>
+					<clip pos="1" side="tl" part="a_lower"/>
+				</concat>
+			</let>
+		</def-macro>
 
-    <def-macro n="transfer_adjective" npar="1">
-      <let>
-        <clip pos="1" side="tl" part="whole"/>
-        <concat>
-          <clip pos="1" side="tl" part="lem"/>
-          <clip pos="1" side="tl" part="a_adj"/>
-          <clip pos="1" side="tl" part="a_adj_use"/>
-        </concat>
-      </let>
-    </def-macro>
+		<def-macro n="transfer_adjective" npar="1">
+			<let>
+				<clip pos="1" side="tl" part="whole"/>
+				<concat>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_adj"/>
+					<clip pos="1" side="tl" part="a_adj_use"/>
+				</concat>
+			</let>
+		</def-macro>
 
-  </section-def-macros>
+	</section-def-macros>
 
-  <section-rules>
+	<section-rules>
 
-    <rule comment="fill in relative pronoun details (rel)">
-      <pattern>
-        <pattern-item n="c_rel"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="rel" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="REL"/></tag>
-              <tag><clip pos="1" side="tl" part="a_gen"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_rel"/>
-              <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-              <clip pos="1" side="tl" part="a_nbr"/>
-              <lit-tag v="nom"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="fill in relative pronoun details (rel)">
+			<pattern>
+				<pattern-item n="c_rel"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="rel" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="REL"/></tag>
+							<tag><clip pos="1" side="tl" part="a_gen"/></tag>
+						</tags>
+						<lu>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_rel"/>
+							<clip pos="1" side="tl" part="a_gen" link-to="2"/>
+							<clip pos="1" side="tl" part="a_nbr"/>
+							<lit-tag v="nom"/>
+						</lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule preposition (pr)">
-      <pattern>
-        <pattern-item n="c_prep"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="prep" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="PR"/></tag>
-              <tag><clip pos="1" side="tl" part="a_case"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule preposition (pr)">
+			<pattern>
+				<pattern-item n="c_prep"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="prep" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="PR"/></tag>
+							<tag><clip pos="1" side="tl" part="a_case"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule cnjcoo">
-      <pattern>
-        <pattern-item n="c_cnjcoo"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="cnjcoo" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="CNJCOO"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule cnjcoo">
+			<pattern>
+				<pattern-item n="c_cnjcoo"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="cnjcoo" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="CNJCOO"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule cnjsub">
-      <pattern>
-        <pattern-item n="c_cnjsub"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="cnjsub" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="CNJSUB"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule cnjsub">
+			<pattern>
+				<pattern-item n="c_cnjsub"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="cnjsub" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="CNJSUB"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule cnjadv">
-      <pattern>
-        <pattern-item n="c_cnjadv"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="cnjadv" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="CNJADV"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule cnjadv">
+			<pattern>
+				<pattern-item n="c_cnjadv"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="cnjadv" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="CNJADV"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule preadv">
-      <pattern>
-        <pattern-item n="c_preadv"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="preadv" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="PREADV"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule preadv">
+			<pattern>
+				<pattern-item n="c_preadv"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="preadv" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="PREADV"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule adv">
-      <pattern>
-        <pattern-item n="c_adv"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="adv" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="ADV"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule adv">
+			<pattern>
+				<pattern-item n="c_adv"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="adv" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="ADV"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule adj">
-      <pattern>
-        <pattern-item n="c_adj"/>
-      </pattern>
-      <action>
-        <call-macro n="transfer_adjective">  <with-param pos="1"/>  </call-macro>
-        <out>
-          <chunk name="adj" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="ADJ"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule adj">
+			<pattern>
+				<pattern-item n="c_adj"/>
+			</pattern>
+			<action>
+				<call-macro n="transfer_adjective">  <with-param pos="1"/>  </call-macro>
+				<out>
+					<chunk name="adj" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="ADJ"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="encapsule end_punct (sent)">
-      <pattern>
-        <pattern-item n="c_end_punct"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="endpunct" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="ENDPUNCT"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
+		<rule comment="encapsule end_punct (sent)">
+			<pattern>
+				<pattern-item n="c_end_punct"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="endpunct" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="ENDPUNCT"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
 
 				<choose>
 					<when>  <!-- end of sentence: reset variables -->
@@ -765,699 +765,699 @@
 								<lit-tag v="sent"/>
 							</equal>
 						</test>
-            <let><var n="caseFirstWord"/><lit v="Aa"/></let>
-            <let><var n="EOS"/><lit v="true"/></let>
+						<let><var n="caseFirstWord"/><lit v="Aa"/></let>
+						<let><var n="EOS"/><lit v="true"/></let>
 					</when>
 				</choose>
-      </action>
-    </rule>
+			</action>
+		</rule>
 
-    <rule comment="encapsule num">
-      <pattern>
-        <pattern-item n="c_num"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="num" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="NUM"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="encapsule num">
+			<pattern>
+				<pattern-item n="c_num"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="num" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="NUM"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="adjust tags of non-modal non-auxilliary verb">
-      <pattern>
-        <pattern-item n="c_verbnmng"/>
-      </pattern>
-      <action>
-        <call-macro n="adjust_verb_tags">  <with-param pos="1"/>  </call-macro>
-        <out>
-          <chunk name="verb" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="adjust tags of non-modal non-auxilliary verb">
+			<pattern>
+				<pattern-item n="c_verbnmng"/>
+			</pattern>
+			<action>
+				<call-macro n="adjust_verb_tags">  <with-param pos="1"/>  </call-macro>
+				<out>
+					<chunk name="verb" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SV"/></tag>
+							<tag><clip pos="1" side="tl" part="a_verb"/></tag>
+							<tag><clip pos="1" side="tl" part="a_temps"/></tag>
+							<tag><clip pos="1" side="tl" part="a_pers"/></tag>
+							<tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="adjust tags of modal or auxilliary verb">
-      <pattern>
-        <pattern-item n="c_verbm"/>
-      </pattern>
-      <action>
-        <call-macro n="adjust_verb_tags">  <with-param pos="1"/>  </call-macro>
-        <out>
-          <chunk name="verb" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="adjust tags of modal or auxilliary verb">
+			<pattern>
+				<pattern-item n="c_verbm"/>
+			</pattern>
+			<action>
+				<call-macro n="adjust_verb_tags">  <with-param pos="1"/>  </call-macro>
+				<out>
+					<chunk name="verb" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SV"/></tag>
+							<tag><clip pos="1" side="tl" part="a_verb"/></tag>
+							<tag><clip pos="1" side="tl" part="a_temps"/></tag>
+							<tag><clip pos="1" side="tl" part="a_pers"/></tag>
+							<tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (prpers)">
-      <pattern>
-        <pattern-item n="c_prpers"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="prpers" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (prpers)">
+			<pattern>
+				<pattern-item n="c_prpers"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="prpers" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (prn)">
-      <pattern>
-        <pattern-item n="c_prn"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="prntn" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (prn)">
+			<pattern>
+				<pattern-item n="c_prn"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="prntn" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (dem)">
-      <pattern>
-        <pattern-item n="c_dem"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_pronoun">  <with-param pos="1"/>  </call-macro>
-        <out>
-          <chunk name="prndem" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (dem)">
+			<pattern>
+				<pattern-item n="c_dem"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_pronoun">  <with-param pos="1"/>  </call-macro>
+				<out>
+					<chunk name="prndem" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (gerund)">
-      <pattern>
-        <pattern-item n="c_gerund"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-        <call-macro n="derive_vars_from_gerund">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_gerund">  <with-param pos="1"/>  </call-macro>
-        <out>
-          <chunk name="nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (gerund)">
+			<pattern>
+				<pattern-item n="c_gerund"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+				<call-macro n="derive_vars_from_gerund">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_gerund">  <with-param pos="1"/>  </call-macro>
+				<out>
+					<chunk name="nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (nom)">
-      <pattern>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="1"/>  </call-macro>
-        <out>
-          <chunk name="nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (nom)">
+			<pattern>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="1"/>  </call-macro>
+				<out>
+					<chunk name="nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (cmp nom)">
-      <pattern>
-        <pattern-item n="c_cmp"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-        <call-macro n="lower_case">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="2"/>  </call-macro>
-        <out>
-          <chunk name="cmp_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (cmp nom)">
+			<pattern>
+				<pattern-item n="c_cmp"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+				<call-macro n="lower_case">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="2"/>  </call-macro>
+				<out>
+					<chunk name="cmp_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (attr nom)">
-      <pattern>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="transfer_any_attr">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="2"/>  </call-macro>
-        <out>
-          <chunk name="adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (attr nom)">
+			<pattern>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="transfer_any_attr">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="2"/>  </call-macro>
+				<out>
+					<chunk name="adj_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (attr cmp nom)">
-      <pattern>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_cmp"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-        <call-macro n="lower_case">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="transfer_any_attr">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
-        <out>
-          <chunk name="adj_cmp_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (attr cmp nom)">
+			<pattern>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_cmp"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+				<call-macro n="lower_case">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="transfer_any_attr">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
+				<out>
+					<chunk name="adj_cmp_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (attr attr nom)">
-      <pattern>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="transfer_any_attr">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
-        <out>
-          <chunk name="adj_adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <b pos="2"/>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (attr attr nom)">
+			<pattern>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <lit-tag v="nodet"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="transfer_any_attr">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
+				<out>
+					<chunk name="adj_adj_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<b pos="2"/>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det)">
-      <pattern>
-        <pattern-item n="c_det"/>
-      </pattern>
-      <action>
-        <call-macro n="derive_vars_from_det">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <out>
-          <chunk name="det" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det)">
+			<pattern>
+				<pattern-item n="c_det"/>
+			</pattern>
+			<action>
+				<call-macro n="derive_vars_from_det">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<out>
+					<chunk name="det" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det gerund)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_gerund"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_gerund">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_gerund">  <with-param pos="2"/>  </call-macro>
-        <out>
-          <chunk name="det_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det gerund)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_gerund"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_gerund">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_gerund">  <with-param pos="2"/>  </call-macro>
+				<out>
+					<chunk name="det_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="2"/>  </call-macro>
-        <out>
-          <chunk name="det_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="2"/>  </call-macro>
+				<out>
+					<chunk name="det_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det cmp nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_cmp"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="lower_case">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
-        <out>
-          <chunk name="det_cmp_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det cmp nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_cmp"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="lower_case">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
+				<out>
+					<chunk name="det_cmp_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det attr nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
-        <out>
-          <chunk name="det_adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <b pos="2"/>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det attr nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="3"/>  </call-macro>
+				<out>
+					<chunk name="det_adj_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<b pos="2"/>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det attr cmp nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_cmp"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="lower_case">  <with-param pos="4"/>  </call-macro>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="4"/>  </call-macro>
-        <out>
-          <chunk name="det_adj_cmp_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <b pos="2"/>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-            <lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det attr cmp nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_cmp"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="lower_case">  <with-param pos="4"/>  </call-macro>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="4"/>  </call-macro>
+				<out>
+					<chunk name="det_adj_cmp_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<b pos="2"/>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+						<lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det attr attr nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="4"/>  </call-macro>
-        <out>
-          <chunk name="det_adj_adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <b pos="2"/>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-            <b pos="3"/>
-            <lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det attr attr nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="4"/>  </call-macro>
+				<out>
+					<chunk name="det_adj_adj_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<b pos="2"/>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+						<b pos="3"/>
+						<lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det attr attr cmp nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_cmp"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="lower_case">  <with-param pos="5"/>  </call-macro>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
-        <out>
-          <chunk name="det_adj_adj_cmp_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <b pos="2"/>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-            <b pos="3"/>
-            <lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
-            <lu>  <clip pos="5" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det attr attr cmp nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_cmp"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="4"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="lower_case">  <with-param pos="5"/>  </call-macro>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
+				<out>
+					<chunk name="det_adj_adj_cmp_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<b pos="2"/>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+						<b pos="3"/>
+						<lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
+						<lu>  <clip pos="5" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det attr attr attr nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="5"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="3"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="4"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
-        <out>
-          <chunk name="det_adj_adj_adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <b pos="2"/>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-            <b pos="3"/>
-            <lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
-            <b pos="4"/>
-            <lu>  <clip pos="5" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det attr attr attr nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="5"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="3"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="4"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
+				<out>
+					<chunk name="det_adj_adj_adj_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<b pos="2"/>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+						<b pos="3"/>
+						<lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
+						<b pos="4"/>
+						<lu>  <clip pos="5" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="assemble noun phrase (det attr cnj attr nom)">
-      <pattern>
-        <pattern-item n="c_det"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_cnjcoo"/>
-        <pattern-item n="c_any_attr"/>
-        <pattern-item n="c_nom"/>
-      </pattern>
-      <action>
-        <let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
-        <call-macro n="derive_vars_from_nom">  <with-param pos="5"/>  </call-macro>
-        <call-macro n="set__v_adj_infl"/>
-        <call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
-        <call-macro n="transfer_any_attr">  <with-param pos="4"/>  </call-macro>
-        <call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
-        <out>
-          <chunk name="det_adj_cnjcoo_adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="v_gen"/></tag><!-- gender -->
-              <tag><var n="v_det_gen"/></tag>
-              <tag><var n="v_adj_gen"/></tag>
-              <tag><var n="v_nbr"/></tag><!-- number -->
-              <tag><var n="v_case"/></tag><!-- case -->
-              <tag><var n="v_det_type"/></tag><!-- definite/indefinite -->
-              <tag><var n="v_adj_infl"/></tag><!-- adjective inflection scheme -->
-            </tags>
-            <lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
-            <b pos="1"/>
-            <lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
-            <b pos="2"/>
-            <lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
-            <b pos="3"/>
-            <lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
-            <b pos="4"/>
-            <lu>  <clip pos="5" side="tl" part="whole"/>  </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="assemble noun phrase (det attr cnj attr nom)">
+			<pattern>
+				<pattern-item n="c_det"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_cnjcoo"/>
+				<pattern-item n="c_any_attr"/>
+				<pattern-item n="c_nom"/>
+			</pattern>
+			<action>
+				<let>  <var n="v_det_type"/>  <clip pos="1" side="tl" part="a_det_type"/>  </let>
+				<call-macro n="derive_vars_from_nom">  <with-param pos="5"/>  </call-macro>
+				<call-macro n="set__v_adj_infl"/>
+				<call-macro n="transfer_determiner">  <with-param pos="1"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="2"/>  </call-macro>
+				<call-macro n="transfer_any_attr">  <with-param pos="4"/>  </call-macro>
+				<call-macro n="transfer_noun">  <with-param pos="5"/>  </call-macro>
+				<out>
+					<chunk name="det_adj_cnjcoo_adj_nom" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SN"/></tag>
+							<tag><var n="v_gen"/></tag>  <!-- gender -->
+							<tag><var n="v_det_gen"/></tag>
+							<tag><var n="v_adj_gen"/></tag>
+							<tag><var n="v_nbr"/></tag>  <!-- number -->
+							<tag><var n="v_case"/></tag>  <!-- case -->
+							<tag><var n="v_det_type"/></tag>  <!-- definite/indefinite -->
+							<tag><var n="v_adj_infl"/></tag>  <!-- adjective inflection scheme -->
+						</tags>
+						<lu>  <clip pos="1" side="tl" part="whole"/>  </lu>
+						<b pos="1"/>
+						<lu>  <clip pos="2" side="tl" part="whole"/>  </lu>
+						<b pos="2"/>
+						<lu>  <clip pos="3" side="tl" part="whole"/>  </lu>
+						<b pos="3"/>
+						<lu>  <clip pos="4" side="tl" part="whole"/>  </lu>
+						<b pos="4"/>
+						<lu>  <clip pos="5" side="tl" part="whole"/>  </lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-    <rule comment="RULE: encapsule interjection (ij)">
-      <pattern>
-        <pattern-item n="c_ij"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="ij" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="IJ"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="firstWord"/>
-      </action>
-    </rule>
+		<rule comment="RULE: encapsule interjection (ij)">
+			<pattern>
+				<pattern-item n="c_ij"/>
+			</pattern>
+			<action>
+				<out>
+					<chunk name="ij" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="IJ"/></tag>
+						</tags>
+						<lu>
+							<clip pos="1" side="tl" part="whole"/>
+						</lu>
+					</chunk>
+				</out>
+				<call-macro n="firstWord"/>
+			</action>
+		</rule>
 
-  </section-rules>
+	</section-rules>
 </transfer>
