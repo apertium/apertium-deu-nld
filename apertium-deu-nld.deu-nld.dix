@@ -371,7 +371,6 @@
     <e><p><l>plus<s n="pr"/><s n="acc"/></l><r>plus<s n="pr"/></r></p></e>
     <e><p><l>pro<s n="pr"/></l><r>per<s n="pr"/></r></p><par n="pro__pr"/></e>
     <e><p><l>rechts<s n="pr"/><s n="gen"/></l><r>rechts<b/>van<s n="pr"/></r></p></e>
-    <e><p><l>richtung<s n="pr"/></l><r>richting<s n="pr"/></r></p></e>
     <e><p><l>samt<s n="pr"/></l><r>met<b/>inbegrip<b/>van<s n="pr"/></r></p></e>
     <e><p><l>seit<s n="pr"/><s n="dat"/></l><r>sedert<s n="pr"/></r></p></e>
     <e><p><l>seit<s n="pr"/><s n="dat"/></l><r>sinds<s n="pr"/></r></p></e>
@@ -988,7 +987,7 @@
     <e><p><l>doppelt<s n="adv"/></l><r>dubbel<s n="adv"/></r></p></e>
     <e><p><l>deutlich<s n="adv"/></l><r>duidelijk<s n="adv"/></r></p></e>
     <e><p><l>begeistert<s n="adv"/></l><r>enthousiast<s n="adv"/></r></p></e>
-    <e><p><l>eklusiv<s n="adv"/></l><r>exclusief<s n="adv"/></r></p></e>
+    <e><p><l>exklusiv<s n="adv"/></l><r>exclusief<s n="adv"/></r></p></e>
     <e><p><l>heftig<s n="adv"/></l><r>fel<s n="adv"/></r></p></e>
     <e><p><l>formell<s n="adv"/></l><r>formeel<s n="adv"/></r></p></e>
     <e><p><l>geistig<s n="adv"/></l><r>geestelijk<s n="adv"/></r></p></e>
@@ -999,7 +998,7 @@
     <e><p><l>generös<s n="adv"/></l><r>gul<s n="adv"/></r></p></e>
     <e><p><l>hart<s n="adv"/></l><r>hard<s n="adv"/></r></p></e>
     <e><p><l>heimlich<s n="adv"/></l><r>heimelijk<s n="adv"/></r></p></e>
-    <e><p><l>hevig<s n="adv"/></l><r>hevig<s n="adv"/></r></p></e>
+    <e><p><l>heftig<s n="adv"/></l><r>hevig<s n="adv"/></r></p></e>
     <e><p><l>jährlich<s n="adv"/></l><r>jaarlijks<s n="adv"/></r></p></e>
     <e><p><l>richtig<s n="adv"/></l><r>juist<s n="adv"/></r></p></e>
     <e><p><l>evident<s n="adv"/></l><r>klaarblijkelijk<s n="adv"/></r></p></e>
@@ -1066,7 +1065,7 @@
     <e><p><l>früh<s n="adv"/></l><r>vroeg<s n="adv"/></r></p></e>
     <e><p><l>wachsam<s n="adv"/></l><r>waakzaam<s n="adv"/></r></p></e>
     <e><p><l>wackelig<s n="adv"/></l><r>wankel<s n="adv"/></r></p></e>
-    <e><p><l>wochentlich<s n="adv"/></l><r>wekelijks<s n="adv"/></r></p></e>
+    <e><p><l>wöchentlich<s n="adv"/></l><r>wekelijks<s n="adv"/></r></p></e>
     <e><p><l>wohlwollend<s n="adv"/></l><r>welwillend<s n="adv"/></r></p></e>
     <e><p><l>wirklich<s n="adv"/></l><r>werkelijk<s n="adv"/></r></p></e>
     <e><p><l>gesetzlich<s n="adv"/></l><r>wettelijk<s n="adv"/></r></p></e>
@@ -2837,7 +2836,7 @@
     <e><p><l>Arbeitgeber<s n="n"/><s n="m"/></l><r>werkgever<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Arbeitsamt<s n="n"/><s n="nt"/></l><r>arbeidsbureau<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Arbeitsangebot<s n="n"/><s n="nt"/></l><r>arbeidsaanbod<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Arbeitskonlikt<s n="n"/><s n="m"/></l><r>arbeidsconflict<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Arbeitskonflikt<s n="n"/><s n="m"/></l><r>arbeidsconflict<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Arbeitskraft<s n="n"/><s n="f"/></l><r>werkkracht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Arbeitskraft<s n="n"/><s n="f"/></l><r>werkkracht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Arbeitslosigkeit<s n="n"/><s n="f"/></l><r>werkloosheid<s n="n"/><s n="f"/></r></p></e>
@@ -6465,7 +6464,7 @@
     <e><p><l>Meerkatze<s n="n"/><s n="f"/></l><r>meerkat<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Meerrettich<s n="n"/><s n="m"/></l><r>mierikswortel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Meerschweinchen<s n="n"/><s n="nt"/></l><r>cavia<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>Meerstrasse<s n="n"/><s n="f"/></l><r>zee-engte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Meerstraße<s n="n"/><s n="f"/></l><r>zee-engte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Meerwasser<s n="n"/><s n="nt"/></l><r>zeewater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Mehl<s n="n"/><s n="nt"/></l><r>bloem<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Mehl<s n="n"/><s n="nt"/></l><r>meel<s n="n"/><s n="nt"/></r></p></e>
@@ -7156,7 +7155,7 @@
     <e><p><l>Pfeiler<s n="n"/><s n="m"/></l><r>pijler<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Pferd<s n="n"/><s n="nt"/></l><r>paard<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Pferdemuschel<s n="n"/><s n="f"/></l><r>paardenmossel<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>Pferdestal<s n="n"/><s n="m"/></l><r>paardenstal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Pferdestall<s n="n"/><s n="m"/></l><r>paardenstal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Pferdestärke<s n="n"/><s n="f"/></l><r>paardenkracht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Pfifferling<s n="n"/><s n="m"/></l><r>cantharel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Pfifferling<s n="n"/><s n="m"/></l><r>hanenkam<s n="n"/><s n="m"/></r></p></e>
@@ -8178,7 +8177,7 @@
     <e><p><l>Sexualforschung<s n="n"/><s n="f"/></l><r>seksuologie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Sexualität<s n="n"/><s n="f"/></l><r>seksualiteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Sherry<s n="n"/><s n="m"/></l><r>sherry<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Shiffbrüchiger<s n="n"/><s n="m"/></l><r>schipbreukeling<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Schiffbrüchiger<s n="n"/><s n="m"/></l><r>schipbreukeling<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Shirt<s n="n"/><s n="nt"/></l><r>shirt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Shop<s n="n"/><s n="m"/></l><r>shop<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Si<s n="n"/><s n="nt"/></l><r>si<s n="n"/><s n="f"/></r></p></e>
@@ -8751,7 +8750,7 @@
     <e><p><l>Temperatur<s n="n"/><s n="f"/></l><r>temperatuur<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Tempolimit<s n="n"/><s n="nt"/></l><r>maximumsnelheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Tendenz<s n="n"/><s n="f"/></l><r>tendens<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>Tennisshuh<s n="n"/><s n="m"/></l><r>tennisschoen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Tennisschuh<s n="n"/><s n="m"/></l><r>tennisschoen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Teppich<s n="n"/><s n="m"/></l><r>tapijt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Termin<s n="n"/><s n="m"/></l><r>termijn<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Terminkalender<s n="n"/><s n="m"/></l><r>agenda<s n="n"/><s n="mf"/></r></p></e>
