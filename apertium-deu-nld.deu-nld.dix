@@ -403,7 +403,7 @@
     <e><p><l>östlich<s n="pr"/><s n="gen"/></l><r>oostelijk<b/>van<s n="pr"/></r></p></e>
     <e><p><l>über<s n="pr"/></l><r>over<s n="pr"/></r></p><par n="an__pr"/></e>
     <e><p><l>infolge<s n="pr"/><s n="gen"/></l><r>als<b/>gevolg<b/>van<s n="pr"/></r></p></e>
-    <e><p><l>zusammen mit<s n="pr"/><s n="dat"/></l><r>samen met<s n="pr"/></r></p></e>
+    <e><p><l>zusammen<b/>mit<s n="pr"/><s n="dat"/></l><r>samen<b/>met<s n="pr"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
     
@@ -562,13 +562,13 @@
     <e><p><l><s n="preadv"/></l><r>zo<s n="preadv"/></r></p></e>
     <e><p><l><s n="preadv"/></l><r>tamelijk<s n="preadv"/></r></p></e>-->
 
-    <e><p><l>aus diesem Grund<s n="adv"/></l><r>om deze reden<s n="adv"/></r></p></e>
-    <e><p><l>unter anderem<s n="adv"/></l><r>onder meer<s n="adv"/></r></p></e>
-    <e><p><l>zu Stande<s n="adv"/></l><r>tot stand<s n="adv"/></r></p></e>
-    <e><p><l>zustande<s n="adv"/></l><r>tot stand<s n="adv"/></r></p></e>
-    <e><p><l>genau wie<s n="adv"/></l><r>evenals<s n="adv"/></r></p></e>
-    <e><p><l>nicht mehr<s n="adv"/></l><r>niet meer<s n="adv"/></r></p></e>
-    <e><p><l>an Bord<s n="adv"/></l><r>aan boord<s n="adv"/></r></p></e>
+    <e><p><l>aus<b/>diesem<b/>Grund<s n="adv"/></l><r>om<b/>deze<b/>reden<s n="adv"/></r></p></e>
+    <e><p><l>unter<b/>anderem<s n="adv"/></l><r>onder<b/>meer<s n="adv"/></r></p></e>
+    <e><p><l>zu<b/>Stande<s n="adv"/></l><r>tot<b/>stand<s n="adv"/></r></p></e>
+    <e><p><l>zustande<s n="adv"/></l><r>tot<b/>stand<s n="adv"/></r></p></e>
+    <e><p><l>genau<b/>wie<s n="adv"/></l><r>evenals<s n="adv"/></r></p></e>
+    <e><p><l>nicht<b/>mehr<s n="adv"/></l><r>niet<b/>meer<s n="adv"/></r></p></e>
+    <e><p><l>an<b/>Bord<s n="adv"/></l><r>aan<b/>boord<s n="adv"/></r></p></e>
 
     <e><p><l>an<s n="adv"/></l><r>aan<s n="adv"/></r></p></e>
     <e><p><l>um<s n="adv"/></l><r>om<s n="adv"/></r></p></e>
@@ -766,7 +766,7 @@
     <e><p><l>idealerweise<s n="adv"/></l><r>idealiter<s n="adv"/></r></p></e>
     <e><p><l>immer<s n="adv"/></l><r>altijd<s n="adv"/></r></p></e>
     <e><p><l>immerhin<s n="adv"/></l><r>althans<s n="adv"/></r></p></e>
-    <e><p><l>in der Regel<s n="adv"/></l><r>doorgaans<s n="adv"/></r></p></e>
+    <e><p><l>in<b/>der<b/>Regel<s n="adv"/></l><r>doorgaans<s n="adv"/></r></p></e>
     <e><p><l>in<b/>Zukunft<s n="adv"/></l><r>voortaan<s n="adv"/></r></p></e>
     <e><p><l>in<b/>der<b/>Absicht<s n="adv"/></l><r>voornemens<s n="adv"/></r></p></e>
     <e><p><l>inkohärent<s n="adv"/></l><r>incoherent<s n="adv"/></r></p></e>
@@ -2191,7 +2191,7 @@
     <!--<e><p><l>Abszisse</l><r>abscis<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Aloen</l><r>aloë<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Angelsächsisch<s n="n"/><s n="nt"/></l><r>Oudengels<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Angst vor Schmutz<s n="n"/><s n="f"/></l><r>smetvrees<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Angst<b/>vor<b/>Schmutz<s n="n"/><s n="f"/></l><r>smetvrees<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Annunziation</l><r>Maria-Boodschap<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Anspruch<s n="n"/><s n="m"/></l><r>vordering<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Anti</l><r>anti<s n="n"/><s n="m"/></r></p></e>-->
@@ -2200,13 +2200,13 @@
     <!--<e><p><l>Bai</l><r>baai<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Bauernhof<s n="n"/><s n="m"/></l><r>hof<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Bauernhof<s n="n"/><s n="m"/></l><r>hof<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Behaarte Pfahlmuschel<s n="n"/><s n="f"/></l><r>baardmossel<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Behaarte<b/>Pfahlmuschel<s n="n"/><s n="f"/></l><r>baardmossel<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Beitrag<s n="n"/><s n="f"/></l><r>artikel<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Bengel<s n="n"/><s n="m"/></l><r>deugniet<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Bergtrikot der Tour de France<s n="n"/><s n="nt"/></l><r>bolletjestrui<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Bergtrikot<b/>der<b/>Tour<b/>de<b/>France<s n="n"/><s n="nt"/></l><r>bolletjestrui<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Bezichtigung<s n="n"/><s n="f"/></l><r>beschuldiging<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Bischofsmütze<s n="n"/><s n="f"/></l><r>mijter<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Blätterteiggebäck in Buchstabenform<s n="n"/><s n="nt"/></l><r>boterletter<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Blätterteiggebäck<b/>in<b/>Buchstabenform<s n="n"/><s n="nt"/></l><r>boterletter<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Brieftaubenzüchter<s n="n"/><s n="m"/></l><r>duivenmelker<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Brunhövd</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Bucker</l><r>knikker<s n="n"/><s n="m"/></r></p></e>-->
@@ -2218,43 +2218,43 @@
     <!--<e><p><l>Daune <i><a href="/wiki/meervoud" title="meervoud">meervoud</a></i></l><r>dons<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Dazit</l><r>daciet<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Eigelb<s n="n"/><s n="nt"/></l><r>dooier<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Einmischung des Staates<s n="n"/><s n="f"/></l><r>overheidsbemoeienis<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Elektrischer Generator<s n="n"/><s n="m"/></l><r>generator<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Einmischung<b/>des<b/>Staates<s n="n"/><s n="f"/></l><r>overheidsbemoeienis<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>Elektrischer<b/>Generator<s n="n"/><s n="m"/></l><r>generator<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Entscheidung<s n="n"/><s n="f"/></l><r>arbitrage<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>Europäischer Aal<s n="n"/><s n="m"/></l><r>paling<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Europäischer<b/>Aal<s n="n"/><s n="m"/></l><r>paling<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Fahrradgabel<s n="n"/><s n="f"/></l><r>vork<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Fibrin</l><r>fibrine<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Fleischfresser<s n="n"/><s n="m"/></l><r>carnivoor<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Flussbarsch<s n="n"/><s n="m"/></l><r>baars<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Furn</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Fächertracheen</l><r>boeklong<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>Fünfte Kolonne<s n="n"/><s n="f"/></l><r>colonne<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Fünfte<b/>Kolonne<s n="n"/><s n="f"/></l><r>colonne<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Gambir</l><r>gambier<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Gemeinderatsmitglied<s n="n"/><s n="nt"/></l><r>raadslid<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Gemeine Becherjungfer<s n="n"/><s n="f"/></l><r>watersnuffel<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Gemeiner Stechapfel<s n="n"/><s n="m"/></l><r>doornappel<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Gemeine<b/>Becherjungfer<s n="n"/><s n="f"/></l><r>watersnuffel<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Gemeiner<b/>Stechapfel<s n="n"/><s n="m"/></l><r>doornappel<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Geografie<s n="n"/><s n="f"/></l><r>aardrijkskunde<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Gerichtshof<s n="n"/><s n="m"/></l><r>hof<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Gerichtshof<s n="n"/><s n="m"/></l><r>hof<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Geschlechtswort<s n="n"/><s n="nt"/></l><r>artikel<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Gewöhnliche Karausche<s n="n"/><s n="f"/></l><r>giebel<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Gewöhnliche<b/>Karausche<s n="n"/><s n="f"/></l><r>giebel<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Glucagon</l><r>glucagon<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Gneis</l><r>gneis<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Gneis</l><r>gneis<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Gott des Meeres<s n="n"/><s n="m"/></l><r>zeegod<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>Gott des Meeres<s n="n"/><s n="m"/></l><r>zeegod<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Gott<b/>des<b/>Meeres<s n="n"/><s n="m"/></l><r>zeegod<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>Gott<b/>des<b/>Meeres<s n="n"/><s n="m"/></l><r>zeegod<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Große Wühlmaus<s n="n"/><s n="f"/></l><r>waterrat<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>Großer Brachvogel<s n="n"/><s n="m"/></l><r>wulp<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Großer Panda<s n="n"/><s n="m"/></l><r>reuzenpanda<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Großfrüchtige Moosbeere<s n="n"/><s n="f"/></l><r>cranberry<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Großer<b/>Brachvogel<s n="n"/><s n="m"/></l><r>wulp<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Großer<b/>Panda<s n="n"/><s n="m"/></l><r>reuzenpanda<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Großfrüchtige<b/>Moosbeere<s n="n"/><s n="f"/></l><r>cranberry<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Gälisch<s n="n"/><s n="nt"/></l><r>Iers<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Heilige Nacht<s n="n"/><s n="f"/></l><r>kerstnacht<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Heilige<b/>Nacht<s n="n"/><s n="f"/></l><r>kerstnacht<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Herbizid<s n="n"/><s n="nt"/></l><r>onkruidverdelgingsmiddel<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Herzanfall<s n="n"/><s n="m"/></l><r>hartinfarct<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Hufrehe</l><r>hoefbevangenheid<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Hundertfüssler<s n="n"/><s n="m"/></l><r>duizendpoot<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Hütte des Stifts<s n="n"/><s n="f"/></l><r>tabernakel<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Hütte des Stifts<s n="n"/><s n="f"/></l><r>tabernakel<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>Hütte<b/>des<b/>Stifts<s n="n"/><s n="f"/></l><r>tabernakel<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Hütte<b/>des<b/>Stifts<s n="n"/><s n="f"/></l><r>tabernakel<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Indigoblau<s n="n"/><s n="nt"/></l><r>indigo<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Inselt</l><r>talg<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Irisch-Gälisch<s n="n"/><s n="nt"/></l><r>Iers<s n="n"/><s n="nt"/></r></p></e>-->
@@ -2288,7 +2288,7 @@
     <!--<e><p><l>Meefischli</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Meißel<s n="n"/><s n="m"/></l><r>beitel<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Menschenraub<s n="n"/><s n="m"/></l><r>ontvoering<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>Methodistische und Wesleyanische Kirchen<s n="n"/><s n="f"/></l><r>methodisme<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>Methodistische<b/>und<b/>Wesleyanische<b/>Kirchen<s n="n"/><s n="f"/></l><r>methodisme<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Mizelle</l><r>micel<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Mokscha</l><r>Moksja<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Musikinstrument<s n="n"/><s n="nt"/></l><r>instrument<s n="n"/><s n="nt"/></r></p></e>-->
@@ -2297,7 +2297,7 @@
     <!--<e><p><l>Navajo</l><r>Navajo<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Neozoen</l><r>exoot<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Nervenkunde<s n="n"/><s n="f"/></l><r>neurologie<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>Nördlicher Schnapper<s n="n"/><s n="m"/></l><r>roodvis<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Nördlicher<b/>Schnapper<s n="n"/><s n="m"/></l><r>roodvis<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Oligomer</l><r>oligomeer<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Omnibus<s n="n"/><s n="m"/></l><r>bus<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Oriya</l><r>Oriya<s n="n"/><s n="nt"/></r></p></e>-->
@@ -2308,8 +2308,8 @@
     <!--<e><p><l>Plätze</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Plötze</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Polyglott</l><r>polyglot<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Pommes frites</l><r>friet<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>Pommes frites</l><r>patat<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Pommes<b/>frites</l><r>friet<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Pommes<b/>frites</l><r>patat<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Prüfung<s n="n"/><s n="f"/></l><r>examen<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Pulsation</l><r>pulsatie<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Quappe</l><r>kwabaal<s n="n"/><s n="nt"/></r></p></e>-->
@@ -2327,7 +2327,7 @@
     <!--<e><p><l>Rübe<s n="n"/><s n="f"/></l><r>wortel<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Sackpfeife<s n="n"/><s n="f"/></l><r>doedelzak<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Schicht<s n="n"/><s n="f"/></l><r>laag<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>Schiffe versenken<s n="n"/><s n="nt"/></l><r>zeeslag<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Schiffe<b/>versenken<s n="n"/><s n="nt"/></l><r>zeeslag<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Schifffahrt<s n="n"/><s n="f"/></l><r>vaart<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Schlarpe</l><r>teenslipper<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Schleie</l><r>zeelt<s n="n"/><s n="mf"/></r></p></e>-->
@@ -2335,19 +2335,19 @@
     <!--<e><p><l>Schneckenweih</l><r>slakkenwouw<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Schoepit</l><r>schoepiet<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Schwal</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Schwarze Tollkirsche<s n="n"/><s n="f"/></l><r>wolfskers<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>Seismische Welle<s n="n"/><s n="f"/></l><r>aardbevingsgolf<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>Spanische Wand<s n="n"/><s n="f"/></l><r>scherm<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>Schwarze<b/>Tollkirsche<s n="n"/><s n="f"/></l><r>wolfskers<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>Seismische<b/>Welle<s n="n"/><s n="f"/></l><r>aardbevingsgolf<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Spanische<b/>Wand<s n="n"/><s n="f"/></l><r>scherm<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Sprachlehrer<s n="n"/><s n="m"/></l><r>logopedist<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Springergabel<s n="n"/><s n="f"/></l><r>vork<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Stadtverordnete<s n="n"/><s n="m"/> /<s n="n"/><s n="f"/></l><r>raadslid<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Stelle<s n="n"/><s n="f"/></l><r>oord<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Stofftier<s n="n"/><s n="nt"/></l><r>knuffelbeest<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Stratum corneum<s n="n"/><s n="nt"/></l><r>hoornlaag<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>Stratum<b/>corneum<s n="n"/><s n="nt"/></l><r>hoornlaag<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Streckensymmetrale</l><r>middelloodlijn<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>Stätte<s n="n"/><s n="f"/></l><r>oord<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Systemische Therapie<s n="n"/><s n="f"/></l><r>systeemtherapie<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>Systems Engineering<s n="n"/><s n="f"/></l><r>systeemkunde<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>Systemische<b/>Therapie<s n="n"/><s n="f"/></l><r>systeemtherapie<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>Systems<b/>Engineering<s n="n"/><s n="f"/></l><r>systeemkunde<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>Terpen</l><r>terpeen<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Trajectorie<s n="n"/><s n="f"/></l><r>baan<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Twents</l><r>Twents<s n="n"/><s n="nt"/></r></p></e>-->
@@ -2360,8 +2360,8 @@
     <!--<e><p><l>Wald<s n="n"/><s n="nt"/></l><r>hout<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Waldlichtung<s n="n"/><s n="f"/></l><r>laar<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Ware<s n="n"/><s n="f"/></l><r>artikel<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>Weißen Hai<s n="n"/><s n="m"/></l><r>mensenhaai<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>Weißer Stechapfel<s n="n"/><s n="m"/></l><r>doornappel<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Weißer<b/>Hai<s n="n"/><s n="m"/></l><r>mensenhaai<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>Weißer<b/>Stechapfel<s n="n"/><s n="m"/></l><r>doornappel<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Weißfisch</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Werkzeug<s n="n"/><s n="nt"/></l><r>instrument<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Wiedehopf</l><r>hop<s n="n"/><s n="f"/></r></p></e>-->
@@ -2372,33 +2372,33 @@
     <!--<e><p><l>Zelluloid</l><r>drager<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Zicke</l><r>blankvoorn<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Zirhose</l><r>cirrose<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>abessinischer Tee<s n="n"/><s n="m"/></l><r>qat<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>abessinischer<b/>Tee<s n="n"/><s n="m"/></l><r>qat<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>actinoide</l><r>actinide<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>akustische Isolierung<s n="n"/><s n="f"/></l><r>geluidsisolatie<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>akustische<b/>Isolierung<s n="n"/><s n="f"/></l><r>geluidsisolatie<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>beanstanden<s n="n"/><s n="nt"/></l><r>aanmerking<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>belegtes Brot<s n="n"/><s n="nt"/></l><r>boterham<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>berücksichtigen, in Betracht ziehen<s n="n"/><s n="nt"/></l><r>aanmerking<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>frittierter panierter Käse<s n="n"/><s n="m"/></l><r>kaassoufflé<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>frühe Abend<s n="n"/><s n="m"/></l><r>valavond<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>gefühlte Temperatur<s n="n"/><s n="f"/></l><r>gevoelstemperatuur<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>gelber Knopf<s n="n"/><s n="m"/></l><r>geel<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>gemeinnützige Arbeit als Ersatzstrafe<s n="n"/><s n="m"/></l><r>taakstraf<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>belegtes<b/>Brot<s n="n"/><s n="nt"/></l><r>boterham<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>berücksichtigen,<b/>in<b/>Betracht<b/>ziehen<s n="n"/><s n="nt"/></l><r>aanmerking<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>frittierter<b/>panierter Käse<s n="n"/><s n="m"/></l><r>kaassoufflé<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>frühe<b/>Abend<s n="n"/><s n="m"/></l><r>valavond<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>gefühlte<b/>Temperatur<s n="n"/><s n="f"/></l><r>gevoelstemperatuur<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>gelber<b/>Knopf<s n="n"/><s n="m"/></l><r>geel<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>gemeinnützige<b/>Arbeit<b/>als<b/>Ersatzstrafe<s n="n"/><s n="m"/></l><r>taakstraf<s n="n"/><s n="mf"/></r></p></e>-->
     <!--<e><p><l>große Tümmler<s n="n"/><s n="m"/></l><r>tuimelaar<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>grüner Star</l><r>glaucoom<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>holländischer Butterkuchen<s n="n"/><s n="m"/></l><r>boterkoek<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>höhnische Bemerkung<s n="n"/><s n="f"/></l><r>sneer<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>kleine Finger<s n="n"/><s n="m"/></l><r>pink<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>konjunkturelle Arbeitslosigkeit<s n="n"/><s n="f"/></l><r>conjunctuurwerkloosheid<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>konstruierte Sprache<s n="n"/><s n="f"/></l><r>kunsttaal<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>lockere Vogel<s n="n"/><s n="m"/></l><r>losbol<s n="n"/><s n="m"/></r></p></e>-->
-    <!--<e><p><l>magmatisches Gestein<s n="n"/><s n="nt"/></l><r>stollingsgesteente<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>materiale Ursache<s n="n"/><s n="f"/></l><r>stofoorzaak<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>mehrfarbige Katze<s n="n"/><s n="f"/></l><r>lapjeskat<s n="n"/><s n="f"/></r></p></e>-->
-    <!--<e><p><l>nördliche Nachbar<s n="n"/><s n="m"/></l><r>noorderbuur<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>grüner<b/>Star</l><r>glaucoom<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>holländischer<b/>Butterkuchen<s n="n"/><s n="m"/></l><r>boterkoek<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>höhnische<b/>Bemerkung<s n="n"/><s n="f"/></l><r>sneer<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>kleine<b/>Finger<s n="n"/><s n="m"/></l><r>pink<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>konjunkturelle<b/>Arbeitslosigkeit<s n="n"/><s n="f"/></l><r>conjunctuurwerkloosheid<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>konstruierte<b/>Sprache<s n="n"/><s n="f"/></l><r>kunsttaal<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>lockere<b/>Vogel<s n="n"/><s n="m"/></l><r>losbol<s n="n"/><s n="m"/></r></p></e>-->
+    <!--<e><p><l>magmatisches<b/>Gestein<s n="n"/><s n="nt"/></l><r>stollingsgesteente<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>materiale<b/>Ursache<s n="n"/><s n="f"/></l><r>stofoorzaak<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>mehrfarbige<b/>Katze<s n="n"/><s n="f"/></l><r>lapjeskat<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>nördliche<b/>Nachbar<s n="n"/><s n="m"/></l><r>noorderbuur<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>schlechte Führung<s n="n"/><s n="f"/></l><r>wangedrag<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>sprachliche Fehler<s n="n"/><s n="m"/></l><r>taalfout<s n="n"/><s n="mf"/></r></p></e>-->
-    <!--<e><p><l>staatliche Einmischung<s n="n"/><s n="f"/></l><r>overheidsbemoeienis<s n="n"/><s n="nt"/></r></p></e>-->
-    <!--<e><p><l>systematische Verfahren<s n="n"/><s n="nt"/></l><r>systeembenadering<s n="n"/><s n="f"/></r></p></e>-->
+    <!--<e><p><l>sprachliche<b/>Fehler<s n="n"/><s n="m"/></l><r>taalfout<s n="n"/><s n="mf"/></r></p></e>-->
+    <!--<e><p><l>staatliche<b/>Einmischung<s n="n"/><s n="f"/></l><r>overheidsbemoeienis<s n="n"/><s n="nt"/></r></p></e>-->
+    <!--<e><p><l>systematische<b/>Verfahren<s n="n"/><s n="nt"/></l><r>systeembenadering<s n="n"/><s n="f"/></r></p></e>-->
     <!--<e><p><l>tausend</l><r>duizend<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>thermite</l><r>thermiet<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>Übertragung<s n="n"/><s n="f"/></l><r>transcriptie<s n="n"/><s n="f"/></r></p></e>-->
@@ -3154,7 +3154,8 @@
     <e><p><l>Beichte<s n="n"/><s n="f"/></l><r>biecht<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Beichtgeheimnis<s n="n"/><s n="nt"/></l><r>biechtgeheim<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Beifuß<s n="n"/><s n="m"/></l><r>bijvoet<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Beigeordnete<s n="n"/><s n="m"/>/<s n="n"/><s n="f"/></l><r>wethouder<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Beigeordnete<s n="n"/><s n="m"/></l><r>wethouder<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Beigeordnete<s n="n"/><s n="f"/></l><r>wethouder<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beigeschmack<s n="n"/><s n="m"/></l><r>bijsmaak<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beigeschmack<s n="n"/><s n="m"/></l><r>zweem<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beilage<s n="n"/><s n="f"/></l><r>toegift<s n="n"/><s n="mf"/></r></p></e>
@@ -5216,7 +5217,8 @@
     <e><p><l>Holztaube<s n="n"/><s n="f"/></l><r>houtduif<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Holzwurm<s n="n"/><s n="m"/></l><r>houtworm<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Homonym<s n="n"/><s n="nt"/></l><r>homoniem<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Homosexuelle<s n="n"/><s n="m"/>/<s n="n"/><s n="f"/></l><r>homoseksueel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Homosexuelle<s n="n"/><s n="m"/></l><r>homoseksueel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Homosexuelle<s n="n"/><s n="f"/></l><r>homoseksueel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Homöopathie<s n="n"/><s n="f"/></l><r>homeopathie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Honig<s n="n"/><s n="m"/></l><r>honing<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Honigdachs<s n="n"/><s n="m"/></l><r>honingdas<s n="n"/><s n="m"/></r></p></e>
@@ -5307,7 +5309,7 @@
     <e><p><l>Idiom<s n="n"/><s n="nt"/></l><r>idioom<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Ido<s n="n"/><s n="nt"/></l><r>Ido<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Igel<s n="n"/><s n="m"/></l><r>egel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Iglu<s n="n"/><s n="m"/> of<s n="n"/><s n="nt"/></l><r>iglo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Iglu<s n="n"/><s n="nt"/></l><r>iglo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Iltis<s n="n"/><s n="m"/></l><r>bunzing<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Imitation<s n="n"/><s n="f"/></l><r>imitatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Imitation<s n="n"/><s n="f"/></l><r>nabootsing<s n="n"/><s n="f"/></r></p></e>
@@ -6966,7 +6968,7 @@
     <e><p><l>Oleinsäure<s n="n"/><s n="f"/></l><r>oliezuur<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Olive<s n="n"/><s n="f"/></l><r>olijf<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Olivenbaum<s n="n"/><s n="m"/></l><r>olijfboom<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Olympiade<s n="n"/><s n="f"/></l><r>Olympische Spelen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Olympiade<s n="n"/><s n="f"/></l><r>Olympische<b/>Spelen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Oma<s n="n"/><s n="f"/></l><r>grootmoeder<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Oma<s n="n"/><s n="f"/></l><r>oma<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Ombudsmann<s n="n"/><s n="m"/></l><r>ombudsman<s n="n"/><s n="m"/></r></p></e>
@@ -7084,7 +7086,8 @@
     <e><p><l>Parallelepiped<s n="n"/><s n="nt"/></l><r>parallellepipedum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Parallelogramm<s n="n"/><s n="nt"/></l><r>parallellogram<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Parasit<s n="n"/><s n="m"/></l><r>parasiet<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Paravent<s n="n"/><s n="m"/>/<s n="n"/><s n="nt"/></l><r>scherm<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Paravent<s n="n"/><s n="m"/></l><r>scherm<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Paravent<s n="n"/><s n="nt"/></l><r>scherm<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Parenchym<s n="n"/><s n="nt"/></l><r>parenchym<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Parforcehorn<s n="n"/><s n="nt"/></l><r>jachthoorn<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Parkuhr<s n="n"/><s n="f"/></l><r>parkeermeter<s n="n"/><s n="m"/></r></p></e>
@@ -9389,7 +9392,6 @@
     <e><p><l>Webmaster<s n="n"/><s n="m"/></l><r>webmaster<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Webseite<s n="n"/><s n="f"/></l><r>website<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Wechsel<s n="n"/><s n="m"/></l><r>wissel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Wechsel<s n="n"/><s n="m"/></l><r>wissel<s n="n"/>_</r></p></e>
     <e><p><l>Wecker<s n="n"/><s n="m"/></l><r>wekker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Weg<s n="n"/><s n="m"/></l><r>weg<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Wegelagerer<s n="n"/><s n="m"/></l><r>struikrover<s n="n"/><s n="m"/></r></p></e>
@@ -10046,8 +10048,8 @@
     <e><p><l>Charakteristik<s n="n"/><s n="f"/></l><r>karakteristiek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Chemotherapie<s n="n"/><s n="f"/></l><r>chemotherapie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Clique<s n="n"/><s n="f"/></l><r>kliek<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Cola<s n="n"/><s n="f"/> neuter</l><r>cola<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Cola<s n="n"/><s n="f"/> neuter</l><r>cola<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Cola<s n="n"/><s n="f"/></l><r>cola<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Cola<s n="n"/><s n="f"/></l><r>cola<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Cytosol<s n="n"/><s n="nt"/></l><r>cytosol<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Damespiel<s n="n"/><s n="nt"/></l><r>damspel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Dämpfer<s n="n"/><s n="m"/></l><r>demper<s n="n"/><s n="m"/></r></p></e>
@@ -10471,7 +10473,7 @@
     <e><p><l>Politiker<s n="n"/><s n="m"/></l><r>politicus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Poltergeist<s n="n"/><s n="m"/></l><r>klopgeest<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Pomp<s n="n"/><s n="m"/></l><r>praal<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>Pontifikat<s n="n"/><s n="m"/> neuter</l><r>pontificaat<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Pontifikat<s n="n"/><s n="m"/></l><r>pontificaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Pore<s n="n"/><s n="f"/></l><r>porie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Porno<s n="n"/><s n="m"/></l><r>porno<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Portikus<s n="n"/><s n="m"/></l><r>portiek<s n="n"/><s n="f"/></r></p></e>
@@ -10782,7 +10784,7 @@
     <e><p><l>Zytoplasma<s n="n"/><s n="nt"/></l><r>cytoplasma<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Zytoskelett<s n="n"/><s n="nt"/></l><r>cytoskelet<s n="n"/><s n="nt"/></r></p></e>
     
-    <!-- SECTION: Proper nouns -->
+    <!-- SECTION: Proper Nouns -->
 
     <e><p><l>Belgien<s n="np"/></l><r>België<s n="np"/></r></p></e>
     <e><p><l>Sankt-Petersburg<s n="np"/></l><r>Sint-Petersburg<s n="np"/></r></p></e>
@@ -10791,7 +10793,7 @@
     <e><p><l>Deutschland<s n="np"/></l><r>Duitsland<s n="np"/></r></p></e>
     <e><p><l>Frankreich<s n="np"/></l><r>Frankrijk<s n="np"/></r></p></e>
     <e><p><l>England<s n="np"/></l><r>Engeland<s n="np"/></r></p></e>
-  <e><p><l>die Niederlande<s n="np"/></l><r>Nederlands<s n="np"/></r></p></e>
+    <e><p><l>die<b/>Niederlande<s n="np"/></l><r>Nederlands<s n="np"/></r></p></e>
     <e><p><l>Afrika<s n="np"/></l><r>Afrika<s n="np"/></r></p></e>
     <e><p><l>Bolivien<s n="np"/></l><r>Bolivia<s n="np"/></r></p></e>
 
@@ -10816,13 +10818,9 @@
     <e><p><l>New<b/>Orleans<s n="np"/></l><r>New<b/>Orleans<s n="np"/></r></p></e>
     <e><p><l>Napoleon<s n="np"/></l><r>Napoleon<s n="np"/></r></p></e>
 
-
     <e><p><l>Brabant<s n="np"/></l><r>Brabant<s n="np"/></r></p></e>
-
-
     <e><p><l>Lodewijk<s n="np"/></l><r>Lodewijk<s n="np"/></r></p></e>
     <e><p><l>Harry<s n="np"/></l><r>Harry<s n="np"/></r></p></e>
-
     <e><p><l>Karel<s n="np"/></l><r>Karel<s n="np"/></r></p></e>
 
     <e><p><l>Amsterdam<s n="np"/></l><r>Amsterdam<s n="np"/></r></p></e>
@@ -10830,7 +10828,6 @@
     <e><p><l>Brüssel<s n="np"/></l><r>Brussel<s n="np"/></r></p></e>
     <e><p><l>Paris<s n="np"/></l><r>Parijs<s n="np"/></r></p></e>
     <e><p><l>Alacant<s n="np"/></l><r>Alacant<s n="np"/></r></p></e>
-    <e><p><l>New<b/>York<s n="np"/></l><r>New<b/>York<s n="np"/></r></p></e>
 
     <e><p><l>Afghanistan<s n="np"/></l><r>Afghanistan<s n="np"/></r></p></e>
     <e><p><l>Alaska<s n="np"/></l><r>Alaska<s n="np"/></r></p></e>
@@ -10848,12 +10845,12 @@
     <e><p><l>Argentinien<s n="np"/></l><r>Argentinië<s n="np"/></r></p></e>
     <e><p><l>Arktis<s n="np"/><s n="top"/><s n="f"/></l><r>Arktika<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Armenien<s n="np"/></l><r>Armenië<s n="np"/></r></p></e>
-  <e><p><l>Atlantischer<b/>Ozean<s n="np"/></l><r>Atlantische<b/>Oceaan<s n="np"/></r></p></e>
+    <e><p><l>Atlantischer<b/>Ozean<s n="np"/></l><r>Atlantische<b/>Oceaan<s n="np"/></r></p></e>
     <e><p><l>Australasien<s n="np"/></l><r>Australazië<s n="np"/></r></p></e>
     <e><p><l>Australien<s n="np"/></l><r>Australië<s n="np"/></r></p></e>
     <e><p><l>Aserbaidschan<s n="np"/></l><r>Azerbeidzjan<s n="np"/></r></p></e>
     <e><p><l>Asien<s n="np"/></l><r>Azië<s n="np"/></r></p></e>
-  <e><p><l>Baffinbaai<s n="np"/></l><r>Baffinbaai<s n="np"/></r></p></e>
+    <e><p><l>Baffinbaai<s n="np"/></l><r>Baffinbaai<s n="np"/></r></p></e>
     <e><p><l>Bahrein<s n="np"/></l><r>Bahrein<s n="np"/></r></p></e>
     <e><p><l>Balkan<s n="np"/></l><r>Balkan<s n="np"/></r></p></e>
     <e><p><l>Barentssee<s n="np"/><s n="top"/><s n="f"/></l><r>Barentszzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
@@ -10874,7 +10871,7 @@
     <e><p><l>Carcassonne<s n="np"/></l><r>Carcassonne<s n="np"/></r></p></e>
     <e><p><l>Kastilien<s n="np"/></l><r>Castilië<s n="np"/></r></p></e>
     <e><p><l>Katalonien<s n="np"/></l><r>Catalonië<s n="np"/></r></p></e>
-  <e><p><l>Zentralafrikanische<b/>Republik<s n="np"/></l><r>Centraal-Afrikaanse<b/>Republiek<s n="np"/></r></p></e>
+    <e><p><l>Zentralafrikanische<b/>Republik<s n="np"/></l><r>Centraal-Afrikaanse<b/>Republiek<s n="np"/></r></p></e>
     <e><p><l>Zentralasien<s n="np"/></l><r>Centraal-Azië<s n="np"/></r></p></e>
     <e><p><l>Chicago<s n="np"/></l><r>Chicago<s n="np"/></r></p></e>
     <e><p><l>Chile<s n="np"/></l><r>Chili<s n="np"/></r></p></e>
@@ -10884,7 +10881,7 @@
     <e><p><l>Zypern<s n="np"/></l><r>Cyprus<s n="np"/></r></p></e>
     <e><p><l>DDR<s n="np"/></l><r>DDR<s n="np"/></r></p></e>
     <e><p><l>Dänemark<s n="np"/></l><r>Denemarken<s n="np"/></r></p></e>
-  <e><p><l>Dominikanische<b/>Republik<s n="np"/></l><r>Dominicaanse<b/>Republiek<s n="np"/></r></p></e>
+    <e><p><l>Dominikanische<b/>Republik<s n="np"/></l><r>Dominicaanse<b/>Republiek<s n="np"/></r></p></e>
     <e><p><l>Donau<s n="np"/></l><r>Donau<s n="np"/></r></p></e>
     <e><p><l>Durban<s n="np"/></l><r>Durban<s n="np"/></r></p></e>
     <e><p><l>Ägypten<s n="np"/></l><r>Egypte<s n="np"/></r></p></e>
@@ -10894,31 +10891,31 @@
     <e><p><l>Äthiopien<s n="np"/></l><r>Ethiopië<s n="np"/></r></p></e>
     <e><p><l>Etrurien<s n="np"/></l><r>Etrurië<s n="np"/></r></p></e>
     <e><p><l>Europa<s n="np"/></l><r>Europa<s n="np"/></r></p></e>
-  <e><p><l>Europäische<b/>Union<s n="np"/></l><r>Europese<b/>Unie<s n="np"/></r></p></e>
+    <e><p><l>Europäische<b/>Union<s n="np"/></l><r>Europese<b/>Unie<s n="np"/></r></p></e>
     <e><p><l>Färöer<s n="np"/></l><r>Faeröer<s n="np"/></r></p></e>
     <e><p><l>Falklandinseln<s n="np"/></l><r>Falklandeilanden<s n="np"/></r></p></e>
     <e><p><l>Finnland<s n="np"/></l><r>Finland<s n="np"/></r></p></e>
     <e><p><l>Frankfurt<b/>am<b/>Main<s n="np"/></l><r>Frankfurt<b/>am<b/>Main<s n="np"/></r></p></e>
-  <e><p><l>Frans<s n="np"/></l><r>Frans<s n="np"/></r></p></e>
+    <e><p><l>Frans<s n="np"/></l><r>Frans<s n="np"/></r></p></e>
     <e><p><l>Gabun<s n="np"/></l><r>Gabon<s n="np"/></r></p></e>
     <e><p><l>Galicien<s n="np"/></l><r>Galicië<s n="np"/></r></p></e>
     <e><p><l>Gallien<s n="np"/></l><r>Gallië<s n="np"/></r></p></e>
     <e><p><l>Gauteng<s n="np"/></l><r>Gauteng<s n="np"/></r></p></e>
     <e><p><l>Genesis<s n="np"/></l><r>Genesis<s n="np"/></r></p></e>
     <e><p><l>Ghana<s n="np"/></l><r>Ghana<s n="np"/></r></p></e>
-  <e><p><l>Golf<b/>von<b/>Mexiko<s n="np"/></l><r>Golf<b/>van<b/>Mexico<s n="np"/></r></p></e>
+    <e><p><l>Golf<b/>von<b/>Mexiko<s n="np"/></l><r>Golf<b/>van<b/>Mexico<s n="np"/></r></p></e>
     <e><p><l>Griechenland<s n="np"/></l><r>Griekenland<s n="np"/></r></p></e>
     <e><p><l>Grönland<s n="np"/></l><r>Groenland<s n="np"/></r></p></e>
     <e><p><l>Großbritannien<s n="np"/></l><r>Groot-Brittannië<s n="np"/></r></p></e>
-  <e><p><l>Großer<b/>Bär<s n="np"/></l><r>Grote<b/>Beer<s n="np"/></r></p></e>
-  <e><p><l>Pazifischer<b/>Ozean<s n="np"/></l><r>Grote<b/>Oceaan<s n="np"/></r></p></e>
+    <e><p><l>Großer<b/>Bär<s n="np"/></l><r>Grote<b/>Beer<s n="np"/></r></p></e>
+    <e><p><l>Pazifischer<b/>Ozean<s n="np"/></l><r>Grote<b/>Oceaan<s n="np"/></r></p></e>
     <e><p><l>Guinee<s n="np"/></l><r>Guinee<s n="np"/></r></p></e>
     <e><p><l>Haiti<s n="np"/></l><r>Haïti<s n="np"/></r></p></e>
     <e><p><l>Hamburg<s n="np"/></l><r>Hamburg<s n="np"/></r></p></e>
     <e><p><l>Hannover<s n="np"/></l><r>Hannover<s n="np"/></r></p></e>
     <e><p><l>Hawai<s n="np"/></l><r>Hawaï<s n="np"/></r></p></e>
     <e><p><l>Helsinki<s n="np"/></l><r>Helsinki<s n="np"/></r></p></e>
-  <e><p><l>der<b/>Südpol<s n="np"/></l><r>het<b/>Zuidpool<s n="np"/></r></p></e>
+    <e><p><l>der<b/>Südpol<s n="np"/></l><r>het<b/>Zuidpool<s n="np"/></r></p></e>
     <e><p><l>Ungarn<s n="np"/></l><r>Hongarije<s n="np"/></r></p></e>
     <e><p><l>Hudson<b/>Bay<s n="np"/></l><r>Hudsonbaai<s n="np"/></r></p></e>
     <e><p><l>Irland<s n="np"/></l><r>Ierland<s n="np"/></r></p></e>
@@ -10942,7 +10939,7 @@
     <e><p><l>Kap<b/>Verde<s n="np"/></l><r>Kaapverdië<s n="np"/></r></p></e>
     <e><p><l>Kamerun<s n="np"/></l><r>Kameroen<s n="np"/></r></p></e>
     <e><p><l>Karelien<s n="np"/></l><r>Karelië<s n="np"/></r></p></e>
-  <e><p><l>Kaspisches<b/>Meer<s n="np"/></l><r>Kaspische<b/>Zee<s n="np"/></r></p></e>
+    <e><p><l>Kaspisches<b/>Meer<s n="np"/></l><r>Kaspische<b/>Zee<s n="np"/></r></p></e>
     <e><p><l>Kaukasus<s n="np"/></l><r>Kaukasus<s n="np"/></r></p></e>
     <e><p><l>Kasachstan<s n="np"/></l><r>Kazachstan<s n="np"/></r></p></e>
     <e><p><l>Kenia<s n="np"/></l><r>Kenia<s n="np"/></r></p></e>
@@ -10971,7 +10968,7 @@
     <e><p><l>Merkur<s n="np"/></l><r>Mercurius<s n="np"/></r></p></e>
     <e><p><l>Mexiko<s n="np"/></l><r>Mexico<s n="np"/></r></p></e>
     <e><p><l>Mikronesien<s n="np"/></l><r>Micronesia<s n="np"/></r></p></e>
-  <e><p><l>Naher Osten<s n="np"/></l><r>Midden-Oosten<s n="np"/></r></p></e>
+    <e><p><l>Naher<b/>Osten<s n="np"/></l><r>Midden-Oosten<s n="np"/></r></p></e>
     <e><p><l>Monaco<s n="np"/></l><r>Monaco<s n="np"/></r></p></e>
     <e><p><l>Mongolei<s n="np"/></l><r>Mongolië<s n="np"/></r></p></e>
     <e><p><l>Montenegro<s n="np"/></l><r>Montenegro<s n="np"/></r></p></e>
@@ -10986,10 +10983,10 @@
     <e><p><l>Nigeria<s n="np"/></l><r>Nigeria<s n="np"/></r></p></e>
     <e><p><l>Nordafrika<s n="np"/></l><r>Noord-Afrika<s n="np"/></r></p></e>
     <e><p><l>Nordamerika<s n="np"/></l><r>Noord-Amerika<s n="np"/></r></p></e>
-  <e><p><l>Arktischer<b/>Ozean<s n="np"/></l><r>Noordelijke<b/>Ijszee<s n="np"/></r></p></e>
+    <e><p><l>Arktischer<b/>Ozean<s n="np"/></l><r>Noordelijke<b/>Ijszee<s n="np"/></r></p></e>
     <e><p><l>Nordirland<s n="np"/></l><r>Noord-Ierland<s n="np"/></r></p></e>
     <e><p><l>Nordsee<s n="np"/><s n="top"/><s n="f"/></l><r>Noordzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
-  <e><p><l>Europäisches<b/>Nordmeer<s n="np"/></l><r>Noorse<b/>Zee<s n="np"/></r></p></e>
+    <e><p><l>Europäisches<b/>Nordmeer<s n="np"/></l><r>Noorse<b/>Zee<s n="np"/></r></p></e>
     <e><p><l>Norwegen<s n="np"/></l><r>Noorwegen<s n="np"/></r></p></e>
     <e><p><l>Normandie<s n="np"/></l><r>Normandië<s n="np"/></r></p></e>
     <e><p><l>Ozeanien<s n="np"/></l><r>Oceanië<s n="np"/></r></p></e>
@@ -10997,7 +10994,7 @@
     <e><p><l>Uralgebirge<s n="np"/></l><r>Oeralgebergte<s n="np"/></r></p></e>
     <e><p><l>Usbekistan<s n="np"/></l><r>Oezbekistan<s n="np"/></r></p></e>
     <e><p><l>Österreich<s n="np"/></l><r>Oostenrijk<s n="np"/></r></p></e>
-  <e><p><l>Ostsibirische<b/>See<s n="np"/><s n="top"/><s n="f"/></l><r>Oost-Siberische<b/>Zee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
+    <e><p><l>Ostsibirische<b/>See<s n="np"/><s n="top"/><s n="f"/></l><r>Oost-Siberische<b/>Zee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Osttimor<s n="np"/></l><r>Oost-Timor<s n="np"/></r></p></e>
     <e><p><l>Ostsee<s n="np"/><s n="top"/><s n="f"/></l><r>Oostzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Oslo<s n="np"/></l><r>Oslo<s n="np"/></r></p></e>
@@ -11048,10 +11045,10 @@
     <e><p><l>Varangerfjord<s n="np"/></l><r>Varangerfjord<s n="np"/></r></p></e>
     <e><p><l>Venedig<s n="np"/></l><r>Venetië<s n="np"/></r></p></e>
     <e><p><l>Venezuela<s n="np"/></l><r>Venezuela<s n="np"/></r></p></e>
-  <e><p><l>Vereinte<b/>Nationen<s n="np"/></l><r>Verenigde<b/>Naties<s n="np"/></r></p></e>
-  <e><p><l>Vereinigte<b/>Staaten<s n="np"/></l><r>Verenigde<b/>Staten<s n="np"/></r></p></e>
-  <e><p><l>Vereinigte<b/>Staaten<b/>von<b/>Amerika<s n="np"/></l><r>Verenigde<b/>Staten<b/>van<b/>Amerika<s n="np"/></r></p></e>
-  <e><p><l>Vereinigtes<b/>Königreich<s n="np"/></l><r>Verenigd<b/>Koninkrijk<s n="np"/></r></p></e>
+    <e><p><l>Vereinte<b/>Nationen<s n="np"/></l><r>Verenigde<b/>Naties<s n="np"/></r></p></e>
+    <e><p><l>Vereinigte<b/>Staaten<s n="np"/></l><r>Verenigde<b/>Staten<s n="np"/></r></p></e>
+    <e><p><l>Vereinigte<b/>Staaten<b/>von<b/>Amerika<s n="np"/></l><r>Verenigde<b/>Staten<b/>van<b/>Amerika<s n="np"/></r></p></e>
+    <e><p><l>Vereinigtes<b/>Königreich<s n="np"/></l><r>Verenigd<b/>Koninkrijk<s n="np"/></r></p></e>
     <e><p><l>Vermont<s n="np"/></l><r>Vermont<s n="np"/></r></p></e>
     <e><p><l>Vietnam<s n="np"/></l><r>Vietnam<s n="np"/></r></p></e>
     <e><p><l>Flandern<s n="np"/></l><r>Vlaanderen<s n="np"/></r></p></e>
@@ -11075,11 +11072,9 @@
     <e><p><l>Simbabwe<s n="np"/></l><r>Zimbabwe<s n="np"/></r></p></e>
     <e><p><l>Südafrika<s n="np"/></l><r>Zuid-Afrika<s n="np"/></r></p></e>
     <e><p><l>Südamerika<s n="np"/></l><r>Zuid-Amerika<s n="np"/></r></p></e>
-  <e><p><l>Schwarzes<b/>Meer<s n="np"/></l><r>Zwarte<b/>Zee<s n="np"/></r></p></e>
+    <e><p><l>Schwarzes<b/>Meer<s n="np"/></l><r>Zwarte<b/>Zee<s n="np"/></r></p></e>
     <e><p><l>Schweden<s n="np"/></l><r>Zweden<s n="np"/></r></p></e>
     <e><p><l>Schweiz<s n="np"/><s n="top"/><s n="f"/></l><r>Zwitserland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-
-
 
     <e><p><l>Otto<s n="np"/></l><r>Otto<s n="np"/></r></p></e>
     <e><p><l>Laurens<s n="np"/></l><r>Laurens<s n="np"/></r></p></e>
@@ -11162,18 +11157,20 @@
     <e><p><l>gleichen<s n="vblex"/></l><r>lijken<g><b/>op</g><s n="vblex"/></r></p></e>
     
     
-<e r="LR"><p><l>kucken<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>infizieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>kontaminieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
-    <e><p><l>Ball spielen<s n="vblex"/></l><r>ballen<s n="vblex"/></r></p></e>
-    <e><p><l>Bekanntschaft machen<s n="vblex"/></l><r>kennismaken<s n="vblex"/><s n="sep"/></r></p></e>
-    <e><p><l>Dame spielen<s n="vblex"/></l><r>dammen<s n="vblex"/></r></p></e>
-    <e><p><l>Fußball spielen<s n="vblex"/></l><r>voetballen<s n="vblex"/></r></p></e>
-    <e><p><l>Leid tun<s n="vblex"/></l><r>spijten<s n="vblex"/></r></p></e>
-    <e><p><l>Rad fahren<s n="vblex"/></l><r>fietsen<s n="vblex"/></r></p></e>
-    <e><p><l>Ski fahren<s n="vblex"/></l><r>skiën<s n="vblex"/></r></p></e>
-    <e><p><l>Sport treiben<s n="vblex"/></l><r>sporten<s n="vblex"/></r></p></e>
-    <e><p><l>Zähne putzen<s n="vblex"/></l><r>tandenpoetsen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="LR"><p><l>kucken<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>infizieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>kontaminieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
+
+    <e><p><l>Ball<b/>spielen<s n="vblex"/></l><r>ballen<s n="vblex"/></r></p></e>
+    <e><p><l>Bekanntschaft<b/>machen<s n="vblex"/></l><r>kennismaken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>Dame<b/>spielen<s n="vblex"/></l><r>dammen<s n="vblex"/></r></p></e>
+    <e><p><l>Fußball<b/>spielen<s n="vblex"/></l><r>voetballen<s n="vblex"/></r></p></e>
+    <e><p><l>Leid<b/>tun<s n="vblex"/></l><r>spijten<s n="vblex"/></r></p></e>
+    <e><p><l>Rad<b/>fahren<s n="vblex"/></l><r>fietsen<s n="vblex"/></r></p></e>
+    <e><p><l>Ski<b/>fahren<s n="vblex"/></l><r>skiën<s n="vblex"/></r></p></e>
+    <e><p><l>Sport<b/>treiben<s n="vblex"/></l><r>sporten<s n="vblex"/></r></p></e>
+    <e><p><l>Zähne<b/>putzen<s n="vblex"/></l><r>tandenpoetsen<s n="vblex"/><s n="sep"/></r></p></e>
+
     <e><p><l>abbeißen<s n="vblex"/><s n="sep"/></l><r>afbijten<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>abbrechen<s n="vblex"/><s n="sep"/></l><r>afbreken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>abbremsen<s n="vblex"/><s n="sep"/></l><r>afremmen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -11264,7 +11261,7 @@
     <e><p><l>akzeptieren<s n="vblex"/></l><r>accepteren<s n="vblex"/></r></p></e>
     <e><p><l>alarmieren<s n="vblex"/></l><r>alarmeren<s n="vblex"/></r></p></e>
     <e><p><l>altern<s n="vblex"/></l><r>verouderen<s n="vblex"/></r></p></e>
-    <e><p><l>am Computer arbeiten<s n="vblex"/></l><r>computeren<s n="vblex"/></r></p></e>
+    <e><p><l>am<b/>Computer<b/>arbeiten<s n="vblex"/></l><r>computeren<s n="vblex"/></r></p></e>
     <e><p><l>amputieren<s n="vblex"/></l><r>afzetten<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>amputieren<s n="vblex"/></l><r>amputeren<s n="vblex"/></r></p></e>
     <e><p><l>amüsieren<s n="vblex"/></l><r>amuseren<s n="vblex"/></r></p></e>
@@ -11560,7 +11557,7 @@
     <e><p><l>beiwohnen<s n="vblex"/><s n="sep"/></l><r>bijwonen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>beißen<s n="vblex"/></l><r>bijten<s n="vblex"/></r></p></e>
     <e><p><l>bejubeln<s n="vblex"/></l><r>bejubelen<s n="vblex"/></r></p></e>
-    <e><p><l>bekannt machen<s n="vblex"/></l><r>bekendmaken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>bekannt<b/>machen<s n="vblex"/></l><r>bekendmaken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>bekehren<s n="vblex"/></l><r>bekeren<s n="vblex"/></r></p></e>
     <e><p><l>bekennen<s n="vblex"/></l><r>bekennen<s n="vblex"/></r></p></e>
     <e><p><l>beklagen<s n="vblex"/></l><r>beklagen<s n="vblex"/></r></p></e>
@@ -12100,7 +12097,7 @@
     <e><p><l>fallen<s n="vblex"/></l><r>invallen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>fallen<s n="vblex"/></l><r>sneuvelen<s n="vblex"/></r></p></e>
     <e><p><l>fallen<s n="vblex"/></l><r>vallen<s n="vblex"/></r></p></e>
-    <e><p><l>falsch spielen<s n="vblex"/></l><r>valsspelen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>falsch<b/>spielen<s n="vblex"/></l><r>valsspelen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>falten<s n="vblex"/></l><r>plooien<s n="vblex"/></r></p></e>
     <e><p><l>falten<s n="vblex"/></l><r>vouwen<s n="vblex"/></r></p></e>
     <e><p><l>fangen<s n="vblex"/></l><r>vangen<s n="vblex"/></r></p></e>
@@ -12116,7 +12113,7 @@
     <e><p><l>fehlen<s n="vblex"/></l><r>ontbreken<s n="vblex"/></r></p></e>
     <e><p><l>feiern<s n="vblex"/></l><r>feesten<s n="vblex"/></r></p></e>
     <e><p><l>feiern<s n="vblex"/></l><r>vieren<s n="vblex"/></r></p></e>
-    <e><p><l>fertig stellen<s n="vblex"/></l><r>afwerken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>fertig<b/>stellen<s n="vblex"/></l><r>afwerken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>fesseln<s n="vblex"/></l><r>boeien<s n="vblex"/></r></p></e>
     <e><p><l>festhalten<s n="vblex"/><s n="sep"/></l><r>beetpakken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>festlegen<s n="vblex"/><s n="sep"/></l><r>vaststellen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -12351,7 +12348,7 @@
     <e><p><l>iahen<s n="vblex"/></l><r>balken<s n="vblex"/></r></p></e>
     <e><p><l>identifizieren<s n="vblex"/></l><r>identificeren<s n="vblex"/></r></p></e>
     <e><p><l>ignorieren<s n="vblex"/></l><r>negeren<s n="vblex"/></r></p></e>
-    <e><p><l>im Amt verbleiben<s n="vblex"/></l><r>aanblijven<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>im<b/>Amt<b/>verbleiben<s n="vblex"/></l><r>aanblijven<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>immigrieren<s n="vblex"/></l><r>immigreren<s n="vblex"/></r></p></e>
     <e><p><l>impfen<s n="vblex"/></l><r>inenten<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>implizieren<s n="vblex"/></l><r>impliceren<s n="vblex"/></r></p></e>
@@ -12361,7 +12358,7 @@
     <e><p><l>infizieren<s n="vblex"/></l><r>infecteren<s n="vblex"/></r></p></e>
     <e><p><l>informieren<s n="vblex"/></l><r>informeren<s n="vblex"/></r></p></e>
     <e><p><l>injizieren<s n="vblex"/></l><r>injecteren<s n="vblex"/></r></p></e>
-    <e><p><l>ins Haus liefern<s n="vblex"/></l><r>thuisbezorgen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ins<b/>Haus<b/>liefern<s n="vblex"/></l><r>thuisbezorgen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>inspirieren<s n="vblex"/></l><r>inspireren<s n="vblex"/></r></p></e>
     <e><p><l>installieren<s n="vblex"/></l><r>installeren<s n="vblex"/></r></p></e>
     <e><p><l>inszenieren<s n="vblex"/></l><r>ensceneren<s n="vblex"/></r></p></e>
@@ -12519,7 +12516,7 @@
     <e><p><l>lecken<s n="vblex"/></l><r>lekken<s n="vblex"/></r></p></e>
     <e><p><l>lecken<s n="vblex"/></l><r>likken<s n="vblex"/></r></p></e>
     <e><p><l>ledern<s n="vblex"/></l><r>leerlooien<s n="vblex"/></r></p></e>
-    <e><p><l>leer machen<s n="vblex"/></l><r>leegmaken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>leer<b/>machen<s n="vblex"/></l><r>leegmaken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>leeren<s n="vblex"/></l><r>ledigen<s n="vblex"/></r></p></e>
     <e><p><l>leeren<s n="vblex"/></l><r>legen<s n="vblex"/></r></p></e>
     <e><p><l>legalisieren<s n="vblex"/></l><r>legaliseren<s n="vblex"/></r></p></e>
@@ -12651,7 +12648,7 @@
     <e><p><l>notieren<s n="vblex"/></l><r>noteren<s n="vblex"/></r></p></e>
     <e><p><l>nutzen<s n="vblex"/></l><r>baten<s n="vblex"/></r></p></e>
     <e><p><l>nähen<s n="vblex"/></l><r>naaien<s n="vblex"/></r></p></e>
-    <e><p><l>näher kommen<s n="vblex"/></l><r>naderen<s n="vblex"/></r></p></e>
+    <e><p><l>näher<b/>kommen<s n="vblex"/></l><r>naderen<s n="vblex"/></r></p></e>
     <e><p><l>nähren<s n="vblex"/></l><r>voeden<s n="vblex"/></r></p></e>
     <e><p><l>nähren<s n="vblex"/></l><r>zogen<s n="vblex"/></r></p></e>
     <e><p><l>nörgeln<s n="vblex"/></l><r>mopperen<s n="vblex"/></r></p></e>
@@ -12993,7 +12990,7 @@
     <e><p><l>stammen<s n="vblex"/></l><r>stammen<s n="vblex"/></r></p></e>
     <e><p><l>stampfen<s n="vblex"/></l><r>stampen<s n="vblex"/></r></p></e>
     <e><p><l>standardisieren<s n="vblex"/></l><r>standaardiseren<s n="vblex"/></r></p></e>
-    <e><p><l>standrechtlich erschießen<s n="vblex"/></l><r>fusilleren<s n="vblex"/></r></p></e>
+    <e><p><l>standrechtlich<b/>erschießen<s n="vblex"/></l><r>fusilleren<s n="vblex"/></r></p></e>
     <e><p><l>stapeln<s n="vblex"/></l><r>stapelen<s n="vblex"/></r></p></e>
     <e><p><l>starren<s n="vblex"/></l><r>staren<s n="vblex"/></r></p></e>
     <e><p><l>starten<s n="vblex"/></l><r>starten<s n="vblex"/></r></p></e>
@@ -13506,13 +13503,13 @@
     <e><p><l>widerspiegeln<s n="vblex"/></l><r>weerspiegelen<s n="vblex"/></r></p></e>
     <e><p><l>widerstehen<s n="vblex"/></l><r>weerstaan<s n="vblex"/></r></p></e>
     <e><p><l>widmen<s n="vblex"/></l><r>wijden<s n="vblex"/></r></p></e>
-    <e><p><l>wieder aufbauen<s n="vblex"/></l><r>herbouwen<s n="vblex"/></r></p></e>
+    <e><p><l>wieder<b/>aufbauen<s n="vblex"/></l><r>herbouwen<s n="vblex"/></r></p></e>
     <e><p><l>wiederfinden<s n="vblex"/></l><r>terugvinden<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>wiegen<s n="vblex"/></l><r>wegen<s n="vblex"/></r></p></e>
     <e><p><l>wiegen<s n="vblex"/></l><r>wuiven<s n="vblex"/></r></p></e>
     <e><p><l>wiehern<s n="vblex"/></l><r>hinniken<s n="vblex"/></r></p></e>
     <e><p><l>wickeln<s n="vblex"/></l><r>wikkelen<s n="vblex"/></r></p></e>
-    <e><p><l>willkommen heißen<s n="vblex"/></l><r>verwelkomen<s n="vblex"/></r></p></e>
+    <e><p><l>willkommen<b/>heißen<s n="vblex"/></l><r>verwelkomen<s n="vblex"/></r></p></e>
     <e><p><l>wimmeln<s n="vblex"/></l><r>wemelen<s n="vblex"/></r></p></e>
     <e><p><l>winken<s n="vblex"/></l><r>wenken<s n="vblex"/></r></p></e>
     <e><p><l>winken<s n="vblex"/></l><r>wuiven<s n="vblex"/></r></p></e>
