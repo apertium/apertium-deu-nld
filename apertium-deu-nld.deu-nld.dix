@@ -88,7 +88,7 @@
     <sdef n="tn"      c="Tonico"/>
     <sdef n="ij"      c="Interjection"/>
   </sdefs>
-  
+
   <pardefs>
     <pardef n="één__num">
       <e><i><s n="num"/><s n="sg"/></i></e>
@@ -131,11 +131,15 @@
 
     <e r="RL"><p><l></l><r>s<s n="gen"/></r></p></e>
     <e><p><l>Bio<s n="atp"/></l><r>bio<s n="atp"/></r></p></e>
-    
-    <!-- Interjections -->
-    <e><p><l>hallo<s n="ij"/></l><r>hallo<s n="ij"/></r></p></e>
 
-    <!-- Determiners -->
+    <!-- SECTION: Interjections -->
+
+    <e><p><l>Ach<s n="ij"/></l><r>Ach<s n="ij"/></r></p></e>
+    <e><p><l>hallo<s n="ij"/></l><r>hallo<s n="ij"/></r></p></e>
+    <e><p><l>willkommen<s n="ij"/></l><r>welkom<s n="ij"/></r></p></e>
+
+    <!-- SECTION: Determiners -->
+
     <e><p><l>ein<s n="det"/></l><r>een<s n="det"/></r></p></e>
     <e><p><l>kein<s n="det"/></l><r>geen<s n="det"/></r></p></e>
     <e><p><l>der<s n="det"/></l><r>de<s n="det"/></r></p></e>
@@ -152,7 +156,7 @@
     <e><p><l>jede<s n="det"/><s n="ind"/></l><r>elk<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>alle<s n="det"/><s n="ind"/></l><r>allemaal<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>beide<s n="det"/><s n="ind"/></l><r>beide<s n="det"/><s n="ind"/></r></p></e>
-    
+
     <e><p><l>mein<s n="det"/><s n="pos"/></l><r>mijn<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>dein<s n="det"/><s n="pos"/></l><r>jouw<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>Ihr<s n="det"/><s n="pos"/></l><r>uw<s n="det"/><s n="pos"/></r></p></e>
@@ -195,18 +199,19 @@
     <!-- haben und sein -->
     <e><p><l>sein<s n="vbser"/></l><r>zijn<s n="vbser"/></r></p></e>
     <e><p><l>haben<s n="vbhaver"/></l><r>hebben<s n="vbhaver"/></r></p></e>
-    
+
     <e><p><l>müssen<s n="vbmod"/></l><r>moeten<s n="vbmod"/></r></p></e>
     <e><p><l>können<s n="vbmod"/></l><r>kunnen<s n="vbmod"/></r></p></e>
     <e><p><l>mögen<s n="vbmod"/></l><r>mogen<s n="vbmod"/></r></p></e>
-    
+
     <e><p><l>wollen<s n="vaux"/></l><r>willen<s n="vaux"/></r></p></e>
     <e><p><l>sollen<s n="vbmod"/></l><r>zullen<s n="vaux"/></r></p></e>
-    
+
     <e><p><l>werden<s n="vaux"/></l><r>worden<s n="vaux"/></r></p></e>
     <e><p><l>werden<s n="vblex"/></l><r>worden<s n="vblex"/></r></p></e>
 
-    <!-- Pronouns -->
+    <!-- SECTION: Pronouns -->
+
     <e><p><l>der<s n="rel"/></l><r>die<s n="rel"/></r></p></e>
     <e><p><l>der<s n="prn"/><s n="dem"/></l><r>die<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>dieser<s n="prn"/><s n="dem"/></l><r>deze<s n="prn"/><s n="dem"/></r></p></e>
@@ -225,9 +230,10 @@
     <e><p><l>derselbe<s n="prn"/></l><r>dezelfde<s n="prn"/></r></p></e>
     <e><p><l>selbst<s n="prn"/></l><r>zelf<s n="prn"/></r></p></e>
     <e><p><l>sich<b/>selbst<s n="prn"/></l><r>zichzelf<s n="prn"/></r></p></e>
-    
-    <!-- nl:  <e><p><l>ik</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> -->
-    <!-- de:  <e><p><l>ich</l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e> -->
+    <e><p><l>einander<s n="prn"/></l><r>elkaar<s n="prn"/></r></p></e>
+    <e><p><l>nichts<s n="prn"/></l><r>niks<s n="prn"/></r></p></e>
+
+
     <e><p><l>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></l>
         <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></l>
@@ -283,12 +289,9 @@
     <e><p><l>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></l>
         <r>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e><p><l>einander<s n="prn"/></l><r>elkaar<s n="prn"/></r></p></e>
-
-    <e><p><l>nichts<s n="prn"/></l><r>niks<s n="prn"/></r></p></e>
 
     <!-- SECTION: Prepositions -->	<!-- FIXME: begleitenden Kasus ergänzen -->
-    
+
     <e r="LR"><p><l>diesseits<s n="pr"/><s n="gen"/></l><r>aan<b/>deze<b/>kant<b/>van<s n="pr"/></r></p></e>
     <e r="LR"><p><l>gen<s n="pr"/></l><r>tegen<s n="pr"/></r></p></e>
     <e r="LR"><p><l>jenseits<s n="pr"/><s n="gen"/></l><r>aan<b/>de<b/>andere<b/>kant<b/>van<s n="pr"/></r></p></e>
@@ -406,13 +409,13 @@
     <e><p><l>zusammen<b/>mit<s n="pr"/><s n="dat"/></l><r>samen<b/>met<s n="pr"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
-    
+
     <e><p><l>aber<s n="cnjcoo"/></l><r>maar<s n="cnjcoo"/></r></p></e>
     <e><p><l>doch<s n="cnjcoo"/></l><r>doch<s n="cnjcoo"/></r></p></e>
     <e><p><l>oder<s n="cnjcoo"/></l><r>of<s n="cnjcoo"/></r></p></e>
     <e><p><l>sondern<s n="cnjcoo"/></l><r>maar<s n="cnjcoo"/></r></p></e>
     <e><p><l>und<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
-    
+
     <e><p><l>es<b/>sei<b/>denn,<s n="cnjcoo"/></l><r>tenzij<s n="cnjadv"/></r></p></e>
 
     <e r="LR"><p><l>weil<s n="cnjsub"/></l><r>wijl<s n="cnjsub"/></r></p></e>	<!-- (da, weil) -->
@@ -473,7 +476,7 @@
     <e><p><l>wo<s n="cnjsub"/></l><r>waar<s n="cnjsub"/></r></p></e>
     <e><p><l>womit<s n="cnjadv"/></l><r>waarmee<s n="cnjadv"/></r></p></e>
     <e><p><l>während<s n="cnjadv"/></l><r>terwijl<s n="cnjadv"/></r></p></e>
-    
+
     <!-- SECTION: Numerals -->
 
     <e><p><l>null</l><r>nul</r></p><par n="twee__num"/></e>
@@ -551,16 +554,16 @@
     <e><i>XX</i><par n="twee__num"/></e>
     <e><i>XXI</i><par n="twee__num"/></e>
     <e><i>XXII</i><par n="twee__num"/></e>
-    
+
     <!-- SECTION: Adverbs -->
-    
-    <!--<e><p><l><s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
-    <e><p><l><s n="preadv"/></l><r>veel<s n="preadv"/></r></p></e>
-    <e><p><l><s n="preadv"/></l><r>dan<s n="preadv"/></r></p></e>
-    <e><p><l><s n="preadv"/></l><r>meer<s n="preadv"/></r></p></e>
-    <e><p><l><s n="preadv"/></l><r>meest<s n="preadv"/></r></p></e>
-    <e><p><l><s n="preadv"/></l><r>zo<s n="preadv"/></r></p></e>
-    <e><p><l><s n="preadv"/></l><r>tamelijk<s n="preadv"/></r></p></e>-->
+
+    <!--<e><p><l>zu<s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
+    <e><p><l>viel<s n="preadv"/></l><r>veel<s n="preadv"/></r></p></e>
+    <e><p><l>dann<s n="preadv"/></l><r>dan<s n="preadv"/></r></p></e>
+    <e><p><l>mehr<s n="preadv"/></l><r>meer<s n="preadv"/></r></p></e>
+    <e><p><l>meist<s n="preadv"/></l><r>meest<s n="preadv"/></r></p></e>
+    <e><p><l>so<s n="preadv"/></l><r>zo<s n="preadv"/></r></p></e>
+    <e><p><l>ziemlich<s n="preadv"/></l><r>tamelijk<s n="preadv"/></r></p></e>-->
 
     <e><p><l>aus<b/>diesem<b/>Grund<s n="adv"/></l><r>om<b/>deze<b/>reden<s n="adv"/></r></p></e>
     <e><p><l>unter<b/>anderem<s n="adv"/></l><r>onder<b/>meer<s n="adv"/></r></p></e>
@@ -575,34 +578,21 @@
 
     <e><p><l>immer<s n="adv"/></l><r>steeds<s n="adv"/></r></p></e>
 
- <e><p><l>wo<s n="adv"/></l><r>waar<s n="rel"/><s n="adv"/></r></p></e>
-    
-    <!--<e><p><l>Nord<s n="adv"/></l><r>noord<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Nordnordost<s n="adv"/></l><r>noordnoordoost<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Nordnordwest<s n="adv"/></l><r>noordnoordwest<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Nordost<s n="adv"/></l><r>noordoost<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Nordwest<s n="adv"/></l><r>noordwest<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Ost<s n="adv"/></l><r>oost<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Ostnordost<s n="adv"/></l><r>oostnoordoost<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Ostsüdost<s n="adv"/></l><r>oostzuidoost<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Süd<s n="adv"/></l><r>zuid<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Südost<s n="adv"/></l><r>zuidoost<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Südsüdost<s n="adv"/></l><r>zuidzuidoost<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Südsüdwest<s n="adv"/></l><r>zuidzuidwest<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Südwest<s n="adv"/></l><r>zuidwest<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>West<s n="adv"/></l><r>west<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Westnordwest<s n="adv"/></l><r>westnoordwest<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>Westsüdwest<s n="adv"/></l><r>westzuidwest<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>arg<s n="adv"/></l><r>onbeschrijfelijk<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>beabsichtigen<s n="adv"/></l><r>voornemens<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>besonders<s n="adv"/></l><r>onbeschrijfelijk<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>gegen<b/>etwas<s n="adv"/></l><r>tegenin<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>groß<s n="adv"/></l><r>onbeschrijfelijk<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>heftig<s n="adv"/></l><r>hartstochtelijk<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>inkohärent<s n="adv"/></l><r>onsamenhangend<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>stark<s n="adv"/></l><r>hartstochtelijk<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>wohl<s n="adv"/></l><r>waarschijnlijk<s n="adv"/></r></p></e>-->
-    <!--<e><p><l>zusammenhanglos<s n="adv"/></l><r>incoherent<s n="adv"/></r></p></e>-->
+   <e><p><l>wo<s n="adv"/></l><r>waar<s n="rel"/><s n="adv"/></r></p></e>
+
+    <e><p><l>nördlich<s n="adv"/></l><r>noord<s n="adv"/></r></p></e>
+    <e><p><l>nordöstlich<s n="adv"/></l><r>noordoost<s n="adv"/></r></p></e>
+    <e><p><l>nordwestlich<s n="adv"/></l><r>noordwest<s n="adv"/></r></p></e>
+    <e><p><l>östlich<s n="adv"/></l><r>oost<s n="adv"/></r></p></e>
+    <e><p><l>südlich<s n="adv"/></l><r>zuid<s n="adv"/></r></p></e>
+    <e><p><l>südöstlich<s n="adv"/></l><r>zuidoost<s n="adv"/></r></p></e>
+    <e><p><l>südwestlich<s n="adv"/></l><r>zuidwest<s n="adv"/></r></p></e>
+    <e><p><l>westlich<s n="adv"/></l><r>west<s n="adv"/></r></p></e>
+    <e><p><l>gegen<b/>etwas<s n="adv"/></l><r>tegenin<s n="adv"/></r></p></e>
+    <e><p><l>frenetisch<s n="adv"/></l><r>hartstochtelijk<s n="adv"/></r></p></e>
+    <e><p><l>wohl<s n="adv"/></l><r>waarschijnlijk<s n="adv"/></r></p></e>
+    <e><p><l>zusammenhanglos<s n="adv"/></l><r>onsamenhangend<s n="adv"/></r></p></e>
+
     <e><p><l>aber<s n="adv"/></l><r>echter<s n="adv"/></r></p></e>
     <e><p><l>aber<s n="adv"/></l><r>maar<s n="adv"/></r></p></e>
     <e><p><l>abnormal<s n="adv"/></l><r>abnormaal<s n="adv"/></r></p></e>
@@ -1074,30 +1064,30 @@
     <e><p><l>südlich<s n="adv"/></l><r>zuidelijk<s n="adv"/></r></p></e>
     <e><p><l>sauber<s n="adv"/></l><r>zuiver<s n="adv"/></r></p></e>
     <e><p><l>schwarz<s n="adv"/></l><r>zwart<s n="adv"/></r></p></e>
-    
+
     <!-- SECTION: Adjectives -->
-    
+
     <e><p><l>ander<s n="adj"/><s n="sint"/></l><r>ander<s n="adj"/></r></p></e>  <!-- FIXME -->
-    
-    <!--<e><p><l>Geburtstag<b/>haben<s n="adj"/><s n="sint"/></l><r>jarig<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>absichtlich<s n="adj"/><s n="sint"/></l><r>extra<s n="adj"/></r></p></e>-->
-    <!--<e><p><l>aus<b/>Erde<s n="adj"/><s n="sint"/></l><r>aarden<s n="adj"/></r></p></e>-->
-    <!--<e><p><l>auseinander<b/>gehend<s n="adj"/><s n="sint"/></l><r>uiteenlopend<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>frenetisch<s n="adj"/><s n="sint"/></l><r>razend<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>loyal<s n="adj"/><s n="sint"/></l><r>trouw<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>nachlässig<s n="adj"/><s n="sint"/></l><r>slordig<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>schlecht<s n="adj"/><s n="sint"/></l><r>onwel<s n="adj"/></r></p></e>-->
-    <!--<e><p><l>seelisch<s n="adj"/><s n="sint"/></l><r>psychisch<s n="adj"/></r></p></e>-->
-    <!--<e><p><l>seitlich<s n="adj"/><s n="sint"/></l><r>lateraal<s n="adj"/></r></p></e>-->
-    <!--<e><p><l>sinnlos<s n="adj"/><s n="sint"/></l><r>onzinnig<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>stammen<s n="adj"/><s n="sint"/></l><r>afkomstig<s n="adj"/></r></p></e>-->
-    <!--<e><p><l>treuherzig<s n="adj"/><s n="sint"/></l><r>trouw<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>töricht<s n="adj"/><s n="sint"/></l><r>onzinnig<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>unbekannt<s n="adj"/><s n="sint"/></l><r>vreemd<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>unbeweglich<s n="adj"/><s n="sint"/></l><r>stil<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>undicht<s n="adj"/><s n="sint"/></l><r>lek<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>wütend<s n="adj"/><s n="sint"/></l><r>razend<s n="adj"/><s n="sint"/></r></p></e>-->
-    <!--<e><p><l>übel<s n="adj"/><s n="sint"/></l><r>onwel<s n="adj"/></r></p></e>-->
+
+    <e><p><l>absichtlich<s n="adj"/><s n="sint"/></l><r>opzettelijk<s n="adj"/></r></p></e>
+    <e><p><l>aus<b/>Erde<s n="adj"/><s n="sint"/></l><r>aarden<s n="adj"/></r></p></e>
+    <e><p><l>verschiedenartig<s n="adj"/><s n="sint"/></l><r>uiteenlopend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>frenetisch<s n="adj"/><s n="sint"/></l><r>frenetiek<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>loyal<s n="adj"/><s n="sint"/></l><r>loyaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>nachlässig<s n="adj"/><s n="sint"/></l><r>slordig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>schlecht<s n="adj"/><s n="sint"/></l><r>misselijk<s n="adj"/></r></p></e>
+    <e><p><l>seelisch<s n="adj"/><s n="sint"/></l><r>psychisch<s n="adj"/></r></p></e>
+    <e><p><l>seitlich<s n="adj"/><s n="sint"/></l><r>zijdelings<s n="adj"/></r></p></e>
+    <e><p><l>sinnlos<s n="adj"/><s n="sint"/></l><r>blind<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>herstammend<s n="adj"/><s n="sint"/></l><r>afkomstig<s n="adj"/></r></p></e>
+    <e><p><l>treuherzig<s n="adj"/><s n="sint"/></l><r>trouwhartig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>widersinnig<s n="adj"/><s n="sint"/></l><r>onzinnig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unbeweglich<s n="adj"/><s n="sint"/></l><r>onroerend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>undicht<s n="adj"/><s n="sint"/></l><r>lek<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unsagbar<s n="adj"/><s n="sint"/></l><r>onbeschrijfelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>wütend<s n="adj"/><s n="sint"/></l><r>razend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>übel<s n="adj"/><s n="sint"/></l><r>onwel<s n="adj"/></r></p></e>
+
     <e r="LR"><p><l>lotrecht<s n="adj"/><s n="sint"/></l><r>verticaal<s n="adj"/></r></p></e>
     <e r="LR"><p><l>rabiat<s n="adj"/><s n="sint"/></l><r>bruut<s n="adj"/><s n="sint"/></r></p></e>
     <e r="LR"><p><l>rein<s n="adj"/><s n="sint"/></l><r>zuiver<s n="adj"/><s n="sint"/></r></p></e>
@@ -1883,7 +1873,7 @@
     <e><p><l>üblich<s n="adj"/><s n="sint"/></l><r>gebruikelijk<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- first batch of adjectives from nld-eng-deu.gf.adjec -->
-    
+
     <e><p><l>anfänglich<s n="adj"/><s n="sint"/></l><r>aanvankelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>administrativ<s n="adj"/><s n="sint"/></l><r>administratief<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>aerodynamisch<s n="adj"/><s n="sint"/></l><r>aerodynamisch<s n="adj"/><s n="sint"/></r></p></e>
@@ -2181,9 +2171,9 @@
     <e><p><l>besoffen<s n="adj"/><s n="sint"/></l><r>zat<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>betrunken<s n="adj"/><s n="sint"/></l><r>zat<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sündig<s n="adj"/><s n="sint"/></l><r>zondig<s n="adj"/><s n="sint"/></r></p></e>
-    
+
     <!-- SECTION: Nouns -->
-    
+
     <!--<e r="LR"><p><l>Stimulans</l><r>analepticum<s n="n"/><s n="nt"/></r></p></e>-->
     <!--<e><p><l>AIDS</l><r>aids<s n="n"/><s n="m"/></r></p></e>-->
     <!--<e><p><l>Abschreiben<s n="n"/><s n="nt"/></l><r>transcriptie<s n="n"/><s n="f"/></r></p></e>-->
@@ -2942,7 +2932,8 @@
     <e><p><l>Aufstand<s n="n"/><s n="m"/></l><r>opstand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Aufstand<s n="n"/><s n="m"/></l><r>rel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Aufstieg<s n="n"/><s n="f"/></l><r>opkomst<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Aufständische<s n="n"/><s n="m"/> /<s n="n"/><s n="f"/></l><r>opstandeling<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Aufständische<s n="n"/><s n="m"/></l><r>opstandeling<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Aufständische<s n="n"/><s n="f"/></l><r>opstandeling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Aufständischer<s n="n"/><s n="m"/></l><r>opstandeling<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Auftrag<s n="n"/><s n="m"/></l><r>opdracht<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Auftrag<s n="n"/><s n="m"/></l><r>taak<s n="n"/><s n="mf"/></r></p></e>
@@ -3155,7 +3146,7 @@
     <e><p><l>Beichtgeheimnis<s n="n"/><s n="nt"/></l><r>biechtgeheim<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Beifuß<s n="n"/><s n="m"/></l><r>bijvoet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beigeordnete<s n="n"/><s n="m"/></l><r>wethouder<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Beigeordnete<s n="n"/><s n="f"/></l><r>wethouder<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Beigeordnete<s n="n"/><s n="f"/></l><r>wethoudster<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Beigeschmack<s n="n"/><s n="m"/></l><r>bijsmaak<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beigeschmack<s n="n"/><s n="m"/></l><r>zweem<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Beilage<s n="n"/><s n="f"/></l><r>toegift<s n="n"/><s n="mf"/></r></p></e>
@@ -3587,7 +3578,7 @@
     <e><p><l>Chemiker<s n="n"/><s n="m"/></l><r>chemicus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Chemiker<s n="n"/><s n="m"/></l><r>scheikundige<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Cherokee<s n="n"/><s n="nt"/></l><r>Cherokee<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Chicorée<s n="n"/><s n="m"/> /<s n="n"/><s n="f"/></l><r>witlof<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Chicorée<s n="n"/><s n="m"/></l><r>witlof<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Chinese<s n="n"/><s n="m"/></l><r>Chinees<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Chinesisch<s n="n"/><s n="nt"/></l><r>Chinees<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Chirurg<s n="n"/><s n="m"/></l><r>chirurg<s n="n"/><s n="m"/></r></p></e>
@@ -5218,7 +5209,7 @@
     <e><p><l>Holzwurm<s n="n"/><s n="m"/></l><r>houtworm<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Homonym<s n="n"/><s n="nt"/></l><r>homoniem<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Homosexuelle<s n="n"/><s n="m"/></l><r>homoseksueel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Homosexuelle<s n="n"/><s n="f"/></l><r>homoseksueel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Homosexuelle<s n="n"/><s n="f"/></l><r>homoseksueel<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Homöopathie<s n="n"/><s n="f"/></l><r>homeopathie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Honig<s n="n"/><s n="m"/></l><r>honing<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Honigdachs<s n="n"/><s n="m"/></l><r>honingdas<s n="n"/><s n="m"/></r></p></e>
@@ -9397,7 +9388,6 @@
     <e><p><l>Wegelagerer<s n="n"/><s n="m"/></l><r>struikrover<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Weiche<s n="n"/><s n="f"/></l><r>wissel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Weiche<s n="n"/><s n="f"/></l><r>wissel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Weiche<s n="n"/><s n="f"/></l><r>wissel<s n="n"/>_</r></p></e>
     <e><p><l>Weichtier<s n="n"/><s n="nt"/></l><r>weekdier<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Weide<s n="n"/><s n="f"/></l><r>wei<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Weide<s n="n"/><s n="f"/></l><r>weiland<s n="n"/><s n="nt"/></r></p></e>
@@ -9909,7 +9899,7 @@
     <e><p><l>Überzeugung<s n="n"/><s n="f"/></l><r>overtuiging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Überziegschuh<s n="n"/><s n="m"/></l><r>overschoen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Übung<s n="n"/><s n="f"/></l><r>oefening<s n="n"/><s n="f"/></r></p></e>
-    
+
     <!-- first batch of nouns from nld-eng-deu.gf.nouns -->
     <e><p><l>Aas<s n="n"/><s n="nt"/></l><r>aas<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Abenteurerin<s n="n"/><s n="f"/></l><r>avonturier<s n="n"/><s n="m"/></r></p></e>
@@ -10783,7 +10773,7 @@
     <e><p><l>Zynismus<s n="n"/><s n="m"/></l><r>cynisme<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Zytoplasma<s n="n"/><s n="nt"/></l><r>cytoplasma<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Zytoskelett<s n="n"/><s n="nt"/></l><r>cytoskelet<s n="n"/><s n="nt"/></r></p></e>
-    
+
     <!-- SECTION: Proper Nouns -->
 
     <e><p><l>Belgien<s n="np"/></l><r>België<s n="np"/></r></p></e>
@@ -11117,10 +11107,12 @@
     <e><p><l>Louis<s n="np"/></l><r>Louis<s n="np"/></r></p></e>
 
     <e><p><l>Anrie<s n="np"/></l><r>Anrie<s n="np"/></r></p></e>
+    <e><p><l>Dima<s n="np"/></l><r>Dima<s n="np"/></r></p></e>
     <e><p><l>Mieke<s n="np"/></l><r>Mieke<s n="np"/></r></p></e>
     <e><p><l>Marieke<s n="np"/></l><r>Marieke<s n="np"/></r></p></e>
     <e><p><l>Maria<s n="np"/></l><r>Maria<s n="np"/></r></p></e>
     <e><p><l>Marie<s n="np"/></l><r>Marie<s n="np"/></r></p></e>
+    <e><p><l>Mary<s n="np"/></l><r>Mary<s n="np"/></r></p></e>
     <e><p><l>Hanna<s n="np"/></l><r>Hanna<s n="np"/></r></p></e>
     <e><p><l>Anne<s n="np"/></l><r>Anne<s n="np"/></r></p></e>
     <e><p><l>Victoria<s n="np"/></l><r>Victoria<s n="np"/></r></p></e>
@@ -11150,21 +11142,15 @@
     <e><p><l>van<b/>der<b/>Merwe<s n="np"/></l><r>van<b/>der<b/>Merwe<s n="np"/></r></p></e>
     <e><p><l>van<b/>Vuuren<s n="np"/></l><r>van<b/>Vuuren<s n="np"/></r></p></e>
     <e><p><l>Warhol<s n="np"/></l><r>Warhol<s n="np"/></r></p></e>
-    
-    
+
+
     <!-- SECTION: Verbs --><!-- TODO fill in some sep tags in l -->
-    
-    <e><p><l>gleichen<s n="vblex"/></l><r>lijken<g><b/>op</g><s n="vblex"/></r></p></e>
-    
-    
-    <e r="LR"><p><l>kucken<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>infizieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>kontaminieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
 
     <e><p><l>Ball<b/>spielen<s n="vblex"/></l><r>ballen<s n="vblex"/></r></p></e>
     <e><p><l>Bekanntschaft<b/>machen<s n="vblex"/></l><r>kennismaken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>Dame<b/>spielen<s n="vblex"/></l><r>dammen<s n="vblex"/></r></p></e>
     <e><p><l>Fußball<b/>spielen<s n="vblex"/></l><r>voetballen<s n="vblex"/></r></p></e>
+    <e><p><l>Geburtstag<b/>haben<s n="vblex"/></l><r>jarig<b/>zijn<s n="vblex"/></r></p></e>
     <e><p><l>Leid<b/>tun<s n="vblex"/></l><r>spijten<s n="vblex"/></r></p></e>
     <e><p><l>Rad<b/>fahren<s n="vblex"/></l><r>fietsen<s n="vblex"/></r></p></e>
     <e><p><l>Ski<b/>fahren<s n="vblex"/></l><r>skiën<s n="vblex"/></r></p></e>
@@ -12239,6 +12225,7 @@
     <e><p><l>glauben<s n="vblex"/></l><r>menen<s n="vblex"/></r></p></e>
     <e><p><l>gleichen<s n="vblex"/></l><r>gelijken<s n="vblex"/></r></p></e>
     <e><p><l>gleichen<s n="vblex"/></l><r>lijken<s n="vblex"/></r></p></e>
+    <e><p><l>gleichen<s n="vblex"/></l><r>lijken<g><b/>op</g><s n="vblex"/></r></p></e>
     <e><p><l>gleiten<s n="vblex"/></l><r>glijden<s n="vblex"/></r></p></e>
     <e><p><l>globalisieren<s n="vblex"/></l><r>globaliseren<s n="vblex"/></r></p></e>
     <e><p><l>glänzen<s n="vblex"/></l><r>blinken<s n="vblex"/></r></p></e>
@@ -12266,6 +12253,7 @@
     <e><p><l>gründen<s n="vblex"/></l><r>vestigen<s n="vblex"/></r></p></e>
     <e><p><l>grüßen<s n="vblex"/></l><r>groeten<s n="vblex"/></r></p></e>
     <e><p><l>gucken<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>kucken<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
     <e><p><l>gurgeln<s n="vblex"/></l><r>gorgelen<s n="vblex"/></r></p></e>
     <e><p><l>gurren<s n="vblex"/></l><r>kirren<s n="vblex"/></r></p></e>
     <e><p><l>gurren<s n="vblex"/></l><r>koeren<s n="vblex"/></r></p></e>
@@ -12356,6 +12344,8 @@
     <e><p><l>indizieren<s n="vblex"/></l><r>indexeren<s n="vblex"/></r></p></e>
     <e><p><l>industrialisieren<s n="vblex"/></l><r>industrialiseren<s n="vblex"/></r></p></e>
     <e><p><l>infizieren<s n="vblex"/></l><r>infecteren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>infizieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>kontaminieren<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
     <e><p><l>informieren<s n="vblex"/></l><r>informeren<s n="vblex"/></r></p></e>
     <e><p><l>injizieren<s n="vblex"/></l><r>injecteren<s n="vblex"/></r></p></e>
     <e><p><l>ins<b/>Haus<b/>liefern<s n="vblex"/></l><r>thuisbezorgen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -13672,20 +13662,16 @@
     <e><p><l>überzeugen<s n="vblex"/></l><r>overtuigen<s n="vblex"/></r></p></e>
     <e><p><l>überziehen<s n="vblex"/></l><r>beplaten<s n="vblex"/></r></p></e>
     <e><p><l>überziehen<s n="vblex"/></l><r>overtrekken<s n="vblex"/><s n="sep"/></r></p></e>
-    
 
     <!-- Abbreviations -->
     <e><p><l>v.Chr.<s n="adv"/></l><r>v.Chr.<s n="adv"/></r></p></e>
 
 
     <!-- punctuation etc. -->
-    <e>
-      <p>    
-        <l>-<s n="guio"/></l>    
-        <r>-<s n="guio"/></r>  
-      </p>
-    </e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+</re><p><l>.<s n="num"/><s n="ord"/></l><r>e<s n="num"/><s n="ord"/></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
@@ -13693,8 +13679,7 @@
     <e><re>[Â¿Â¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
-    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
 
-  </section>  
+  </section>
 
 </dictionary>
