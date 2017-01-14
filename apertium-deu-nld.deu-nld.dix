@@ -13687,45 +13687,83 @@
 
 
     <e><p><l>achtzig<s n="num"/></l><r>tachtig<s n="num"/></r></p></e>
+    <e><p><l>fünftausend<s n="num"/></l><r>vijfduizend<s n="num"/></r></p></e>
+    <e><p><l>sechsundsiebzig<s n="num"/></l><r>zesenzeventig<s n="num"/></r></p></e>
     <e><p><l>siebenundzwanzig<s n="num"/></l><r>zevenentwintig<s n="num"/></r></p></e>
     <e><p><l>tausend<s n="num"/></l><r>duizend<s n="num"/></r></p></e>
 
     <e><p><l>alle<s n="det"/></l><r>alle<s n="det"/></r></p></e>
 
+    <e><p><l>absichtlich<s n="adj"/></l><r>expres<s n="adj"/></r></p></e>
+    <e><p><l>absurd<s n="adj"/></l><r>absurd<s n="adj"/></r></p></e>
+    <e><p><l>alkoholfrei<s n="adj"/></l><r>alcoholvrij<s n="adj"/></r></p></e>
     <e><p><l>alt<s n="adj"/></l><r>bejaard<s n="adj"/></r></p></e>
+    <e><p><l>amüsant<s n="adj"/></l><r>amusant<s n="adj"/></r></p></e>
     <e><p><l>ängstlich<s n="adj"/></l><r>angstig<s n="adj"/></r></p></e>
+    <e><p><l>ängstlich<s n="adj"/></l><r>bang<s n="adj"/></r></p></e>
     <e><p><l>aufrichtig<s n="adj"/></l><r>oprecht<s n="adj"/></r></p></e>
     <e><p><l>ausverkauft<s n="adj"/></l><r>uitverkocht<s n="adj"/></r></p></e>
+    <e><p><l>bankrott<s n="adj"/></l><r>failliet<s n="adj"/></r></p></e>
     <e><p><l>bedauerlich<s n="adj"/></l><r>spijtig<s n="adj"/></r></p></e>
     <e><p><l>bleibend<s n="adj"/></l><r>blijvend<s n="adj"/></r></p></e>
+    <e><p><l>defekt<s n="adj"/></l><r>defect<s n="adj"/></r></p></e>
     <e><p><l>echt<s n="adj"/></l><r>echt<s n="adj"/></r></p></e>
+    <e><p><l>einfach<s n="adj"/></l><r>eenvoudig<s n="adj"/></r></p></e>
+    <e><p><l>ethisch<s n="adj"/></l><r>ethisch<s n="adj"/></r></p></e>
+    <e><p><l>fair<s n="adj"/></l><r>fair<s n="adj"/></r></p></e>
     <e><p><l>falsch<s n="adj"/></l><r>verkeerd<s n="adj"/></r></p></e>
     <e><p><l>fantastisch<s n="adj"/></l><r>geweldig<s n="adj"/></r></p></e>
+    <e><p><l>faszinierend<s n="adj"/></l><r>fascinerend<s n="adj"/></r></p></e>
     <e><p><l>geheimnisvoll<s n="adj"/></l><r>geheimzinnig<s n="adj"/></r></p></e>
     <e><p><l>genial<s n="adj"/></l><r>geweldig<s n="adj"/></r></p></e>
     <e><p><l>golden<s n="adj"/></l><r>gouden<s n="adj"/></r></p></e>
+    <e><p><l>großartig<s n="adj"/></l><r>geweldig<s n="adj"/></r></p></e>
     <e><p><l>gültig<s n="adj"/></l><r>valide<s n="adj"/></r></p></e>
+    <e><p><l>herrlich<s n="adj"/></l><r>prachtig<s n="adj"/></r></p></e>
+    <e><p><l>hetero<s n="adj"/></l><r>hetero<s n="adj"/></r></p></e>
+    <e><p><l>hölzern<s n="adj"/></l><r>houten<s n="adj"/></r></p></e>
     <e><p><l>illegal<s n="adj"/></l><r>illegaal<s n="adj"/></r></p></e>
     <e><p><l>intelligent<s n="adj"/></l><r>intelligent<s n="adj"/></r></p></e>
     <e><p><l>kaputt<s n="adj"/></l><r>kapot<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>klug<s n="adj"/></l><r>snugger<s n="adj"/></r></p></e>
     <e><p><l>kompliziert<s n="adj"/></l><r>ingewikkeld<s n="adj"/></r></p></e>
     <e><p><l>korrekt<s n="adj"/></l><r>correct<s n="adj"/></r></p></e>
+    <e><p><l>kubanisch<s n="adj"/></l><r>Cubaan<s n="adj"/></r></p></e>
+    <e><p><l>langweilig<s n="adj"/></l><r>saai<s n="adj"/></r></p></e>
     <e><p><l>lateinisch<s n="adj"/></l><r>Latijns<s n="adj"/></r></p></e>
     <e><p><l>lebensgefährlich<s n="adj"/></l><r>levensgevaarlijk<s n="adj"/></r></p></e>
+    <e><p><l>mittelmäßig<s n="adj"/></l><r>middelmatig<s n="adj"/></r></p></e>
     <e><p><l>mysteriös<s n="adj"/></l><r>mysterieus<s n="adj"/></r></p></e>
+    <e><p><l>nett<s n="adj"/></l><r>aardig<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>pleite<s n="adj"/></l><r>failliet<s n="adj"/></r></p></e>
+    <e><p><l>prächtig<s n="adj"/></l><r>prachtig<s n="adj"/></r></p></e>
     <e><p><l>professionell<s n="adj"/></l><r>professioneel<s n="adj"/></r></p></e>
     <e><p><l>regnerisch<s n="adj"/></l><r>regenachtig<s n="adj"/></r></p></e>
     <e><p><l>roh<s n="adj"/></l><r>rauw<s n="adj"/></r></p></e>
+    <e><p><l>romantisch<s n="adj"/></l><r>romantisch<s n="adj"/></r></p></e>
+    <e><p><l>schmal<s n="adj"/></l><r>smal<s n="adj"/></r></p></e>
     <e><p><l>schuldig<s n="adj"/></l><r>schuldig<s n="adj"/></r></p></e>
+    <e><p><l>schwul<s n="adj"/></l><r>homo<s n="adj"/></r></p></e>
+    <e><p><l>spannend<s n="adj"/></l><r>spannend<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>ständig<s n="adj"/></l><r>constant<s n="adj"/></r></p></e>
     <e><p><l>stundenlang<s n="adj"/></l><r>urenlang<s n="adj"/></r></p></e>
+    <e><p><l>tapfer<s n="adj"/></l><r>dapper<s n="adj"/></r></p></e>
+    <e><p><l>traurig<s n="adj"/></l><r>droevig<s n="adj"/></r></p></e>
     <e><p><l>traurig<s n="adj"/></l><r>triest<s n="adj"/></r></p></e>
     <e><p><l>traurig<s n="adj"/></l><r>verdrietig<s n="adj"/></r></p></e>
     <e><p><l>unbeantwortet<s n="adj"/></l><r>onbeantwoord<s n="adj"/></r></p></e>
+    <e><p><l>unehrlich<s n="adj"/></l><r>oneerlijk<s n="adj"/></r></p></e>
     <e><p><l>unvorsichtig<s n="adj"/></l><r>onvoorzichtig<s n="adj"/></r></p></e>
+    <e><p><l>unvorstellbar<s n="adj"/></l><r>onvoorstelbaar<s n="adj"/></r></p></e>
     <e><p><l>vegan<s n="adj"/></l><r>vegan<s n="adj"/></r></p></e>
     <e><p><l>verärgert<s n="adj"/></l><r>kwaad<s n="adj"/></r></p></e>
     <e><p><l>vollkommen<s n="adj"/></l><r>volkomen<s n="adj"/></r></p></e>
     <e><p><l>vortrefflich<s n="adj"/></l><r>verrukkelijk<s n="adj"/></r></p></e>
+    <e><p><l>wahr<s n="adj"/></l><r>waargebeurd<s n="adj"/></r></p></e>
+    <e><p><l>widerlich<s n="adj"/></l><r>walgelijk<s n="adj"/></r></p></e>
+    <e><p><l>wirklich<s n="adj"/></l><r>echt<s n="adj"/></r></p></e>
+    <e><p><l>wohlüberlegt<s n="adj"/></l><r>weloverwogen<s n="adj"/></r></p></e>
+    <e><p><l>wunderschön<s n="adj"/></l><r>wondermooi<s n="adj"/></r></p></e>
 
     <e><p><l>bisschen<s n="adv"/></l><r>beetje<s n="adv"/></r></p></e>
     <e><p><l>dafür<s n="adv"/></l><r>daarvoor<s n="adv"/></r></p></e>
@@ -13735,123 +13773,175 @@
     <e><p><l>plötzlich<s n="adv"/></l><r>plots<s n="adv"/></r></p></e>
     <e><p><l>schuldig<s n="adv"/></l><r>schuldig<s n="adv"/></r></p></e>
     <e><p><l>selbstverständlich<s n="adv"/></l><r>vanzelfsprekend<s n="adv"/></r></p></e>
+    <e><p><l>selbstverständlich<s n="adv"/></l><r>vanzelfsprekend<s n="adv"/></r></p></e>
     <e><p><l>soeben<s n="adv"/></l><r>daarnet<s n="adv"/></r></p></e>
     <e><p><l>unverletzt<s n="adv"/></l><r>heelhuids<s n="adv"/></r></p></e>
     <e r="LR"><p><l>unversehrt<s n="adv"/></l><r>heelhuids<s n="adv"/></r></p></e>
     <e><p><l>vorbei<s n="adv"/></l><r>voorbij<s n="adv"/></r></p></e>
+    <e><p><l>vorher<s n="adv"/></l><r>eerder<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>vorüber<s n="adv"/></l><r>voorbij<s n="adv"/></r></p></e>
     <e><p><l>wo<s n="adv"/></l><r>waar<s n="adv"/></r></p></e>
     <e><p><l>wohinein<s n="adv"/></l><r>waarin<s n="adv"/></r></p></e>
+    <e><p><l>worüber<s n="adv"/></l><r>waarover<s n="adv"/></r></p></e>
+    <e><p><l>in<b/>der<b/>Nähe<s n="adv"/></l><r>dichtbij<s n="adv"/></r></p></e>
+    <e><p><l>in<b/>der<b/>Tat<s n="adv"/></l><r>inderdaad<s n="adv"/></r></p></e>
     <e><p><l>in<b/>Ordnung<s n="adv"/></l><r>in<b/>orde<s n="adv"/></r></p></e>
 
-    <e><p><l>Abflussrohr<s n="n"/></l><r>afvoerbuis<s n="n"/></r></p></e>
-    <e><p><l>Algebra<s n="n"/></l><r>algebra<s n="n"/></r></p></e>
-    <e><p><l>Apfelsine<s n="n"/></l><r>appelsien<s n="n"/></r></p></e>
-    <e><p><l>Astronomie<s n="n"/></l><r>astronomie<s n="n"/></r></p></e>
-    <e><p><l>Aufschrift<s n="n"/></l><r>opschrift<s n="n"/></r></p></e>
-    <e><p><l>Ausdruck<s n="n"/></l><r>uitdrukking<s n="n"/></r></p></e>
-    <e><p><l>Auskunft<s n="n"/></l><r>inlichting<s n="n"/></r></p></e>
-    <e><p><l>Baseball<s n="n"/></l><r>honkbal<s n="n"/></r></p></e>
-    <e><p><l>Bedrohung<s n="n"/></l><r>bedreiging<s n="n"/></r></p></e>
-    <e><p><l>Behauptung<s n="n"/></l><r>bewering<s n="n"/></r></p></e>
-    <e><p><l>Blitzer<s n="n"/></l><r>flitser<s n="n"/></r></p></e>
-    <e><p><l>Blockhaus<s n="n"/></l><r>blokhut<s n="n"/></r></p></e>
-    <e><p><l>Blondine<s n="n"/></l><r>blondine<s n="n"/></r></p></e>
-    <e><p><l>Bücherregal<s n="n"/></l><r>boekenrek<s n="n"/></r></p></e>
-    <e><p><l>Bulle<s n="n"/></l><r>flik<s n="n"/></r></p></e>
-    <e><p><l>Bulle<s n="n"/></l><r>smeris<s n="n"/></r></p></e>
-    <e r="LR"><p><l>Disco<s n="n"/></l><r>discotheek<s n="n"/></r></p></e>
-    <e><p><l>Discothek<s n="n"/></l><r>discotheek<s n="n"/></r></p></e>
-    <e><p><l>Dollar<s n="n"/></l><r>dollar<s n="n"/></r></p></e>
-    <e><p><l>Eichhörnchen<s n="n"/></l><r>eekhoorntje<s n="n"/></r></p></e>
-    <e><p><l>Einzelkind<s n="n"/></l><r>enig<b/>kind<s n="n"/></r></p></e>
-    <e><p><l>Einzimmerwohnung<s n="n"/></l><r>eenkamerwoning<s n="n"/></r></p></e>
-    <e><p><l>Ekel<s n="n"/></l><r>hekel<s n="n"/></r></p></e>
-    <e><p><l>Englischlehrerin<s n="n"/></l><r>lerares<b/>Engels<s n="n"/></r></p></e>
-    <e><p><l>Erbe<s n="n"/></l><r>erfgenaam<s n="n"/></r></p></e>
-    <e><p><l>Exporteur<s n="n"/></l><r>exporteur<s n="n"/></r></p></e>
-    <e><p><l>Fabelwesen<s n="n"/></l><r>fabelwezen<s n="n"/></r></p></e>
-    <e><p><l>Feueralarm<s n="n"/></l><r>brandalarm<s n="n"/></r></p></e>
-    <e><p><l>Fruchtsalat<s n="n"/></l><r>fruitsalade<s n="n"/></r></p></e>
-    <e><p><l>Gänseblümchen<s n="n"/></l><r>madeliefje<s n="n"/></r></p></e>
-    <e><p><l>Garten<b/>hinter<b/>dem<b/>Haus<s n="n"/></l><r>achtertuin<s n="n"/></r></p></e>
-    <e><p><l>Gefühl<s n="n"/></l><r>gevoel<s n="n"/></r></p></e>
-    <e><p><l>Gehirn<s n="n"/></l><r>brein<s n="n"/></r></p></e>
-    <e><p><l>Geisel<s n="n"/></l><r>gegijzelde<s n="n"/></r></p></e>
-    <e><p><l>Geisterbahn<s n="n"/></l><r>spookhuis<s n="n"/></r></p></e>
-    <e><p><l>Geschirr<s n="n"/></l><r>servies<s n="n"/></r></p></e>
-    <e><p><l>Gitarre<s n="n"/></l><r>gitaar<s n="n"/></r></p></e>
-    <e><p><l>Glascontainer<s n="n"/></l><r>glasbak<s n="n"/></r></p></e>
-    <e><p><l>Gunst<s n="n"/></l><r>gunst<s n="n"/></r></p></e>
-    <e><p><l>Handy<s n="n"/></l><r>mobieltje<s n="n"/></r></p></e>
-    <e><p><l>Herr<s n="n"/></l><r>meneer<s n="n"/></r></p></e>
-    <e><p><l>Hunderte<s n="n"/></l><r>honderden<s n="n"/></r></p></e>
-    <e><p><l>Kabine<s n="n"/></l><r>cabine<s n="n"/></r></p></e>
-    <e><p><l>Kellnerin<s n="n"/></l><r>serveerster<s n="n"/></r></p></e>
-    <e><p><l>Kleinkind<s n="n"/></l><r>dreumes<s n="n"/></r></p></e>
-    <e><p><l>Kopfschutz<s n="n"/></l><r>hoofdbescherming<s n="n"/></r></p></e>
-    <e><p><l>Kreditkarte<s n="n"/></l><r>creditcard<s n="n"/></r></p></e>
-    <e><p><l>Kunstbuch<s n="n"/></l><r>kunstboek<s n="n"/></r></p></e>
-    <e><p><l>Ladenbesitzer<s n="n"/></l><r>winkelier<s n="n"/></r></p></e>
-    <e><p><l>Lehrerin<s n="n"/></l><r>lerares<s n="n"/></r></p></e>
-    <e r="LR"><p><l>Lieblingsessen<s n="n"/></l><r>lievelingsgerecht<s n="n"/></r></p></e>
-    <e><p><l>Lieblingsgericht<s n="n"/></l><r>lievelingsgerecht<s n="n"/></r></p></e>
-    <e><p><l>Maß<s n="n"/></l><r>mate<s n="n"/></r></p></e>
-    <e><p><l>Mausefalle<s n="n"/></l><r>muizenval<s n="n"/></r></p></e>
-    <e><p><l>Maximum<s n="n"/></l><r>maximum<s n="n"/></r></p></e>
-    <e><p><l>Milchshake<s n="n"/></l><r>klutsmelk<s n="n"/></r></p></e>
-    <e><p><l>Milliarde<s n="n"/></l><r>miljard<s n="n"/></r></p></e>
-    <e><p><l>Minimum<s n="n"/></l><r>minimum<s n="n"/></r></p></e>
-    <e r="LR"><p><l>Mobiltelefon<s n="n"/></l><r>mobieltje<s n="n"/></r></p></e>
-    <e><p><l>Moped<s n="n"/></l><r>bromfiets<s n="n"/></r></p></e>
-    <e><p><l>Niederländischlehrerin<s n="n"/></l><r>lerares<b/>Nederlands<s n="n"/></r></p></e>
-    <e><p><l>Optimismus<s n="n"/></l><r>optimisme<s n="n"/></r></p></e>
-    <e r="LR"><p><l>Orange<s n="n"/></l><r>appelsien<s n="n"/></r></p></e>
-    <e><p><l>Papa<s n="n"/></l><r>papa<s n="n"/></r></p></e>
-    <e><p><l>Pass<s n="n"/></l><r>paspoort<s n="n"/></r></p></e>
-    <e><p><l>Philosoph<s n="n"/></l><r>filosoof<s n="n"/></r></p></e>
-    <e><p><l>Piepton<s n="n"/></l><r>pieptoon<s n="n"/></r></p></e>
-    <e><p><l>Postamt<s n="n"/></l><r>postkantoor<s n="n"/></r></p></e>
-    <e><p><l>Preisschild<s n="n"/></l><r>prijskaartje<s n="n"/></r></p></e>
-    <e><p><l>Redewendung<s n="n"/></l><r>zegswijze<s n="n"/></r></p></e>
-    <e><p><l>Referendum<s n="n"/></l><r>referendum<s n="n"/></r></p></e>
-    <e><p><l>Regisseur<s n="n"/></l><r>regisseur<s n="n"/></r></p></e>
-    <e><p><l>Regisseurin<s n="n"/></l><r>regisseuse<s n="n"/></r></p></e>
-    <e><p><l>Reihe<s n="n"/></l><r>beurt<s n="n"/></r></p></e>
-    <e><p><l>Reizung<s n="n"/></l><r>prikkeling<s n="n"/></r></p></e>
-    <e><p><l>Renaissancehof<s n="n"/></l><r>renaissancehof<s n="n"/></r></p></e>
-    <e><p><l>Riesenrad<s n="n"/></l><r>reuzenrad<s n="n"/></r></p></e>
-    <e><p><l>Saal<s n="n"/></l><r>zaal<s n="n"/></r></p></e>
-    <e r="RL"><p><l>Schachtel<s n="n"/></l><r>doosje<s n="n"/></r></p></e>
-    <e><p><l>Schlumpf<s n="n"/></l><r>smurf<s n="n"/></r></p></e>
-    <e><p><l>Schreibweise<s n="n"/></l><r>schrijfwijze<s n="n"/></r></p></e>
-    <e><p><l>Schulausflug<s n="n"/></l><r>schoolreisje<s n="n"/></r></p></e>
-    <e><p><l>Speisekarte<s n="n"/></l><r>menukaart<s n="n"/></r></p></e>
-    <e><p><l>Spielzimmer<s n="n"/></l><r>speelkamer<s n="n"/></r></p></e>
-    <e><p><l>Spitzentemperatur<s n="n"/></l><r>maximumtemperatuur<s n="n"/></r></p></e>
-    <e><p><l>Stahl<s n="n"/></l><r>staal<s n="n"/></r></p></e>
-    <e><p><l>Steward<s n="n"/></l><r>steward<s n="n"/></r></p></e>
-    <e><p><l>Tässchen<s n="n"/></l><r>kopje<s n="n"/></r></p></e>
-    <e><p><l>Teilzeitarbeit<s n="n"/></l><r>deeltijdse<b/>arbeid<s n="n"/></r></p></e>
-    <e><p><l>Tennis<s n="n"/></l><r>tennis<s n="n"/></r></p></e>
-    <e><p><l>Tennisspieler<s n="n"/></l><r>tennisspeler<s n="n"/></r></p></e>
-    <e><p><l>Tennisspielerin<s n="n"/></l><r>tennisspeelster<s n="n"/></r></p></e>
-    <e><p><l>Teppich<s n="n"/></l><r>vloerkleed<s n="n"/></r></p></e>
-    <e><p><l>Toupet<s n="n"/></l><r>toupetje<s n="n"/></r></p></e>
-    <e r="RL"><p><l>Toupet<s n="n"/></l><r>haarstukje<s n="n"/></r></p></e>
-    <e><p><l>Unregelmäßigkeit<s n="n"/></l><r>onregelmatigheid<s n="n"/></r></p></e>
-    <e><p><l>Unsinn<s n="n"/></l><r>onzin<s n="n"/></r></p></e>
-    <e><p><l>Vegetarier<s n="n"/></l><r>vegetariër<s n="n"/></r></p></e>
-    <e><p><l>Verfügung<s n="n"/></l><r>beschikking<s n="n"/></r></p></e>
-    <e><p><l>Vergnügen<s n="n"/></l><r>plezier<s n="n"/></r></p></e>
-    <e><p><l>Verkäuferin<s n="n"/></l><r>verkoopster<s n="n"/></r></p></e>
-    <e><p><l>Versuch<s n="n"/></l><r>poging<s n="n"/></r></p></e>
-    <e><p><l>Visitenkarte<s n="n"/></l><r>visitekaartje<s n="n"/></r></p></e>
-    <e r="LR"><p><l>Volksabstimmung<s n="n"/></l><r>referendum<s n="n"/></r></p></e>
-    <e><p><l>Weihnachten<s n="n"/></l><r>kerstfeest<s n="n"/></r></p></e>
-    <e><p><l>Weste<s n="n"/></l><r>vest<s n="n"/></r></p></e>
-    <e><p><l>Wohlbefinden<s n="n"/></l><r>welbevinden<s n="n"/></r></p></e>
-    <e><p><l>Würde<s n="n"/></l><r>waardigheid<s n="n"/></r></p></e>
-    <e><p><l>Zaun<s n="n"/></l><r>hek<s n="n"/></r></p></e>
+    <e><p><l>Abflussrohr<s n="n"/><s n="nt"/></l><r>afvoerbuis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Algebra<s n="n"/><s n="f"/></l><r>algebra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Apfelsine<s n="n"/><s n="f"/></l><r>appelsien<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Astronomie<s n="n"/><s n="f"/></l><r>astronomie<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Aufgabe<s n="n"/><s n="f"/></l><r>opgave<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Aufschrift<s n="n"/><s n="f"/></l><r>opschrift<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Ausdruck<s n="n"/><s n="m"/></l><r>uitdrukking<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Auskunft<s n="n"/><s n="f"/></l><r>inlichting<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Baseball<s n="n"/><s n="m"/></l><r>honkbal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Bedrohung<s n="n"/><s n="f"/></l><r>bedreiging<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Behauptung<s n="n"/><s n="f"/></l><r>bewering<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Bestie<s n="n"/><s n="f"/></l><r>beestje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Bienenstock<s n="n"/><s n="m"/></l><r>bijenkorf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Blitzer<s n="n"/><s n="m"/></l><r>flitser<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Blockhaus<s n="n"/><s n="nt"/></l><r>blokhut<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Blondine<s n="n"/><s n="f"/></l><r>blondine<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Bücherregal<s n="n"/><s n="nt"/></l><r>boekenrek<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Bulle<s n="n"/><s n="m"/></l><r>flik<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Bulle<s n="n"/><s n="m"/></l><r>smeris<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>Disco<s n="n"/><s n="f"/></l><r>discotheek<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Discothek<s n="n"/><s n="f"/></l><r>discotheek<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Dollar<s n="n"/><s n="m"/></l><r>dollar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Eichhörnchen<s n="n"/><s n="nt"/></l><r>eekhoorntje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Einzelkind<s n="n"/><s n="nt"/></l><r>enig<b/>kind<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Einzimmerwohnung<s n="n"/><s n="f"/></l><r>eenkamerwoning<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Ekel<s n="n"/><s n="m"/></l><r>hekel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Englischlehrerin<s n="n"/><s n="f"/></l><r>lerares<b/>Engels<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Erbe<s n="n"/><s n="m"/></l><r>erfgenaam<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Erdgeschoss<s n="n"/><s n="nt"/></l><r>benedenverdieping<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Erfindung<s n="n"/><s n="f"/></l><r>uitvinding<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Exporteur<s n="n"/><s n="m"/></l><r>exporteur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Fabelwesen<s n="n"/><s n="nt"/></l><r>fabelwezen<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Feueralarm<s n="n"/><s n="m"/></l><r>brandalarm<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Fruchtsalat<s n="n"/><s n="m"/></l><r>fruitsalade<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Gänseblümchen<s n="n"/><s n="nt"/></l><r>madeliefje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Garten<b/>hinter<b/>dem<b/>Haus<s n="n"/><s n="m"/></l><r>achtertuin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Gefühl<s n="n"/><s n="nt"/></l><r>gevoel<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Gehirn<s n="n"/><s n="nt"/></l><r>brein<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Geisel<s n="n"/><s n="f"/></l><r>gegijzelde<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Geisterbahn<s n="n"/><s n="f"/></l><r>spookhuis<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Geschirr<s n="n"/><s n="nt"/></l><r>servies<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Gewissensfrage<s n="n"/><s n="f"/></l><r>gewetenskwestie<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Gitarre<s n="n"/><s n="f"/></l><r>gitaar<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Glascontainer<s n="n"/><s n="m"/></l><r>glasbak<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Gunst<s n="n"/><s n="f"/></l><r>gunst<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Handy<s n="n"/><s n="nt"/></l><r>mobieltje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Häuschen<s n="n"/><s n="nt"/></l><r>huisje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Herr<s n="n"/><s n="m"/></l><r>meneer<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Holzkiste<s n="n"/><s n="f"/></l><r>houten<b/>kist<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Hündchen<s n="n"/><s n="nt"/></l><r>hondje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Hundefutter<s n="n"/><s n="nt"/></l><r>hondenvoer<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Hundehütte<s n="n"/><s n="f"/></l><r>hondenhok<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Hunderte<s n="n"/><s n="m"/></l><r>honderden<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Kabine<s n="n"/><s n="f"/></l><r>cabine<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Kellnerin<s n="n"/><s n="f"/></l><r>serveerster<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Kinderspiel<s n="n"/><s n="nt"/></l><r>kinderspel<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Kindheit<s n="n"/><s n="f"/></l><r>kindertijd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Kleinkind<s n="n"/><s n="nt"/></l><r>dreumes<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Klischee<s n="n"/><s n="nt"/></l><r>cliché<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Komitee<s n="n"/><s n="nt"/></l><r>comité<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Kopfschutz<s n="n"/><s n="m"/></l><r>hoofdbescherming<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Kreditkarte<s n="n"/><s n="f"/></l><r>creditcard<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Kubaner<s n="n"/><s n="m"/></l><r>Cubaan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Kubanerin<s n="n"/><s n="f"/></l><r>Cubaanse<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Kunstbuch<s n="n"/><s n="nt"/></l><r>kunstboek<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Ladenbesitzer<s n="n"/><s n="m"/></l><r>winkelier<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Lehrerin<s n="n"/><s n="f"/></l><r>lerares<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>Lieblingsessen<s n="n"/><s n="nt"/></l><r>lievelingsgerecht<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Lieblingsgericht<s n="n"/><s n="nt"/></l><r>lievelingsgerecht<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Lieblingslied<s n="n"/><s n="nt"/></l><r>lievelingsliedje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Maß<s n="n"/><s n="nt"/></l><r>mate<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Mausefalle<s n="n"/><s n="f"/></l><r>muizenval<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Maximum<s n="n"/><s n="nt"/></l><r>maximum<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Meinungsäußerung<s n="n"/><s n="f"/></l><r>meningsuiting<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Milchshake<s n="n"/><s n="m"/></l><r>klutsmelk<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Milliarde<s n="n"/><s n="f"/></l><r>miljard<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Minimum<s n="n"/><s n="nt"/></l><r>minimum<s n="n"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>Mobiltelefon<s n="n"/><s n="nt"/></l><r>mobieltje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Modem<s n="n"/><s n="nt"/></l><r>modem<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Moderator<s n="n"/><s n="m"/></l><r>presentator<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Moped<s n="n"/><s n="nt"/></l><r>bromfiets<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Niederländischlehrerin<s n="n"/><s n="f"/></l><r>lerares<b/>Nederlands<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Nordlicht<s n="n"/><s n="nt"/></l><r>noorderlicht<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Optimismus<s n="n"/><s n="m"/></l><r>optimisme<s n="n"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>Orange<s n="n"/><s n="f"/></l><r>appelsien<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Papa<s n="n"/><s n="m"/></l><r>papa<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Pass<s n="n"/><s n="m"/></l><r>paspoort<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Pfeife<s n="n"/><s n="f"/></l><r>fluitje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Philosoph<s n="n"/><s n="m"/></l><r>filosoof<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Piepton<s n="n"/><s n="m"/></l><r>pieptoon<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Pilotversuch<s n="n"/><s n="m"/></l><r>proefproject<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Plüschtier<s n="n"/><s n="nt"/></l><r>knuffeldier<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Postamt<s n="n"/><s n="nt"/></l><r>postkantoor<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Preisschild<s n="n"/><s n="nt"/></l><r>prijskaartje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Pseudowissenschaft<s n="n"/><s n="f"/></l><r>pseudowetenschap<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Quatsch<s n="n"/><s n="m"/></l><r>onzin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Redewendung<s n="n"/><s n="f"/></l><r>zegswijze<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Referendum<s n="n"/><s n="nt"/></l><r>referendum<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Regisseur<s n="n"/><s n="m"/></l><r>regisseur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Regisseurin<s n="n"/><s n="f"/></l><r>regisseuse<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Reihe<s n="n"/><s n="f"/></l><r>beurt<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Reizung<s n="n"/><s n="f"/></l><r>prikkeling<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Renaissancehof<s n="n"/><s n="m"/></l><r>renaissancehof<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Riesenrad<s n="n"/><s n="nt"/></l><r>reuzenrad<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Rosé<s n="n"/><s n="m"/></l><r>rosé<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Rübe<s n="n"/><s n="f"/></l><r>biet<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Saal<s n="n"/><s n="m"/></l><r>zaal<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Sache<s n="n"/><s n="f"/></l><r>zaak<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Sackgasse<s n="n"/><s n="f"/></l><r>doodlopende<b/>straat<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>Schachtel<s n="n"/><s n="f"/></l><r>doosje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Schal<s n="n"/><s n="m"/></l><r>sjaal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Schlumpf<s n="n"/><s n="m"/></l><r>smurf<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Schreibweise<s n="n"/><s n="f"/></l><r>schrijfwijze<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Schulausflug<s n="n"/><s n="m"/></l><r>schoolreisje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Schwester<s n="n"/><s n="f"/></l><r>zuster<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Schwesterchen<s n="n"/><s n="nt"/></l><r>zusje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Spannung<s n="n"/><s n="f"/></l><r>spanning<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Sparschwein<s n="n"/><s n="nt"/></l><r>spaarvarken<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Speisekarte<s n="n"/><s n="f"/></l><r>menukaart<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Spielfilm<s n="n"/><s n="m"/></l><r>speelfilm<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Spielzimmer<s n="n"/><s n="nt"/></l><r>speelkamer<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Spitzentemperatur<s n="n"/><s n="f"/></l><r>maximumtemperatuur<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Stahl<s n="n"/><s n="m"/></l><r>staal<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Steward<s n="n"/><s n="m"/></l><r>steward<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Tabak<s n="n"/><s n="m"/></l><r>tabak<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>Tagung<s n="n"/><s n="f"/></l><r>bijeenkomst<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Tässchen<s n="n"/><s n="nt"/></l><r>kopje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Teilzeitarbeit<s n="n"/><s n="f"/></l><r>deeltijdse<b/>arbeid<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Tennis<s n="n"/><s n="nt"/></l><r>tennis<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Tennisspieler<s n="n"/><s n="m"/></l><r>tennisspeler<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Tennisspielerin<s n="n"/><s n="f"/></l><r>tennisspeelster<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Teppich<s n="n"/><s n="m"/></l><r>vloerkleed<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Tippfehler<s n="n"/><s n="m"/></l><r>tikfout<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>Tippfehler<s n="n"/><s n="m"/></l><r>typefout<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Toupet<s n="n"/><s n="nt"/></l><r>toupetje<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>Toupet<s n="n"/><s n="nt"/></l><r>haarstukje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Treffen<s n="n"/><s n="nt"/></l><r>bijeenkomst<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Unregelmäßigkeit<s n="n"/><s n="f"/></l><r>onregelmatigheid<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Unsinn<s n="n"/><s n="m"/></l><r>onzin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Unternehmen<s n="n"/><s n="nt"/></l><r>onderneming<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Valentinstag<s n="n"/><s n="m"/></l><r>Valentijnsdag<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Vegetarier<s n="n"/><s n="m"/></l><r>vegetariër<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Verfügung<s n="n"/><s n="f"/></l><r>beschikking<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Vergnügen<s n="n"/><s n="nt"/></l><r>plezier<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Verkäuferin<s n="n"/><s n="f"/></l><r>verkoopster<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Versuch<s n="n"/><s n="m"/></l><r>poging<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Visitenkarte<s n="n"/><s n="f"/></l><r>visitekaartje<s n="n"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>Volksabstimmung<s n="n"/><s n="f"/></l><r>referendum<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Weihnachten<s n="n"/><s n="nt"/></l><r>kerstfeest<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Weste<s n="n"/><s n="f"/></l><r>vest<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Wohlbefinden<s n="n"/><s n="nt"/></l><r>welbevinden<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Würde<s n="n"/><s n="f"/></l><r>waardigheid<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Zaun<s n="n"/><s n="m"/></l><r>hek<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Zeitverschwendung<s n="n"/><s n="f"/></l><r>tijdverspilling<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Zungenbrecher<s n="n"/><s n="m"/></l><r>tongbreker<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>Abbott<s n="np"/></l><r>Abbott<s n="np"/></r></p></e>
     <e><p><l>Abraham<s n="np"/></l><r>Abraham<s n="np"/></r></p></e>
@@ -13870,6 +13960,7 @@
     <e><p><l>Bill<s n="np"/></l><r>Bill<s n="np"/></r></p></e>
     <e><p><l>Billy<s n="np"/></l><r>Billy<s n="np"/></r></p></e>
     <e><p><l>Bob<s n="np"/></l><r>Bob<s n="np"/></r></p></e>
+    <e><p><l>Bombay<s n="np"/></l><r>Bombay<s n="np"/></r></p></e>
     <e><p><l>Brad<s n="np"/></l><r>Brad<s n="np"/></r></p></e>
     <e><p><l>Brutus<s n="np"/></l><r>Brutus<s n="np"/></r></p></e>
     <e><p><l>Carol<s n="np"/></l><r>Carol<s n="np"/></r></p></e>
@@ -13881,22 +13972,29 @@
     <e><p><l>Einstein<s n="np"/></l><r>Einstein<s n="np"/></r></p></e>
     <e><p><l>Facebook<s n="np"/></l><r>Facebook<s n="np"/></r></p></e>
     <e><p><l>Hemingway<s n="np"/></l><r>Hemingway<s n="np"/></r></p></e>
+    <e><p><l>Jack<s n="np"/></l><r>Jack<s n="np"/></r></p></e>
     <e><p><l>Jim<s n="np"/></l><r>Jim<s n="np"/></r></p></e>
     <e><p><l>Kate<s n="np"/></l><r>Kate<s n="np"/></r></p></e>
     <e><p><l>Muiriel<s n="np"/></l><r>Muiriel<s n="np"/></r></p></e>
+    <e><p><l>Mumbai<s n="np"/></l><r>Mumbai<s n="np"/></r></p></e>
+    <e><p><l>Nancy<s n="np"/></l><r>Nancy<s n="np"/></r></p></e>
+    <e><p><l>Nil<s n="np"/></l><r>Nijl<s n="np"/></r></p></e>
     <e><p><l>Pakistan<s n="np"/></l><r>Pakistan<s n="np"/></r></p></e>
+    <e><p><l>Sueskanal<s n="np"/></l><r>Suezkanaal<s n="np"/></r></p></e>
+    <e><p><l>Susan<s n="np"/></l><r>Susan<s n="np"/></r></p></e>
     <e><p><l>Tokio<s n="np"/></l><r>Tokio<s n="np"/></r></p></e>
     <e><p><l>Tom<s n="np"/></l><r>Tom<s n="np"/></r></p></e>
-    <e><p><l>Valentinstag<s n="np"/></l><r>Valentijnsdag<s n="np"/></r></p></e>
     <e><p><l>Werner<s n="np"/></l><r>Werner<s n="np"/></r></p></e>
     <e><p><l>Yale<s n="np"/></l><r>Yale<s n="np"/></r></p></e>
     <e><p><l>Zarathustra<s n="np"/></l><r>Zarathustra<s n="np"/></r></p></e>
 
+    <e><p><l>das<b/>Gleiche<s n="prn"/></l><r>hetzelfde<s n="prn"/></r></p></e>
     <e><p><l>dasselbe<s n="prn"/></l><r>hetzelfde<s n="prn"/></r></p></e>
     <e><p><l>einander<s n="prn"/></l><r>elkander<s n="prn"/></r></p></e>
     <e><p><l>solch<s n="prn"/></l><r>zulk<s n="prn"/></r></p></e>
     <e><p><l>welch<s n="prn"/></l><r>welk<s n="prn"/></r></p></e>
     <e><p><l>wie<b/>viel<s n="prn"/></l><r>hoeveel<s n="prn"/></r></p></e>
+
     <e><p><l>was<s n="rel"/></l><r>wat<s n="rel"/></r></p></e>
 
     <e><p><l>aufmachen<s n="vblex"/><s n="sep"/></l><r>opendoen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -13904,11 +14002,14 @@
     <e><p><l>ausziehen<s n="vblex"/><s n="sep"/></l><r>uittrekken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>erkennen<s n="vblex"/></l><r>herkennen<s n="vblex"/></r></p></e>
     <e><p><l>exportieren<s n="vblex"/></l><r>exporteren<s n="vblex"/></r></p></e>
+    <e><p><l>faszinieren<s n="vblex"/></l><r>fascineren<s n="vblex"/></r></p></e>
+    <e><p><l>kuscheln<s n="vblex"/></l><r>knuffelen<s n="vblex"/></r></p></e>
     <e><p><l>lieb<b/>haben<s n="vblex"/></l><r>liefhebben<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>putzen<s n="vblex"/></l><r>kuisen<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>reinigen<s n="vblex"/></l><r>kuisen<s n="vblex"/></r></p></e>
     <e><p><l>reinkommen<s n="vblex"/><s n="sep"/></l><r>binnenkomen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>reiten<s n="vblex"/></l><r>paardrijden<s n="vblex"/></r></p></e>
+    <e><p><l>üben<s n="vblex"/></l><r>oefenen<s n="vblex"/></r></p></e>
     <e><p><l>umsteigen<s n="vblex"/><s n="sep"/></l><r>overstappen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>verblüffen<s n="vblex"/></l><r>verbluffen<s n="vblex"/></r></p></e>
     <e><p><l>wiederholen<s n="vblex"/></l><r>herhalen<s n="vblex"/></r></p></e>
@@ -13921,6 +14022,7 @@
     <e><p><l>nicht<b/>wahr<s n="ij"/></l><r>hè<s n="ij"/></r></p></e>
 
     <e><p><l>usw.<s n="abbr"/></l><r>enz.<s n="abbr"/></r></p></e>
+
 
   </section>
 
