@@ -50,6 +50,7 @@
 			<cat-item tags="det.def.*"/>
 			<cat-item tags="det.dem.*"/>
 			<cat-item tags="det.qnt.*"/>
+			<cat-item tags="det.pos.*"/>
 			<cat-item tags="det.*"/>
 		</def-cat>
 		<def-cat n="c_prpers">
@@ -70,6 +71,7 @@
 			<cat-item tags="vblex.*"/>
 			<cat-item tags="vbser.*"/>
 			<cat-item tags="vbhaver.*"/> 
+			<cat-item tags="vbdo.*"/> 
 		</def-cat>
 		<def-cat n="c_verbnmng"> <!--verb no modal, no gerund -->
 			<cat-item tags="vblex.inf"/>
@@ -83,12 +85,14 @@
 			<cat-item tags="vblex.imp.*"/>
 			<cat-item tags="vblex.pres.*"/>
 			<cat-item tags="vblex.past.*"/>
+			<cat-item tags="vblex.pp.*"/>
 			<cat-item tags="vblex.sep.inf"/>
 			<cat-item tags="vblex.sep.inf.*"/>
 			<cat-item tags="vblex.sep.pprs.*"/>
 			<cat-item tags="vblex.sep.imp.*"/>
 			<cat-item tags="vblex.sep.fm.*"/>
 			<cat-item tags="vblex.sep.fs.*"/>
+			<cat-item tags="vblex.sep.pp.*"/>
 			<cat-item tags="vbser.*"/>
 			<cat-item tags="vbhaver.*"/> 
 		</def-cat>
@@ -116,6 +120,8 @@
 		</def-cat>
 		<def-cat n="c_prep"> <!-- preposition -->
 			<cat-item tags="pr"/>
+			<cat-item tags="pr.*"/>
+			<cat-item tags="pprep.*"/>
 		</def-cat>
 		<def-cat n="c_end_punct">
 			<cat-item tags="sent"/>
@@ -328,14 +334,7 @@
 		<!--(this macro must be called at the end of every rule! (except sent))-->
 		<def-macro n="firstWord" npar="0">
 			<let><var n="caseFirstWord"/><lit v="aa"/></let>
-			<choose>
-				<when>
-					<test>
-						<equal>  <var n="EOS"/>  <lit v="true"/>  </equal>
-					</test>
-				</when>
-			</choose>
-			<let>  <var n="EOS"/>  <lit v="false"/>  </let>
+			<let><var n="EOS"/><lit v="false"/></let>
 		</def-macro>
 
 		<def-macro n="adjust_verb_tags" npar="1">
