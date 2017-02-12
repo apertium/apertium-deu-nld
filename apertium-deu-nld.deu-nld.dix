@@ -13670,20 +13670,6 @@
     <e><p><l>v.Chr.<s n="adv"/></l><r>v.Chr.<s n="adv"/></r></p></e>
 
 
-    <!-- punctuation etc. -->
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
-    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
-
-    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-    <e><re>[0-9]+</re><p><l>.<s n="num"/><s n="ord"/></l><r>e<s n="num"/><s n="ord"/></r></p></e>
-    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-
-    <e><re>[Â¿Â¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
-    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
-    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
-
-
 
 
 
@@ -13697,6 +13683,7 @@
     <e r="LR"><p><l>zwo<s n="num"/></l><r>twee<s n="num"/></r></p></e>
 
     <e><p><l>als<b/>ob<s n="cnjsub"/></l><r>alsof<s n="cnjsub"/></r></p></e>
+    <e><p><l>ausgenommen<s n="cnjsub"/></l><r>behalve<s n="cnjsub"/></r></p></e>
     <e><p><l>obgleich<s n="cnjsub"/></l><r>ofschoon<s n="cnjsub"/></r></p></e>
     <e><p><l>sowie<s n="cnjsub"/></l><r>alsmede<s n="cnjsub"/></r></p></e>
 
@@ -13803,7 +13790,9 @@
     <e><p><l>unvorstellbar<s n="adj"/><s n="sint"/></l><r>onvoorstelbaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vegan<s n="adj"/><s n="sint"/></l><r>vegan<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>verärgert<s n="adj"/><s n="sint"/></l><r>kwaad<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vermist<s n="adj"/><s n="sint"/></l><r>vermist<s n="adj"/></r></p></e>
     <e><p><l>verschlissen<s n="adj"/><s n="sint"/></l><r>versleten<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verschollen<s n="adj"/><s n="sint"/></l><r>vermist<s n="adj"/></r></p></e>
     <e><p><l>verwickelt<s n="adj"/><s n="sint"/></l><r>ingewikkeld<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vollkommen<s n="adj"/><s n="sint"/></l><r>volkomen<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vortrefflich<s n="adj"/><s n="sint"/></l><r>verrukkelijk<s n="adj"/><s n="sint"/></r></p></e>
@@ -13819,20 +13808,25 @@
     <e><p><l>alsbald<s n="adv"/></l><r>aldra<s n="adv"/></r></p></e>
     <e><p><l>aneinander<s n="adv"/></l><r>aaneen<s n="adv"/></r></p></e>
     <e><p><l>anfänglich<s n="adv"/></l><r>aanvankelijk<s n="adv"/></r></p></e>
+    <e><p><l>auf<s n="adv"/></l><r>op<s n="adv"/></r></p></e>
+    <e><p><l>bedauerlicherweise<s n="adv"/></l><r>spijtig<s n="adv"/></r></p></e>
     <e><p><l>bisschen<s n="adv"/></l><r>beetje<s n="adv"/></r></p></e>
     <e><p><l>dafür<s n="adv"/></l><r>daarvoor<s n="adv"/></r></p></e>
     <e><p><l>dagegen<s n="adv"/></l><r>daartegen<s n="adv"/></r></p></e>
+    <e><p><l>daheim<s n="adv"/></l><r>thuis<s n="adv"/></r></p></e>
     <e><p><l>damals<s n="adv"/></l><r>indertijd<s n="adv"/></r></p></e>
     <e><p><l>dauernd<s n="adv"/></l><r>almaar<s n="adv"/></r></p></e>
     <e><p><l>einfach<s n="adv"/></l><r>gewoon<s n="adv"/></r></p></e>
     <e><p><l>gewöhnlich<s n="adv"/></l><r>gewoonlijk<s n="adv"/></r></p></e>
     <e><p><l>hin<s n="adv"/></l><r>heen<s n="adv"/></r></p></e>
+    <e><p><l>hinein<s n="adv"/></l><r>erin<s n="adv"/></r></p></e>
     <e><p><l>hinten<s n="adv"/></l><r>achterin<s n="adv"/></r></p></e>
     <e><p><l>hintenherum<s n="adv"/></l><r>achterom<s n="adv"/></r></p></e>
     <e><p><l>hintereinander<s n="adv"/></l><r>achtereen<s n="adv"/></r></p></e>
     <e><p><l>keinesfalls<s n="adv"/></l><r>allerminst<s n="adv"/></r></p></e>
     <e><p><l>keineswegs<s n="adv"/></l><r>allesbehalve<s n="adv"/></r></p></e>
     <e><p><l>längst<s n="adv"/></l><r>allang<s n="adv"/></r></p></e>
+    <e><p><l>lebensgefährlich<s n="adv"/></l><r>levensgevaarlijk<s n="adv"/></r></p></e>
     <e><p><l>manchmal<s n="adv"/></l><r>soms<s n="adv"/></r></p></e>
     <e><p><l>massenhaft<s n="adv"/></l><r>zat<s n="adv"/></r></p></e>
     <e><p><l>nacheinander<s n="adv"/></l><r>achtereen<s n="adv"/></r></p></e>
@@ -13859,13 +13853,17 @@
     <e><p><l>wonach<s n="adv"/></l><r>waarnaar<s n="adv"/></r></p></e>
     <e><p><l>worüber<s n="adv"/></l><r>waarover<s n="adv"/></r></p></e>
     <e><p><l>zu<s n="adv"/></l><r>toe<s n="adv"/></r></p></e>
+    <e><p><l>zum<b/>Vorschein<s n="adv"/></l><r>tevoorschijn<s n="adv"/></r></p></e>
     <e><p><l>zunächst<s n="adv"/></l><r>allereerst<s n="adv"/></r></p></e>
     <e><p><l>ab<b/>und<b/>zu<s n="adv"/></l><r>af<b/>en<b/>toe<s n="adv"/></r></p></e>
     <e><p><l>auf<b/>der<b/>anderen<b/>Seite<s n="adv"/></l><r>aan<b/>de<b/>andere<b/>kant<s n="adv"/></r></p></e>
     <e><p><l>auf<b/>der<b/>Rückseite<s n="adv"/></l><r>achterop<s n="adv"/></r></p></e>
+    <e><p><l>dann<b/>und<b/>wann<s n="adv"/></l><r>nu<b/>en<b/>dan<s n="adv"/></r></p></e>
+    <e><p><l>gelegentlich<s n="adv"/></l><r>nu<b/>en<b/>dan<s n="adv"/></r></p></e>
     <e><p><l>in<b/>der<b/>Nähe<s n="adv"/></l><r>dichtbij<s n="adv"/></r></p></e>
     <e><p><l>in<b/>der<b/>Tat<s n="adv"/></l><r>inderdaad<s n="adv"/></r></p></e>
     <e><p><l>in<b/>Ordnung<s n="adv"/></l><r>in<b/>orde<s n="adv"/></r></p></e>
+    <e><p><l>von<b/>Zeit<b/>zu<b/>Zeit<s n="adv"/></l><r>van<b/>tijd<b/>tot<b/>tijd<s n="adv"/></r></p></e>
 
     <e><p><l>Aalkorb<s n="n"/><s n="m"/></l><r>aalkorf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Aalreuse<s n="n"/><s n="f"/></l><r>aalfuik<s n="n"/><s n="mf"/></r></p></e>
@@ -13919,6 +13917,7 @@
     <e><p><l>Algebra<s n="n"/><s n="f"/></l><r>algebra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Allee<s n="n"/><s n="f"/></l><r>allee<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Allegorie<s n="n"/><s n="f"/></l><r>allegorie<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Allgemeinheit<s n="n"/><s n="f"/></l><r>algemeen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Almanach<s n="n"/><s n="m"/></l><r>almanak<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Amazone<s n="n"/><s n="f"/></l><r>amazone<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Ambition<s n="n"/><s n="f"/></l><r>ambitie<s n="n"/><s n="f"/></r></p></e>
@@ -13985,6 +13984,7 @@
     <e><p><l>Atelier<s n="n"/><s n="nt"/></l><r>atelier<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Atem<s n="n"/><s n="m"/></l><r>adem<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Atheist<s n="n"/><s n="m"/></l><r>atheïst<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Atombombe<s n="n"/><s n="f"/></l><r>atoombom<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Attentat<s n="n"/><s n="nt"/></l><r>aanslag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Attraktion<s n="n"/><s n="f"/></l><r>attractie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Attribut<s n="n"/><s n="nt"/></l><r>attribuut<s n="n"/><s n="nt"/></r></p></e>
@@ -14028,7 +14028,8 @@
     <e><p><l>Bar<s n="n"/><s n="f"/></l><r>bar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Barkeeper<s n="n"/><s n="m"/></l><r>barkeeper<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Base<s n="n"/><s n="f"/></l><r>base<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Baseball<s n="n"/><s n="m"/></l><r>honkbal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Baseball<s n="n"/><s n="m"/></l><r>honkbal<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>Baseball<s n="n"/><s n="m"/></l><r>honkbal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Bassgitarre<s n="n"/><s n="f"/></l><r>basgitaar<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Bataillon<s n="n"/><s n="nt"/></l><r>bataljon<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Bauart<s n="n"/><s n="f"/></l><r>makelij<s n="n"/><s n="f"/></r></p></e>
@@ -14298,7 +14299,10 @@
     <e><p><l>Fabelwesen<s n="n"/><s n="nt"/></l><r>fabelwezen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Fabelwesen<s n="n"/><s n="nt"/></l><r>fabeldier<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Fabrikat<s n="n"/><s n="nt"/></l><r>fabricaat<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Fach<s n="n"/><s n="nt"/></l><r>vak<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Fachgebiet<s n="n"/><s n="nt"/></l><r>discipline<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Fähnchen<s n="n"/><s n="nt"/></l><r>vlaggetje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Fahrprüfung<s n="n"/><s n="f"/></l><r>rijexamen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Fahrradschloss<s n="n"/><s n="nt"/></l><r>fietsslot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Fahrradtour<s n="n"/><s n="f"/></l><r>fietstocht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Fahrwerk<s n="n"/><s n="nt"/></l><r>landingsgestel<s n="n"/><s n="nt"/></r></p></e>
@@ -14310,6 +14314,7 @@
     <e><p><l>Faultier<s n="n"/><s n="nt"/></l><r>luiaard<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Fehlerspanne<s n="n"/><s n="f"/></l><r>foutmarge<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Feiertag<s n="n"/><s n="m"/></l><r>feestdag<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Fermentation<s n="n"/><s n="f"/></l><r>zymose<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Festlichkeit<s n="n"/><s n="f"/></l><r>festiviteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Feueralarm<s n="n"/><s n="m"/></l><r>brandalarm<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Filmkunst<s n="n"/><s n="f"/></l><r>filmkunst<s n="n"/><s n="f"/></r></p></e>
@@ -14667,6 +14672,7 @@
     <e><p><l>Küstengebiet<s n="n"/><s n="nt"/></l><r>kustgebied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Küstenwache<s n="n"/><s n="f"/></l><r>kustwacht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Kutsche<s n="n"/><s n="f"/></l><r>koets<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Lachen<s n="n"/><s n="nt"/></l><r>lach<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Lack<s n="n"/><s n="m"/></l><r>lak<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Ladenbesitzer<s n="n"/><s n="m"/></l><r>winkelier<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Ladendieb<s n="n"/><s n="m"/></l><r>winkeldief<s n="n"/><s n="m"/></r></p></e>
@@ -14773,6 +14779,7 @@
     <e><p><l>Mitgefühl<s n="n"/><s n="nt"/></l><r>medelijden<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Mitgift<s n="n"/><s n="f"/></l><r>bruidsschat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Mitspieler<s n="n"/><s n="m"/></l><r>medespeler<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>Mittagessen<s n="n"/><s n="nt"/></l><r>lunch<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Mittagessen<s n="n"/><s n="nt"/></l><r>middageten<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Mittelstand<s n="n"/><s n="m"/></l><r>middenklasse<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Mixer<s n="n"/><s n="m"/></l><r>mixer<s n="n"/><s n="m"/></r></p></e>
@@ -14876,6 +14883,7 @@
     <e><p><l>Pracht<s n="n"/><s n="f"/></l><r>luister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Praline<s n="n"/><s n="f"/></l><r>bonbon<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Preisschild<s n="n"/><s n="nt"/></l><r>prijskaartje<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Premierminister<s n="n"/><s n="m"/></l><r>eerste<b/>minister<s n="n"/></r></p></e>
     <e><p><l>Pritsche<s n="n"/><s n="f"/></l><r>brits<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>Probefahrt<s n="n"/><s n="f"/></l><r>proefrit<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Protokollführer<s n="n"/><s n="m"/></l><r>griffier<s n="n"/><s n="m"/></r></p></e>
@@ -15148,6 +15156,7 @@
     <e><p><l>Wohnwagen<s n="n"/><s n="m"/></l><r>caravan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Wölfin<s n="n"/><s n="f"/></l><r>wolvin<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Wolkenbruch<s n="n"/><s n="m"/></l><r>wolkbreuk<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Wolkendecke<s n="n"/><s n="f"/></l><r>wolkendek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Würde<s n="n"/><s n="f"/></l><r>waardigheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Zaun<s n="n"/><s n="m"/></l><r>hek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Zechpreller<s n="n"/><s n="m"/></l><r>flessentrekker<s n="n"/><s n="m"/></r></p></e>
@@ -15301,6 +15310,7 @@
     <e><p><l>erweitern<s n="vblex"/></l><r>verruimen<s n="vblex"/></r></p></e>
     <e><p><l>exportieren<s n="vblex"/></l><r>exporteren<s n="vblex"/></r></p></e>
     <e><p><l>faszinieren<s n="vblex"/></l><r>fascineren<s n="vblex"/></r></p></e>
+    <e><p><l>fehlschlagen<s n="vblex"/></l><r>mislopen<s n="vblex"/></r></p></e>
     <e><p><l>Golf<b/>spielen<s n="vblex"/></l><r>golfen<s n="vblex"/></r></p></e>
     <e><p><l>hereinkommen<s n="vblex"/><s n="sep"/></l><r>binnenkomen<s n="vblex"/></r></p></e>
     <e><p><l>kuscheln<s n="vblex"/></l><r>knuffelen<s n="vblex"/></r></p></e>
@@ -15326,6 +15336,7 @@
     <e><p><l>verblüffen<s n="vblex"/></l><r>verbluffen<s n="vblex"/></r></p></e>
     <e><p><l>verdingen<s n="vblex"/></l><r>aanbesteden<s n="vblex"/></r></p></e>
     <e><p><l>verschlingen<s n="vblex"/></l><r>verslinden<s n="vblex"/></r></p></e>
+    <e><p><l>wiedergeben<s n="vblex"/></l><r>weergeven<s n="vblex"/></r></p></e>
     <e><p><l>wiederholen<s n="vblex"/></l><r>herhalen<s n="vblex"/></r></p></e>
     <e><p><l>zu<b/>Mittag<b/>essen<s n="vblex"/></l><r>lunchen<s n="vblex"/></r></p></e>
     <e><p><l>zurückkommen<s n="vblex"/><s n="sep"/></l><r>terugkomen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -15349,6 +15360,23 @@
 
     <e><p><l>usw.<s n="abbr"/></l><r>enz.<s n="adv"/></r></p></e>
 
+
+  </section>
+  <section id="final" type="inconditional">
+
+    <!-- punctuation etc. -->
+
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9]+</re><p><l>.<s n="num"/><s n="ord"/></l><r>e<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
+    <e><re>[Â¿Â¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
 
   </section>
 
