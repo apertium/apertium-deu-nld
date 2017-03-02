@@ -13691,6 +13691,7 @@
 
     <e><p><l>alle<s n="det"/></l><r>alle<s n="det"/></r></p></e>
 
+    <e><p><l>abgelaufen<s n="adj"/><s n="sint"/></l><r>afgelopen<s n="adj"/></r></p></e>
     <e><p><l>absichtlich<s n="adj"/><s n="sint"/></l><r>expres<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>absurd<s n="adj"/><s n="sint"/></l><r>absurd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>alkoholfrei<s n="adj"/><s n="sint"/></l><r>alcoholvrij<s n="adj"/><s n="sint"/></r></p></e>
@@ -13699,23 +13700,29 @@
     <e><p><l>amüsant<s n="adj"/><s n="sint"/></l><r>amusant<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ängstlich<s n="adj"/><s n="sint"/></l><r>angstig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ängstlich<s n="adj"/><s n="sint"/></l><r>bang<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>aufreizend<s n="adj"/><s n="sint"/></l><r>zinnenprikkelend<s n="adj"/></r></p></e>
     <e><p><l>aufrichtig<s n="adj"/><s n="sint"/></l><r>oprecht<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ausreichend<s n="adj"/><s n="sint"/></l><r>toereikend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ausverkauft<s n="adj"/><s n="sint"/></l><r>uitverkocht<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bankrott<s n="adj"/><s n="sint"/></l><r>failliet<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bedauerlich<s n="adj"/><s n="sint"/></l><r>spijtig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>benachbart<s n="adj"/><s n="sint"/></l><r>naburig<s n="adj"/></r></p></e>
     <e><p><l>bitter<s n="adj"/><s n="sint"/></l><r>bitter<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bleibend<s n="adj"/><s n="sint"/></l><r>blijvend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>blutjung<s n="adj"/><s n="sint"/></l><r>piepjong<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>buddhistisch<s n="adj"/><s n="sint"/></l><r>boeddhistisch<s n="adj"/></r></p></e>
     <e><p><l>defekt<s n="adj"/><s n="sint"/></l><r>defect<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>deutschsprachig<s n="adj"/><s n="sint"/></l><r>Duitstalig<s n="adj"/></r></p></e>
     <e><p><l>durchsichtig<s n="adj"/><s n="sint"/></l><r>doorzichtig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>echt<s n="adj"/><s n="sint"/></l><r>echt<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>einfach<s n="adj"/><s n="sint"/></l><r>eenvoudig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>eingebrannt<s n="adj"/><s n="sint"/></l><r>ingebrand<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>eingelegt<s n="adj"/><s n="sint"/></l><r>ingelegd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>eisern<s n="adj"/><s n="sint"/></l><r>ijzeren<s n="adj"/></r></p></e>
     <e><p><l>elend<s n="adj"/><s n="sint"/></l><r>ellendig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>erwerbsfähig<s n="adj"/><s n="sint"/></l><r>valide<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ethisch<s n="adj"/><s n="sint"/></l><r>ethisch<s n="adj"/></r></p></e>
+    <e><p><l>evangelisch<s n="adj"/><s n="sint"/></l><r>evangelisch<s n="adj"/></r></p></e>
     <e><p><l>fair<s n="adj"/><s n="sint"/></l><r>fair<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>falsch<s n="adj"/><s n="sint"/></l><r>verkeerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>fantastisch<s n="adj"/><s n="sint"/></l><r>geweldig<s n="adj"/><s n="sint"/></r></p></e>
@@ -13726,26 +13733,40 @@
     <e><p><l>genial<s n="adj"/><s n="sint"/></l><r>geniaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>genial<s n="adj"/><s n="sint"/></l><r>geweldig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geografisch<s n="adj"/><s n="sint"/></l><r>geografisch<s n="adj"/></r></p></e>
+    <e><p><l>geschieden<s n="adj"/><s n="sint"/></l><r>gescheiden<s n="adj"/></r></p></e>
     <e><p><l>gewaltig<s n="adj"/><s n="sint"/></l><r>geweldig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gleichartig<s n="adj"/><s n="sint"/></l><r>gelijkaardig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>gleichnamig<s n="adj"/><s n="sint"/></l><r>gelijknamig<s n="adj"/></r></p></e>
     <e><p><l>golden<s n="adj"/><s n="sint"/></l><r>gouden<s n="adj"/></r></p></e>
     <e><p><l>grenzenlos<s n="adj"/><s n="sint"/></l><r>grenzeloos<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>großartig<s n="adj"/><s n="sint"/></l><r>geweldig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gültig<s n="adj"/><s n="sint"/></l><r>valide<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>herrlich<s n="adj"/><s n="sint"/></l><r>prachtig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hetero<s n="adj"/><s n="sint"/></l><r>hetero<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>hinzukommend<s n="adj"/><s n="sint"/></l><r>bijkomend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hölzern<s n="adj"/><s n="sint"/></l><r>houten<s n="adj"/></r></p></e>
     <e><p><l>illegal<s n="adj"/><s n="sint"/></l><r>illegaal<s n="adj"/></r></p></e>
+    <e><p><l>inländisch<s n="adj"/><s n="sint"/></l><r>binnenlands<s n="adj"/></r></p></e>
     <e><p><l>intelligent<s n="adj"/><s n="sint"/></l><r>intelligent<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>kaputt<s n="adj"/><s n="sint"/></l><r>kapot<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>klimatisch<s n="adj"/><s n="sint"/></l><r>klimatologisch<s n="adj"/></r></p></e>
     <e r="RL"><p><l>klug<s n="adj"/><s n="sint"/></l><r>snugger<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>kompliziert<s n="adj"/><s n="sint"/></l><r>ingewikkeld<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>konsequent<s n="adj"/><s n="sint"/></l><r>consequent<s n="adj"/></r></p></e>
     <e><p><l>konstant<s n="adj"/><s n="sint"/></l><r>constant<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>korrekt<s n="adj"/><s n="sint"/></l><r>correct<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>kosmologisch<s n="adj"/><s n="sint"/></l><r>kosmologisch<s n="adj"/></r></p></e>
     <e><p><l>kubanisch<s n="adj"/><s n="sint"/></l><r>Cubaan<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>kubanisch<s n="adj"/><s n="sint"/></l><r>Cubaans<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>kupfern<s n="adj"/><s n="sint"/></l><r>koperen<s n="adj"/></r></p></e>
     <e><p><l>langweilig<s n="adj"/><s n="sint"/></l><r>saai<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>lateinisch<s n="adj"/><s n="sint"/></l><r>Latijns<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>lebendig<s n="adj"/><s n="sint"/></l><r>levend<s n="adj"/></r></p></e>
     <e><p><l>lebensgefährlich<s n="adj"/><s n="sint"/></l><r>levensgevaarlijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>lebhaft<s n="adj"/><s n="sint"/></l><r>levendig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ledern<s n="adj"/><s n="sint"/></l><r>leren<s n="adj"/></r></p></e>
+    <e><p><l>maritim<s n="adj"/><s n="sint"/></l><r>maritiem<s n="adj"/></r></p></e>
+    <e><p><l>marokkanisch<s n="adj"/><s n="sint"/></l><r>Marokkaans<s n="adj"/></r></p></e>
     <e><p><l>mathematisch<s n="adj"/><s n="sint"/></l><r>wiskundig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>minimal<s n="adj"/><s n="sint"/></l><r>minimaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>mittelmäßig<s n="adj"/><s n="sint"/></l><r>middelmatig<s n="adj"/><s n="sint"/></r></p></e>
@@ -13753,118 +13774,311 @@
     <e><p><l>nervös<s n="adj"/><s n="sint"/></l><r>zenuwachtig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nett<s n="adj"/><s n="sint"/></l><r>aardig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>original<s n="adj"/><s n="sint"/></l><r>origineel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>peruanisch<s n="adj"/><s n="sint"/></l><r>Peruaans<s n="adj"/></r></p></e>
     <e r="LR"><p><l>pleite<s n="adj"/><s n="sint"/></l><r>failliet<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>prächtig<s n="adj"/><s n="sint"/></l><r>prachtig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>präzise<s n="adj"/><s n="sint"/></l><r>nauwkeurig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>professionell<s n="adj"/><s n="sint"/></l><r>professioneel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>protestantisch<s n="adj"/><s n="sint"/></l><r>evangelisch<s n="adj"/></r></p></e>
+    <e><p><l>provinziell<s n="adj"/><s n="sint"/></l><r>provinciaal<s n="adj"/></r></p></e>
     <e><p><l>rechtwinklig<s n="adj"/><s n="sint"/></l><r>haaks<s n="adj"/></r></p></e>
     <e><p><l>regelmäßig<s n="adj"/><s n="sint"/></l><r>regelmatig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>regnerisch<s n="adj"/><s n="sint"/></l><r>regenachtig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>roh<s n="adj"/><s n="sint"/></l><r>rauw<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>romantisch<s n="adj"/><s n="sint"/></l><r>romantisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rothaarig<s n="adj"/><s n="sint"/></l><r>roodharig<s n="adj"/></r></p></e>
     <e><p><l>schlaftrunken<s n="adj"/><s n="sint"/></l><r>slaapdronken<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>schmal<s n="adj"/><s n="sint"/></l><r>smal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>schuldig<s n="adj"/><s n="sint"/></l><r>schuldig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>schwanger<s n="adj"/><s n="sint"/></l><r>zwanger<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>schwul<s n="adj"/><s n="sint"/></l><r>homo<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>separat<s n="adj"/><s n="sint"/></l><r>afzonderlijk<s n="adj"/></r></p></e>
+    <e><p><l>silbern<s n="adj"/><s n="sint"/></l><r>zilveren<s n="adj"/></r></p></e>
     <e><p><l>sortiert<s n="adj"/><s n="sint"/></l><r>gesorteerd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>sozialdemokratisch<s n="adj"/><s n="sint"/></l><r>sociaaldemocratisch<s n="adj"/></r></p></e>
     <e><p><l>spannend<s n="adj"/><s n="sint"/></l><r>spannend<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>stählern<s n="adj"/><s n="sint"/></l><r>stalen<s n="adj"/></r></p></e>
     <e r="RL"><p><l>ständig<s n="adj"/><s n="sint"/></l><r>constant<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>stocksteif<s n="adj"/><s n="sint"/></l><r>stokstijf<s n="adj"/></r></p></e>
     <e><p><l>streng<s n="adj"/><s n="sint"/></l><r>streng<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>stundenlang<s n="adj"/><s n="sint"/></l><r>urenlang<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>süchtig<s n="adj"/><s n="sint"/></l><r>verslaafd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>synthetisch<s n="adj"/><s n="sint"/></l><r>synthetisch<s n="adj"/></r></p></e>
     <e><p><l>tapfer<s n="adj"/><s n="sint"/></l><r>dapper<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>teleologisch<s n="adj"/><s n="sint"/></l><r>teleologisch<s n="adj"/></r></p></e>
+    <e><p><l>terroristisch<s n="adj"/><s n="sint"/></l><r>terroristisch<s n="adj"/></r></p></e>
+    <e><p><l>total<s n="adj"/><s n="sint"/></l><r>totaal<s n="adj"/></r></p></e>
+    <e><p><l>transitiv<s n="adj"/><s n="sint"/></l><r>transitief<s n="adj"/></r></p></e>
     <e><p><l>traurig<s n="adj"/><s n="sint"/></l><r>droevig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>traurig<s n="adj"/><s n="sint"/></l><r>triest<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>traurig<s n="adj"/><s n="sint"/></l><r>verdrietig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>treibend<s n="adj"/><s n="sint"/></l><r>drijvend<s n="adj"/></r></p></e>
     <e><p><l>umweltfreundlich<s n="adj"/><s n="sint"/></l><r>milieuvriendelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unbeantwortet<s n="adj"/><s n="sint"/></l><r>onbeantwoord<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unbegründet<s n="adj"/><s n="sint"/></l><r>ongefundeerd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>undurchsichtig<s n="adj"/><s n="sint"/></l><r>ondoorzichtig<s n="adj"/></r></p></e>
     <e><p><l>unehrlich<s n="adj"/><s n="sint"/></l><r>oneerlijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unfreundlich<s n="adj"/><s n="sint"/></l><r>onvriendelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ungehindert<s n="adj"/><s n="sint"/></l><r>ongehinderd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ungeschickt<s n="adj"/><s n="sint"/></l><r>onhandig<s n="adj"/></r></p></e>
+    <e><p><l>ungewiss<s n="adj"/><s n="sint"/></l><r>ongewis<s n="adj"/></r></p></e>
     <e><p><l>unmoralisch<s n="adj"/><s n="sint"/></l><r>immoreel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unrechtmäßig<s n="adj"/><s n="sint"/></l><r>onrechtmatig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unregelmäßig<s n="adj"/><s n="sint"/></l><r>onregelmatig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unrichtig<s n="adj"/><s n="sint"/></l><r>onjuist<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unschädlich<s n="adj"/><s n="sint"/></l><r>onschadelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unscharf<s n="adj"/><s n="sint"/></l><r>onscherp<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unterirdisch<s n="adj"/><s n="sint"/></l><r>ondergronds<s n="adj"/></r></p></e>
+    <e><p><l>unumstößlich<s n="adj"/><s n="sint"/></l><r>onomstotelijk<s n="adj"/></r></p></e>
+    <e><p><l>ununterbrochen<s n="adj"/><s n="sint"/></l><r>ononderbroken<s n="adj"/></r></p></e>
     <e><p><l>unversehrt<s n="adj"/><s n="sint"/></l><r>ongedeerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unvorsichtig<s n="adj"/><s n="sint"/></l><r>onvoorzichtig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>unvorstellbar<s n="adj"/><s n="sint"/></l><r>onvoorstelbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>unzählbar<s n="adj"/><s n="sint"/></l><r>ontelbaar<s n="adj"/></r></p></e>
     <e><p><l>vegan<s n="adj"/><s n="sint"/></l><r>vegan<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>verärgert<s n="adj"/><s n="sint"/></l><r>kwaad<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>verbogen<s n="adj"/><s n="sint"/></l><r>verbogen<s n="adj"/></r></p></e>
+    <e><p><l>verheiratet<s n="adj"/><s n="sint"/></l><r>gehuwd<s n="adj"/></r></p></e>
     <e><p><l>vermist<s n="adj"/><s n="sint"/></l><r>vermist<s n="adj"/></r></p></e>
     <e><p><l>verschlissen<s n="adj"/><s n="sint"/></l><r>versleten<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>verschollen<s n="adj"/><s n="sint"/></l><r>vermist<s n="adj"/></r></p></e>
+    <e><p><l>verstorben<s n="adj"/><s n="sint"/></l><r>wijlen<s n="adj"/></r></p></e>
     <e><p><l>verwickelt<s n="adj"/><s n="sint"/></l><r>ingewikkeld<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vollkommen<s n="adj"/><s n="sint"/></l><r>volkomen<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vortrefflich<s n="adj"/><s n="sint"/></l><r>verrukkelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wahr<s n="adj"/><s n="sint"/></l><r>waargebeurd<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>walisisch<s n="adj"/><s n="sint"/></l><r>Welsh<s n="adj"/></r></p></e>
+    <e><p><l>wechselseitig<s n="adj"/><s n="sint"/></l><r>wederzijds<s n="adj"/></r></p></e>
+    <e><p><l>weltberühmt<s n="adj"/><s n="sint"/></l><r>wereldberoemd<s n="adj"/></r></p></e>
     <e><p><l>widerlich<s n="adj"/><s n="sint"/></l><r>walgelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wirklich<s n="adj"/><s n="sint"/></l><r>echt<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wohlüberlegt<s n="adj"/><s n="sint"/></l><r>weloverwogen<s n="adj"/></r></p></e>
     <e><p><l>wolkenlos<s n="adj"/><s n="sint"/></l><r>wolkeloos<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wunderschön<s n="adj"/><s n="sint"/></l><r>wondermooi<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>zulässig<s n="adj"/><s n="sint"/></l><r>toegestaan<s n="adj"/></r></p></e>
+    <e><p><l>sündhaft<b/>teuer<s n="adj"/><s n="sint"/></l><r>peperduur<s n="adj"/></r></p></e>
 
     <e><p><l>ab<s n="adv"/></l><r>af<s n="adv"/></r></p></e>
     <e><p><l>abends<s n="adv"/></l><r>'s<b/>avonds<s n="adv"/></r></p></e>
+    <e><p><l>abermals<s n="adv"/></l><r>andermaal<s n="adv"/></r></p></e>
+    <e><p><l>abwärts<s n="adv"/></l><r>neerwaarts<s n="adv"/></r></p></e>
+    <e><p><l>allmählich<s n="adv"/></l><r>langzamerhand<s n="adv"/></r></p></e>
     <e><p><l>alsbald<s n="adv"/></l><r>aldra<s n="adv"/></r></p></e>
+    <e><p><l>andernfalls<s n="adv"/></l><r>anderszins<s n="adv"/></r></p></e>
+    <e><p><l>andersherum<s n="adv"/></l><r>andersom<s n="adv"/></r></p></e>
     <e><p><l>aneinander<s n="adv"/></l><r>aaneen<s n="adv"/></r></p></e>
     <e><p><l>anfänglich<s n="adv"/></l><r>aanvankelijk<s n="adv"/></r></p></e>
+    <e><p><l>anno<s n="adv"/></l><r>anno<s n="adv"/></r></p></e>
     <e><p><l>auf<s n="adv"/></l><r>op<s n="adv"/></r></p></e>
+    <e><p><l>aufwärts<s n="adv"/></l><r>opwaarts<s n="adv"/></r></p></e>
+    <e><p><l>äußerst<s n="adv"/></l><r>uiterst<s n="adv"/></r></p></e>
+    <e><p><l>barfuß<s n="adv"/></l><r>barrevoets<s n="adv"/></r></p></e>
     <e><p><l>bedauerlicherweise<s n="adv"/></l><r>spijtig<s n="adv"/></r></p></e>
+    <e><p><l>beisammen<s n="adv"/></l><r>bijeen<s n="adv"/></r></p></e>
+    <e><p><l>beiseite<s n="adv"/></l><r>terzijde<s n="adv"/></r></p></e>
+    <e><p><l>bergab<s n="adv"/></l><r>bergafwaarts<s n="adv"/></r></p></e>
+    <e><p><l>bergauf<s n="adv"/></l><r>bergopwaarts<s n="adv"/></r></p></e>
     <e><p><l>bisschen<s n="adv"/></l><r>beetje<s n="adv"/></r></p></e>
+    <e><p><l>circa<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
+    <e><p><l>dabei<s n="adv"/></l><r>daarbij<s n="adv"/></r></p></e>
+    <e><p><l>dabei<s n="adv"/></l><r>erbij<s n="adv"/></r></p></e>
+    <e><p><l>dadurch<s n="adv"/></l><r>daardoor<s n="adv"/></r></p></e>
+    <e><p><l>dadurch<s n="adv"/></l><r>erdoor<s n="adv"/></r></p></e>
     <e><p><l>dafür<s n="adv"/></l><r>daarvoor<s n="adv"/></r></p></e>
     <e><p><l>dagegen<s n="adv"/></l><r>daartegen<s n="adv"/></r></p></e>
+    <e><p><l>dagegen<s n="adv"/></l><r>ertegen<s n="adv"/></r></p></e>
     <e><p><l>daheim<s n="adv"/></l><r>thuis<s n="adv"/></r></p></e>
+    <e><p><l>dahinter<s n="adv"/></l><r>daarachter<s n="adv"/></r></p></e>
     <e><p><l>damals<s n="adv"/></l><r>indertijd<s n="adv"/></r></p></e>
+    <e><p><l>danach<s n="adv"/></l><r>daarnaar<s n="adv"/></r></p></e>
+    <e><p><l>danach<s n="adv"/></l><r>ernaar<s n="adv"/></r></p></e>
+    <e><p><l>danach<s n="adv"/></l><r>vervolgens<s n="adv"/></r></p></e>
+    <e><p><l>daraus<s n="adv"/></l><r>daaruit<s n="adv"/></r></p></e>
+    <e><p><l>darüber<s n="adv"/></l><r>daarover<s n="adv"/></r></p></e>
+    <e><p><l>darüber<s n="adv"/></l><r>erover<s n="adv"/></r></p></e>
+    <e><p><l>darum<s n="adv"/></l><r>vandaar<s n="adv"/></r></p></e>
+    <e><p><l>darunter<s n="adv"/></l><r>eronder<s n="adv"/></r></p></e>
     <e><p><l>dauernd<s n="adv"/></l><r>almaar<s n="adv"/></r></p></e>
+    <e><p><l>davon<s n="adv"/></l><r>daarvan<s n="adv"/></r></p></e>
+    <e><p><l>davon<s n="adv"/></l><r>ervan<s n="adv"/></r></p></e>
+    <e><p><l>davor<s n="adv"/></l><r>ervoor<s n="adv"/></r></p></e>
+    <e><p><l>dazu<s n="adv"/></l><r>daartoe<s n="adv"/></r></p></e>
+    <e><p><l>dazwischen<s n="adv"/></l><r>daartussen<s n="adv"/></r></p></e>
+    <e><p><l>dementsprechend<s n="adv"/></l><r>navenant<s n="adv"/></r></p></e>
+    <e><p><l>demgegenüber<s n="adv"/></l><r>daarentegen<s n="adv"/></r></p></e>
+    <e><p><l>dennoch<s n="adv"/></l><r>nochtans<s n="adv"/></r></p></e>
+    <e><p><l>deshalb<s n="adv"/></l><r>daarom<s n="adv"/></r></p></e>
+    <e><p><l>dorthin<s n="adv"/></l><r>daarheen<s n="adv"/></r></p></e>
+    <e><p><l>drinnen<s n="adv"/></l><r>binnen<s n="adv"/></r></p></e>
+    <e><p><l>durchgehend<s n="adv"/></l><r>onafgebroken<s n="adv"/></r></p></e>
+    <e><p><l>ebenfalls<s n="adv"/></l><r>evenzeer<s n="adv"/></r></p></e>
+    <e><p><l>ehedem<s n="adv"/></l><r>voordien<s n="adv"/></r></p></e>
+    <e><p><l>ehemals<s n="adv"/></l><r>voorheen<s n="adv"/></r></p></e>
     <e><p><l>einfach<s n="adv"/></l><r>gewoon<s n="adv"/></r></p></e>
+    <e><p><l>einigermaßen<s n="adv"/></l><r>enigszins<s n="adv"/></r></p></e>
+    <e><p><l>einstmals<s n="adv"/></l><r>weleer<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>eventuell<s n="adv"/></l><r>misschien<s n="adv"/></r></p></e>
+    <e><p><l>faktisch<s n="adv"/></l><r>feitelijk<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>folglich<s n="adv"/></l><r>dus<s n="adv"/></r></p></e>
+    <e><p><l>fort<s n="adv"/></l><r>voort<s n="adv"/></r></p></e>
+    <e><p><l>fragend<s n="adv"/></l><r>vragenderwijs<s n="adv"/></r></p></e>
+    <e><p><l>freiheraus<s n="adv"/></l><r>vrijuit<s n="adv"/></r></p></e>
+    <e><p><l>früher<s n="adv"/></l><r>vroeger<s n="adv"/></r></p></e>
+    <e><p><l>genauso<s n="adv"/></l><r>evengoed<s n="adv"/></r></p></e>
+    <e><p><l>geradeaus<s n="adv"/></l><r>rechtdoor<s n="adv"/></r></p></e>
     <e><p><l>gewöhnlich<s n="adv"/></l><r>gewoonlijk<s n="adv"/></r></p></e>
+    <e><p><l>grob<s n="adv"/></l><r>ruwweg<s n="adv"/></r></p></e>
+    <e><p><l>halbwegs<s n="adv"/></l><r>halverwege<s n="adv"/></r></p></e>
+    <e><p><l>herüber<s n="adv"/></l><r>hierheen<s n="adv"/></r></p></e>
+    <e><p><l>hieran<s n="adv"/></l><r>eraan<s n="adv"/></r></p></e>
+    <e><p><l>hierbei<s n="adv"/></l><r>hierbij<s n="adv"/></r></p></e>
+    <e><p><l>hierdurch<s n="adv"/></l><r>hierdoor<s n="adv"/></r></p></e>
+    <e><p><l>hierfür<s n="adv"/></l><r>hiervoor<s n="adv"/></r></p></e>
+    <e><p><l>hiernach<s n="adv"/></l><r>hierna<s n="adv"/></r></p></e>
+    <e><p><l>hierunter<s n="adv"/></l><r>hieronder<s n="adv"/></r></p></e>
+    <e><p><l>hiervon<s n="adv"/></l><r>hiervan<s n="adv"/></r></p></e>
     <e><p><l>hin<s n="adv"/></l><r>heen<s n="adv"/></r></p></e>
     <e><p><l>hinein<s n="adv"/></l><r>erin<s n="adv"/></r></p></e>
     <e><p><l>hinten<s n="adv"/></l><r>achterin<s n="adv"/></r></p></e>
     <e><p><l>hintenherum<s n="adv"/></l><r>achterom<s n="adv"/></r></p></e>
     <e><p><l>hintereinander<s n="adv"/></l><r>achtereen<s n="adv"/></r></p></e>
+    <e><p><l>höchstenfalls<s n="adv"/></l><r>hooguit<s n="adv"/></r></p></e>
+    <e><p><l>höchstens<s n="adv"/></l><r>hoogstens<s n="adv"/></r></p></e>
+    <e><p><l>hoffentlich<s n="adv"/></l><r>hopelijk<s n="adv"/></r></p></e>
+    <e><p><l>insgesamt<s n="adv"/></l><r>in<b/>totaal<s n="adv"/></r></p></e>
+    <e><p><l>inzwischen<s n="adv"/></l><r>zolang<s n="adv"/></r></p></e>
+    <e><p><l>jahrelang<s n="adv"/></l><r>jarenlang<s n="adv"/></r></p></e>
+    <e><p><l>jedoch<s n="adv"/></l><r>hoewel<s n="adv"/></r></p></e>
     <e><p><l>keinesfalls<s n="adv"/></l><r>allerminst<s n="adv"/></r></p></e>
+    <e><p><l>keinesfalls<s n="adv"/></l><r>geenszins<s n="adv"/></r></p></e>
     <e><p><l>keineswegs<s n="adv"/></l><r>allesbehalve<s n="adv"/></r></p></e>
+    <e><p><l>kurzum<s n="adv"/></l><r>enfin<s n="adv"/></r></p></e>
+    <e><p><l>kurzum<s n="adv"/></l><r>kortom<s n="adv"/></r></p></e>
     <e><p><l>längst<s n="adv"/></l><r>allang<s n="adv"/></r></p></e>
+    <e><p><l>lauthals<s n="adv"/></l><r>luidkeels<s n="adv"/></r></p></e>
     <e><p><l>lebensgefährlich<s n="adv"/></l><r>levensgevaarlijk<s n="adv"/></r></p></e>
+    <e><p><l>letztens<s n="adv"/></l><r>laatst<s n="adv"/></r></p></e>
+    <e><p><l>lieber<s n="adv"/></l><r>liever<s n="adv"/></r></p></e>
     <e><p><l>manchmal<s n="adv"/></l><r>soms<s n="adv"/></r></p></e>
     <e><p><l>massenhaft<s n="adv"/></l><r>zat<s n="adv"/></r></p></e>
+    <e><p><l>massenweise<s n="adv"/></l><r>massaal<s n="adv"/></r></p></e>
+    <e><p><l>mehrmals<s n="adv"/></l><r>meermaals<s n="adv"/></r></p></e>
+    <e><p><l>mindestens<s n="adv"/></l><r>minstens<s n="adv"/></r></p></e>
+    <e><p><l>möglicherweise<s n="adv"/></l><r>eventueel<s n="adv"/></r></p></e>
     <e><p><l>nacheinander<s n="adv"/></l><r>achtereen<s n="adv"/></r></p></e>
+    <e><p><l>nachher<s n="adv"/></l><r>naderhand<s n="adv"/></r></p></e>
     <e><p><l>nachträglich<s n="adv"/></l><r>achteraf<s n="adv"/></r></p></e>
+    <e><p><l>namentlich<s n="adv"/></l><r>met<b/>name<s n="adv"/></r></p></e>
+    <e><p><l>nebenan<s n="adv"/></l><r>ernaast<s n="adv"/></r></p></e>
+    <e><p><l>nebenan<s n="adv"/></l><r>hiernaast<s n="adv"/></r></p></e>
+    <e><p><l>nebenbei<s n="adv"/></l><r>terloops<s n="adv"/></r></p></e>
+    <e><p><l>nieder<s n="adv"/></l><r>neer<s n="adv"/></r></p></e>
+    <e><p><l>nötigenfalls<s n="adv"/></l><r>desnoods<s n="adv"/></r></p></e>
+    <e><p><l>notwendigerweise<s n="adv"/></l><r>noodzakelijkerwijs<s n="adv"/></r></p></e>
+    <e><p><l>obenan<s n="adv"/></l><r>bovenaan<s n="adv"/></r></p></e>
+    <e><p><l>ostwärts<s n="adv"/></l><r>oostwaarts<s n="adv"/></r></p></e>
     <e><p><l>plötzlich<s n="adv"/></l><r>plots<s n="adv"/></r></p></e>
+    <e><p><l>reichlich<s n="adv"/></l><r>ruimschoots<s n="adv"/></r></p></e>
+    <e><p><l>respektive<s n="adv"/></l><r>respectievelijk<s n="adv"/></r></p></e>
+    <e><p><l>richtiggehend<s n="adv"/></l><r>echt<s n="adv"/></r></p></e>
     <e><p><l>rückwärts<s n="adv"/></l><r>achteruit<s n="adv"/></r></p></e>
+    <e><p><l>schlichtweg<s n="adv"/></l><r>ronduit<s n="adv"/></r></p></e>
+    <e><p><l>schließlich<s n="adv"/></l><r>immers<s n="adv"/></r></p></e>
+    <e><p><l>schrittweise<s n="adv"/></l><r>geleidelijk<s n="adv"/></r></p></e>
     <e><p><l>schuldig<s n="adv"/></l><r>schuldig<s n="adv"/></r></p></e>
+    <e><p><l>seinerzeit<s n="adv"/></l><r>toentertijd<s n="adv"/></r></p></e>
+    <e><p><l>seitwärts<s n="adv"/></l><r>zijwaarts<s n="adv"/></r></p></e>
+    <e><p><l>selbstredend<s n="adv"/></l><r>uiteraard<s n="adv"/></r></p></e>
     <e><p><l>selbstverständlich<s n="adv"/></l><r>vanzelfsprekend<s n="adv"/></r></p></e>
     <e><p><l>selbstverständlich<s n="adv"/></l><r>vanzelfsprekend<s n="adv"/></r></p></e>
+    <e><p><l>sicherheitshalber<s n="adv"/></l><r>veiligheidshalve<s n="adv"/></r></p></e>
+    <e><p><l>sicherheitshalber<s n="adv"/></l><r>zekerheidshalve<s n="adv"/></r></p></e>
     <e><p><l>soeben<s n="adv"/></l><r>daarnet<s n="adv"/></r></p></e>
+    <e><p><l>soeben<s n="adv"/></l><r>zojuist<s n="adv"/></r></p></e>
     <e><p><l>sofort<s n="adv"/></l><r>aanstonds<s n="adv"/></r></p></e>
     <e><p><l>sogleich<s n="adv"/></l><r>aanstonds<s n="adv"/></r></p></e>
+    <e><p><l>sowieso<s n="adv"/></l><r>sowieso<s n="adv"/></r></p></e>
+    <e><p><l>spätestens<s n="adv"/></l><r>uiterlijk<s n="adv"/></r></p></e>
     <e><p><l>ständig<s n="adv"/></l><r>almaar<s n="adv"/></r></p></e>
+    <e><p><l>südwärts<s n="adv"/></l><r>zuidwaarts<s n="adv"/></r></p></e>
+    <e><p><l>tagsüber<s n="adv"/></l><r>overdag<s n="adv"/></r></p></e>
+    <e><p><l>teils<s n="adv"/></l><r>deels<s n="adv"/></r></p></e>
     <e><p><l>überall<s n="adv"/></l><r>alom<s n="adv"/></r></p></e>
+    <e><p><l>überaus<s n="adv"/></l><r>uitermate<s n="adv"/></r></p></e>
+    <e><p><l>übereinander<s n="adv"/></l><r>overeen<s n="adv"/></r></p></e>
+    <e><p><l>übrigens<s n="adv"/></l><r>overigens<s n="adv"/></r></p></e>
+    <e><p><l>unbeabsichtigterweise<s n="adv"/></l><r>onopzettelijk<s n="adv"/></r></p></e>
+    <e><p><l>unbedingt<s n="adv"/></l><r>beslist<s n="adv"/></r></p></e>
+    <e><p><l>unglücklicherweise<s n="adv"/></l><r>ongelukkigerwijs<s n="adv"/></r></p></e>
+    <e><p><l>unterdessen<s n="adv"/></l><r>zolang<s n="adv"/></r></p></e>
     <e><p><l>unverletzt<s n="adv"/></l><r>heelhuids<s n="adv"/></r></p></e>
     <e r="LR"><p><l>unversehrt<s n="adv"/></l><r>heelhuids<s n="adv"/></r></p></e>
+    <e><p><l>vereinzelt<s n="adv"/></l><r>sporadisch<s n="adv"/></r></p></e>
+    <e><p><l>vergebens<s n="adv"/></l><r>tevergeefs<s n="adv"/></r></p></e>
     <e><p><l>versehentlich<s n="adv"/></l><r>abusievelijk<s n="adv"/></r></p></e>
+    <e><p><l>vollauf<s n="adv"/></l><r>volop<s n="adv"/></r></p></e>
+    <e><p><l>völlig<s n="adv"/></l><r>compleet<s n="adv"/></r></p></e>
+    <e><p><l>völlig<s n="adv"/></l><r>geheel<s n="adv"/></r></p></e>
+    <e><p><l>völlig<s n="adv"/></l><r>volstrekt<s n="adv"/></r></p></e>
     <e><p><l>vollkommen<s n="adv"/></l><r>alleszins<s n="adv"/></r></p></e>
+    <e><p><l>vollständigkeitshalber<s n="adv"/></l><r>volledigheidshalve<s n="adv"/></r></p></e>
+    <e><p><l>voraus<s n="adv"/></l><r>vooruit<s n="adv"/></r></p></e>
     <e><p><l>vorbei<s n="adv"/></l><r>voorbij<s n="adv"/></r></p></e>
     <e><p><l>vorher<s n="adv"/></l><r>eerder<s n="adv"/></r></p></e>
+    <e><p><l>vorsichtshalber<s n="adv"/></l><r>voorzichtigheidshalve<s n="adv"/></r></p></e>
     <e r="LR"><p><l>vorüber<s n="adv"/></l><r>voorbij<s n="adv"/></r></p></e>
+    <e><p><l>vorwärts<s n="adv"/></l><r>voorwaarts<s n="adv"/></r></p></e>
+    <e><p><l>wahrhaftig<s n="adv"/></l><r>jawel<s n="adv"/></r></p></e>
+    <e><p><l>wahrlich<s n="adv"/></l><r>waarlijk<s n="adv"/></r></p></e>
+    <e><p><l>weitaus<s n="adv"/></l><r>veruit<s n="adv"/></r></p></e>
+    <e><p><l>westwärts<s n="adv"/></l><r>westwaarts<s n="adv"/></r></p></e>
+    <e><p><l>wiederholt<s n="adv"/></l><r>herhaaldelijk<s n="adv"/></r></p></e>
+    <e><p><l>wiederum<s n="adv"/></l><r>wederom<s n="adv"/></r></p></e>
+    <e><p><l>wieso<s n="adv"/></l><r>hoezo<s n="adv"/></r></p></e>
     <e><p><l>wo<s n="adv"/></l><r>waar<s n="adv"/></r></p></e>
+    <e><p><l>woanders<s n="adv"/></l><r>elders<s n="adv"/></r></p></e>
+    <e><p><l>wobei<s n="adv"/></l><r>waarbij<s n="adv"/></r></p></e>
+    <e><p><l>wofür<s n="adv"/></l><r>waarvoor<s n="adv"/></r></p></e>
+    <e><p><l>wohin<s n="adv"/></l><r>waarheen<s n="adv"/></r></p></e>
     <e><p><l>wohinein<s n="adv"/></l><r>waarin<s n="adv"/></r></p></e>
     <e><p><l>wonach<s n="adv"/></l><r>waarnaar<s n="adv"/></r></p></e>
+    <e><p><l>worauf<s n="adv"/></l><r>waarna<s n="adv"/></r></p></e>
+    <e><p><l>woraus<s n="adv"/></l><r>waaruit<s n="adv"/></r></p></e>
     <e><p><l>worüber<s n="adv"/></l><r>waarover<s n="adv"/></r></p></e>
+    <e><p><l>wozu<s n="adv"/></l><r>waartoe<s n="adv"/></r></p></e>
+    <e><p><l>zickzack<s n="adv"/></l><r>zigzag<s n="adv"/></r></p></e>
     <e><p><l>zu<s n="adv"/></l><r>toe<s n="adv"/></r></p></e>
+    <e><p><l>zugleich<s n="adv"/></l><r>tegelijkertijd<s n="adv"/></r></p></e>
     <e><p><l>zum<b/>Vorschein<s n="adv"/></l><r>tevoorschijn<s n="adv"/></r></p></e>
+    <e><p><l>zumindest<s n="adv"/></l><r>tenminste<s n="adv"/></r></p></e>
     <e><p><l>zunächst<s n="adv"/></l><r>allereerst<s n="adv"/></r></p></e>
+    <e><p><l>zusammen<s n="adv"/></l><r>tezamen<s n="adv"/></r></p></e>
+    <e><p><l>zuvor<s n="adv"/></l><r>tevoren<s n="adv"/></r></p></e>
+    <e><p><l>zweifellos<s n="adv"/></l><r>ongetwijfeld<s n="adv"/></r></p></e>
+    <e><p><l>zweimal<s n="adv"/></l><r>tweemaal<s n="adv"/></r></p></e>
     <e><p><l>ab<b/>und<b/>zu<s n="adv"/></l><r>af<b/>en<b/>toe<s n="adv"/></r></p></e>
     <e><p><l>auf<b/>der<b/>anderen<b/>Seite<s n="adv"/></l><r>aan<b/>de<b/>andere<b/>kant<s n="adv"/></r></p></e>
     <e><p><l>auf<b/>der<b/>Rückseite<s n="adv"/></l><r>achterop<s n="adv"/></r></p></e>
+    <e><p><l>da<b/>draußen<s n="adv"/></l><r>daarbuiten<s n="adv"/></r></p></e>
     <e><p><l>dann<b/>und<b/>wann<s n="adv"/></l><r>nu<b/>en<b/>dan<s n="adv"/></r></p></e>
+    <e><p><l>darüber<b/>hinaus<s n="adv"/></l><r>daarboven<s n="adv"/></r></p></e>
+    <e><p><l>der<b/>Einfachheit<b/>halber<s n="adv"/></l><r>gemakshalve<s n="adv"/></r></p></e>
+    <e><p><l>dieses<b/>Mal<s n="adv"/></l><r>ditmaal<s n="adv"/></r></p></e>
+    <e><p><l>ein<b/>wenig<s n="adv"/></l><r>ietsje<s n="adv"/></r></p></e>
     <e><p><l>gelegentlich<s n="adv"/></l><r>nu<b/>en<b/>dan<s n="adv"/></r></p></e>
+    <e><p><l>heute<b/>Nacht<s n="adv"/></l><r>vannacht<s n="adv"/></r></p></e>
+    <e><p><l>im<b/>Allgemeinen<s n="adv"/></l><r>in<b/>het<b/>algemeen<s n="adv"/></r></p></e>
     <e><p><l>in<b/>der<b/>Nähe<s n="adv"/></l><r>dichtbij<s n="adv"/></r></p></e>
     <e><p><l>in<b/>der<b/>Tat<s n="adv"/></l><r>inderdaad<s n="adv"/></r></p></e>
     <e><p><l>in<b/>Ordnung<s n="adv"/></l><r>in<b/>orde<s n="adv"/></r></p></e>
+    <e><p><l>nach<b/>links<s n="adv"/></l><r>linksaf<s n="adv"/></r></p></e>
+    <e><p><l>so<b/>gut<b/>wie<s n="adv"/></l><r>zowat<s n="adv"/></r></p></e>
+    <e><p><l>so<b/>sehr<s n="adv"/></l><r>zozeer<s n="adv"/></r></p></e>
+    <e><p><l>und<b/>so<b/>weiter<s n="adv"/></l><r>enzovoort<s n="adv"/></r></p></e>
+    <e><p><l>von<b/>außen<s n="adv"/></l><r>vanbuiten<s n="adv"/></r></p></e>
+    <e><p><l>von<b/>Hand<s n="adv"/></l><r>handmatig<s n="adv"/></r></p></e>
+    <e><p><l>von<b/>innen<s n="adv"/></l><r>vanbinnen<s n="adv"/></r></p></e>
+    <e><p><l>von<b/>jeher<s n="adv"/></l><r>vanouds<s n="adv"/></r></p></e>
     <e><p><l>von<b/>Zeit<b/>zu<b/>Zeit<s n="adv"/></l><r>van<b/>tijd<b/>tot<b/>tijd<s n="adv"/></r></p></e>
 
     <e><p><l>Aalkorb<s n="n"/><s n="m"/></l><r>aalkorf<s n="n"/><s n="m"/></r></p></e>
@@ -15946,50 +16160,343 @@
     <e><p><l>was<s n="rel"/></l><r>wat<s n="rel"/></r></p></e>
     <e><p><l>wer<s n="rel"/></l><r>wie<s n="rel"/></r></p></e>
 
+    <e><p><l>abändern<s n="vblex"/><s n="sep"/></l><r>muteren<s n="vblex"/></r></p></e>
     <e><p><l>absagen<s n="vblex"/><s n="sep"/></l><r>afgelasten<s n="vblex"/></r></p></e>
+    <e><p><l>absägen<s n="vblex"/><s n="sep"/></l><r>afzagen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>abstellen<s n="vblex"/><s n="sep"/></l><r>plaatsen<s n="vblex"/></r></p></e>
+    <e><p><l>abstrafen<s n="vblex"/></l><r>afstraffen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>ächzen<s n="vblex"/></l><r>steunen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>anbeten<s n="vblex"/><s n="sep"/></l><r>adoreren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>angeben<s n="vblex"/><s n="sep"/></l><r>opsnijden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>anlaufen<s n="vblex"/><s n="sep"/></l><r>aandoen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>anraten<s n="vblex"/><s n="sep"/></l><r>adviseren<s n="vblex"/></r></p></e>
+    <e><p><l>anschnauzen<s n="vblex"/><s n="sep"/></l><r>toebijten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>ansehen<s n="vblex"/><s n="sep"/></l><r>aankijken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>anvisieren<s n="vblex"/><s n="sep"/></l><r>aansturen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>anwachsen<s n="vblex"/><s n="sep"/></l><r>oplopen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>aufführen<s n="vblex"/><s n="sep"/></l><r>opvoeren<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>aufhalsen<s n="vblex"/></l><r>opzadelen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>auflösen<s n="vblex"/><s n="sep"/></l><r>ontbinden<s n="vblex"/></r></p></e>
     <e><p><l>aufmachen<s n="vblex"/><s n="sep"/></l><r>opendoen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>aufprallen<s n="vblex"/></l><r>stuiteren<s n="vblex"/></r></p></e>
+    <e><p><l>aufspringen<s n="vblex"/><s n="sep"/></l><r>stuiteren<s n="vblex"/></r></p></e>
+    <e><p><l>aufstapeln<s n="vblex"/></l><r>opstapelen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>aufsuchen<s n="vblex"/><s n="sep"/></l><r>opzoeken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausbauen<s n="vblex"/><s n="sep"/></l><r>uitbouwen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausbrennen<s n="vblex"/></l><r>uitbranden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausflippen<s n="vblex"/><s n="sep"/></l><r>flippen<s n="vblex"/></r></p></e>
     <e><p><l>aushalten<s n="vblex"/><s n="sep"/></l><r>volhouden<s n="vblex"/></r></p></e>
+    <e><p><l>ausharren<s n="vblex"/><s n="sep"/></l><r>volharden<s n="vblex"/></r></p></e>
+    <e><p><l>auslöschen<s n="vblex"/><s n="sep"/></l><r>uitdoven<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>ausmachen<s n="vblex"/><s n="sep"/></l><r>uitdoen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausplaudern<s n="vblex"/><s n="sep"/></l><r>verklappen<s n="vblex"/></r></p></e>
+    <e><p><l>ausrechnen<s n="vblex"/><s n="sep"/></l><r>uitwerken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausreichen<s n="vblex"/><s n="sep"/></l><r>volstaan<s n="vblex"/></r></p></e>
+    <e><p><l>ausrücken<s n="vblex"/><s n="sep"/></l><r>uitrukken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausrufen<s n="vblex"/><s n="sep"/></l><r>uitroepen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausschwitzen<s n="vblex"/></l><r>uitzweten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausstrecken<s n="vblex"/><s n="sep"/></l><r>uitstrekken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ausüben<s n="vblex"/><s n="sep"/></l><r>beoefenen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>ausverkaufen<s n="vblex"/><s n="sep"/></l><r>uitverkopen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>auszahlen<s n="vblex"/><s n="sep"/></l><r>uitkeren<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>ausziehen<s n="vblex"/><s n="sep"/></l><r>uitdoen<s n="vblex"/></r></p></e>
     <e><p><l>ausziehen<s n="vblex"/><s n="sep"/></l><r>uittrekken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>avancieren<s n="vblex"/></l><r>avanceren<s n="vblex"/></r></p></e>
+    <e><p><l>beeilen<s n="vblex"/></l><r>haasten<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>beerdigen<s n="vblex"/></l><r>begraven<s n="vblex"/></r></p></e>
+    <e><p><l>begründen<s n="vblex"/></l><r>beredeneren<s n="vblex"/></r></p></e>
+    <e><p><l>beipflichten<s n="vblex"/><s n="sep"/></l><r>beamen<s n="vblex"/></r></p></e>
+    <e><p><l>bekannt<b/>geben<s n="vblex"/></l><r>verkondigen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>bekennen<s n="vblex"/></l><r>belijden<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>benachrichtigen<s n="vblex"/></l><r>inlichten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>beraten<s n="vblex"/></l><r>vergaderen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>beschleunigen<s n="vblex"/></l><r>optrekken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>beschneiden<s n="vblex"/></l><r>afsnijden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>beschreiben<s n="vblex"/></l><r>omschrijven<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>betrachten<s n="vblex"/></l><r>bekijken<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>betrachten<s n="vblex"/></l><r>aankijken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>betrügen<s n="vblex"/></l><r>belazeren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>betrügen<s n="vblex"/></l><r>frauderen<s n="vblex"/></r></p></e>
+    <e><p><l>blinzeln<s n="vblex"/></l><r>knipperen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>brauchen<s n="vblex"/></l><r>hoeven<s n="vblex"/></r></p></e>
+    <e><p><l>brutzeln<s n="vblex"/></l><r>pruttelen<s n="vblex"/></r></p></e>
+    <e><p><l>bummeln<s n="vblex"/></l><r>winkelen<s n="vblex"/></r></p></e>
+    <e><p><l>charakterisieren<s n="vblex"/></l><r>typeren<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>dahinscheiden<s n="vblex"/><s n="sep"/></l><r>overlijden<s n="vblex"/></r></p></e>
+    <e><p><l>dehnen<s n="vblex"/></l><r>uitrekken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>diskutieren<s n="vblex"/></l><r>discussiëren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>donnern<s n="vblex"/></l><r>denderen<s n="vblex"/></r></p></e>
+    <e><p><l>drängeln<s n="vblex"/></l><r>dringen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>dröhnen<s n="vblex"/></l><r>denderen<s n="vblex"/></r></p></e>
+    <e><p><l>durcheinanderbringen<s n="vblex"/><s n="sep"/></l><r>ontregelen<s n="vblex"/></r></p></e>
     <e><p><l>durchhalten<s n="vblex"/><s n="sep"/></l><r>volhouden<s n="vblex"/></r></p></e>
+    <e><p><l>durchstechen<s n="vblex"/><s n="sep"/></l><r>doorprikken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>duzen<s n="vblex"/></l><r>tutoyeren<s n="vblex"/></r></p></e>
+    <e><p><l>einäschern<s n="vblex"/><s n="sep"/></l><r>verassen<s n="vblex"/></r></p></e>
+    <e><p><l>einbüßen<s n="vblex"/><s n="sep"/></l><r>inboeten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>eingeben<s n="vblex"/><s n="sep"/></l><r>ingeven<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="LR"><p><l>einladen<s n="vblex"/><s n="sep"/></l><r>inladen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>einleiten<s n="vblex"/><s n="sep"/></l><r>inleiden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>einreißen<s n="vblex"/><s n="sep"/></l><r>slopen<s n="vblex"/></r></p></e>
+    <e><p><l>einschätzen<s n="vblex"/><s n="sep"/></l><r>inschatten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>einschicken<s n="vblex"/><s n="sep"/></l><r>insturen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>eintreten<s n="vblex"/><s n="sep"/></l><r>intreden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>einweihen<s n="vblex"/><s n="sep"/></l><r>inhuldigen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>entgegnen<s n="vblex"/></l><r>opperen<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>entscheiden<s n="vblex"/></l><r>beslissen<s n="vblex"/></r></p></e>
     <e><p><l>enttäuschen<s n="vblex"/></l><r>tegenvallen<s n="vblex"/></r></p></e>
-    <e><p><l>erkennen<s n="vblex"/></l><r>herkennen<s n="vblex"/></r></p></e>
+    <e><p><l>entwirren<s n="vblex"/></l><r>ontrafelen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>erfreuen<s n="vblex"/></l><r>verblijden<s n="vblex"/></r></p></e>
+    <e><p><l>erfrischen<s n="vblex"/></l><r>verfrissen<s n="vblex"/></r></p></e>
+    <e><p><l>erfrischen<s n="vblex"/></l><r>verversen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>erhalten<s n="vblex"/></l><r>onderhouden<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>erheben<s n="vblex"/></l><r>verheffen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>erkennen<s n="vblex"/></l><r>herkennen<s n="vblex"/></r></p></e>
     <e><p><l>erlauben<s n="vblex"/></l><r>veroorloven<s n="vblex"/></r></p></e>
+    <e><p><l>erlernen<s n="vblex"/></l><r>oppikken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ermüden<s n="vblex"/></l><r>vermoeien<s n="vblex"/></r></p></e>
+    <e><p><l>erschrecken<s n="vblex"/></l><r>verschrikken<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>erstehen<s n="vblex"/></l><r>verwerven<s n="vblex"/></r></p></e>
+    <e><p><l>erwähnen<s n="vblex"/></l><r>vernoemen<s n="vblex"/></r></p></e>
     <e><p><l>erweitern<s n="vblex"/></l><r>verruimen<s n="vblex"/></r></p></e>
     <e><p><l>exportieren<s n="vblex"/></l><r>exporteren<s n="vblex"/></r></p></e>
+    <e><p><l>fällen<s n="vblex"/></l><r>vellen<s n="vblex"/></r></p></e>
     <e><p><l>faszinieren<s n="vblex"/></l><r>fascineren<s n="vblex"/></r></p></e>
-    <e><p><l>fehlschlagen<s n="vblex"/></l><r>mislopen<s n="vblex"/></r></p></e>
+    <e><p><l>faulenzen<s n="vblex"/></l><r>luieren<s n="vblex"/></r></p></e>
+    <e><p><l>fechten<s n="vblex"/></l><r>schermen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>fehlen<s n="vblex"/></l><r>mankeren<s n="vblex"/></r></p></e>
+    <e><p><l>fehlschlagen<s n="vblex"/><s n="sep"/></l><r>mislopen<s n="vblex"/></r></p></e>
+    <e><p><l>festnehmen<s n="vblex"/><s n="sep"/></l><r>oppakken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>flammen<s n="vblex"/></l><r>vlammen<s n="vblex"/></r></p></e>
+    <e><p><l>flößen<s n="vblex"/></l><r>vlotten<s n="vblex"/></r></p></e>
+    <e><p><l>forschen<s n="vblex"/></l><r>vorsen<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>fortdauern<s n="vblex"/><s n="sep"/></l><r>aanhouden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>frösteln<s n="vblex"/></l><r>huiveren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>führen<s n="vblex"/></l><r>bestieren<s n="vblex"/></r></p></e>
+    <e><p><l>fusionieren<s n="vblex"/></l><r>fuseren<s n="vblex"/></r></p></e>
+    <e><p><l>gären<s n="vblex"/></l><r>gisten<s n="vblex"/></r></p></e>
+    <e><p><l>gedeihen<s n="vblex"/></l><r>tieren<s n="vblex"/></r></p></e>
+    <e><p><l>gewährleisten<s n="vblex"/></l><r>waarborgen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>gießen<s n="vblex"/></l><r>plenzen<s n="vblex"/></r></p></e>
+    <e><p><l>glimmen<s n="vblex"/></l><r>glimmen<s n="vblex"/></r></p></e>
+    <e><p><l>glucksen<s n="vblex"/></l><r>klokken<s n="vblex"/></r></p></e>
     <e><p><l>Golf<b/>spielen<s n="vblex"/></l><r>golfen<s n="vblex"/></r></p></e>
+    <e><p><l>grollen<s n="vblex"/></l><r>rommelen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>großziehen<s n="vblex"/><s n="sep"/></l><r>opvoeden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>haften<s n="vblex"/></l><r>hechten<s n="vblex"/></r></p></e>
+    <e><p><l>häkeln<s n="vblex"/></l><r>haken<s n="vblex"/></r></p></e>
+    <e><p><l>hallen<s n="vblex"/></l><r>galmen<s n="vblex"/></r></p></e>
+    <e><p><l>handhaben<s n="vblex"/></l><r>handhaven<s n="vblex"/></r></p></e>
+    <e><p><l>herausfordern<s n="vblex"/><s n="sep"/></l><r>uitdagen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>hereinkommen<s n="vblex"/><s n="sep"/></l><r>binnenkomen<s n="vblex"/></r></p></e>
-    <e><p><l>kuscheln<s n="vblex"/></l><r>knuffelen<s n="vblex"/></r></p></e>
+    <e><p><l>herumbasteln<s n="vblex"/><s n="sep"/></l><r>prutsen<s n="vblex"/></r></p></e>
+    <e><p><l>heruntergehen<s n="vblex"/><s n="sep"/></l><r>afgaan<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>heruntermachen<s n="vblex"/><s n="sep"/></l><r>afmaken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>hervorbringen<s n="vblex"/><s n="sep"/></l><r>voortbrengen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>heulen<s n="vblex"/></l><r>grienen<s n="vblex"/></r></p></e>
+    <e><p><l>hinauslassen<s n="vblex"/></l><r>uitlaten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>hinfallen<s n="vblex"/><s n="sep"/></l><r>neervallen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>hocken<s n="vblex"/></l><r>hurken<s n="vblex"/></r></p></e>
+    <e><p><l>hupen<s n="vblex"/></l><r>toeteren<s n="vblex"/></r></p></e>
+    <e><p><l>in<b/>Führung<b/>liegen<s n="vblex"/></l><r>voorstaan<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>instandhalten<s n="vblex"/></l><r>onderhouden<s n="vblex"/></r></p></e>
+    <e><p><l>jauchzen<s n="vblex"/></l><r>juichen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>kämpfen<s n="vblex"/></l><r>kampen<s n="vblex"/></r></p></e>
+    <e><p><l>kampieren<s n="vblex"/></l><r>kamperen<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>kaputtgehen<s n="vblex"/><s n="sep"/></l><r>sneuvelen<s n="vblex"/></r></p></e>
+    <e><p><l>kauern<s n="vblex"/></l><r>hurken<s n="vblex"/></r></p></e>
+    <e><p><l>kippen<s n="vblex"/></l><r>kantelen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>kleben<s n="vblex"/></l><r>plakken<s n="vblex"/></r></p></e>
+    <e><p><l>knüpfen<s n="vblex"/></l><r>knopen<s n="vblex"/></r></p></e>
+    <e><p><l>knurren<s n="vblex"/></l><r>grommen<s n="vblex"/></r></p></e>
+    <e><p><l>köcheln<s n="vblex"/></l><r>sudderen<s n="vblex"/></r></p></e>
+    <e><p><l>kribbeln<s n="vblex"/></l><r>kriebelen<s n="vblex"/></r></p></e>
+    <e><p><l>kriegen<s n="vblex"/></l><r>krijgen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>kürzen<s n="vblex"/></l><r>korten<s n="vblex"/></r></p></e>
+    <e><p><l>kürzertreten<s n="vblex"/></l><r>inleveren<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>kuscheln<s n="vblex"/></l><r>knuffelen<s n="vblex"/></r></p></e>
+    <e><p><l>lauern<s n="vblex"/></l><r>loeren<s n="vblex"/></r></p></e>
     <e><p><l>lieb<b/>haben<s n="vblex"/></l><r>liefhebben<s n="vblex"/><s n="sep"/></r></p></e>
-    <e><p><l>nachhallen<s n="vblex"/></l><r>echoën<s n="vblex"/></r></p></e>
+    <e><p><l>liebäugeln<s n="vblex"/></l><r>lonken<s n="vblex"/></r></p></e>
+    <e><p><l>logieren<s n="vblex"/></l><r>logeren<s n="vblex"/></r></p></e>
+    <e><p><l>Luft<b/>holen<s n="vblex"/></l><r>ademhalen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>lüften<s n="vblex"/></l><r>luchten<s n="vblex"/></r></p></e>
+    <e><p><l>malochen<s n="vblex"/></l><r>zwoegen<s n="vblex"/></r></p></e>
+    <e><p><l>nachgeben<s n="vblex"/><s n="sep"/></l><r>zwichten<s n="vblex"/></r></p></e>
+    <e><p><l>nachhallen<s n="vblex"/><s n="sep"/></l><r>echoën<s n="vblex"/></r></p></e>
+    <e><p><l>nachweisen<s n="vblex"/><s n="sep"/></l><r>aantonen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>niederfallen<s n="vblex"/></l><r>neervallen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>nörgeln<s n="vblex"/></l><r>klooien<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>passen<s n="vblex"/></l><r>schikken<s n="vblex"/></r></p></e>
+    <e><p><l>pausieren<s n="vblex"/></l><r>pauzeren<s n="vblex"/></r></p></e>
+    <e><p><l>petzen<s n="vblex"/></l><r>verklikken<s n="vblex"/></r></p></e>
+    <e><p><l>pflastern<s n="vblex"/></l><r>plaveien<s n="vblex"/></r></p></e>
+    <e><p><l>piesacken<s n="vblex"/></l><r>klieren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>plädieren<s n="vblex"/></l><r>pleiten<s n="vblex"/></r></p></e>
+    <e><p><l>plappern<s n="vblex"/></l><r>babbelen<s n="vblex"/></r></p></e>
+    <e><p><l>platzen<s n="vblex"/></l><r>ontploffen<s n="vblex"/></r></p></e>
+    <e><p><l>pökeln<s n="vblex"/></l><r>pekelen<s n="vblex"/></r></p></e>
     <e><p><l>prangen<s n="vblex"/></l><r>prijken<s n="vblex"/></r></p></e>
-    <e><p><l>putzen<s n="vblex"/></l><r>kuisen<s n="vblex"/></r></p></e>
+    <e><p><l>präparieren<s n="vblex"/></l><r>prepareren<s n="vblex"/></r></p></e>
+    <e><p><l>promovieren<s n="vblex"/></l><r>promoveren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>provozieren<s n="vblex"/></l><r>uitlokken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>purzeln<s n="vblex"/></l><r>kelderen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>putzen<s n="vblex"/></l><r>kuisen<s n="vblex"/></r></p></e>
+    <e><p><l>qualmen<s n="vblex"/></l><r>walmen<s n="vblex"/></r></p></e>
+    <e><p><l>quengeln<s n="vblex"/></l><r>zeiken<s n="vblex"/></r></p></e>
+    <e><p><l>quirlen<s n="vblex"/></l><r>klutsen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>rattern<s n="vblex"/></l><r>rammelen<s n="vblex"/></r></p></e>
+    <e><p><l>rattern<s n="vblex"/></l><r>ratelen<s n="vblex"/></r></p></e>
+    <e><p><l>recken<s n="vblex"/></l><r>rekken<s n="vblex"/></r></p></e>
+    <e><p><l>reichen<s n="vblex"/></l><r>reiken<s n="vblex"/></r></p></e>
     <e><p><l>reimen<s n="vblex"/></l><r>rijmen<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>reinigen<s n="vblex"/></l><r>kuisen<s n="vblex"/></r></p></e>
     <e><p><l>reinkommen<s n="vblex"/><s n="sep"/></l><r>binnenkomen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>reiten<s n="vblex"/></l><r>paardrijden<s n="vblex"/></r></p></e>
     <e><p><l>Rollschuh<b/>laufen<s n="vblex"/></l><r>rolschaatsen<s n="vblex"/></r></p></e>
+    <e><p><l>romantisieren<s n="vblex"/></l><r>romantiseren<s n="vblex"/></r></p></e>
+    <e><p><l>rügen<s n="vblex"/></l><r>berispen<s n="vblex"/></r></p></e>
+    <e><p><l>rupfen<s n="vblex"/></l><r>pluimen<s n="vblex"/></r></p></e>
+    <e><p><l>Schach<b/>spielen<s n="vblex"/></l><r>schaken<s n="vblex"/></r></p></e>
+    <e><p><l>scharf<b/>kritisieren<s n="vblex"/></l><r>afmaken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>scheuen<s n="vblex"/></l><r>schuwen<s n="vblex"/></r></p></e>
     <e><p><l>schlafwandeln<s n="vblex"/></l><r>slaapwandelen<s n="vblex"/></r></p></e>
     <e><p><l>schlemmen<s n="vblex"/></l><r>smullen<s n="vblex"/></r></p></e>
+    <e><p><l>schleusen<s n="vblex"/></l><r>sluizen<s n="vblex"/></r></p></e>
+    <e><p><l>schluchzen<s n="vblex"/></l><r>snikken<s n="vblex"/></r></p></e>
+    <e><p><l>schlummern<s n="vblex"/></l><r>sluimeren<s n="vblex"/></r></p></e>
+    <e><p><l>schmatzen<s n="vblex"/></l><r>smakken<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>schrumpfen<s n="vblex"/></l><r>slinken<s n="vblex"/></r></p></e>
+    <e><p><l>schuften<s n="vblex"/></l><r>zwoegen<s n="vblex"/></r></p></e>
+    <e><p><l>schummeln<s n="vblex"/></l><r>knoeien<s n="vblex"/></r></p></e>
+    <e><p><l>schummeln<s n="vblex"/></l><r>sjoemelen<s n="vblex"/></r></p></e>
+    <e><p><l>setzen<s n="vblex"/></l><r>zetten<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>shoppen<s n="vblex"/></l><r>winkelen<s n="vblex"/></r></p></e>
+    <e><p><l>sich<b/>übergeben<s n="vblex"/></l><r>overgeven<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>sinken<s n="vblex"/></l><r>slinken<s n="vblex"/></r></p></e>
+    <e><p><l>situieren<s n="vblex"/></l><r>situeren<s n="vblex"/></r></p></e>
+    <e><p><l>sonnenbaden<s n="vblex"/></l><r>zonnebaden<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>spähen<s n="vblex"/></l><r>koekeloeren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>spendieren<s n="vblex"/></l><r>trakteren<s n="vblex"/></r></p></e>
+    <e><p><l>spicken<s n="vblex"/></l><r>spekken<s n="vblex"/></r></p></e>
+    <e><p><l>sponsern<s n="vblex"/></l><r>sponsoren<s n="vblex"/></r></p></e>
+    <e><p><l>sprengen<s n="vblex"/></l><r>dynamiteren<s n="vblex"/></r></p></e>
+    <e><p><l>sprießen<s n="vblex"/></l><r>spruiten<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>spritzen<s n="vblex"/></l><r>spetteren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>sprühen<s n="vblex"/></l><r>spetteren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>spucken<s n="vblex"/></l><r>spuwen<s n="vblex"/></r></p></e>
+    <e><p><l>spüren<s n="vblex"/></l><r>voelen<s n="vblex"/></r></p></e>
+    <e><p><l>stärken<s n="vblex"/></l><r>sterken<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>starren<s n="vblex"/></l><r>turen<s n="vblex"/></r></p></e>
+    <e><p><l>staubsaugen<s n="vblex"/></l><r>stofzuigen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>stechen<s n="vblex"/></l><r>prikken<s n="vblex"/></r></p></e>
+    <e><p><l>strecken<s n="vblex"/></l><r>strekken<s n="vblex"/></r></p></e>
     <e><p><l>surfen<s n="vblex"/></l><r>surfen<s n="vblex"/></r></p></e>
-    <e><p><l>treten<s n="vblex"/></l><r>stappen<s n="vblex"/></r></p></e>
+    <e><p><l>Tennis<b/>spielen<s n="vblex"/></l><r>tennissen<s n="vblex"/></r></p></e>
+    <e><p><l>testen<s n="vblex"/></l><r>toetsen<s n="vblex"/></r></p></e>
+    <e><p><l>tönen<s n="vblex"/></l><r>tinten<s n="vblex"/></r></p></e>
+    <e><p><l>touchieren<s n="vblex"/></l><r>toucheren<s n="vblex"/></r></p></e>
+    <e><p><l>tratschen<s n="vblex"/></l><r>roddelen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>treten<s n="vblex"/></l><r>stappen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>treten<s n="vblex"/></l><r>treden<s n="vblex"/></r></p></e>
+    <e><p><l>triezen<s n="vblex"/></l><r>klieren<s n="vblex"/></r></p></e>
+    <e><p><l>Trinkgeld<b/>geben<s n="vblex"/></l><r>tippen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>trödeln<s n="vblex"/></l><r>slabakken<s n="vblex"/></r></p></e>
+    <e><p><l>tüfteln<s n="vblex"/></l><r>peuteren<s n="vblex"/></r></p></e>
     <e><p><l>tun<s n="vblex"/></l><r>doen<s n="vblex"/></r></p></e>
+    <e><p><l>typisieren<s n="vblex"/></l><r>typeren<s n="vblex"/></r></p></e>
     <e><p><l>üben<s n="vblex"/></l><r>oefenen<s n="vblex"/></r></p></e>
+    <e><p><l>überbringen<s n="vblex"/></l><r>overbrengen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>überfluten<s n="vblex"/></l><r>overstromen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>überhäufen<s n="vblex"/></l><r>overstelpen<s n="vblex"/></r></p></e>
+    <e><p><l>überlassen<s n="vblex"/></l><r>overlaten<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>überqueren<s n="vblex"/></l><r>oversteken<s n="vblex"/></r></p></e>
-    <e><p><l>Überstunden<b/>machen<s n="vblex"/></l><r>overwerken<s n="vblex"/></r></p></e>
+    <e><p><l>Überstunden<b/>machen<s n="vblex"/></l><r>overwerken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>überwältigen<s n="vblex"/></l><r>overmeesteren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>umbauen<s n="vblex"/><s n="sep"/></l><r>ombouwen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>umfassen<s n="vblex"/></l><r>omvatten<s n="vblex"/></r></p></e>
+    <e><p><l>umherirren<s n="vblex"/></l><r>verdwalen<s n="vblex"/></r></p></e>
+    <e><p><l>umschalten<s n="vblex"/><s n="sep"/></l><r>overschakelen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>umschreiben<s n="vblex"/></l><r>omschrijven<s n="vblex"/></r></p></e>
     <e><p><l>umsteigen<s n="vblex"/><s n="sep"/></l><r>overstappen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>unterbrechen<s n="vblex"/></l><r>interrumperen<s n="vblex"/></r></p></e>
+    <e><p><l>unterschreiben<s n="vblex"/></l><r>onderschrijven<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>unterstreichen<s n="vblex"/></l><r>beklemtonen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verachten<s n="vblex"/></l><r>minachten<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verbergen<s n="vblex"/></l><r>verschuilen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verblassen<s n="vblex"/></l><r>verschieten<s n="vblex"/></r></p></e>
     <e><p><l>verblüffen<s n="vblex"/></l><r>verbluffen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verderben<s n="vblex"/></l><r>verknoeien<s n="vblex"/></r></p></e>
     <e><p><l>verdingen<s n="vblex"/></l><r>aanbesteden<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verehren<s n="vblex"/></l><r>adoreren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>vereinfachen<s n="vblex"/></l><r>vereenvoudigen<s n="vblex"/></r></p></e>
+    <e><p><l>verhandeln<s n="vblex"/></l><r>onderhandelen<s n="vblex"/></r></p></e>
+    <e><p><l>verheilen<s n="vblex"/></l><r>helen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verkünden<s n="vblex"/></l><r>verkondigen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verlängern<s n="vblex"/></l><r>prolongeren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verletzen<s n="vblex"/></l><r>blesseren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>vermissen<s n="vblex"/></l><r>vermissen<s n="vblex"/></r></p></e>
+    <e><p><l>veröffentlichen<s n="vblex"/></l><r>publiceren<s n="vblex"/></r></p></e>
+    <e><p><l>verpacken<s n="vblex"/></l><r>verpakken<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verraten<s n="vblex"/></l><r>verklikken<s n="vblex"/></r></p></e>
+    <e><p><l>verriegeln<s n="vblex"/></l><r>vergrendelen<s n="vblex"/></r></p></e>
+    <e><p><l>verrosten<s n="vblex"/></l><r>verroesten<s n="vblex"/></r></p></e>
+    <e><p><l>versäumen<s n="vblex"/></l><r>verzaken<s n="vblex"/></r></p></e>
+    <e><p><l>verschärfen<s n="vblex"/></l><r>verscherpen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verschicken<s n="vblex"/></l><r>opsturen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>verschlingen<s n="vblex"/></l><r>verslinden<s n="vblex"/></r></p></e>
-    <e><p><l>wiedergeben<s n="vblex"/></l><r>weergeven<s n="vblex"/></r></p></e>
+    <e><p><l>verschmelzen<s n="vblex"/></l><r>versmelten<s n="vblex"/></r></p></e>
+    <e><p><l>versetzen<s n="vblex"/></l><r>verzetten<s n="vblex"/></r></p></e>
+    <e><p><l>verstecken<s n="vblex"/></l><r>verbergen<s n="vblex"/></r></p></e>
+    <e><p><l>vertäuen<s n="vblex"/></l><r>vastleggen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>verweilen<s n="vblex"/></l><r>verblijven<s n="vblex"/></r></p></e>
+    <e><p><l>verweilen<s n="vblex"/></l><r>vertoeven<s n="vblex"/></r></p></e>
+    <e><p><l>verwischen<s n="vblex"/></l><r>vervagen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verzaubern<s n="vblex"/></l><r>omtoveren<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>verzehren<s n="vblex"/></l><r>bikken<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>verzerren<s n="vblex"/></l><r>verwringen<s n="vblex"/></r></p></e>
+    <e><p><l>vollstrecken<s n="vblex"/></l><r>voltrekken<s n="vblex"/></r></p></e>
+    <e><p><l>vorankommen<s n="vblex"/><s n="sep"/></l><r>vorderen<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>voraussagen<s n="vblex"/><s n="sep"/></l><r>voorspellen<s n="vblex"/></r></p></e>
+    <e><p><l>vorausschauen<s n="vblex"/><s n="sep"/></l><r>vooruitblikken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="LR"><p><l>voraussehen<s n="vblex"/><s n="sep"/></l><r>voorzien<s n="vblex"/></r></p></e>
+    <e><p><l>vorsetzen<s n="vblex"/><s n="sep"/></l><r>voorzetten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>vortäuschen<s n="vblex"/><s n="sep"/></l><r>voorwenden<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>wackeln<s n="vblex"/></l><r>wiebelen<s n="vblex"/></r></p></e>
+    <e><p><l>wahrnehmen<s n="vblex"/><s n="sep"/></l><r>opmerken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>weglegen<s n="vblex"/><s n="sep"/></l><r>wegleggen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>wegschaffen<s n="vblex"/><s n="sep"/></l><r>wegwerken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>wegspülen<s n="vblex"/><s n="sep"/></l><r>wegspoelen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>weichen<s n="vblex"/></l><r>zwichten<s n="vblex"/></r></p></e>
+    <e><p><l>weiterarbeiten<s n="vblex"/><s n="sep"/></l><r>doorwerken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>werben<s n="vblex"/></l><r>werven<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>widerhallen<s n="vblex"/></l><r>weerkaatsen<s n="vblex"/></r></p></e>
+    <e><p><l>wiederbekommen<s n="vblex"/><s n="sep"/></l><r>herkrijgen<s n="vblex"/></r></p></e>
+    <e><p><l>wiedereröffnen<s n="vblex"/><s n="sep"/></l><r>heropenen<s n="vblex"/></r></p></e>
+    <e><p><l>wiedergeben<s n="vblex"/><s n="sep"/></l><r>weergeven<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>wiederholen<s n="vblex"/></l><r>herhalen<s n="vblex"/></r></p></e>
+    <e><p><l>zelten<s n="vblex"/></l><r>kamperen<s n="vblex"/></r></p></e>
+    <e><p><l>zermalmen<s n="vblex"/></l><r>verpletteren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>zeugen<s n="vblex"/></l><r>verwekken<s n="vblex"/></r></p></e>
+    <e><p><l>zieren<s n="vblex"/></l><r>sieren<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>zittern<s n="vblex"/></l><r>rillen<s n="vblex"/></r></p></e>
+    <e><p><l>zocken<s n="vblex"/></l><r>gokken<s n="vblex"/></r></p></e>
     <e><p><l>zu<b/>Mittag<b/>essen<s n="vblex"/></l><r>lunchen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>zuerkennen<s n="vblex"/><s n="sep"/></l><r>toewijzen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zufügen<s n="vblex"/><s n="sep"/></l><r>toebrengen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>zunehmen<s n="vblex"/><s n="sep"/></l><r>doorzetten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zupfen<s n="vblex"/></l><r>tokkelen<s n="vblex"/></r></p></e>
+    <e><p><l>zurechtweisen<s n="vblex"/><s n="sep"/></l><r>berispen<s n="vblex"/></r></p></e>
+    <e><p><l>zureden<s n="vblex"/></l><r>toespreken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zurückdrängen<s n="vblex"/><s n="sep"/></l><r>terugdringen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e r="RL"><p><l>zurückerhalten<s n="vblex"/><s n="sep"/></l><r>herkrijgen<s n="vblex"/></r></p></e>
     <e><p><l>zurückkommen<s n="vblex"/><s n="sep"/></l><r>terugkomen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zurücklegen<s n="vblex"/><s n="sep"/></l><r>wegleggen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zusammengehen<s n="vblex"/><s n="sep"/></l><r>samengaan<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zusammenleben<s n="vblex"/><s n="sep"/></l><r>samenleven<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zuschauen<s n="vblex"/><s n="sep"/></l><r>toekijken<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zusteigen<s n="vblex"/></l><r>instappen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>zuweisen<s n="vblex"/><s n="sep"/></l><r>toewijzen<s n="vblex"/><s n="sep"/></r></p></e>
 
     <e><p><l>Ah<s n="ij"/></l><r>Ah<s n="ij"/></r></p></e>
     <e><p><l>Argh<s n="ij"/></l><r>Jemig<s n="ij"/></r></p></e>
