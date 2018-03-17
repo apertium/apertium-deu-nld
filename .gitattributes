@@ -38,3 +38,8 @@ texts/nlwiki_memorial_day.nld.txt -text
 texts/nlwiki_priemgetal.nld.txt -text
 texts/nlwiki_toekomst_van_de_aarde.nld.txt -text
 texts/nlwiki_zuid-africa.nld.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
