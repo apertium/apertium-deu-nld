@@ -34,3 +34,10 @@
 /nld-deu.t2x.bin
 /nld-deu.t3x.bin
 /stamp-h1
+/*.hfst
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/.deps
+/test/*-output.txt

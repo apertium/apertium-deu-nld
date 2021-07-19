@@ -1,0 +1,2 @@
+[5Jyo8N0ToIev#0] ^Det_nom<SN><m><m><m><sg><nom><dem>{^Dieser<det><dem><3><5><6>$ ^Markt<n><2><5><6>$}$ ^verb<SV><vbser><pri><p3><sg>{^sein<vbser><pri><p3><sg>$}$ ^adj_nom<SN><nt><nt><nt><sg><nom><nodet><st>{^sehr<adv>$ ^Gut<n><2><5><6>$}$
+[/5Jyo8N0ToIev]

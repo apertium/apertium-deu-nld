@@ -185,7 +185,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "Dit markt is heel goed" | apertium -d . nld-deu | tee .test-mt
-	@echo "Dieser Markt ist sehr gut" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
